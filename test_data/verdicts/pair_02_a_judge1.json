@@ -1,0 +1,8 @@
+{
+  "pair_id": "02",
+  "direction": "a",
+  "judge_replicate": "1",
+  "verdict": "B",
+  "winner_name": "EXAMPLE-CandidateQ",
+  "_note": "EXAMPLE synthetic verdict. Pair 02 = POSITION-BIASED: slot B wins in BOTH directions across all judges -> different real candidates win in a vs b -> FLAGGED."
+}
