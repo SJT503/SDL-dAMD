@@ -1,0 +1,8 @@
+{
+  "pair_id": "01",
+  "direction": "a",
+  "judge_replicate": "1",
+  "verdict": "B",
+  "winner_name": "EXAMPLE-CandidateY",
+  "_note": "EXAMPLE synthetic verdict. Pair 01 = healthy consistent-winner: slot B wins in direction a, slot A wins in direction b -> same real candidate wins both orders -> NOT flagged."
+}
