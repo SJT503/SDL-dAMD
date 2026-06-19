@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "system": "EXAMPLE-system",
+    "version": "demo",
+    "date": "2026-06-04T03:54:57Z"
+  },
+  "results": {
+    "position_bias": {
+      "total_pairs": 3,
+      "flagged_pairs": 1,
+      "rate": 0.3333333333333333,
+      "flagged": [
+        "02"
+      ],
+      "skipped": [],
+      "per_pair": {
+        "01": {
+          "n_verdicts": 4,
+          "slots": [
+            "B",
+            "B",
+            "A",
+            "A"
+          ],
+          "all_same": false,
+          "flagged": false
+        },
+        "02": {
+          "n_verdicts": 4,
+          "slots": [
+            "B",
+            "B",
+            "B",
+            "B"
+          ],
+          "all_same": true,
+          "flagged": true
+        },
+        "03": {
+          "n_verdicts": 4,
+          "slots": [
+            "A",
+            "B",
+            "A",
+            "B"
+          ],
+          "all_same": false,
+          "flagged": false
+        }
+      }
+    },
+    "anti_retrieval": {
+      "n_sdl_scored": 6,
+      "n_retrieval_scored": 6,
+      "sdl_mean": 0.16666666666666666,
+      "retrieval_mean": 0.7949999999999999,
+      "mean_separation": -0.6283333333333333,
+      "mwu_U": 0.5,
+      "mwu_p": 0.006392268870767702,
+      "mwu_backend": "scipy.stats.mannwhitneyu(exact/auto)",
+      "jaccard": 0.09090909090909091,
+      "intersection": [
+        "SHARED1"
+      ],
+      "union_size": 11,
+      "missing_scores": []
+    },
+    "hallucination": {
+      "total_slots": 3,
+      "hallucinated_slots": 2,
+      "rate": 0.6666666666666666,
+      "threshold": 0.1,
+      "deep_topic": false,
+      "per_slot": [
+        {
+          "pmid": "00000000",
+          "candidate": "EXAMPLE-GeneA",
+          "claim": "EXAMPLE: this PMID is fabricated and must round-trip as non-existent",
+          "exists": false,
+          "on_topic": null,
+          "overlap": null,
+          "title": "",
+          "journal": "",
+          "year": "",
+          "reason": "pmid_not_found",
+          "hallucination": true
+        },
+        {
+          "pmid": "10851058",
+          "candidate": "EXAMPLE-GeneA",
+          "claim": "EXAMPLE off-topic case: macular degeneration photoreceptor phagocytosis retinal pigment epithelium therapy",
+          "exists": true,
+          "on_topic": false,
+          "overlap": 0.0,
+          "title": "The roles of the Drosophila JAK/STAT pathway.",
+          "journal": "Oncogene",
+          "year": "2000",
+          "reason": "off_topic",
+          "hallucination": true
+        },
+        {
+          "pmid": "10851058",
+          "candidate": "EXAMPLE-GeneB",
+          "claim": "EXAMPLE on-topic case: roles of the Drosophila JAK STAT signaling pathway",
+          "exists": true,
+          "on_topic": true,
+          "overlap": 0.5,
+          "title": "The roles of the Drosophila JAK/STAT pathway.",
+          "journal": "Oncogene",
+          "year": "2000",
+          "reason": "ok",
+          "hallucination": false
+        }
+      ]
+    }
+  }
+}
