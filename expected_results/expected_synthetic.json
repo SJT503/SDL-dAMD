@@ -1,0 +1,27 @@
+{
+  "_description": "Expected audit-triple output on the synthetic test_data set. Used by run_all_tests.sh as the regression baseline. hallucination.total_slots and not-found count are stable; the on/off-topic split may drift with PubMed metadata.",
+  "position_bias": {
+    "total_pairs": 3,
+    "flagged_pairs": 1,
+    "rate": 0.333333,
+    "flagged": [
+      "02"
+    ]
+  },
+  "anti_retrieval": {
+    "n_sdl_scored": 6,
+    "n_retrieval_scored": 6,
+    "sdl_mean": 0.166667,
+    "retrieval_mean": 0.795,
+    "mwu_p": 0.006392,
+    "jaccard": 0.090909,
+    "intersection": [
+      "SHARED1"
+    ],
+    "union_size": 11
+  },
+  "hallucination": {
+    "total_slots": 3,
+    "_note": "hallucinated count/rate depends on live PubMed state; test asserts total_slots + PMID-not-found only"
+  }
+}
