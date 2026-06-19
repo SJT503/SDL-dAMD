@@ -1,0 +1,14 @@
+{
+  "_comment": "EXAMPLE synthetic association scores (NOT real Open Targets data). Range 0-1, higher = stronger known disease association. Replace with a real gene->score map (e.g. Open Targets overall associationScore) for a real audit.",
+  "MECHA1": 0.12,
+  "MECHA2": 0.20,
+  "MECHA3": 0.08,
+  "MECHA4": 0.15,
+  "MECHA5": 0.05,
+  "LOOKUP1": 0.91,
+  "LOOKUP2": 0.85,
+  "LOOKUP3": 0.78,
+  "LOOKUP4": 0.88,
+  "LOOKUP5": 0.95,
+  "SHARED1": 0.40
+}
