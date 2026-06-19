@@ -1,0 +1,17 @@
+[
+  {
+    "candidate": "EXAMPLE-GeneA",
+    "pmid": "00000000",
+    "claim": "EXAMPLE: this PMID is fabricated and must round-trip as non-existent"
+  },
+  {
+    "candidate": "EXAMPLE-GeneA",
+    "pmid": "10851058",
+    "claim": "EXAMPLE off-topic case: macular degeneration photoreceptor phagocytosis retinal pigment epithelium therapy"
+  },
+  {
+    "candidate": "EXAMPLE-GeneB",
+    "pmid": "10851058",
+    "claim": "EXAMPLE on-topic case: roles of the Drosophila JAK STAT signaling pathway"
+  }
+]
