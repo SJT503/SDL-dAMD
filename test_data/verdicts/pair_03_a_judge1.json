@@ -1,0 +1,8 @@
+{
+  "pair_id": "03",
+  "direction": "a",
+  "judge_replicate": "1",
+  "verdict": "A",
+  "winner_name": "EXAMPLE-CandidateM",
+  "_note": "EXAMPLE synthetic verdict. Pair 03 = mixed verdicts across judges/directions -> NOT flagged."
+}
