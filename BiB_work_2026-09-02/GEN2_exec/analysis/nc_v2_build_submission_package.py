@@ -15,8 +15,8 @@ gate(__file__)
 
 BASE = pathlib.Path(r"D:\Papers\Robin_Nature_2026\BiB_work_2026-09-02")
 ANAL = BASE / "GEN2_exec" / "analysis"
-FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2_planA"
-PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.1_PlanA"
+FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2_canonical"
+PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.2_Canonical"
 
 REF_MS_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_manuscript.docx")
 REF_CL_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_cover_letter.docx")
@@ -348,6 +348,7 @@ def main():
             assert src.exists(), f"Missing supp figure asset: {src}"
             copy_pkg_asset(src, PKG / "03_Supplementary" / f"{dst_stem}{ext}")
 
+    (PKG / "04_Source_Data_and_Tables").mkdir(parents=True, exist_ok=True)
     shutil.copy2(FIG_SRC / "Source_Data_NC_v2.0.xlsx", PKG / "04_Source_Data_and_Tables" / "Source_Data_NC_v2.0.xlsx")
     shutil.copy2(ANAL / "expert_audit_tier2_100_annotated.csv", PKG / "04_Source_Data_and_Tables" / "expert_audit_tier2_100_annotated.csv")
     shutil.copy2(ANAL / "expert_audit_nli_100_annotated.csv", PKG / "04_Source_Data_and_Tables" / "expert_audit_nli_100_annotated.csv")

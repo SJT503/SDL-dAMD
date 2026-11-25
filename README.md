@@ -1,4 +1,4 @@
-# STAR-Audit (v2.1 Plan-A): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
+﻿# STAR-Audit (v2.2 Canonical): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](https://opensource.org/licenses/MIT)
 
@@ -35,7 +35,7 @@ Expected output:
 - `analysis/nc_upgrade_A2_module3_handoff.py` — Closed-loop `Module 3a + 3b` deterministic NCBI Entrez Boolean handoff (`1,049` cached candidate PMIDs in `nc_upgrade_entrez_handoff_cache.json`).
 - `analysis/nc_upgrade_A3_A7_expc_calibration.py` — STROBE `804 -> 630` call accounting, HPO term-count starvation proof ($p = 4.18 \times 10^{-31}$), 5-way external `3,871`-HGNC `CoT-SRAD` ablation, and multi-cohort calibration benchmark.
 - `analysis/nc_upgrade_A5_part1_tier2_and_cot_boxes.py` & `analysis/nc_upgrade_A5_part2_nli_audit.py` — Blinded `200`-item dual-expert audits (`expert_audit_tier2_100_annotated.csv`, `expert_audit_nli_100_annotated.csv`).
-- `analysis/nc_v2_make_main_figs_planA.py`, `analysis/nc_v2_make_supp_figs_planA.py`, `analysis/nc_v2_export_source_data_planA.py` — Deterministic 6-Main-Figure (`28`-panel), 4-Supplementary-Figure (`13`-panel), and `Source_Data_NC_v2.0.xlsx` (`11`-worksheet) generators.
+- `analysis/nc_v2_make_main_figs_canonical.py`, `analysis/nc_v2_make_supp_figs_canonical.py`, `analysis/nc_v2_export_source_data_canonical.py` — Deterministic 6-Main-Figure (`28`-panel), 4-Supplementary-Figure (`13`-panel), and `Source_Data_NC_v2.0.xlsx` (`11`-worksheet) generators.
 
 ## License
 
