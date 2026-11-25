@@ -15,8 +15,8 @@ gate(__file__)
 
 BASE = pathlib.Path(r"D:\Papers\Robin_Nature_2026\BiB_work_2026-09-02")
 ANAL = BASE / "GEN2_exec" / "analysis"
-FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2_canonical"
-PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.2_Canonical"
+FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2_aligned"
+PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.3_Aligned"
 
 REF_MS_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_manuscript.docx")
 REF_CL_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_cover_letter.docx")

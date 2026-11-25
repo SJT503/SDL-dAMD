@@ -1,4 +1,4 @@
-﻿# STAR-Audit (v2.2 Canonical): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
+# STAR-Audit (v2.3 Aligned): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](https://opensource.org/licenses/MIT)
 
