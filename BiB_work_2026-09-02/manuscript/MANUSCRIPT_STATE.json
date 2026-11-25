@@ -1,0 +1,30 @@
+{
+  "project_name": "STAR-Audit_NCOMMS_AgenticAI_v2.0",
+  "track": "original_research",
+  "has_wetlab_experiments": false,
+  "numbers_ledger_csv": "manuscript/numbers_ledger.csv",
+  "story_contract": {
+    "locked_title": "Auditing and rectifying reasoning, ranking, and grounding biases in agentic scientific discovery",
+    "conflict_hook": "Multi-agent large language model systems combine candidate ideation, pairwise Bradley-Terry-Luce tournaments, and literature synthesis, yet scaling test-time chain-of-thought fails to self-correct positional preference inversions, parametric citation confabulations, and deliberative self-pruning.",
+    "protagonist": "STAR-Audit, a six-dimension external-truth audit and four-module zero-call algorithmic rectification framework",
+    "significance": "Converts uncalibrated test-time reasoning spin into verifiable, bias-corrected, and compute-efficient multi-agent scientific discovery without model retraining or extra inference calls."
+  },
+  "journal_style_contract": {
+    "target_journal": "Nature Communications (Special Collection: Agentic AI Systems)",
+    "locale": "US",
+    "citation_style": "bracket",
+    "supp_prefix": "non_S",
+    "declarations_in_body": true,
+    "abstract_max_words": 200,
+    "methods_max_words": 3100,
+    "results_max_words": 4500,
+    "results_max_paragraphs": 20,
+    "discussion_max_words": 1950,
+    "imrad_max_words": 11500,
+    "zh_methods_max_chars": 5800,
+    "zh_results_max_chars": 7800,
+    "zh_results_max_paragraphs": 20,
+    "zh_discussion_max_chars": 3600,
+    "zh_imrad_max_chars": 21000
+  }
+}

@@ -1,11 +1,10 @@
 # STAR-Audit (v2.0): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574265.svg)](https://doi.org/10.5281/zenodo.20574265)
 
 Official code, frozen protocol manifests, blinded human domain-expert calibration datasets, and offline verification suite for:
 
-> **Auditing and rectifying test-time reasoning, tournament, and grounding biases in multi-agent AI discovery**  
+> **Auditing and rectifying reasoning, ranking, and grounding biases in agentic scientific discovery**  
 > Jiangtao Sheng\*, Xueer Liu, Runmin Lin, Qiaochu Sun, Xiaoxuan Chen, Kangsheng Li, and Weiqiang Chen\*  
 > *Department of Microbiology and Immunology & First Affiliated Hospital, Shantou University Medical College*
 
@@ -40,4 +39,4 @@ Expected output:
 
 ## License
 
-Released under the **MIT License**. Telemetry archives are deposited at Zenodo (`https://doi.org/10.5281/zenodo.20574265`, CC BY 4.0).
+Released under the **MIT License**. Source data (`Source_Data_NC_v2.0.xlsx`), frozen protocol manifests, PubMed Entrez verification caches, and 200-item blinded domain-expert calibration datasets are included directly in this repository.
