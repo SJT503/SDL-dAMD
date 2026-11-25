@@ -1,0 +1,36 @@
+{
+  "task": "A5_Part2_100Pair_NLI_Domain_Expert_Audit",
+  "elapsed_sec": 0.021,
+  "tournament_II_judge_nli_validation_n50": {
+    "tp": 22,
+    "fp": 3,
+    "fn": 6,
+    "tn": 19,
+    "precision_pct": 88.0,
+    "precision_95ci": [
+      70.04,
+      95.83
+    ],
+    "recall_pct": 78.57,
+    "recall_95ci": [
+      60.46,
+      89.79
+    ],
+    "specificity_pct": 86.36,
+    "f1": 0.8302,
+    "cohen_kappa": 0.64
+  },
+  "cross_stage_nli_error_taxonomy_n50": {
+    "n_flagged_audited": 25,
+    "true_scope_or_mechanism_mismatch_count": 6,
+    "true_scope_mismatch_pct": 24.0,
+    "polarity_inversion_fp_count": 19,
+    "polarity_inversion_fp_pct": 76.0,
+    "n_unflagged_audited": 25,
+    "unflagged_true_compatible_pct": 100.0,
+    "speech_act_filter_removes_polarity_fps_in_sample": 15,
+    "full_1766_raw_bidir_075_count": 51,
+    "full_1766_speech_act_filtered_bidir_075_count": 21
+  },
+  "annotated_csv_path": "D:\\Papers\\Robin_Nature_2026\\BiB_work_2026-09-02\\GEN2_exec\\analysis\\expert_audit_nli_100_annotated.csv"
+}

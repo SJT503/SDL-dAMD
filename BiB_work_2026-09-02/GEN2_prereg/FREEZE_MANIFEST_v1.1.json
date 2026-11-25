@@ -1,0 +1,14 @@
+{
+ "PREREG_v2_FROZEN_v1.0.md": "690849694449b53d2ef92e90bfa5ec1db1a2057d53b9f13af5a79ac5eb795513",
+ "APPENDIX_A_B_C_frozen_prep.md": "d481f12b9f2e8374b61ff19953a7f0d2c0db3d73e5eb36a1a3bf71c083583dcd",
+ "APPENDIX_A_gwascat_gene_table.csv": "0776fccf6f4f3fa2995a417b0a8a4a776fb4adec45bb58f088e27220012db812",
+ "APPENDIX_A_reactome_axis_mapping.csv": "4f2a7b2cd488452d95d905dd11ad49f4ec4fbaa410a96c34a47dbe5b71a807df",
+ "expC_v4_pairs_120_f14.csv": "91dd96b16b072f8d3afe5f64e7ce20560c2ace407fe5c3412e37cfaf76f91d57",
+ "expC_v4_heldout_30_f14.csv": "e3db7837076b06ed2f9a3ba9573bbf2e311ae82653baeb1023eebc41dfd6377f",
+ "expC_v4_redraw_manifest_f14.json": "aa8c6a8b476d2dbcbcc504ca7e803928c637d872968c8d8e8a22e48fa51c5092",
+ "pool_gene_pubmed_counts.csv": "2d42c05fe5357dad33accd9531e5431eb4a6f7e23301653ddd614b27f87a82ee",
+ "probe_v2_report.json": "c8a0f2dd55e7f85f65345de2fedf21ba6a731c4064c7186f3b782989e296b2b8",
+ "probe_v2_call_log.jsonl": "6b72685430aa7eeaf4fae2daf2bdbdd99772bdc6cef688dd17b3d4583eb263cb",
+ "_version": "v1.1",
+ "_amendment": "GLM endpoint to Coding Plan path (open.bigmodel.cn/api/coding/paas/v4/); billing clause updated; probe v2 results included. Author directed all changes 2026-09-03."
+}

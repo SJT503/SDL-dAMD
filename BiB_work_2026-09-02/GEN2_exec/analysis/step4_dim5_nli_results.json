@@ -1,0 +1,786 @@
+{
+  "model": "MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli",
+  "total_sentences_segmented": 24955,
+  "total_entity_assertions": 17990,
+  "cross_stage_coherence": {
+    "total_pairs_evaluated": 1766,
+    "bidirectional_contradictions_075": 51,
+    "directional_contradictions_075": 167,
+    "bidir_per_1k_assertions": 2.83,
+    "bidir_per_1k_assertions_95ci": [
+      1.78,
+      4.06
+    ],
+    "bidir_per_1k_pairs": 28.88,
+    "bidir_per_1k_pairs_95ci": [
+      17.61,
+      46.34
+    ],
+    "dir_per_1k_pairs": 94.56,
+    "dir_per_1k_pairs_95ci": [
+      71.51,
+      122.64
+    ],
+    "step1_vs_step3_contra_total": 51,
+    "step1_vs_step3_propagated_to_top5": 22,
+    "silent_propagation_rate": 0.4314,
+    "by_run": {
+      "dAMD_blind_R1": {
+        "n_assertions": 1456,
+        "n_cross_stage_pairs": 76,
+        "n_bidir_contra_075": 8,
+        "n_dir_contra_075": 14,
+        "bidir_contra_per_1k_assertions": 5.49,
+        "bidir_contra_per_1k_pairs": 105.26,
+        "dir_contra_per_1k_pairs": 184.21,
+        "s13_contra_total": 8,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "dAMD_blind_R2": {
+        "n_assertions": 1449,
+        "n_cross_stage_pairs": 67,
+        "n_bidir_contra_075": 2,
+        "n_dir_contra_075": 8,
+        "bidir_contra_per_1k_assertions": 1.38,
+        "bidir_contra_per_1k_pairs": 29.85,
+        "dir_contra_per_1k_pairs": 119.4,
+        "s13_contra_total": 2,
+        "s13_contra_propagated_to_top5": 0
+      },
+      "dAMD_blind_R3": {
+        "n_assertions": 1390,
+        "n_cross_stage_pairs": 89,
+        "n_bidir_contra_075": 11,
+        "n_dir_contra_075": 22,
+        "bidir_contra_per_1k_assertions": 7.91,
+        "bidir_contra_per_1k_pairs": 123.6,
+        "dir_contra_per_1k_pairs": 247.19,
+        "s13_contra_total": 11,
+        "s13_contra_propagated_to_top5": 7
+      },
+      "dAMD_retrieval_R1": {
+        "n_assertions": 1494,
+        "n_cross_stage_pairs": 150,
+        "n_bidir_contra_075": 4,
+        "n_dir_contra_075": 12,
+        "bidir_contra_per_1k_assertions": 2.68,
+        "bidir_contra_per_1k_pairs": 26.67,
+        "dir_contra_per_1k_pairs": 80.0,
+        "s13_contra_total": 4,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "dAMD_retrieval_R2": {
+        "n_assertions": 1498,
+        "n_cross_stage_pairs": 122,
+        "n_bidir_contra_075": 5,
+        "n_dir_contra_075": 13,
+        "bidir_contra_per_1k_assertions": 3.34,
+        "bidir_contra_per_1k_pairs": 40.98,
+        "dir_contra_per_1k_pairs": 106.56,
+        "s13_contra_total": 5,
+        "s13_contra_propagated_to_top5": 2
+      },
+      "dAMD_retrieval_R3": {
+        "n_assertions": 1467,
+        "n_cross_stage_pairs": 127,
+        "n_bidir_contra_075": 1,
+        "n_dir_contra_075": 13,
+        "bidir_contra_per_1k_assertions": 0.68,
+        "bidir_contra_per_1k_pairs": 7.87,
+        "dir_contra_per_1k_pairs": 102.36,
+        "s13_contra_total": 1,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "ALS_blind_R1": {
+        "n_assertions": 1597,
+        "n_cross_stage_pairs": 164,
+        "n_bidir_contra_075": 3,
+        "n_dir_contra_075": 11,
+        "bidir_contra_per_1k_assertions": 1.88,
+        "bidir_contra_per_1k_pairs": 18.29,
+        "dir_contra_per_1k_pairs": 67.07,
+        "s13_contra_total": 3,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "ALS_blind_R2": {
+        "n_assertions": 1494,
+        "n_cross_stage_pairs": 171,
+        "n_bidir_contra_075": 4,
+        "n_dir_contra_075": 20,
+        "bidir_contra_per_1k_assertions": 2.68,
+        "bidir_contra_per_1k_pairs": 23.39,
+        "dir_contra_per_1k_pairs": 116.96,
+        "s13_contra_total": 4,
+        "s13_contra_propagated_to_top5": 3
+      },
+      "ALS_blind_R3": {
+        "n_assertions": 1553,
+        "n_cross_stage_pairs": 249,
+        "n_bidir_contra_075": 4,
+        "n_dir_contra_075": 23,
+        "bidir_contra_per_1k_assertions": 2.58,
+        "bidir_contra_per_1k_pairs": 16.06,
+        "dir_contra_per_1k_pairs": 92.37,
+        "s13_contra_total": 4,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "ALS_retrieval_R1": {
+        "n_assertions": 1541,
+        "n_cross_stage_pairs": 245,
+        "n_bidir_contra_075": 7,
+        "n_dir_contra_075": 22,
+        "bidir_contra_per_1k_assertions": 4.54,
+        "bidir_contra_per_1k_pairs": 28.57,
+        "dir_contra_per_1k_pairs": 89.8,
+        "s13_contra_total": 7,
+        "s13_contra_propagated_to_top5": 4
+      },
+      "ALS_retrieval_R2": {
+        "n_assertions": 1542,
+        "n_cross_stage_pairs": 180,
+        "n_bidir_contra_075": 1,
+        "n_dir_contra_075": 6,
+        "bidir_contra_per_1k_assertions": 0.65,
+        "bidir_contra_per_1k_pairs": 5.56,
+        "dir_contra_per_1k_pairs": 33.33,
+        "s13_contra_total": 1,
+        "s13_contra_propagated_to_top5": 1
+      },
+      "ALS_retrieval_R3": {
+        "n_assertions": 1509,
+        "n_cross_stage_pairs": 126,
+        "n_bidir_contra_075": 1,
+        "n_dir_contra_075": 3,
+        "bidir_contra_per_1k_assertions": 0.66,
+        "bidir_contra_per_1k_pairs": 7.94,
+        "dir_contra_per_1k_pairs": 23.81,
+        "s13_contra_total": 1,
+        "s13_contra_propagated_to_top5": 0
+      }
+    },
+    "top_examples": [
+      {
+        "run_id": "ALS_blind_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C05",
+        "in_top5": false,
+        "shared_entities": [
+          "FUS",
+          "TARDBP"
+        ],
+        "s1": "Mutant TIA1 and HNRNPA1, together with MATR3, slow G3BP1-nucleated stress granule disassembly and promote aberrant liquid-to-solid phase transitions that seed fibrillar aggregation of TDP-43 and FUS.",
+        "s2": "Activate or potentiate the HSP70-family (HSPA8/HSPA1A)-HSPH1 disaggregase machinery with BAG3 co-chaperone support to accelerate disassembly of G3BP1-nucleated stress granules and dissolve maturing solid cores before they seed TDP-43/FUS fibrils.",
+        "p_contra_12": 0.9993293285369873,
+        "p_contra_21": 0.9994195699691772,
+        "p_contra_min": 0.9993293285369873,
+        "p_contra_max": 0.9994195699691772,
+        "p_contra_mean": 0.9993744492530823,
+        "p_entail_mean": 0.00013195376959629357,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C10",
+        "in_top5": false,
+        "shared_entities": [
+          "CD59",
+          "NFKB1"
+        ],
+        "s1": "Oxidative glycation strips GPI-anchored CD59 from the RPE surface, removing the final checkpoint on terminal complement and permitting repeated sublytic C5b-9 and poly-C9 insertion that causes calcium influx, NFKB1 activation, and apoptotic RPE loss.",
+        "s2": "Reducing reactive dicarbonyl stress in RPE preserves GPI-anchored CD59 on the cell surface, maintaining blockade of C9 polymerization within C5b-9 and preventing calcium influx, NFKB1 activation, and apoptosis.",
+        "p_contra_12": 0.9987375140190125,
+        "p_contra_21": 0.9988548755645752,
+        "p_contra_min": 0.9987375140190125,
+        "p_contra_max": 0.9988548755645752,
+        "p_contra_mean": 0.9987961947917938,
+        "p_entail_mean": 0.00011934932626900263,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_blind_R3",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C04",
+        "in_top5": false,
+        "shared_entities": [
+          "TARDBP"
+        ],
+        "s1": "Extracellular phosphorylated TDP-43 seeds enter recipient neurons and glia via SDC2- and AGER-dependent uptake, templating seeded aggregation and propagating pathology trans-neuronally along connected circuits.",
+        "s2": "SQSTM1/p62-mediated aggrephagy is a proven route for eliminating ubiquitinated RNP condensates and TDP-43 inclusions in motor neurons.",
+        "p_contra_12": 0.9989012479782104,
+        "p_contra_21": 0.998296320438385,
+        "p_contra_min": 0.998296320438385,
+        "p_contra_max": 0.9989012479782104,
+        "p_contra_mean": 0.9985987842082977,
+        "p_entail_mean": 0.00012099765808670782,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R3",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C06",
+        "in_top5": false,
+        "shared_entities": [
+          "CA2",
+          "CXCL8",
+          "IL6"
+        ],
+        "s1": "Oxidative nitration-mediated loss of membrane-bound CD59 on RPE cells permits persistent sublytic C5b-9 insertion, driving Ca2+ influx, arachidonic-acid release, and an IL6/CXCL8 secretory state that culminates in RPE apoptosis and choriocapillaris injury.",
+        "s2": "Key readouts include reduced C5b-9 deposition (immunocytochemistry for MAC), decreased Fluo-4-measured Ca2+ flux, suppression of IL6/CXCL8 secretion by ELISA, and improved RPE monolayer integrity (TEER, ZO-1 staining).",
+        "p_contra_12": 0.9980871677398682,
+        "p_contra_21": 0.9992846846580505,
+        "p_contra_min": 0.9980871677398682,
+        "p_contra_max": 0.9992846846580505,
+        "p_contra_mean": 0.9986859261989594,
+        "p_entail_mean": 9.018015407491475e-05,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R2",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C06",
+        "in_top5": false,
+        "shared_entities": [
+          "CD59"
+        ],
+        "s1": "Oxidative and MMP9-mediated loss of membrane-bound CD59 from the aged RPE surface leaves C5b-9 assembly unopposed, producing sustained sublytic calcium influx that drives progressive RPE cell death.",
+        "s2": "Readouts: surface CD59 retention by flow cytometry or surface biotinylation, soluble CD59 shedding in supernatants, C5b-9 neoepitope deposition by immunostaining, intracellular Ca2+ transients via Fluo-4 imaging, and RPE survival by TUNEL and LDH release.",
+        "p_contra_12": 0.9979859590530396,
+        "p_contra_21": 0.9981619715690613,
+        "p_contra_min": 0.9979859590530396,
+        "p_contra_max": 0.9981619715690613,
+        "p_contra_mean": 0.9980739653110504,
+        "p_entail_mean": 0.00012849172708229162,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R3",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C10",
+        "in_top5": true,
+        "shared_entities": [
+          "GPX4"
+        ],
+        "s1": "NCOA4-mediated ferritinophagy combined with TFRC-driven iron uptake elevates labile iron while GPX4 activity declines, permitting ACSL4-dependent peroxidation of PUFA-containing phospholipids and ferroptotic RPE death.",
+        "s2": "Local suppression of transferrin receptor 1 (TFRC)-mediated iron uptake at the RPE collapses the labile iron pool that drives Fenton chemistry, lipid peroxide generation, and GPX4/SLC7A11-dependent ferroptotic death of RPE cells in geographic atrophy.",
+        "p_contra_12": 0.9977935552597046,
+        "p_contra_21": 0.9988086223602295,
+        "p_contra_min": 0.9977935552597046,
+        "p_contra_max": 0.9988086223602295,
+        "p_contra_mean": 0.998301088809967,
+        "p_entail_mean": 0.0003640343784354627,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_blind_R2",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C01",
+        "in_top5": true,
+        "shared_entities": [
+          "CFC1",
+          "STMN2",
+          "UNC13A"
+        ],
+        "s1": "Progressive depletion of nuclear TDP-43 (TARDBP) derepresses cryptic exon insertion into STMN2 and UNC13A pre-mRNAs, reducing functional stathmin-2 and MUNC13A protein and driving distal axon degeneration of motor neurons.",
+        "s2": "Steric masking of the TDP-43-repressed cryptic splice acceptor and cryptic polyadenylation elements in STMN2 and UNC13A pre-mRNAs restores canonical splicing, reconstituting full-length stathmin-2 and MUNC13A protein and thereby protecting distal motor axons from degeneration.",
+        "p_contra_12": 0.9977543950080872,
+        "p_contra_21": 0.9992173910140991,
+        "p_contra_min": 0.9977543950080872,
+        "p_contra_max": 0.9992173910140991,
+        "p_contra_mean": 0.9984858930110931,
+        "p_entail_mean": 0.00010150928210350685,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_blind_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C07",
+        "in_top5": false,
+        "shared_entities": [
+          "C9ORF72"
+        ],
+        "s1": "The GGGGCC repeat expansion at C9ORF72 produces RNA foci and RAN-translated dipeptide repeat proteins (poly-GR, poly-GA) that bind karyopherin KPNB1 and nucleoporin NUP62, inhibiting TNPO1-dependent import and collapsing the Ran gradient, thereby causing nucleocytoplasmic transport failure and cytoplasmic accumulation of TDP-43 and FUS.",
+        "s2": "Inhibit accumulation and repeat-associated non-AUG translation of the pathogenic expanded transcript while preserving sufficient C9orf72 haploexpression, thereby restoring nucleocytoplasmic transport.",
+        "p_contra_12": 0.9971933960914612,
+        "p_contra_21": 0.9979264736175537,
+        "p_contra_min": 0.9971933960914612,
+        "p_contra_max": 0.9979264736175537,
+        "p_contra_mean": 0.9975599348545074,
+        "p_entail_mean": 0.0004758762152050622,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_blind_R3",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C03",
+        "in_top5": true,
+        "shared_entities": [
+          "TP53"
+        ],
+        "s1": "Repeat-associated non-AUG translation of the C9orf72 expansion produces arginine-rich dipeptide repeat proteins (poly-GR, poly-PR) that enter nucleoli, disrupt NPM1-dependent ribosome biogenesis, and stabilize TP53, driving motor neuron death.",
+        "s2": "Readouts: immunofluorescence for NPM1 nucleolar localization, 5-ethynyl uridine incorporation to measure rRNA transcription/processing, nucleolar stress markers (nucleolin relocalization), TP53 protein levels, and motor neuron survival under chronic DPR burden.",
+        "p_contra_12": 0.9981867671012878,
+        "p_contra_21": 0.9962910413742065,
+        "p_contra_min": 0.9962910413742065,
+        "p_contra_max": 0.9981867671012878,
+        "p_contra_mean": 0.9972389042377472,
+        "p_entail_mean": 0.00027552481333259493,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C10",
+        "in_top5": false,
+        "shared_entities": [
+          "CD59"
+        ],
+        "s1": "Oxidative glycation strips GPI-anchored CD59 from the RPE surface, removing the final checkpoint on terminal complement and permitting repeated sublytic C5b-9 and poly-C9 insertion that causes calcium influx, NFKB1 activation, and apoptotic RPE loss.",
+        "s2": "Activate GLO1-mediated carbonyl detoxification in RPE to retain and restore endogenous surface CD59 rather than broadly suppressing proximal complement.",
+        "p_contra_12": 0.9985222220420837,
+        "p_contra_21": 0.9952119588851929,
+        "p_contra_min": 0.9952119588851929,
+        "p_contra_max": 0.9985222220420837,
+        "p_contra_mean": 0.9968670904636383,
+        "p_entail_mean": 0.0003908640646841377,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C01",
+        "in_top5": true,
+        "shared_entities": [
+          "TARDBP"
+        ],
+        "s1": "C9orf72 arginine-rich poly(GR) and poly(PR) dipeptide-repeat proteins bind karyopherin KPNB1 and collapse the Ran-RanGAP1 gradient, disrupting FG-repeat nucleoporins such as NUP62 and GLE1-dependent mRNA export, blocking nuclear import of TDP-43/FUS cargo and producing nucleocytoplasmic transport failure in motor neurons.",
+        "s2": "YTHDC1 is an m6A RNA-binding protein that, upon binding methylated RNAs, acts as a holdase-type molecular chaperone preventing gelation and aggregation of ALS-linked HNRNPA1 mutants and TDP-43, so reduced nuclear YTHDC1 permits ribonucleoprotein aggregation that drives motor neuron degeneration.",
+        "p_contra_12": 0.9982591271400452,
+        "p_contra_21": 0.9948176741600037,
+        "p_contra_min": 0.9948176741600037,
+        "p_contra_max": 0.9982591271400452,
+        "p_contra_mean": 0.9965384006500244,
+        "p_entail_mean": 0.0007713127852184698,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C02",
+        "in_top5": false,
+        "shared_entities": [
+          "C3",
+          "CFH"
+        ],
+        "s1": "Age- and genotype-driven loss of CFH regulation on Bruch's membrane permits unchecked CFB-stabilized alternative-pathway C3 convertase activity, causing C3b/iC3b deposition and C5b-9 formation on RPE cells that drives complement-dependent RPE death and centrifugal enlargement of geographic atrophy.",
+        "s2": "Inactivate complement factor B (block its Ba-mediated binding to C3b or its serine-protease Bb function) so the alternative-pathway C3 convertase cannot form or persist, thereby restoring effective convertase control that the aged/risk-genotype CFH haplotype fails to provide.",
+        "p_contra_12": 0.9921493530273438,
+        "p_contra_21": 0.9945730566978455,
+        "p_contra_min": 0.9921493530273438,
+        "p_contra_max": 0.9945730566978455,
+        "p_contra_mean": 0.9933612048625946,
+        "p_entail_mean": 0.001722852699458599,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_blind_R2",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C01",
+        "in_top5": true,
+        "shared_entities": [
+          "TARDBP"
+        ],
+        "s1": "Attenuated PINK1-PRKN signaling with impaired TBK1-mediated phosphorylation of OPTN arrests mitophagy, causing axonal accumulation of depolarized ROS-producing mitochondria that amplifies TDP-43 phosphorylation and truncation.",
+        "s2": "Restore canonical pre-mRNA processing by selectively occluding the cryptic exon/splice/poly(A) signals within STMN2 and UNC13A transcripts (splice-switching), rather than inhibiting any enzymatic activity, thereby bypassing the upstream and difficult-to-drug TDP-43 aggregation problem.",
+        "p_contra_12": 0.991168737411499,
+        "p_contra_21": 0.9946564435958862,
+        "p_contra_min": 0.991168737411499,
+        "p_contra_max": 0.9946564435958862,
+        "p_contra_mean": 0.9929125905036926,
+        "p_entail_mean": 0.0005872372130397707,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C01",
+        "in_top5": true,
+        "shared_entities": [
+          "HNRNPA1",
+          "TARDBP",
+          "YTHDC1"
+        ],
+        "s1": "YTHDC1 functions as an m6A RNA-triggered molecular chaperone whose reduced nuclear abundance permits gelation and aggregation of ALS-linked HNRNPA1 mutants and TDP-43, so that restoring YTHDC1 or m6A homeostasis suppresses ribonucleoprotein aggregation and protects motor neurons.",
+        "s2": "YTHDC1 is an m6A RNA-binding protein that, upon binding methylated RNAs, acts as a holdase-type molecular chaperone preventing gelation and aggregation of ALS-linked HNRNPA1 mutants and TDP-43, so reduced nuclear YTHDC1 permits ribonucleoprotein aggregation that drives motor neuron degeneration.",
+        "p_contra_12": 0.9979416728019714,
+        "p_contra_21": 0.9879530072212219,
+        "p_contra_min": 0.9879530072212219,
+        "p_contra_max": 0.9979416728019714,
+        "p_contra_mean": 0.9929473400115967,
+        "p_entail_mean": 0.0016449817776447162,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R1",
+        "pair_type": "step1_vs_step3",
+        "cand_id": "C04",
+        "in_top5": false,
+        "shared_entities": [
+          "CA2",
+          "SLC1A2"
+        ],
+        "s1": "Reactive astrocytes and microglia downregulate SLC1A2 (EAAT2/GLT-1), reducing synaptic glutamate clearance and elevating extracellular glutamate to drive Ca2+-dependent excitotoxic motor neuron death through AMPA and NMDA receptors.",
+        "s2": "Astrocyte-targeted gene delivery restores EAAT2/GLT-1 transporter density at perisynaptic astrocytic processes, normalizing extracellular glutamate and aborting Ca2+-dependent excitotoxic motor neuron injury.",
+        "p_contra_12": 0.9873940944671631,
+        "p_contra_21": 0.9985326528549194,
+        "p_contra_min": 0.9873940944671631,
+        "p_contra_max": 0.9985326528549194,
+        "p_contra_mean": 0.9929633736610413,
+        "p_entail_mean": 0.0001720766449579969,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      }
+    ]
+  },
+  "t2_judge_self_contradiction_nli": {
+    "n_position_biased_pairs": 240,
+    "n_content_consistent_pairs": 240,
+    "pos_biased_bidir_contra_rate": 0.0708,
+    "content_consistent_bidir_contra_rate": 0.0208,
+    "pos_biased_dir_contra_rate": 0.2542,
+    "content_consistent_dir_contra_rate": 0.1,
+    "pos_biased_mean_contra_prob": 0.3137,
+    "content_consistent_mean_contra_prob": 0.1308,
+    "top_examples": [
+      {
+        "run_id": "dAMD_retrieval_R1",
+        "pair": [
+          4,
+          5
+        ],
+        "judge": 3,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C05 is anchored in the strongest GA genetic evidence (CFH Y402H with C3/CFB risk alleles) and histopathologically documented MAC deposition on RPE/Bruch's membrane, yielding a coherent causal chain from genotype to lesion enlargement, whereas C06 CTSB-mediated intracellular C3 cleavage and mitochondrial C3b opsonization is an emerging complosome concept whose individual links remain unproven in GA and whose integration of CFH and ARMS2/HTRA1 risk is speculative.",
+        "s2": "C06 offers a deeper, cell-autonomous mechanism naming a specific proximal enzymatic node (CTSB-mediated intracellular C3 cleavage and mitochondrial C3b opsonization) and integrates CFH and ARMS2/HTRA1 risk into that cascade, whereas C05 restates the canonical alternative-pathway-dysregulation/MAC model with little new mechanistic depth, even though that model is well-supported.",
+        "p_contra_12": 0.9945043921470642,
+        "p_contra_21": 0.9953599572181702,
+        "p_contra_min": 0.9945043921470642,
+        "p_contra_max": 0.9953599572181702,
+        "p_contra_mean": 0.9949321746826172,
+        "p_entail_mean": 0.0004073409072589129,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R3",
+        "pair": [
+          6,
+          8
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C07 grounds its mechanism in the strongest AMD genetic risk locus (CFH Y402H) and builds a coherent causal chain from failed alternative-pathway regulation to intracellular C3b opsonization, autophagic blockade, and C5AR1/C5b-9 sequelae, whereas C09 relies on well-documented iron/lipid-peroxidation findings in AMD tissue but lacks a genetic or disease-specific anchor and assembles a generic ferroptosis module.",
+        "s2": "C09 assembles a fully supported causal chain (NCOA4/TFRC labile iron, ACSL4-driven PUFA-PE substrate, SLC7A11-GSH-GPX4 decline) that maps onto documented iron deposition, ferritin induction, and lipid-peroxidation products in GA RPE, whereas C07 is anchored in the strongest genetic risk factor (CFH Y402H) and clinically validated complement biology but its central premise, a pathogenic endolysosomal C3bBb convertase that diverts autophagy, rests on extrapolation with limited direct evidence.",
+        "p_contra_12": 0.9913273453712463,
+        "p_contra_21": 0.992306649684906,
+        "p_contra_min": 0.9913273453712463,
+        "p_contra_max": 0.992306649684906,
+        "p_contra_mean": 0.9918169975280762,
+        "p_entail_mean": 0.0011321073397994041,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R3",
+        "pair": [
+          5,
+          8
+        ],
+        "judge": 2,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C06 causal chain is anchored at every node by established evidence—retinal iron accumulation in aging/AMD, aceruloplasminemia maculopathy validating the CP arm, and documented 4-HNE/F2-isoprostane/GPX4 changes in GA donor RPE—whereas C09 rests on the strong complement genetics but its specific intracellular C3(H2O)Bb convertase with C3b deposition on the inner mitochondrial membrane is a speculative extrapolation of the complosome literature, and inferring an intracellular compartment from pegcetacoplan's partial efficacy is a logical leap.",
+        "s2": "C09 integrates the strongest GA genetic signal (C3/CFH/CFB loci) with a cell-autonomous complosome pathway and directly explains why pegcetacoplan only partially works, giving a coherent causal chain from genetics to lesion enlargement, whereas C06 iron/ferroptosis narrative, while well supported by aceruloplasminemia and 4-HNE/GPX4 histology, is more linear and less tied to GA genetics.",
+        "p_contra_12": 0.9536423087120056,
+        "p_contra_21": 0.9862022995948792,
+        "p_contra_min": 0.9536423087120056,
+        "p_contra_max": 0.9862022995948792,
+        "p_contra_mean": 0.9699223041534424,
+        "p_entail_mean": 0.00710464920848608,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R3",
+        "pair": [
+          1,
+          8
+        ],
+        "judge": 3,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": false,
+        "s1": "C02 is anchored in the strongest human genetic evidence in AMD — CFH Y402H in CCP7 impairing heparan-sulfate anchoring at Bruch's membrane — and provides a tight causal chain from risk genotype to surface convertase dysregulation to a precise correctable lesion, whereas C09 ferroptosis case rests on correlative iron/lipid-peroxidation findings in donor tissue without causal validation that ferroptosis drives GA progression.",
+        "s2": "both proposals construct detailed, multi-node mechanistic cascades supported by human tissue evidence — C09 integrates iron overload, ACSL4-dependent PE-PUFA peroxidation, and waning GPX4/SLC7A11 capacity into a coherent RPE ferroptosis execution module, while C02 is anchored by the strongest genetic signal in GA (CFH Y402H impairing CCP7 heparan-sulfate binding at Bruch's membrane) — making this a genuine tie.",
+        "p_contra_12": 0.9890604019165039,
+        "p_contra_21": 0.9450699090957642,
+        "p_contra_min": 0.9450699090957642,
+        "p_contra_max": 0.9890604019165039,
+        "p_contra_mean": 0.967065155506134,
+        "p_entail_mean": 0.013868540292605758,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R2",
+        "pair": [
+          5,
+          8
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C06 is anchored in the strongest AMD genetic evidence (CFH/CFI/C3/CFB) and clinically validated by pegcetacoplan, offering a cell-autonomous complosome explanation for RPE death, whereas C09 TREM2→SPP1→CD44/ITGAV→CXCL10/MMP9 relay rests largely on descriptive single-cell localization with several unproven causal links.",
+        "s2": "C09 is favored because it articulates a specific, multi-layer paracrine relay (TREM2/TYROBP-impaired myeloid cells → SPP1 → CD44/ITGAV on RPE → CXCL10/MMP9 → lesion rim expansion) that is directly supported by human GA single-cell data placing SPP1+ macrophages at the atrophy margin, and it identifies druggable extracellular effectors; C06 rests on the strongest GA genetics (complement loci) but its core mechanistic claim—intracellular alternative-pathway convertase assembly inside RPE driven by CFI/CFH loss-of-function—is a more speculative extension of complosome biology, and its causal link to lesion growth is less directly evidenced.",
+        "p_contra_12": 0.9403207302093506,
+        "p_contra_21": 0.992661714553833,
+        "p_contra_min": 0.9403207302093506,
+        "p_contra_max": 0.992661714553833,
+        "p_contra_mean": 0.9664912223815918,
+        "p_entail_mean": 0.004775758599862456,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R1",
+        "pair": [
+          2,
+          9
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C03 integrates the earliest hallmark GA pathology (A2E/lipofuscin load, lysosomal alkalinization, cathepsin D decline, autophagic flux failure) into a coherent upstream signaling cascade with a master transcriptional regulator (TFEB) as the convergence node, positioning a cell-autonomous degenerative driver upstream of inflammation and complement; C10 inflammasome narrative is well supported but rests on triggers (Alu/DICER1, A2E phototoxicity) whose relative contribution to human GA is debated, and pyroptosis as the dominant RPE death mode remains unproven.",
+        "s2": "C10 presents a fully specified, causally supported cascade (Alu RNA/A2E/complement to NLRP3-CASP1-GSDMD pyroptosis to IL1B/IL18-driven macrophage recruitment and lesion enlargement) with direct in vivo evidence in GA-like models and a compelling explanation for why complement inhibitors only slow GA; C03 lysosomal/TFEB narrative is coherent and grounded in genuine early AMD pathology, but its causal link to atrophy progression is more correlative and does not explain lesion growth dynamics as directly.",
+        "p_contra_12": 0.9336426854133606,
+        "p_contra_21": 0.9705974459648132,
+        "p_contra_min": 0.9336426854133606,
+        "p_contra_max": 0.9705974459648132,
+        "p_contra_mean": 0.9521200656890869,
+        "p_entail_mean": 0.013173441868275404,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R2",
+        "pair": [
+          6,
+          8
+        ],
+        "judge": 2,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C07 rests on directly demonstrated RPE biology (A2E/amyloid-beta-driven NLRP3 activation, caspase-1 and GSDMD-dependent pyroptosis detectable at the GA margin), with a coherent feed-forward loop and explicit non-redundancy with complement blockade, whereas C09 TREM2-SPP1-CD44/ITGAV relay is assembled from scRNA-seq associations and Alzheimer's-derived TREM2 genetics, and the causal link of SPP1-driven CXCL10/MMP9 to lesion growth is more inferential.",
+        "s2": "C09 integrates human genetic (TREM2/TYROBP), single-cell (SPP1-high subretinal myeloid cells at the GA margin), and cell-biological (SPP1-CD44/ITGAV induction of CXCL10/MMP9 in RPE) evidence into a coherent paracrine relay that directly maps onto lesion-margin propagation, whereas C07 NLRP3-pyroptosis loop is plausible and disease-relevant but largely correlative and more generic.",
+        "p_contra_12": 0.9282485246658325,
+        "p_contra_21": 0.967552661895752,
+        "p_contra_min": 0.9282485246658325,
+        "p_contra_max": 0.967552661895752,
+        "p_contra_mean": 0.9479005932807922,
+        "p_entail_mean": 0.013557458762079477,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R1",
+        "pair": [
+          2,
+          9
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C03 anchors to a monogenic, validated ALS cause (TBK1 haploinsufficiency) and specifies the molecular chain from defective OPTN/SQSTM1 phosphorylation to stalled PINK1-PRKN mitophagy and motor-neuron mitochondrial failure, with an explicit, testable bypass logic; C10 is mechanistically coherent and genetically supported (AXL GWAS locus) but rests more on correlative neuroinflammation and a risk-modulating, non-cell-autonomous pathway.",
+        "s2": "C10 offers a gene-specific causal chain (validated SPG11 loss-of-function -> spatacsin-dependent fusion/reformation defect -> aggregate accumulation -> TFEB compensation) that is mechanistically precise, whereas C03 is coherent but generic, stitching together NRF2/ferroptosis markers across heterogeneous ALS without a single decisive genetic anchor.",
+        "p_contra_12": 0.948674201965332,
+        "p_contra_21": 0.926690399646759,
+        "p_contra_min": 0.926690399646759,
+        "p_contra_max": 0.948674201965332,
+        "p_contra_mean": 0.9376823008060455,
+        "p_entail_mean": 0.016533521469682455,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R1",
+        "pair": [
+          5,
+          7
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C06 is grounded in an emerging but supported cell-autonomous (intracellular) complement biology where lysosomal cathepsins activate C3 within RPE and C3b/iC3b deposition on mitochondria drives metabolic failure, and it plausibly links CFH and ARMS2/HTRA1 risk architecture to a single druggable enzymatic node; C08 CNN2-to-focal-adhesion/phagocytosis/MMP14 cascade is coherent but rests on a single association study (PMID 42685076) with a long, unverified causal chain, and it notably specifies no intervention principle despite proposing augmentation.",
+        "s2": "C08 is grounded in cross-species genetics implicating CNN2 and sits at a well-established, upstream cytoskeletal node that coherently integrates three processes central to GA pathophysiology (focal adhesion/MTOR survival, outer-segment phagocytosis, and MMP14-mediated Bruch's membrane turnover), whereas C06 cascade (CTSB cleaving intracellular C3 to opsonize mitochondria) is plausible and built on emerging complosome biology but its individual steps in RPE are more asserted than demonstrated.",
+        "p_contra_12": 0.9377232789993286,
+        "p_contra_21": 0.926239013671875,
+        "p_contra_min": 0.926239013671875,
+        "p_contra_max": 0.9377232789993286,
+        "p_contra_mean": 0.9319811463356018,
+        "p_entail_mean": 0.011754449922591448,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R1",
+        "pair": [
+          0,
+          2
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C01 targets the near-universal TDP-43/hnRNPA1 RNP aggregation pathology of ALS with a coherent upstream mechanism (m6A-triggered holdase activity of YTHDC1) that could suppress multiple aggregation-prone clients at once, whereas C03, despite solid TBK1-OPTN genetics, awkwardly splices SOD1 etiology onto TBK1 deficiency with a speculative 'mechanical interference' bridge and only a partial mass-action bypass of impaired receptor phosphorylation.",
+        "s2": "C03 is anchored in a deeply validated causal chain — TBK1 loss-of-function is a genetically confirmed ALS/FTD cause, TBK1 phosphorylation of OPTN/SQSTM1 for receptor mitophagy is well established, and USP30's antagonism of PINK1/Parkin ubiquitylation is independently supported — whereas C01 rests essentially on a single recent observation of YTHDC1 holdase activity, with no genetic link of YTHDC1 or FTO to ALS and no evidence that nuclear YTHDC1 is actually depleted in patients.",
+        "p_contra_12": 0.9951466917991638,
+        "p_contra_21": 0.9134896993637085,
+        "p_contra_min": 0.9134896993637085,
+        "p_contra_max": 0.9951466917991638,
+        "p_contra_mean": 0.9543181955814362,
+        "p_entail_mean": 0.007688993355259299,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "ALS_retrieval_R3",
+        "pair": [
+          5,
+          9
+        ],
+        "judge": 2,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C06 grounds its mechanism in a single genetically validated lesion (SPG11 biallelic loss) with a short causal chain from spatacsin deficiency to autophagosome maturation failure, and TFEB activation is the canonical bypass for that proximal defect; C10 chain from ALS2/CHMP2B through RAB7A to TrkB-BDNF retrograde trophic deprivation is biologically plausible but conflates two distinct genetic subtypes and rests on more speculative links (e.g., TFEB-driven RAB7A upregulation rescuing signaling endosome delivery).",
+        "s2": "C10 provides a deeper, multi-layered causal chain linking two genetically validated ALS lesions (ALS2 Rab5-GEF loss, CHMP2B ESCRT-III dysfunction) through RAB7A-dependent endosome maturation to a specific, measurable neuronal output—retrograde TrkB-BDNF signaling endosome delivery and somatic CREB/ERK5 activation—which is well grounded in established TrkB trafficking and BDNF retrograde signaling literature. C06 mechanism (SPG11 loss impairs autophagosome maturation; TFEB boosts lysosomal capacity to clear aggregates) is coherent but comparatively generic, and the cited PMIDs appear dubious/unsupported, weakening its evidentiary grounding.",
+        "p_contra_12": 0.9070233106613159,
+        "p_contra_21": 0.9775700569152832,
+        "p_contra_min": 0.9070233106613159,
+        "p_contra_max": 0.9775700569152832,
+        "p_contra_mean": 0.9422966837882996,
+        "p_entail_mean": 0.015835633501410484,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R2",
+        "pair": [
+          0,
+          3
+        ],
+        "judge": 2,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C01 grounds its cascade in the strongest common AMD risk locus with causal overexpression data and a well-defined proximal step (FN1/TIMP3 proteolysis disrupting RPE-Bruch's membrane adhesion), giving tight disease-specific mechanistic relevance to GA enlargement; C04 offers a coherent ferroptosis cascade but its AMD evidence is largely associative, since iron-handling genes are not established GA risk drivers and the aceruloplasminemia analogy is indirect.",
+        "s2": "C04 has direct in vivo causal evidence (aceruloplasminemia, Cp/Heph knockout retinal degeneration) and a fully specified molecular cascade from labile iron through GPX4/ACSL4 to ferroptotic cell death at the GA margin; C01 is anchored to the strongest genetic locus and documented FN1/TIMP3 substrates, but the link from Bruch's membrane degradation to RPE death and lesion enlargement remains more inferential, and causality of HTRA1 versus ARMS2 is still debated.",
+        "p_contra_12": 0.8917977213859558,
+        "p_contra_21": 0.9899269342422485,
+        "p_contra_min": 0.8917977213859558,
+        "p_contra_max": 0.9899269342422485,
+        "p_contra_mean": 0.9408623278141022,
+        "p_entail_mean": 0.047128084348514676,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R1",
+        "pair": [
+          5,
+          6
+        ],
+        "judge": 3,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C06 offers a precise, genetically anchored causal chain (CFB/CFH and ARMS2/HTRA1 risk converging on CTSB-mediated intracellular C3 activation, mitochondrial C3b opsonization, and OXPHOS collapse) that directly explains why extracellular complement inhibitors only partially slow GA; C07 is disease-relevant but mechanistically looser, since SOAT1 is ER-resident and esterification is often protective against free-cholesterol toxicity, so the lysosomal-trapping logic is less coherent.",
+        "s2": "C07 is anchored in well-established pathology (drusen unesterified/esterified cholesterol, lysosomal dysfunction in RPE aging) and validated AMD risk genetics (ABCA1, APOE, LIPC, CETP), with a coherent, previously demonstrated causal chain from SOAT1-driven esterification to lysosomal stalling; C06 cascade (CTSB cleavage of intracellular C3, mitochondrial C3b opsonization, OXPHOS collapse) draws on emerging complosome biology and plausibly explains the partial efficacy of extracellular complement inhibitors, but each link is individually less evidenced and the assembled chain is more speculative.",
+        "p_contra_12": 0.9965914487838745,
+        "p_contra_21": 0.8668419122695923,
+        "p_contra_min": 0.8668419122695923,
+        "p_contra_max": 0.9965914487838745,
+        "p_contra_mean": 0.9317166805267334,
+        "p_entail_mean": 0.03614139958517626,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_blind_R1",
+        "pair": [
+          2,
+          6
+        ],
+        "judge": 1,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": true,
+        "s1": "C03 is anchored in well-documented NLRP3 inflammasome activation and pyroptosis-marker enrichment at the GA margin, and its executor-level logic (blocking GSDMD lysis while preserving non-lytic IL18 outputs) is mechanistically sound; C07 DICER1/Alu-TLR3-CASP8 axis has strong causal mouse data but rests on contested human DICER1-loss findings and is entangled with DICER1's miRNA functions, making its human disease relevance less secure.",
+        "s2": "C07 rests on a rigorously established causal chain—DICER1 reduction in GA human tissue, sufficiency of both DICER1 knockdown and subretinal Alu RNA to induce RPE degeneration in vivo, and defined TLR3-CASP8-CASP3 signaling—making it an upstream, cell-autonomous etiologic mechanism, whereas C03 GSDMD-mediated pyroptosis at the atrophy margin is plausibly supported but rests on correlative inflammasome markers and models (Abca4/Rdh8, Ccl2/Cx3cr1) that imperfectly recapitulate RPE dropout.",
+        "p_contra_12": 0.9490451216697693,
+        "p_contra_21": 0.8278680443763733,
+        "p_contra_min": 0.8278680443763733,
+        "p_contra_max": 0.9490451216697693,
+        "p_contra_mean": 0.8884565830230713,
+        "p_entail_mean": 0.019710573367774487,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      },
+      {
+        "run_id": "dAMD_retrieval_R3",
+        "pair": [
+          7,
+          9
+        ],
+        "judge": 3,
+        "criterion": "SCIENCE",
+        "is_pos_biased": true,
+        "criterion_flipped": false,
+        "s1": "C10 is anchored in the strongest human AMD genetics (CFH Y402H, CFI loss-of-function, CFB/C2 gain-of-function), histopathologic C3d/C5b-9 deposition along Bruch's membrane, and well-characterized factor H domain biochemistry, whereas C08 SASP-to-JAK/STAT3-to-bystander-death axis is plausible and literate but rests on weaker causal evidence, since STAT3 signaling in RPE is frequently cytoprotective and the paracrine killing step is not established in GA.",
+        "s2": "C10 is anchored in the strongest genetic evidence for GA (CFH Y402H impairing heparan-sulfate binding in Bruch's membrane, CFI loss-of-function, CFB/C2 gain-of-function) and proposes a precise molecular repair—re-anchoring decay/cofactor activity exactly where dysregulation occurs—matching histopathologic C3d/C5b-9 deposits; C08 SASP-bystander-death model is plausible but STAT3 signaling in RPE is ambiguous (often pro-survival/wound-healing), and causal evidence that paracrine SASP killing drives lesion enlargement is circumstantial.",
+        "p_contra_12": 0.81546550989151,
+        "p_contra_21": 0.9065688848495483,
+        "p_contra_min": 0.81546550989151,
+        "p_contra_max": 0.9065688848495483,
+        "p_contra_mean": 0.8610171973705292,
+        "p_entail_mean": 0.05868515744805336,
+        "is_bidir_contra_075": true,
+        "is_dir_contra_075": true
+      }
+    ]
+  }
+}

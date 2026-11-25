@@ -1,0 +1,183 @@
+{
+  "expB_cot_dredging_dynamics": {
+    "as_discovered": {
+      "n_files": 70,
+      "total_slots": 420,
+      "abstain_slots": 0,
+      "abstain_rate_pct": 0.0,
+      "emitted_slots": 420,
+      "emitted_rate_pct": 100.0,
+      "n_cot_traces": 146,
+      "median_reasoning_tokens": 5346.0,
+      "iqr_reasoning_tokens": [
+        2047.0,
+        12638.0
+      ],
+      "mean_pmid_mentions_in_cot": 129.44,
+      "median_pmid_mentions_in_cot": 118.0,
+      "mean_unique_pmids_trialed_in_cot": 35.82,
+      "median_unique_pmids_trialed_in_cot": 32.0,
+      "mean_uncertainty_markers_in_cot": 390.32,
+      "median_uncertainty_markers_in_cot": 342.0,
+      "mean_year_anchors_in_cot": 198.53
+    },
+    "abstain_probe": {
+      "n_files": 70,
+      "total_slots": 420,
+      "abstain_slots": 268,
+      "abstain_rate_pct": 63.81,
+      "emitted_slots": 152,
+      "emitted_rate_pct": 36.19,
+      "n_cot_traces": 132,
+      "median_reasoning_tokens": 2941.5,
+      "iqr_reasoning_tokens": [
+        2047.0,
+        8972.0
+      ],
+      "mean_pmid_mentions_in_cot": 86.69,
+      "median_pmid_mentions_in_cot": 80.5,
+      "mean_unique_pmids_trialed_in_cot": 25.37,
+      "median_unique_pmids_trialed_in_cot": 23.0,
+      "mean_uncertainty_markers_in_cot": 262.05,
+      "median_uncertainty_markers_in_cot": 259.0,
+      "mean_year_anchors_in_cot": 129.25
+    },
+    "gated": {
+      "n_files": 70,
+      "total_slots": 420,
+      "abstain_slots": 400,
+      "abstain_rate_pct": 95.24,
+      "emitted_slots": 20,
+      "emitted_rate_pct": 4.76,
+      "n_cot_traces": 102,
+      "median_reasoning_tokens": 1577.5,
+      "iqr_reasoning_tokens": [
+        844.75,
+        2047.0
+      ],
+      "mean_pmid_mentions_in_cot": 11.06,
+      "median_pmid_mentions_in_cot": 3.0,
+      "mean_unique_pmids_trialed_in_cot": 5.0,
+      "median_unique_pmids_trialed_in_cot": 3.0,
+      "mean_uncertainty_markers_in_cot": 37.16,
+      "median_uncertainty_markers_in_cot": 13.0,
+      "mean_year_anchors_in_cot": 14.28
+    },
+    "statistical_tests": {
+      "kruskal_unique_pmids_H": 201.17101255728232,
+      "kruskal_unique_pmids_p": 2.071427147789309e-44,
+      "mannwhitney_as_discovered_vs_gated_U": 14441.0,
+      "mannwhitney_as_discovered_vs_gated_p": 2.292355488900692e-36,
+      "mannwhitney_abstain_probe_vs_gated_U": 12710.0,
+      "mannwhitney_abstain_probe_vs_gated_p": 2.204371743874657e-31
+    }
+  },
+  "expC_cot_trajectory_and_srad": {
+    "glm": {
+      "n_total": 359,
+      "n_full_10": 261,
+      "n_ceiling_truncated": 98,
+      "median_first_true_gene_pos_in_hits": 0.0214,
+      "iqr_first_true_gene_pos_in_hits": [
+        0.0123,
+        0.0669
+      ],
+      "n_miss_full": 151,
+      "self_pruned_ghost_in_miss_full": 36,
+      "self_pruned_ghost_rate_pct": 23.84,
+      "median_ghost_pos_in_miss_full": 0.1131,
+      "true_gene_in_ceiling_truncated": 20,
+      "true_gene_in_ceiling_truncated_rate_pct": 20.41,
+      "median_true_gene_pos_in_ceiling_truncated": 0.1605,
+      "mean_unique_symbols_in_cot_hit": 119.0,
+      "mean_unique_symbols_in_cot_miss": 220.0,
+      "base_hit10_count": 110,
+      "base_hit10_pct": 30.64,
+      "cot_srad_hit10_count": 114,
+      "cot_srad_hit10_pct": 31.75,
+      "cot_srad_net_gain": 4,
+      "mcnemar_b_only": 8,
+      "mcnemar_c_only": 12,
+      "mcnemar_exact_p": 0.5034446716308594
+    },
+    "deepseek": {
+      "n_total": 271,
+      "n_full_10": 141,
+      "n_ceiling_truncated": 130,
+      "median_first_true_gene_pos_in_hits": 0.0206,
+      "iqr_first_true_gene_pos_in_hits": [
+        0.0135,
+        0.0364
+      ],
+      "n_miss_full": 85,
+      "self_pruned_ghost_in_miss_full": 19,
+      "self_pruned_ghost_rate_pct": 22.35,
+      "median_ghost_pos_in_miss_full": 0.1052,
+      "true_gene_in_ceiling_truncated": 56,
+      "true_gene_in_ceiling_truncated_rate_pct": 43.08,
+      "median_true_gene_pos_in_ceiling_truncated": 0.0268,
+      "mean_unique_symbols_in_cot_hit": 86.1,
+      "mean_unique_symbols_in_cot_miss": 111.3,
+      "base_hit10_count": 56,
+      "base_hit10_pct": 20.66,
+      "cot_srad_hit10_count": 88,
+      "cot_srad_hit10_pct": 32.47,
+      "cot_srad_net_gain": 32,
+      "mcnemar_b_only": 6,
+      "mcnemar_c_only": 38,
+      "mcnemar_exact_p": 9.430375484953402e-07
+    },
+    "pooled": {
+      "n_total": 630,
+      "base_hit10_count": 166,
+      "base_hit10_pct": 26.35,
+      "cot_srad_hit10_count": 202,
+      "cot_srad_hit10_pct": 32.06,
+      "cot_srad_net_gain": 36,
+      "mcnemar_b_only": 14,
+      "mcnemar_c_only": 50,
+      "mcnemar_exact_p": 7.069487542545679e-06,
+      "pooled_self_pruned_ghost_count": 55,
+      "pooled_miss_full_count": 236,
+      "pooled_self_pruned_ghost_rate_pct": 23.31,
+      "pooled_ceiling_truncated_ghost_count": 76,
+      "pooled_ceiling_truncated_count": 228,
+      "pooled_ceiling_truncated_ghost_rate_pct": 33.33
+    }
+  },
+  "tournament_cot_attention_profile": {
+    "t1_n_traces": 4127,
+    "t1_decile_slot_a_attention_share": [
+      0.8841,
+      0.3698,
+      0.3861,
+      0.455,
+      0.4861,
+      0.498,
+      0.498,
+      0.4902,
+      0.4911,
+      0.4877
+    ],
+    "t1_early_q1_slot_a_share": 0.5467,
+    "t1_middle_q23_slot_a_share": 0.4843,
+    "t1_final_decile_slot_a_share": 0.4877,
+    "t2_n_traces": 3465,
+    "t2_decile_slot_a_attention_share": [
+      0.9059,
+      0.3395,
+      0.3693,
+      0.4355,
+      0.4853,
+      0.5039,
+      0.5058,
+      0.5011,
+      0.5005,
+      0.4991
+    ],
+    "t2_early_q1_slot_a_share": 0.5382,
+    "t2_final_decile_slot_a_share": 0.4991,
+    "t2_mean_adversarial_pivots_per_trace": 21.72,
+    "t2_median_adversarial_pivots_per_trace": 20.0
+  }
+}

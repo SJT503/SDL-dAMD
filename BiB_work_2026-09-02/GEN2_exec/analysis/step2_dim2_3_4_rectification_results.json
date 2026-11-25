@@ -1,0 +1,2674 @@
+{
+  "dimension_2_reasoning_vs_retrieval": {
+    "summary_tests": {
+      "dAMD_lead_genes": {
+        "within_blind_mean": 0.0741,
+        "within_retrieval_mean": 0.1111,
+        "within_pooled_mean": 0.0926,
+        "cross_arm_mean": 0.037,
+        "diff_within_minus_cross": 0.0556,
+        "exact_permutation_p_two_sided": 0.1
+      },
+      "dAMD_all_genes": {
+        "within_blind_mean": 0.1433,
+        "within_retrieval_mean": 0.1692,
+        "within_pooled_mean": 0.1563,
+        "cross_arm_mean": 0.1502,
+        "diff_within_minus_cross": 0.0061,
+        "exact_permutation_p_two_sided": 0.9
+      },
+      "dAMD_axes_hit": {
+        "within_blind_mean": 0.4111,
+        "within_retrieval_mean": 0.3778,
+        "within_pooled_mean": 0.3944,
+        "cross_arm_mean": 0.4725,
+        "diff_within_minus_cross": -0.078,
+        "exact_permutation_p_two_sided": 0.7
+      },
+      "ALS_lead_genes": {
+        "within_blind_mean": 0.25,
+        "within_retrieval_mean": 0.1574,
+        "within_pooled_mean": 0.2037,
+        "cross_arm_mean": 0.0741,
+        "diff_within_minus_cross": 0.1296,
+        "exact_permutation_p_two_sided": 0.1
+      },
+      "ALS_all_genes": {
+        "within_blind_mean": 0.1508,
+        "within_retrieval_mean": 0.1935,
+        "within_pooled_mean": 0.1721,
+        "cross_arm_mean": 0.0897,
+        "diff_within_minus_cross": 0.0825,
+        "exact_permutation_p_two_sided": 0.1
+      },
+      "ALS_axes_hit": {
+        "within_blind_mean": 0.5111,
+        "within_retrieval_mean": 0.6333,
+        "within_pooled_mean": 0.5722,
+        "cross_arm_mean": 0.4005,
+        "diff_within_minus_cross": 0.1717,
+        "exact_permutation_p_two_sided": 0.2
+      }
+    },
+    "per_run_top5_profiles": {
+      "ALS_blind_R1": {
+        "disease": "ALS",
+        "arm": "blind",
+        "lead_genes": [
+          "ADARB1",
+          "GSK3B",
+          "SPTLC1",
+          "STMN2",
+          "TBK1"
+        ],
+        "all_genes": [
+          "ADARB1",
+          "CALCOCO2",
+          "CAPN1",
+          "CASP3",
+          "GRIA2",
+          "GSK3B",
+          "ITPR3",
+          "OPTN",
+          "ORMDL1",
+          "ORMDL2",
+          "ORMDL3",
+          "RMDN3",
+          "SPTLC1",
+          "SPTLC2",
+          "SQSTM1",
+          "STMN2",
+          "TARDBP",
+          "TBK1",
+          "VAPB",
+          "VDAC1"
+        ],
+        "axes_hit": [
+          "ADAR2_GRIA2_RNA_editing",
+          "TDP43_cryptic_splicing_STMN2_UNC13A",
+          "autophagy_mitophagy_TBK1_OPTN",
+          "axonal_ER_mito_lipid_NMJ"
+        ],
+        "gold_hit_count": 5,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "STMN2 cryptic-splice rescue",
+            "targets": [
+              "STMN2",
+              "TARDBP"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2281,
+            "confidence": 84
+          },
+          {
+            "cand_id": "C03",
+            "name": "GSK3B-driven restoration of the VAPB-RMDN3 ER-mitochondria tether",
+            "targets": [
+              "GSK3B",
+              "VAPB",
+              "RMDN3",
+              "ITPR3",
+              "VDAC1"
+            ],
+            "axis": "axonal_ER_mito_lipid_NMJ",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 343,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C09",
+            "name": "ORMDL-anchored restraint of hyperactive serine palmitoyltransferase",
+            "targets": [
+              "SPTLC1",
+              "SPTLC2",
+              "ORMDL1",
+              "ORMDL2",
+              "ORMDL3"
+            ],
+            "axis": "axonal_ER_mito_lipid_NMJ",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 168,
+            "confidence": 46
+          },
+          {
+            "cand_id": "C02",
+            "name": "TBK1 kinase reactivation to restore autophagy-receptor phosphorylation and mitophagy flux",
+            "targets": [
+              "TBK1",
+              "OPTN",
+              "SQSTM1",
+              "CALCOCO2"
+            ],
+            "axis": "autophagy_mitophagy_TBK1_OPTN",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 3564,
+            "confidence": 78
+          },
+          {
+            "cand_id": "C06",
+            "name": "ADARB1 restoration to correct GRIA2 Q/R editing",
+            "targets": [
+              "ADARB1",
+              "GRIA2",
+              "CAPN1",
+              "CASP3"
+            ],
+            "axis": "ADAR2_GRIA2_RNA_editing",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 678,
+            "confidence": 62
+          }
+        ]
+      },
+      "ALS_blind_R2": {
+        "disease": "ALS",
+        "arm": "blind",
+        "lead_genes": [
+          "ADARB1",
+          "MAPK10",
+          "METTL3",
+          "RNASEH1",
+          "STMN2"
+        ],
+        "all_genes": [
+          "ADARB1",
+          "CAPN1",
+          "CASP3",
+          "G3BP1",
+          "GRIA2",
+          "KIF5A",
+          "KLC1",
+          "MAPK10",
+          "MAPK8",
+          "MAPK9",
+          "METTL3",
+          "PARP1",
+          "RNASEH1",
+          "SETX",
+          "STMN2",
+          "TARDBP",
+          "UNC13A",
+          "XRCC1",
+          "YTHDF2",
+          "YTHDF3"
+        ],
+        "axes_hit": [
+          "ADAR2_GRIA2_RNA_editing",
+          "RNA_RNP_nucleolar_TDP43",
+          "TDP43_cryptic_splicing_STMN2_UNC13A",
+          "axonal_ER_mito_lipid_NMJ"
+        ],
+        "gold_hit_count": 5,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "STMN2/UNC13A cryptic-exon splice masking",
+            "targets": [
+              "STMN2",
+              "UNC13A",
+              "TARDBP"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2281,
+            "confidence": 87
+          },
+          {
+            "cand_id": "C03",
+            "name": "GRIA2 Q/R-site RNA editing restoration via ADARB1 reactivation",
+            "targets": [
+              "ADARB1",
+              "GRIA2",
+              "CAPN1",
+              "CASP3"
+            ],
+            "axis": "ADAR2_GRIA2_RNA_editing",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 678,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C07",
+            "name": "R-loop clearance and XRCC1-repair restoration",
+            "targets": [
+              "RNASEH1",
+              "PARP1",
+              "XRCC1",
+              "SETX"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2311,
+            "confidence": 68
+          },
+          {
+            "cand_id": "C06",
+            "name": "METTL3-m6A stress granule maturation blockade",
+            "targets": [
+              "METTL3",
+              "YTHDF2",
+              "YTHDF3",
+              "G3BP1"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 0,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C10",
+            "name": "Kinase-gated KIF5A cargo-coupling rescue",
+            "targets": [
+              "MAPK10",
+              "MAPK8",
+              "MAPK9",
+              "KIF5A",
+              "KLC1"
+            ],
+            "axis": "axonal_ER_mito_lipid_NMJ",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 226,
+            "confidence": 40
+          }
+        ]
+      },
+      "ALS_blind_R3": {
+        "disease": "ALS",
+        "arm": "blind",
+        "lead_genes": [
+          "ADARB1",
+          "NLRP3",
+          "NPM1",
+          "SDC2",
+          "STMN2"
+        ],
+        "all_genes": [
+          "ADARB1",
+          "AGER",
+          "C9ORF72",
+          "CASP1",
+          "GRIA2",
+          "NEK7",
+          "NLRP3",
+          "NPM1",
+          "PYCARD",
+          "SDC2",
+          "STMN2",
+          "TARDBP",
+          "TP53"
+        ],
+        "axes_hit": [
+          "ADAR2_GRIA2_RNA_editing",
+          "RNA_RNP_nucleolar_TDP43",
+          "SOD1_proteostasis",
+          "TDP43_cryptic_splicing_STMN2_UNC13A"
+        ],
+        "gold_hit_count": 5,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "STMN2 cryptic splice-site masking",
+            "targets": [
+              "STMN2"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 0,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C02",
+            "name": "ADAR2-editing restoration in motor neurons",
+            "targets": [
+              "ADARB1",
+              "GRIA2"
+            ],
+            "axis": "ADAR2_GRIA2_RNA_editing",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 678,
+            "confidence": 82
+          },
+          {
+            "cand_id": "C03",
+            "name": "Nucleolar ribosome-biogenesis restoration in C9orf72 DPR toxicity",
+            "targets": [
+              "NPM1",
+              "TP53",
+              "C9ORF72"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 32796,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C08",
+            "name": "Block SDC2/AGER-mediated TDP-43 seed uptake",
+            "targets": [
+              "SDC2",
+              "AGER",
+              "TARDBP"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2281,
+            "confidence": 58
+          },
+          {
+            "cand_id": "C09",
+            "name": "Microglial NLRP3 inflammasome assembly blockade",
+            "targets": [
+              "NLRP3",
+              "NEK7",
+              "PYCARD",
+              "CASP1"
+            ],
+            "axis": "SOD1_proteostasis",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 14632,
+            "confidence": 82
+          }
+        ]
+      },
+      "ALS_retrieval_R1": {
+        "disease": "ALS",
+        "arm": "retrieval",
+        "lead_genes": [
+          "AXL",
+          "IL2",
+          "STING1",
+          "STMN2",
+          "YTHDC1"
+        ],
+        "all_genes": [
+          "AXL",
+          "CGAS",
+          "CTLA4",
+          "CXCL10",
+          "FOXP3",
+          "FTO",
+          "GAS6",
+          "HNRNPA1",
+          "IL10",
+          "IL2",
+          "IL2RA",
+          "IRF3",
+          "MERTK",
+          "STING1",
+          "STMN2",
+          "TARDBP",
+          "TBK1",
+          "TGFB1",
+          "TYRO3",
+          "UNC13A",
+          "YTHDC1"
+        ],
+        "axes_hit": [
+          "RNA_RNP_nucleolar_TDP43",
+          "TDP43_cryptic_splicing_STMN2_UNC13A",
+          "autophagy_mitophagy_TBK1_OPTN",
+          "neuroinflammation_innate_immune"
+        ],
+        "gold_hit_count": 3,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "YTHDC1 restoration therapy for RNP aggregation in ALS",
+            "targets": [
+              "YTHDC1",
+              "HNRNPA1",
+              "TARDBP",
+              "FTO"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 3264,
+            "confidence": 82
+          },
+          {
+            "cand_id": "C09",
+            "name": "Low-dose IL-2 Treg restoration (aldesleukin repurposing)",
+            "targets": [
+              "IL2",
+              "IL2RA",
+              "FOXP3",
+              "CTLA4",
+              "IL10",
+              "TGFB1"
+            ],
+            "axis": "neuroinflammation_innate_immune",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 12580,
+            "confidence": 62
+          },
+          {
+            "cand_id": "C06",
+            "name": "STING inhibition for mitophagy-driven mtDNA neuroinflammation in ALS",
+            "targets": [
+              "STING1",
+              "CGAS",
+              "TBK1",
+              "IRF3",
+              "CXCL10"
+            ],
+            "axis": "autophagy_mitophagy_TBK1_OPTN",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2250,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C02",
+            "name": "STMN2/UNC13A cryptic-exon ASO splice restoration",
+            "targets": [
+              "STMN2",
+              "UNC13A"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 138,
+            "confidence": 84
+          },
+          {
+            "cand_id": "C10",
+            "name": "Microglial GAS6-AXL restoration (TAM-efferocytosis agonism)",
+            "targets": [
+              "AXL",
+              "GAS6",
+              "MERTK",
+              "TYRO3"
+            ],
+            "axis": "neuroinflammation_innate_immune",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 1061,
+            "confidence": 38
+          }
+        ]
+      },
+      "ALS_retrieval_R2": {
+        "disease": "ALS",
+        "arm": "retrieval",
+        "lead_genes": [
+          "C3",
+          "SOD1",
+          "STMN2",
+          "TARDBP",
+          "USP30"
+        ],
+        "all_genes": [
+          "C1QA",
+          "C1QB",
+          "C3",
+          "C3AR1",
+          "FUS",
+          "HDAC1",
+          "ITGAM",
+          "KPNB1",
+          "OPTN",
+          "PINK1",
+          "PRKN",
+          "RNF168",
+          "SOD1",
+          "STMN2",
+          "TARDBP",
+          "TBK1",
+          "TNPO1",
+          "TP53",
+          "UNC13A",
+          "USP30",
+          "XRCC1"
+        ],
+        "axes_hit": [
+          "RNA_RNP_nucleolar_TDP43",
+          "SOD1_proteostasis",
+          "TDP43_cryptic_splicing_STMN2_UNC13A",
+          "autophagy_mitophagy_TBK1_OPTN",
+          "neuroinflammation_innate_immune"
+        ],
+        "gold_hit_count": 4,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "CrypticExon-ASO (STMN2/UNC13A splice correction)",
+            "targets": [
+              "STMN2",
+              "UNC13A",
+              "TARDBP"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2281,
+            "confidence": 87
+          },
+          {
+            "cand_id": "C05",
+            "name": "ImportRescue-DDR: restoring nuclear TDP-43/FUS to re-enable DNA-break repair in motor neurons",
+            "targets": [
+              "TARDBP",
+              "FUS",
+              "KPNB1",
+              "TNPO1",
+              "HDAC1",
+              "RNF168",
+              "XRCC1",
+              "TP53"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 32796,
+            "confidence": 68
+          },
+          {
+            "cand_id": "C07",
+            "name": "USP30 inhibition to restore mitophagic flux in ALS motor neurons",
+            "targets": [
+              "USP30",
+              "PINK1",
+              "PRKN",
+              "OPTN",
+              "TBK1"
+            ],
+            "axis": "autophagy_mitophagy_TBK1_OPTN",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 3186,
+            "confidence": 66
+          },
+          {
+            "cand_id": "C10",
+            "name": "Complement-CR3 synaptic opsonization blockade",
+            "targets": [
+              "C3",
+              "C1QA",
+              "C1QB",
+              "ITGAM",
+              "C3AR1"
+            ],
+            "axis": "neuroinflammation_innate_immune",
+            "is_gold_axis": false,
+            "gwas_grades": [
+              "strong"
+            ],
+            "max_ot_score": 0.7833,
+            "max_pubmed_footprint": 228,
+            "confidence": 68
+          },
+          {
+            "cand_id": "C08",
+            "name": "SOD1 dimer-interface stabilizer (NABi-analog) blocking seeded propagation",
+            "targets": [
+              "SOD1"
+            ],
+            "axis": "SOD1_proteostasis",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 7566,
+            "confidence": 82
+          }
+        ]
+      },
+      "ALS_retrieval_R3": {
+        "disease": "ALS",
+        "arm": "retrieval",
+        "lead_genes": [
+          "MMP9",
+          "STING1",
+          "TARDBP",
+          "TFEB",
+          "YTHDC1"
+        ],
+        "all_genes": [
+          "CGAS",
+          "HNRNPA1",
+          "IFNB1",
+          "IRF3",
+          "MMP9",
+          "RAB7A",
+          "STING1",
+          "STMN2",
+          "TARDBP",
+          "TBK1",
+          "TFEB",
+          "TIMP1",
+          "UNC13A",
+          "YTHDC1"
+        ],
+        "axes_hit": [
+          "RNA_RNP_nucleolar_TDP43",
+          "TDP43_cryptic_splicing_STMN2_UNC13A",
+          "autophagy_mitophagy_TBK1_OPTN",
+          "axonal_ER_mito_lipid_NMJ"
+        ],
+        "gold_hit_count": 5,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "CrypticExon-ASO (STMN2/UNC13A splice-switch)",
+            "targets": [
+              "TARDBP",
+              "STMN2",
+              "UNC13A"
+            ],
+            "axis": "TDP43_cryptic_splicing_STMN2_UNC13A",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2281,
+            "confidence": 90
+          },
+          {
+            "cand_id": "C07",
+            "name": "NMJ-protective MMP-9 blockade (TIMP1-augmented)",
+            "targets": [
+              "MMP9",
+              "TIMP1"
+            ],
+            "axis": "axonal_ER_mito_lipid_NMJ",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 26985,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C03",
+            "name": "YTHDC1 nuclear restoration (anti-hnRNPA1 aggregation chaperone therapy)",
+            "targets": [
+              "YTHDC1",
+              "HNRNPA1"
+            ],
+            "axis": "RNA_RNP_nucleolar_TDP43",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 563,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C04",
+            "name": "STING1 antagonism to block mtDNA-driven microglial type I interferon toxicity in ALS",
+            "targets": [
+              "STING1",
+              "CGAS",
+              "TBK1",
+              "IRF3",
+              "IFNB1"
+            ],
+            "axis": "autophagy_mitophagy_TBK1_OPTN",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2250,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C10",
+            "name": "TFEB-driven endolysosomal rescue of TrkB-BDNF retrograde trophic signaling",
+            "targets": [
+              "TFEB",
+              "RAB7A"
+            ],
+            "axis": "autophagy_mitophagy_TBK1_OPTN",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 204,
+            "confidence": 40
+          }
+        ]
+      },
+      "dAMD_blind_R1": {
+        "disease": "dAMD",
+        "arm": "blind",
+        "lead_genes": [
+          "DICER1",
+          "GSDMD",
+          "MB21D1",
+          "SULF2",
+          "TMEM173"
+        ],
+        "all_genes": [
+          "CASP3",
+          "CASP8",
+          "CFH",
+          "DICER1",
+          "GSDMD",
+          "HSPG2",
+          "MB21D1",
+          "STING1",
+          "SULF2",
+          "TLR3",
+          "TMEM173"
+        ],
+        "axes_hit": [
+          "cGAS_STING_Alu_innate",
+          "complement_Bruch_HS",
+          "parainflam_inflammasome_cell_death"
+        ],
+        "gold_hit_count": 2,
+        "top5_details": [
+          {
+            "cand_id": "C04",
+            "name": "RPE cGAS-STING axis blockade for geographic atrophy",
+            "targets": [
+              "MB21D1",
+              "STING1"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 0,
+            "confidence": 82
+          },
+          {
+            "cand_id": "C01",
+            "name": "SULF2-blockade to preserve CFH docking on Bruch's membrane heparan sulfate",
+            "targets": [
+              "SULF2",
+              "HSPG2",
+              "CFH"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong"
+            ],
+            "max_ot_score": 0.8285,
+            "max_pubmed_footprint": 263,
+            "confidence": 78
+          },
+          {
+            "cand_id": "C08",
+            "name": "RPE-intrinsic STING axis blockade for geographic atrophy",
+            "targets": [
+              "TMEM173",
+              "MB21D1"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 0,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C07",
+            "name": "RPE-restricted DICER1 restoration",
+            "targets": [
+              "DICER1",
+              "TLR3",
+              "CASP8",
+              "CASP3"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 4713,
+            "confidence": 58
+          },
+          {
+            "cand_id": "C03",
+            "name": "RPE pyroptosis execution blockade",
+            "targets": [
+              "GSDMD"
+            ],
+            "axis": "parainflam_inflammasome_cell_death",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 0,
+            "confidence": 72
+          }
+        ]
+      },
+      "dAMD_blind_R2": {
+        "disease": "dAMD",
+        "arm": "blind",
+        "lead_genes": [
+          "CFH",
+          "CP",
+          "HTRA1",
+          "RIPK1",
+          "TFEB"
+        ],
+        "all_genes": [
+          "ATG7",
+          "C3",
+          "CASP8",
+          "CFB",
+          "CFH",
+          "CFI",
+          "CP",
+          "CTSD",
+          "FN1",
+          "HTRA1",
+          "LAMP2",
+          "MLKL",
+          "MTOR",
+          "PNPLA2",
+          "RIPK1",
+          "RIPK3",
+          "RPTOR",
+          "SLC40A1",
+          "SQSTM1",
+          "TFEB",
+          "TFRC",
+          "TIMP3"
+        ],
+        "axes_hit": [
+          "ECM_ARMS2_HTRA1",
+          "complement_Bruch_HS",
+          "iron_ferroptosis_oxidative",
+          "lysosomal_autophagy",
+          "parainflam_inflammasome_cell_death"
+        ],
+        "gold_hit_count": 4,
+        "top5_details": [
+          {
+            "cand_id": "C09",
+            "name": "RIPK1-kinase-directed necroptosis checkpoint blockade in RPE",
+            "targets": [
+              "RIPK1",
+              "MLKL",
+              "RIPK3",
+              "CASP8"
+            ],
+            "axis": "parainflam_inflammasome_cell_death",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 4713,
+            "confidence": 64
+          },
+          {
+            "cand_id": "C04",
+            "name": "RPE iron-export rescue (CP-SLC40A1 restoration)",
+            "targets": [
+              "CP",
+              "SLC40A1",
+              "TFRC"
+            ],
+            "axis": "iron_ferroptosis_oxidative",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 708,
+            "confidence": 71
+          },
+          {
+            "cand_id": "C05",
+            "name": "Surface factor H restitution on Bruch's membrane",
+            "targets": [
+              "CFH",
+              "CFI",
+              "C3",
+              "CFB"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong",
+              "strong",
+              "strong",
+              "weak"
+            ],
+            "max_ot_score": 0.8285,
+            "max_pubmed_footprint": 7292,
+            "confidence": 80
+          },
+          {
+            "cand_id": "C01",
+            "name": "Macular HTRA1 proteolytic-activity blockade to preserve Bruch's membrane matrix integrity",
+            "targets": [
+              "HTRA1",
+              "FN1",
+              "TIMP3"
+            ],
+            "axis": "ECM_ARMS2_HTRA1",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "weak",
+              "strong"
+            ],
+            "max_ot_score": 0.7077,
+            "max_pubmed_footprint": 2243,
+            "confidence": 78
+          },
+          {
+            "cand_id": "C07",
+            "name": "RPE-restricted TFEB nuclear restoration",
+            "targets": [
+              "TFEB",
+              "MTOR",
+              "RPTOR",
+              "ATG7",
+              "LAMP2",
+              "PNPLA2",
+              "SQSTM1",
+              "CTSD"
+            ],
+            "axis": "lysosomal_autophagy",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 42554,
+            "confidence": 64
+          }
+        ]
+      },
+      "dAMD_blind_R3": {
+        "disease": "dAMD",
+        "arm": "blind",
+        "lead_genes": [
+          "ACSL4",
+          "ATP6V0A1",
+          "CFH",
+          "TFRC",
+          "TMEM173"
+        ],
+        "all_genes": [
+          "ACSL4",
+          "ATP6V0A1",
+          "C3",
+          "CFB",
+          "CFH",
+          "CFI",
+          "CTSD",
+          "CXCL10",
+          "GPX4",
+          "HSPG2",
+          "IFNB1",
+          "IRF3",
+          "SLC7A11",
+          "SQSTM1",
+          "TBK1",
+          "TFEB",
+          "TFRC",
+          "TMEM173"
+        ],
+        "axes_hit": [
+          "cGAS_STING_Alu_innate",
+          "complement_Bruch_HS",
+          "iron_ferroptosis_oxidative",
+          "lysosomal_autophagy"
+        ],
+        "gold_hit_count": 3,
+        "top5_details": [
+          {
+            "cand_id": "C10",
+            "name": "RPE iron-import restriction via TFRC blockade",
+            "targets": [
+              "TFRC"
+            ],
+            "axis": "iron_ferroptosis_oxidative",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 708,
+            "confidence": 61
+          },
+          {
+            "cand_id": "C01",
+            "name": "RPE lysosomal re-acidification via ATP6V0A1 restoration",
+            "targets": [
+              "ATP6V0A1",
+              "CTSD",
+              "TFEB",
+              "SQSTM1"
+            ],
+            "axis": "lysosomal_autophagy",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 3564,
+            "confidence": 84
+          },
+          {
+            "cand_id": "C04",
+            "name": "STING-adaptor restraint in RPE (TMEM173 blockade)",
+            "targets": [
+              "TMEM173",
+              "TBK1",
+              "IRF3",
+              "IFNB1",
+              "CXCL10"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2250,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C09",
+            "name": "RPE ferroptosis lipid-substrate brake",
+            "targets": [
+              "ACSL4",
+              "SLC7A11",
+              "GPX4"
+            ],
+            "axis": "iron_ferroptosis_oxidative",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 5692,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C02",
+            "name": "Bruch's membrane-localized factor H restoration",
+            "targets": [
+              "CFH",
+              "CFB",
+              "C3",
+              "CFI",
+              "HSPG2"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong",
+              "weak",
+              "strong",
+              "strong"
+            ],
+            "max_ot_score": 0.8285,
+            "max_pubmed_footprint": 7292,
+            "confidence": 78
+          }
+        ]
+      },
+      "dAMD_retrieval_R1": {
+        "disease": "dAMD",
+        "arm": "retrieval",
+        "lead_genes": [
+          "CTSB",
+          "HAMP",
+          "NLRP3",
+          "SOAT1",
+          "TLR9"
+        ],
+        "all_genes": [
+          "ABCA1",
+          "ABCG1",
+          "ACSL4",
+          "C3",
+          "CASP1",
+          "CP",
+          "CTSB",
+          "GPX4",
+          "GSDMD",
+          "HAMP",
+          "IL18",
+          "IL1B",
+          "NLRP3",
+          "PYCARD",
+          "SLC40A1",
+          "SOAT1",
+          "STING1",
+          "TFRC",
+          "TLR9"
+        ],
+        "axes_hit": [
+          "complement_Bruch_HS",
+          "iron_ferroptosis_oxidative",
+          "lipid_cholesterol",
+          "parainflam_inflammasome_cell_death"
+        ],
+        "gold_hit_count": 5,
+        "top5_details": [
+          {
+            "cand_id": "C01",
+            "name": "RPE Iron-Offload Ferroptosis Block (local HAMP neutralization + deferiprone)",
+            "targets": [
+              "HAMP",
+              "SLC40A1",
+              "TFRC",
+              "CP",
+              "GPX4",
+              "ACSL4"
+            ],
+            "axis": "iron_ferroptosis_oxidative",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 5692,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C10",
+            "name": "Intravitreal NLRP3 inflammasome blockade for GA",
+            "targets": [
+              "NLRP3",
+              "PYCARD",
+              "CASP1",
+              "GSDMD",
+              "IL1B",
+              "IL18"
+            ],
+            "axis": "parainflam_inflammasome_cell_death",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 14632,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C02",
+            "name": "EV-mtDNA sensor blockade for GA propagation (iSTOP-GA)",
+            "targets": [
+              "TLR9",
+              "STING1",
+              "C3"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong"
+            ],
+            "max_ot_score": 0.7833,
+            "max_pubmed_footprint": 0,
+            "confidence": 82
+          },
+          {
+            "cand_id": "C06",
+            "name": "Intracellular CTSB blockade to abort mitochondrial C3b opsonization in RPE",
+            "targets": [
+              "CTSB",
+              "C3"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong"
+            ],
+            "max_ot_score": 0.7833,
+            "max_pubmed_footprint": 0,
+            "confidence": 38
+          },
+          {
+            "cand_id": "C07",
+            "name": "Ocular SOAT1 inhibition for RPE lysosomal cholesterol clearance",
+            "targets": [
+              "SOAT1",
+              "ABCA1",
+              "ABCG1"
+            ],
+            "axis": "lipid_cholesterol",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 3742,
+            "confidence": 68
+          }
+        ]
+      },
+      "dAMD_retrieval_R2": {
+        "disease": "dAMD",
+        "arm": "retrieval",
+        "lead_genes": [
+          "CFB",
+          "HPSE",
+          "MAPK14",
+          "NLRP3",
+          "STING1"
+        ],
+        "all_genes": [
+          "CFB",
+          "CFH",
+          "CXCL10",
+          "CXCR3",
+          "DICER1",
+          "HPSE",
+          "HSPG2",
+          "IFNB1",
+          "IRF3",
+          "MAPK14",
+          "MAPKAPK2",
+          "MAPKAPK5",
+          "MB21D1",
+          "NLRP3",
+          "SDC3",
+          "STING1",
+          "TBK1"
+        ],
+        "axes_hit": [
+          "cGAS_STING_Alu_innate",
+          "complement_Bruch_HS",
+          "parainflam_inflammasome_cell_death"
+        ],
+        "gold_hit_count": 3,
+        "top5_details": [
+          {
+            "cand_id": "C03",
+            "name": "Intraocular heparanase inhibition to restore CFH anchoring in Bruch's membrane",
+            "targets": [
+              "HPSE",
+              "HSPG2",
+              "SDC3",
+              "CFH"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong"
+            ],
+            "max_ot_score": 0.8285,
+            "max_pubmed_footprint": 263,
+            "confidence": 68
+          },
+          {
+            "cand_id": "C04",
+            "name": "Ocular STING-antagonism to break the IFN-driven cytotoxic front in geographic atrophy",
+            "targets": [
+              "STING1",
+              "MB21D1",
+              "TBK1",
+              "IRF3",
+              "IFNB1",
+              "CXCL10",
+              "CXCR3"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2250,
+            "confidence": 72
+          },
+          {
+            "cand_id": "C08",
+            "name": "Alu-RNA/p38-MK2 axis blockade for GA",
+            "targets": [
+              "MAPK14",
+              "MAPKAPK2",
+              "MAPKAPK5",
+              "DICER1"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 1747,
+            "confidence": 64
+          },
+          {
+            "cand_id": "C07",
+            "name": "Intravitreal NLRP3 inflammasome brake for GA margin propagation",
+            "targets": [
+              "NLRP3"
+            ],
+            "axis": "parainflam_inflammasome_cell_death",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 14632,
+            "confidence": 61
+          },
+          {
+            "cand_id": "C01",
+            "name": "Ocular CFB knockdown (intravitreal anti-factor-B siRNA) for GA",
+            "targets": [
+              "CFB"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "weak"
+            ],
+            "max_ot_score": 0.2047,
+            "max_pubmed_footprint": 1141,
+            "confidence": 86
+          }
+        ]
+      },
+      "dAMD_retrieval_R3": {
+        "disease": "dAMD",
+        "arm": "retrieval",
+        "lead_genes": [
+          "CFH",
+          "CNN2",
+          "DICER1",
+          "HAMP",
+          "STING1"
+        ],
+        "all_genes": [
+          "ACSL4",
+          "ACTB",
+          "BAX",
+          "C3",
+          "C5",
+          "CFB",
+          "CFH",
+          "CFI",
+          "CNN2",
+          "CP",
+          "DICER1",
+          "FTH1",
+          "GPC1",
+          "GPX4",
+          "HAMP",
+          "HSPG2",
+          "IRF3",
+          "ITGB1",
+          "MAPK1",
+          "MAPK3",
+          "MB21D1",
+          "MERTK",
+          "MYH9",
+          "NLRP3",
+          "STING1",
+          "TBK1"
+        ],
+        "axes_hit": [
+          "POS_phagocytosis",
+          "cGAS_STING_Alu_innate",
+          "complement_Bruch_HS",
+          "iron_ferroptosis_oxidative"
+        ],
+        "gold_hit_count": 3,
+        "top5_details": [
+          {
+            "cand_id": "C06",
+            "name": "Oral deferiprone chelation to abort RPE ferroptosis in GA",
+            "targets": [
+              "HAMP",
+              "CP",
+              "FTH1",
+              "GPX4",
+              "ACSL4"
+            ],
+            "axis": "iron_ferroptosis_oxidative",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 5692,
+            "confidence": 66
+          },
+          {
+            "cand_id": "C10",
+            "name": "HS-anchored mini-factor H for Bruch's membrane complement control",
+            "targets": [
+              "CFH",
+              "CFI",
+              "CFB",
+              "C3",
+              "C5",
+              "HSPG2",
+              "GPC1"
+            ],
+            "axis": "complement_Bruch_HS",
+            "is_gold_axis": true,
+            "gwas_grades": [
+              "strong",
+              "strong",
+              "weak",
+              "strong"
+            ],
+            "max_ot_score": 0.8285,
+            "max_pubmed_footprint": 7292,
+            "confidence": 74
+          },
+          {
+            "cand_id": "C05",
+            "name": "AAV-CNN2 RPE gene augmentation for geographic atrophy",
+            "targets": [
+              "CNN2",
+              "ACTB",
+              "MYH9",
+              "ITGB1",
+              "MERTK"
+            ],
+            "axis": "POS_phagocytosis",
+            "is_gold_axis": true,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 1180,
+            "confidence": 66
+          },
+          {
+            "cand_id": "C03",
+            "name": "AluSilence-DICER1 RPE rescue for geographic atrophy",
+            "targets": [
+              "DICER1",
+              "NLRP3",
+              "MAPK1",
+              "MAPK3"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 14632,
+            "confidence": 76
+          },
+          {
+            "cand_id": "C04",
+            "name": "RPE-targeted STING1 blockade for geographic atrophy",
+            "targets": [
+              "STING1",
+              "MB21D1",
+              "TBK1",
+              "IRF3",
+              "BAX"
+            ],
+            "axis": "cGAS_STING_Alu_innate",
+            "is_gold_axis": false,
+            "gwas_grades": [],
+            "max_ot_score": 0.0,
+            "max_pubmed_footprint": 2250,
+            "confidence": 78
+          }
+        ]
+      }
+    }
+  },
+  "dimension_3_position_bias": {
+    "tournament_II_pooled": {
+      "total_valid_ab_pairs": 1601,
+      "content_consistent_pairs": 912,
+      "content_consistent_rate": 0.5696,
+      "position_biased_pairs": 689,
+      "position_bias_rate": 0.4304,
+      "position_bias_95ci": [
+        0.4059,
+        0.4544
+      ],
+      "primacy_slotA_pairs": 668,
+      "recency_slotB_pairs": 21,
+      "primacy_share_of_biased": 0.9695,
+      "primacy_vs_recency_binom_p": 4.631807058206286e-168
+    },
+    "tournament_II_by_run": {
+      "ALS_blind_R1": {
+        "valid_ab_pairs": 135,
+        "content_consistent": 77,
+        "content_consistent_rate": 0.5704,
+        "pos_bias_total": 58,
+        "pos_bias_rate": 0.4296,
+        "primacy_A": 55,
+        "recency_B": 3,
+        "primacy_share_of_biased": 0.9483
+      },
+      "ALS_blind_R2": {
+        "valid_ab_pairs": 135,
+        "content_consistent": 101,
+        "content_consistent_rate": 0.7481,
+        "pos_bias_total": 34,
+        "pos_bias_rate": 0.2519,
+        "primacy_A": 33,
+        "recency_B": 1,
+        "primacy_share_of_biased": 0.9706
+      },
+      "ALS_blind_R3": {
+        "valid_ab_pairs": 133,
+        "content_consistent": 69,
+        "content_consistent_rate": 0.5188,
+        "pos_bias_total": 64,
+        "pos_bias_rate": 0.4812,
+        "primacy_A": 63,
+        "recency_B": 1,
+        "primacy_share_of_biased": 0.9844
+      },
+      "ALS_retrieval_R1": {
+        "valid_ab_pairs": 135,
+        "content_consistent": 89,
+        "content_consistent_rate": 0.6593,
+        "pos_bias_total": 46,
+        "pos_bias_rate": 0.3407,
+        "primacy_A": 45,
+        "recency_B": 1,
+        "primacy_share_of_biased": 0.9783
+      },
+      "ALS_retrieval_R2": {
+        "valid_ab_pairs": 135,
+        "content_consistent": 81,
+        "content_consistent_rate": 0.6,
+        "pos_bias_total": 54,
+        "pos_bias_rate": 0.4,
+        "primacy_A": 53,
+        "recency_B": 1,
+        "primacy_share_of_biased": 0.9815
+      },
+      "ALS_retrieval_R3": {
+        "valid_ab_pairs": 132,
+        "content_consistent": 82,
+        "content_consistent_rate": 0.6212,
+        "pos_bias_total": 50,
+        "pos_bias_rate": 0.3788,
+        "primacy_A": 48,
+        "recency_B": 2,
+        "primacy_share_of_biased": 0.96
+      },
+      "dAMD_blind_R1": {
+        "valid_ab_pairs": 130,
+        "content_consistent": 72,
+        "content_consistent_rate": 0.5538,
+        "pos_bias_total": 58,
+        "pos_bias_rate": 0.4462,
+        "primacy_A": 54,
+        "recency_B": 4,
+        "primacy_share_of_biased": 0.931
+      },
+      "dAMD_blind_R2": {
+        "valid_ab_pairs": 134,
+        "content_consistent": 75,
+        "content_consistent_rate": 0.5597,
+        "pos_bias_total": 59,
+        "pos_bias_rate": 0.4403,
+        "primacy_A": 56,
+        "recency_B": 3,
+        "primacy_share_of_biased": 0.9492
+      },
+      "dAMD_blind_R3": {
+        "valid_ab_pairs": 134,
+        "content_consistent": 79,
+        "content_consistent_rate": 0.5896,
+        "pos_bias_total": 55,
+        "pos_bias_rate": 0.4104,
+        "primacy_A": 52,
+        "recency_B": 3,
+        "primacy_share_of_biased": 0.9455
+      },
+      "dAMD_retrieval_R1": {
+        "valid_ab_pairs": 135,
+        "content_consistent": 73,
+        "content_consistent_rate": 0.5407,
+        "pos_bias_total": 62,
+        "pos_bias_rate": 0.4593,
+        "primacy_A": 62,
+        "recency_B": 0,
+        "primacy_share_of_biased": 1.0
+      },
+      "dAMD_retrieval_R2": {
+        "valid_ab_pairs": 130,
+        "content_consistent": 66,
+        "content_consistent_rate": 0.5077,
+        "pos_bias_total": 64,
+        "pos_bias_rate": 0.4923,
+        "primacy_A": 62,
+        "recency_B": 2,
+        "primacy_share_of_biased": 0.9688
+      },
+      "dAMD_retrieval_R3": {
+        "valid_ab_pairs": 133,
+        "content_consistent": 48,
+        "content_consistent_rate": 0.3609,
+        "pos_bias_total": 85,
+        "pos_bias_rate": 0.6391,
+        "primacy_A": 85,
+        "recency_B": 0,
+        "primacy_share_of_biased": 1.0
+      }
+    },
+    "tournament_I_pooled": {
+      "total_valid_judgments": 3594,
+      "slotA_wins": 2562,
+      "slotA_win_rate": 0.7129,
+      "binom_p_vs_0.5": 4.3720905149877994e-148,
+      "raw_top10_decade_counts_M00_09_vs_M10_19_vs_M20_29": [
+        78,
+        26,
+        16
+      ],
+      "raw_top10_decade_shares": [
+        0.65,
+        0.2167,
+        0.1333
+      ],
+      "raw_uniformity_chi2": 55.4,
+      "raw_uniformity_p": 9.333463883457695e-13,
+      "order_adjusted_top10_decade_counts": [
+        60,
+        31,
+        29
+      ],
+      "order_adjusted_top10_decade_shares": [
+        0.5,
+        0.2583,
+        0.2417
+      ],
+      "order_adjusted_uniformity_chi2": 15.05,
+      "order_adjusted_uniformity_p": 0.0005394286683931291
+    }
+  },
+  "dimension_4_stability_bootstrap": {
+    "ALS_blind_R1": {
+      "boot_pairwise_jaccard_mean": 0.7783,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.848,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.86,
+        "C03": 0.996,
+        "C04": 0.0,
+        "C05": 0.0,
+        "C06": 0.812,
+        "C07": 0.043,
+        "C08": 0.415,
+        "C09": 0.873,
+        "C10": 0.0
+      }
+    },
+    "ALS_blind_R2": {
+      "boot_pairwise_jaccard_mean": 0.7636,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.801,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.43,
+        "C03": 1.0,
+        "C04": 0.169,
+        "C05": 0.001,
+        "C06": 0.921,
+        "C07": 1.0,
+        "C08": 0.0,
+        "C09": 0.0,
+        "C10": 0.479
+      }
+    },
+    "ALS_blind_R3": {
+      "boot_pairwise_jaccard_mean": 0.7177,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.7667,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 1.0,
+        "C03": 0.986,
+        "C04": 0.279,
+        "C05": 0.119,
+        "C06": 0.021,
+        "C07": 0.0,
+        "C08": 0.94,
+        "C09": 0.368,
+        "C10": 0.287
+      }
+    },
+    "ALS_retrieval_R1": {
+      "boot_pairwise_jaccard_mean": 0.7058,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.4257,
+      "inclusion_probs": {
+        "C01": 0.95,
+        "C02": 1.0,
+        "C03": 0.997,
+        "C04": 0.0,
+        "C05": 0.85,
+        "C06": 0.495,
+        "C07": 0.0,
+        "C08": 0.202,
+        "C09": 0.292,
+        "C10": 0.214
+      }
+    },
+    "ALS_retrieval_R2": {
+      "boot_pairwise_jaccard_mean": 0.8329,
+      "boot_pairwise_jaccard_95ci": [
+        0.6667,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.8891,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.017,
+        "C03": 0.001,
+        "C04": 0.001,
+        "C05": 1.0,
+        "C06": 0.314,
+        "C07": 0.998,
+        "C08": 0.741,
+        "C09": 0.0,
+        "C10": 0.928
+      }
+    },
+    "ALS_retrieval_R3": {
+      "boot_pairwise_jaccard_mean": 0.7042,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.7683,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.503,
+        "C03": 0.932,
+        "C04": 0.812,
+        "C05": 0.0,
+        "C06": 0.181,
+        "C07": 0.965,
+        "C08": 0.024,
+        "C09": 0.003,
+        "C10": 0.58
+      }
+    },
+    "dAMD_blind_R1": {
+      "boot_pairwise_jaccard_mean": 0.7389,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.8076,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.433,
+        "C03": 0.675,
+        "C04": 1.0,
+        "C05": 0.0,
+        "C06": 0.006,
+        "C07": 0.746,
+        "C08": 0.992,
+        "C09": 0.034,
+        "C10": 0.113
+      }
+    },
+    "dAMD_blind_R2": {
+      "boot_pairwise_jaccard_mean": 0.792,
+      "boot_pairwise_jaccard_95ci": [
+        0.6667,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.832,
+      "inclusion_probs": {
+        "C01": 0.839,
+        "C02": 0.0,
+        "C03": 0.0,
+        "C04": 0.997,
+        "C05": 0.905,
+        "C06": 0.504,
+        "C07": 0.755,
+        "C08": 0.0,
+        "C09": 1.0,
+        "C10": 0.0
+      }
+    },
+    "dAMD_blind_R3": {
+      "boot_pairwise_jaccard_mean": 0.7418,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.7701,
+      "inclusion_probs": {
+        "C01": 0.969,
+        "C02": 0.703,
+        "C03": 0.635,
+        "C04": 0.911,
+        "C05": 0.0,
+        "C06": 0.012,
+        "C07": 0.0,
+        "C08": 0.047,
+        "C09": 0.723,
+        "C10": 1.0
+      }
+    },
+    "dAMD_retrieval_R1": {
+      "boot_pairwise_jaccard_mean": 0.8279,
+      "boot_pairwise_jaccard_95ci": [
+        0.6667,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.8871,
+      "inclusion_probs": {
+        "C01": 1.0,
+        "C02": 0.994,
+        "C03": 0.311,
+        "C04": 0.029,
+        "C05": 0.0,
+        "C06": 0.866,
+        "C07": 0.8,
+        "C08": 0.0,
+        "C09": 0.0,
+        "C10": 1.0
+      }
+    },
+    "dAMD_retrieval_R2": {
+      "boot_pairwise_jaccard_mean": 0.6587,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.7257,
+      "inclusion_probs": {
+        "C01": 0.61,
+        "C02": 0.0,
+        "C03": 1.0,
+        "C04": 0.999,
+        "C05": 0.338,
+        "C06": 0.0,
+        "C07": 0.667,
+        "C08": 0.868,
+        "C09": 0.518,
+        "C10": 0.0
+      }
+    },
+    "dAMD_retrieval_R3": {
+      "boot_pairwise_jaccard_mean": 0.7601,
+      "boot_pairwise_jaccard_95ci": [
+        0.4286,
+        1.0
+      ],
+      "obs_vs_boot_jaccard_mean": 0.855,
+      "inclusion_probs": {
+        "C01": 0.0,
+        "C02": 0.05,
+        "C03": 0.944,
+        "C04": 0.695,
+        "C05": 0.928,
+        "C06": 0.998,
+        "C07": 0.145,
+        "C08": 0.182,
+        "C09": 0.063,
+        "C10": 0.995
+      }
+    }
+  },
+  "audit_guided_rectification": {
+    "tournament_I_order_adjusted_btl": {
+      "ALS_blind_R1": {
+        "gamma_primacy": 1.6717,
+        "gamma_se": 0.4059,
+        "odds_ratio_slotA": 5.321,
+        "raw_top10_decades": [
+          6,
+          2,
+          2
+        ],
+        "adj_top10_decades": [
+          5,
+          2,
+          3
+        ],
+        "kendall_tau_raw_vs_adj": 0.0391,
+        "rescued_mechanisms": [
+          {
+            "id": "M29",
+            "text": "Oxidative-stress-mediated inhibition of the APC/C activator FZR1 stabilizes PFKFB3 in neurons, forci"
+          },
+          {
+            "id": "M18",
+            "text": "Upregulated astrocyte-derived complement components C1QA and C3 tag motor neuron synapses for elimin"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M01",
+            "text": "The GGGGCC repeat expansion at C9ORF72 produces RNA foci and RAN-translated dipeptide repeat protein"
+          },
+          {
+            "id": "M11",
+            "text": "Haploinsufficiency of NEK1 weakens ATR-CHEK1-mediated repair of DNA double-strand breaks, allowing g"
+          }
+        ]
+      },
+      "ALS_blind_R2": {
+        "gamma_primacy": 1.2543,
+        "gamma_se": 0.3537,
+        "odds_ratio_slotA": 3.505,
+        "raw_top10_decades": [
+          9,
+          1,
+          0
+        ],
+        "adj_top10_decades": [
+          7,
+          2,
+          1
+        ],
+        "kendall_tau_raw_vs_adj": 0.1954,
+        "rescued_mechanisms": [
+          {
+            "id": "M26",
+            "text": "Upregulation of MMP9 and MMP2 at the neuromuscular junction cleaves LAMA1 and DAG1, detaching motor "
+          },
+          {
+            "id": "M18",
+            "text": "Mitochondrial DNA released from degenerating motor neurons activates the CGAS-TMEM173 (STING) pathwa"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M06",
+            "text": "Reduced TFEB transcriptional activity and defective v-ATPase-dependent lysosomal acidification, comp"
+          },
+          {
+            "id": "M07",
+            "text": "Phosphorylation-dependent release of KIF5A from anterograde cargo, combined with DYNC1H1-DCTN1 retro"
+          }
+        ]
+      },
+      "ALS_blind_R3": {
+        "gamma_primacy": 1.2787,
+        "gamma_se": 0.3378,
+        "odds_ratio_slotA": 3.592,
+        "raw_top10_decades": [
+          7,
+          3,
+          0
+        ],
+        "adj_top10_decades": [
+          7,
+          2,
+          1
+        ],
+        "kendall_tau_raw_vs_adj": 0.223,
+        "rescued_mechanisms": [
+          {
+            "id": "M25",
+            "text": "Downregulation of monocarboxylate transporter MCT1 (SLC16A1) in oligodendrocytes curtails LDHB-coupl"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M10",
+            "text": "Haploinsufficiency of NEK1, augmented by C21ORF2 variants, weakens DNA single-strand break and base-"
+          }
+        ]
+      },
+      "ALS_retrieval_R1": {
+        "gamma_primacy": 0.5916,
+        "gamma_se": 0.2737,
+        "odds_ratio_slotA": 1.807,
+        "raw_top10_decades": [
+          6,
+          1,
+          3
+        ],
+        "adj_top10_decades": [
+          5,
+          1,
+          4
+        ],
+        "kendall_tau_raw_vs_adj": 0.0989,
+        "rescued_mechanisms": [
+          {
+            "id": "M28",
+            "text": "Reactive astrocytes secrete apolipoprotein L6 (APOL6), which is endocytosed by motor neurons and tri"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M09",
+            "text": "Progressive loss of FOXP3+ regulatory T cell suppressive function (reduced CTLA-4, IL-10, TGF-β outp"
+          }
+        ]
+      },
+      "ALS_retrieval_R2": {
+        "gamma_primacy": 1.2208,
+        "gamma_se": 0.3304,
+        "odds_ratio_slotA": 3.39,
+        "raw_top10_decades": [
+          6,
+          4,
+          0
+        ],
+        "adj_top10_decades": [
+          5,
+          5,
+          0
+        ],
+        "kendall_tau_raw_vs_adj": 0.3701,
+        "rescued_mechanisms": [
+          {
+            "id": "M16",
+            "text": "Extracellular SOD1 aggregates and seeds (e.g., SOD1G93A or D90A) are taken up by microglia and activ"
+          },
+          {
+            "id": "M06",
+            "text": "ALS-associated ARPP21 loss-of-function variants disrupt binding and stabilization of its motor-neuro"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M02",
+            "text": "Defective PINK1/PRKN- and OPTN/TBK1-mediated mitophagy in motor neurons permits accumulation of depo"
+          },
+          {
+            "id": "M01",
+            "text": "Misfolded SOD1 (e.g., D90A, G93A) acts as a self-templating seed that catalyzes conformational conve"
+          }
+        ]
+      },
+      "ALS_retrieval_R3": {
+        "gamma_primacy": 0.9845,
+        "gamma_se": 0.2845,
+        "odds_ratio_slotA": 2.677,
+        "raw_top10_decades": [
+          5,
+          1,
+          4
+        ],
+        "adj_top10_decades": [
+          4,
+          1,
+          5
+        ],
+        "kendall_tau_raw_vs_adj": 0.2322,
+        "rescued_mechanisms": [
+          {
+            "id": "M29",
+            "text": "Defective CCS-mediated copper loading and ATP7A-dependent copper trafficking leave SOD1 in the apo, "
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M03",
+            "text": "Loss of the arginine-glycine-rich RNA-binding protein ARPP21 disrupts post-transcriptional regulatio"
+          }
+        ]
+      },
+      "dAMD_blind_R1": {
+        "gamma_primacy": 1.0877,
+        "gamma_se": 0.3023,
+        "odds_ratio_slotA": 2.967,
+        "raw_top10_decades": [
+          7,
+          2,
+          1
+        ],
+        "adj_top10_decades": [
+          6,
+          2,
+          2
+        ],
+        "kendall_tau_raw_vs_adj": 0.1494,
+        "rescued_mechanisms": [
+          {
+            "id": "M22",
+            "text": "Increased MTTP-dependent assembly and basolateral secretion of APOB-100-containing, SOAT1-derived ch"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M06",
+            "text": "Misregulated HFE-HAMP signaling represses SLC40A1 ferroportin and saturates FTL ferritin sequestrati"
+          }
+        ]
+      },
+      "dAMD_blind_R2": {
+        "gamma_primacy": 1.6471,
+        "gamma_se": 0.4572,
+        "odds_ratio_slotA": 5.192,
+        "raw_top10_decades": [
+          6,
+          2,
+          2
+        ],
+        "adj_top10_decades": [
+          5,
+          3,
+          2
+        ],
+        "kendall_tau_raw_vs_adj": 0.0437,
+        "rescued_mechanisms": [
+          {
+            "id": "M15",
+            "text": "Misfolded EFEMP1 (fibulin-3) accumulates between the RPE and Bruch's membrane, triggering HSPA5-asso"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M01",
+            "text": "Excess visual-cycle retinoid flux through RPE65 and RLBP1 with inadequate ABCA4-mediated retinaldehy"
+          }
+        ]
+      },
+      "dAMD_blind_R3": {
+        "gamma_primacy": 1.0975,
+        "gamma_se": 0.2712,
+        "odds_ratio_slotA": 2.997,
+        "raw_top10_decades": [
+          5,
+          4,
+          1
+        ],
+        "adj_top10_decades": [
+          2,
+          6,
+          2
+        ],
+        "kendall_tau_raw_vs_adj": 0.3241,
+        "rescued_mechanisms": [
+          {
+            "id": "M24",
+            "text": "Increased MTTP-dependent assembly and basolateral secretion of APOB100-containing lipoprotein partic"
+          },
+          {
+            "id": "M13",
+            "text": "Failure of PINK1-PRKN- and BNIP3L-dependent mitophagy causes accumulation of depolarized mitochondri"
+          },
+          {
+            "id": "M19",
+            "text": "Loss-of-function in the TREM2-TYROBP module renders microglia defective in lipid handling and phagoc"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M00",
+            "text": "The CFH Y402H risk variant binds heparan sulfate proteoglycans in Bruch's membrane with reduced affi"
+          },
+          {
+            "id": "M04",
+            "text": "The CFH Y402H variant fails to restrain intracellular alternative-pathway C3 tickover in RPE endolys"
+          },
+          {
+            "id": "M08",
+            "text": "NCOA4-mediated ferritinophagy combined with TFRC-driven iron uptake elevates labile iron while GPX4 "
+          }
+        ]
+      },
+      "dAMD_retrieval_R1": {
+        "gamma_primacy": 0.7599,
+        "gamma_se": 0.2732,
+        "odds_ratio_slotA": 2.138,
+        "raw_top10_decades": [
+          7,
+          2,
+          1
+        ],
+        "adj_top10_decades": [
+          5,
+          2,
+          3
+        ],
+        "kendall_tau_raw_vs_adj": 0.3103,
+        "rescued_mechanisms": [
+          {
+            "id": "M23",
+            "text": "Defective GAS6/MERTK (TAM receptor) signaling in aging RPE and macrophages impairs efferocytosis of "
+          },
+          {
+            "id": "M20",
+            "text": "Oxidative DNA damage (8-oxoG) in RPE triggers PARP1 hyperactivation with PAR-branch accumulation exc"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M06",
+            "text": "Excess RPE65-driven visual-cycle flux generates all-trans-retinaldehyde faster than ABCA4, RDH8, RDH"
+          },
+          {
+            "id": "M04",
+            "text": "Drusen-borne priming stimuli (C1q, A2E, amyloid-beta) and photooxidized bisretinoid-driven lysosomal"
+          }
+        ]
+      },
+      "dAMD_retrieval_R2": {
+        "gamma_primacy": 1.0777,
+        "gamma_se": 0.3341,
+        "odds_ratio_slotA": 2.938,
+        "raw_top10_decades": [
+          6,
+          2,
+          2
+        ],
+        "adj_top10_decades": [
+          4,
+          2,
+          4
+        ],
+        "kendall_tau_raw_vs_adj": -0.1034,
+        "rescued_mechanisms": [
+          {
+            "id": "M25",
+            "text": "An elevated TIMP3-to-MMP2/MMP9 activity ratio in aging Bruch's membrane, exaggerated in Sorsby fundu"
+          },
+          {
+            "id": "M20",
+            "text": "CNN2 haploinsufficiency in subretinal myeloid cells exaggerates macrophage adhesion while impairing "
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M00",
+            "text": "Loss-of-function variants in complement regulators CFI and CFH together with gain-of-function C3/CFB"
+          },
+          {
+            "id": "M01",
+            "text": "Age-related decline of DICER1 ribonuclease activity in RPE permits accumulation of cytotoxic Alu ret"
+          }
+        ]
+      },
+      "dAMD_retrieval_R3": {
+        "gamma_primacy": 1.7244,
+        "gamma_se": 0.3493,
+        "odds_ratio_slotA": 5.609,
+        "raw_top10_decades": [
+          8,
+          2,
+          0
+        ],
+        "adj_top10_decades": [
+          5,
+          3,
+          2
+        ],
+        "kendall_tau_raw_vs_adj": 0.1172,
+        "rescued_mechanisms": [
+          {
+            "id": "M14",
+            "text": "Oxidative-stress-induced loss of RPE surface CD59 permits terminal complement C5b-9 (C5-C9) assembly"
+          },
+          {
+            "id": "M25",
+            "text": "Reduced ABCA1-mediated cholesterol efflux combined with LIPC and CETP risk-allele-driven HDL remodel"
+          },
+          {
+            "id": "M21",
+            "text": "AMD-risk CNN2 loss-of-function in mononuclear phagocytes increases RHOA/ROCK1-dependent podosome for"
+          },
+          {
+            "id": "M18",
+            "text": "Defective GAS6-AXL/MERTK signaling in RPE and mononuclear phagocytes reduces efferocytosis of apopto"
+          }
+        ],
+        "evicted_mechanisms": [
+          {
+            "id": "M04",
+            "text": "Retinal iron overload from HAMP/hepcidin and CP ferroxidase insufficiency plus FTH1 ferritin depleti"
+          },
+          {
+            "id": "M09",
+            "text": "CDKN2A/p16-driven stress-induced senescence in RPE produces a SASP (IL6, CXCL8, CXCL10, MMP3) that c"
+          },
+          {
+            "id": "M00",
+            "text": "Intracellular alternative complement pathway amplification in RPE cells, whereby C3 is cleaved intra"
+          },
+          {
+            "id": "M12",
+            "text": "AMD-associated CFH Y402H and CFI loss-of-function combined with CFB/C2 gain-of-function unleash unco"
+          }
+        ]
+      }
+    },
+    "tournament_II_debiased_btl": {
+      "ALS_blind_R1": {
+        "t2_gamma_primacy": 1.4365,
+        "t2_odds_ratio_slotA": 4.206,
+        "raw_top5": [
+          "C01",
+          "C03",
+          "C09",
+          "C02",
+          "C06"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C03",
+          "C09",
+          "C02",
+          "C06"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C03",
+          "C09",
+          "C06",
+          "C02"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "ALS_blind_R2": {
+        "t2_gamma_primacy": 1.8699,
+        "t2_odds_ratio_slotA": 6.488,
+        "raw_top5": [
+          "C01",
+          "C03",
+          "C07",
+          "C06",
+          "C10"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C03",
+          "C07",
+          "C06",
+          "C10"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C03",
+          "C07",
+          "C06",
+          "C10"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "ALS_blind_R3": {
+        "t2_gamma_primacy": 1.8863,
+        "t2_odds_ratio_slotA": 6.595,
+        "raw_top5": [
+          "C01",
+          "C02",
+          "C03",
+          "C08",
+          "C09"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C02",
+          "C03",
+          "C08",
+          "C04"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C02",
+          "C03",
+          "C08",
+          "C10"
+        ],
+        "kendall_tau_raw_vs_debiased": 0.5556,
+        "top5_changed": true
+      },
+      "ALS_retrieval_R1": {
+        "t2_gamma_primacy": 1.3552,
+        "t2_odds_ratio_slotA": 3.878,
+        "raw_top5": [
+          "C01",
+          "C09",
+          "C06",
+          "C02",
+          "C10"
+        ],
+        "debiased_top5": [
+          "C02",
+          "C03",
+          "C01",
+          "C05",
+          "C06"
+        ],
+        "order_adj_top5": [
+          "C02",
+          "C03",
+          "C01",
+          "C05",
+          "C06"
+        ],
+        "kendall_tau_raw_vs_debiased": -0.0222,
+        "top5_changed": true
+      },
+      "ALS_retrieval_R2": {
+        "t2_gamma_primacy": 1.6975,
+        "t2_odds_ratio_slotA": 5.46,
+        "raw_top5": [
+          "C01",
+          "C05",
+          "C07",
+          "C10",
+          "C08"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C05",
+          "C07",
+          "C10",
+          "C08"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C05",
+          "C07",
+          "C10",
+          "C08"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "ALS_retrieval_R3": {
+        "t2_gamma_primacy": 1.42,
+        "t2_odds_ratio_slotA": 4.137,
+        "raw_top5": [
+          "C01",
+          "C07",
+          "C03",
+          "C04",
+          "C10"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C07",
+          "C03",
+          "C04",
+          "C02"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C07",
+          "C03",
+          "C04",
+          "C10"
+        ],
+        "kendall_tau_raw_vs_debiased": 0.3333,
+        "top5_changed": true
+      },
+      "dAMD_blind_R1": {
+        "t2_gamma_primacy": 1.4556,
+        "t2_odds_ratio_slotA": 4.287,
+        "raw_top5": [
+          "C04",
+          "C01",
+          "C08",
+          "C07",
+          "C03"
+        ],
+        "debiased_top5": [
+          "C04",
+          "C01",
+          "C08",
+          "C07",
+          "C03"
+        ],
+        "order_adj_top5": [
+          "C04",
+          "C01",
+          "C08",
+          "C07",
+          "C03"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "dAMD_blind_R2": {
+        "t2_gamma_primacy": 1.5205,
+        "t2_odds_ratio_slotA": 4.574,
+        "raw_top5": [
+          "C09",
+          "C04",
+          "C05",
+          "C01",
+          "C07"
+        ],
+        "debiased_top5": [
+          "C09",
+          "C04",
+          "C05",
+          "C01",
+          "C07"
+        ],
+        "order_adj_top5": [
+          "C09",
+          "C04",
+          "C05",
+          "C07",
+          "C01"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "dAMD_blind_R3": {
+        "t2_gamma_primacy": 1.2965,
+        "t2_odds_ratio_slotA": 3.656,
+        "raw_top5": [
+          "C10",
+          "C01",
+          "C04",
+          "C09",
+          "C02"
+        ],
+        "debiased_top5": [
+          "C10",
+          "C01",
+          "C04",
+          "C09",
+          "C02"
+        ],
+        "order_adj_top5": [
+          "C10",
+          "C01",
+          "C04",
+          "C09",
+          "C03"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "dAMD_retrieval_R1": {
+        "t2_gamma_primacy": 2.6401,
+        "t2_odds_ratio_slotA": 14.015,
+        "raw_top5": [
+          "C01",
+          "C10",
+          "C02",
+          "C06",
+          "C07"
+        ],
+        "debiased_top5": [
+          "C01",
+          "C10",
+          "C02",
+          "C06",
+          "C07"
+        ],
+        "order_adj_top5": [
+          "C01",
+          "C10",
+          "C02",
+          "C06",
+          "C07"
+        ],
+        "kendall_tau_raw_vs_debiased": 1.0,
+        "top5_changed": false
+      },
+      "dAMD_retrieval_R2": {
+        "t2_gamma_primacy": 1.7189,
+        "t2_odds_ratio_slotA": 5.578,
+        "raw_top5": [
+          "C03",
+          "C04",
+          "C08",
+          "C07",
+          "C01"
+        ],
+        "debiased_top5": [
+          "C03",
+          "C04",
+          "C08",
+          "C01",
+          "C07"
+        ],
+        "order_adj_top5": [
+          "C03",
+          "C04",
+          "C08",
+          "C07",
+          "C01"
+        ],
+        "kendall_tau_raw_vs_debiased": 0.5111,
+        "top5_changed": true
+      },
+      "dAMD_retrieval_R3": {
+        "t2_gamma_primacy": 2.1814,
+        "t2_odds_ratio_slotA": 8.858,
+        "raw_top5": [
+          "C06",
+          "C10",
+          "C05",
+          "C03",
+          "C04"
+        ],
+        "debiased_top5": [
+          "C06",
+          "C10",
+          "C03",
+          "C05",
+          "C04"
+        ],
+        "order_adj_top5": [
+          "C06",
+          "C10",
+          "C05",
+          "C03",
+          "C04"
+        ],
+        "kendall_tau_raw_vs_debiased": 0.8222,
+        "top5_changed": true
+      }
+    }
+  }
+}

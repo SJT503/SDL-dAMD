@@ -1,0 +1,176 @@
+{
+  "task": "A5_Part1_Tier2_100Slot_Expert_Audit_and_Verbatim_CoT_Boxes",
+  "elapsed_sec": 0.33,
+  "tier2_100slot_expert_audit": {
+    "n_slots_audited": 100,
+    "expert_true_on_topic_count": 21,
+    "expert_true_trojan_count": 79,
+    "tier2_v1_prereg_blunt_metrics": {
+      "tp_trojan": 58,
+      "fp_trojan": 0,
+      "fn_trojan": 21,
+      "tn_on_topic": 21,
+      "precision_pct": 100.0,
+      "precision_95ci": [
+        93.79,
+        100.0
+      ],
+      "recall_pct": 73.42,
+      "recall_95ci": [
+        62.76,
+        81.91
+      ],
+      "specificity_pct": 100.0,
+      "f1": 0.8467,
+      "accuracy_pct": 79.0,
+      "cohen_kappa": 0.537
+    },
+    "tier2_v2_entity_anchored_metrics": {
+      "tp_trojan": 79,
+      "fp_trojan": 9,
+      "fn_trojan": 0,
+      "tn_on_topic": 12,
+      "precision_pct": 89.77,
+      "precision_95ci": [
+        81.69,
+        94.53
+      ],
+      "recall_pct": 100.0,
+      "recall_95ci": [
+        95.36,
+        100.0
+      ],
+      "specificity_pct": 57.14,
+      "f1": 0.9461,
+      "accuracy_pct": 91.0,
+      "cohen_kappa": 0.6781
+    },
+    "adjacent_pmid_hallucination_examples": [
+      {
+        "idx": 10,
+        "context": "Anemia, Sickle Cell",
+        "pmid": "16291596",
+        "claim_excerpt": "Kato et al. (Blood 2006) showed that elevated lactate dehydrogenase, a surrogate of hemolytic rate, predicts NO resistance, priapism, leg ulceration, pulmonary ",
+        "actual_pubmed_title": "Apaf-1 and caspase-9 are required for cytokine withdrawal-induced apoptosis of mast cells but dispensable for their functional and clonogenic death.",
+        "journal_year": "Blood (2006)",
+        "spurious_v1_matched_words": "death; dysfunction; rate",
+        "caught_by_entity_v2": true
+      },
+      {
+        "idx": 18,
+        "context": "Pelizaeus-Merzbacher Disease",
+        "pmid": "12112047",
+        "claim_excerpt": "Patients with null PLP1 mutations exhibit not only dysmyelination but also progressive, length-dependent axonal degeneration in long CNS tracts, demonstrating t",
+        "actual_pubmed_title": "Minocycline markedly protects the neonatal brain against hypoxic-ischemic injury.",
+        "journal_year": "Ann Neurol (2002)",
+        "spurious_v1_matched_words": "degenerative; not",
+        "caught_by_entity_v2": true
+      },
+      {
+        "idx": 19,
+        "context": "Atrial Fibrillation",
+        "pmid": "15016733",
+        "claim_excerpt": "Identifies Ser2814 (Ser2815 in mouse) on RyR2 as the CaMKII phosphorylation site and shows that phosphorylation at this residue increases RyR2 channel open prob",
+        "actual_pubmed_title": "GIT1 mediates thrombin signaling in endothelial cells: role in turnover of RhoA-type focal adhesions.",
+        "journal_year": "Circ Res (2004)",
+        "spurious_v1_matched_words": "increases; phosphorylation; vein",
+        "caught_by_entity_v2": true
+      },
+      {
+        "idx": 21,
+        "context": "Gaucher Disease",
+        "pmid": "7929825",
+        "claim_excerpt": "Demonstrates massive elevation of plasma chitotriosidase, a macrophage-derived enzyme, establishing activated lipid-laden macrophages as the principal storage a",
+        "actual_pubmed_title": "Relationship between the coenzyme A and the carnitine pools in human skeletal muscle at rest and after exhaustive exercise under normoxic and acutely hypoxic conditions.",
+        "journal_year": "J Clin Invest (1994)",
+        "spurious_v1_matched_words": "enzyme; plasma; skeletal",
+        "caught_by_entity_v2": true
+      },
+      {
+        "idx": 23,
+        "context": "Leber Congenital Amaurosis",
+        "pmid": "9843203",
+        "claim_excerpt": "Freund et al. reported de novo heterozygous CRX mutations, including frameshift alleles in the homeobox, in patients with Leber congenital amaurosis, establishi",
+        "actual_pubmed_title": "The Human Genome Project after a decade: policy issues.",
+        "journal_year": "Nat Genet (1998)",
+        "spurious_v1_matched_words": "consensus; formation; genetic",
+        "caught_by_entity_v2": true
+      }
+    ],
+    "annotated_csv_path": "D:\\Papers\\Robin_Nature_2026\\BiB_work_2026-09-02\\GEN2_exec\\analysis\\expert_audit_tier2_100_annotated.csv"
+  },
+  "verbatim_cot_case_boxes": {
+    "box1_t2_order_rationalization": {
+      "failure_mode": "Tournament II Order-Induced Directional Rationalization",
+      "run_id": "ALS_blind_R1",
+      "pair_candidates": [
+        "GSK3B-driven restoration of the VAPB-RMDN3 ER-mitochondria tether",
+        "ADARB1 restoration to correct GRIA2 Q/R editing"
+      ],
+      "forward_call_id": "parent/ALS_blind_R1/step4/19_a_j1",
+      "forward_reasoning_tokens": 6703,
+      "forward_winner": "Slot A (GSK3B-driven restoration of the VAPB-RMDN3 ER-mitochondria tether)",
+      "forward_verdict_reasoning_excerpt": "Science goes to B: the ADARB1-GRIA2 editing axis has a nearly closed causal loop, with Adar2 loss demonstrated as sufficient for progressive motor neuron degeneration in vivo, unedited Gria2 sufficient for excitotoxic death, and the Q/R editing deficit consistently replicated in human ALS spinal cord, whereas A's elegant TDP-43 to GSK3B to VAPB-RMDN3 to bioenergetics chain contains more individual links that have not each been causally validated ",
+      "forward_cot_excerpt": "Let me evaluate both candidates carefully.\n\nCandidate A: GSK3B-driven restoration of the VAPB-RMDN3 ER-mitochondria tether\n- Mechanism: GSK3B phosphorylates VAPB, dissolving VAPB-RMDN3 ER-mito tether, reducing Ca2+/phospholipid transfer via ITPR3-VDAC1, depressing OXPHOS.\n- Rationale: VAPB mutations cause ALS8; TDP-43/FUS pathology activates GSK3B; tether loss reduces mitochondrial Ca2+ uptake and ATP.\n- Feasibility: iPSC motor neurons, PLA/FRET,",
+      "reverse_call_id": "parent/ALS_blind_R1/step4/19_b_j1",
+      "reverse_reasoning_tokens": 4935,
+      "reverse_winner": "Slot A (ADARB1 restoration to correct GRIA2 Q/R editing)",
+      "reverse_verdict_reasoning_excerpt": "Science: A rests on two decades of causal evidence — GRIA2 Q/R underediting is reproducibly found in sporadic ALS spinal motor neurons, motor-neuron Adarb1 loss is sufficient to trigger degeneration, and the Ca2+-permeable AMPAR to calpain/caspase cascade is functionally closed-loop; B's GSK3B-VAPB-RMDN3 tether mechanism is specific and anchored by ALS8 genetics and TDP-43 linkage, but rests largely on cell-culture data and tether loss alone has ",
+      "reverse_cot_excerpt": "Let me evaluate both candidates carefully.\n\nCandidate A: ADARB1 restoration to correct GRIA2 Q/R editing.\n- Mechanism: ADARB1 (ADAR2) loss → GRIA2 (GluR2) Q/R site unedited → Ca2+-permeable AMPA receptors → excitotoxicity in motor neurons. This is a well-known mechanism in ALS research. The ADAR2/GluR2 story was published by Kwak, Kawahara et al. (Nature 2010, \"ADAR2 misediting in motor neurons\"?). Actually the key paper: Kwak et al., \"ADAR2 mise"
+    },
+    "box2_expB_pmid_spin_vs_gate": {
+      "failure_mode": "Experiment B Parametric PMID Guessing Spin vs Epistemic Gate + Entrez Handoff",
+      "domain_hypothesis": "B06_h1 (Sickle Cell Anemia -- HBB Glu6Val / HbS polymerization)",
+      "as_discovered_call_id": "expB/glm/stage2/as_discovered/B06/h1",
+      "as_discovered_reasoning_tokens": 8550,
+      "as_discovered_cot_excerpt": "The user wants 6 published references supporting the HbS polymerization/sickling hypothesis, with PMIDs, from memory. I need to recall key papers and their PMIDs as accurately as possible.\n\nKey foundational papers:\n\n1. Pauling, Itano, Singer, Wells (1949) \"Sickle cell anemia, a molecular disease\" Science. PMID: 15394139? Actually, Science 1949;110:543-548. PMID is 15394139. Let me recall — many citations list PMID 15394139 for Pauling et al. 1949. Yes, that's widely cited: PMID 15394139.\n\n2. Ingram (1956) \"Specific chemical difference between t",
+      "gated_call_id": "expB/glm/stage2/gated/B06/h1",
+      "gated_reasoning_tokens": 4647,
+      "gated_cot_excerpt": "The user is asking me to provide 6 published references with PMIDs supporting the sickle cell disease mechanism hypothesis, but with a strict \"grounding gate\" constraint: I can only emit a PMID if I have \"retrieved the actual record and confirmed that it exists and that its content supports the claim.\"\n\nI don't have the ability to retrieve records in real-time. I don't have access to PubMed or any database in this context (no tools are provided). So I cannot literally retrieve records. However, I do have training knowledge of well-known landmar",
+      "entrez_handoff_query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"HBB\"[Title/Abstract] OR \"Glu6Val\"[Title/Abstract] OR \"HbS\"[Title/Abstract] OR \"Val6\"[Title/Abstract] OR \"Phe85\"[Title/Abstract])",
+      "entrez_handoff_top_pmids": [
+        "27637966",
+        "32189305",
+        "38049242",
+        "27820943",
+        "33461216",
+        "34079130"
+      ]
+    },
+    "box3a_expC_self_pruning_overwrite": {
+      "subtype": "Self-Pruning Overwrite on Completed 10-Gene List",
+      "call_id": "expC_v4/deepseek/del_lowIC_matched/d0/V112/r1",
+      "vendor": "deepseek",
+      "pair_id": "V112",
+      "true_gene": "TCF3",
+      "first_mention_relative_depth_pct": 2.0,
+      "reasoning_tokens": 32085,
+      "emitted_final_predictions": [
+        "DNMT3B",
+        "ZBTB24",
+        "CDCA7",
+        "HELLS",
+        "LIG4",
+        "NBN",
+        "BLM",
+        "FANCA",
+        "ATM",
+        "RAG1"
+      ],
+      "early_cot_recognition_snippet": "phic? no.\n\n\"WHIM syndrome\"? AD.\n\nAgammaglobulinemia AR: genes: BTK (X-linked), IGHM, IGLL1, CD79A, CD79B, BLNK, PIK3R1, TCF3. Autosomal recessive agammaglobulinemia. Features: absent B cells, recurrent infections, no dysmorphic? Some have no dysmorphic. B-ALL? Maybe TCF3? \"Autosomal recessive agammaglobulinemia\" with failure to thrive, recurrent infections, decreased immunoglobulins, decreased B cells. But dysmorphic",
+      "late_cot_overwrite_snippet": ", B-ALL/lymphoma, chronic diarrhea? no, facial? no, pancytopenia? no. \nFanconi has more HPO terms (facial, pancytopenia, anemia). ATM has immune terms. Which is more distinctive? The facial dysmorphism terms are six; Fanconi matches some. So FANCA > ATM. Good.\n\nLet's final with list.\n\nDouble-check: The prompt says \"Output only a numbered list of HGNC gene symbols, one per line, with no explanation.\" We must comply. Use numbers 1-10.\n\nLet's final."
+    },
+    "box3b_expC_32k_ceiling_rescue": {
+      "subtype": "32k-Token Ceiling Spin Rescued by CoT-SRAD Module 4a",
+      "call_id": "expC_v4/deepseek/del_lowIC_matched/d0/V044/r2",
+      "vendor": "deepseek",
+      "pair_id": "V044",
+      "true_gene": "MYH3",
+      "first_mention_relative_depth_pct": 1.39,
+      "reasoning_tokens": 18584,
+      "emitted_final_predictions": [],
+      "early_cot_recognition_snippet": "set eyes, downslanting palpebral fissures, ptosis, ulnar deviation of hands, camptodactyly, clubfoot, scoliosis? Causal MYH3. Also distal arthrogryposis type 1? TPM2, MYBPC1, TNNI2, TNNT3? Features overlap.\n\nAdducted thumb, clubfoot, tall? \"Adducted thumb\" plus clubfoot, narrow mouth, triangular face? Could be \"Marden-Walker syndrome\"? Autosomal recessive? Not.\n\nPtosis, downslanting, adducted thumb, camptodactyly, cl",
+      "ceiling_termination_tail_snippet": "be.\n- PIEZO2? Gordon syndrome has hallux valgus? maybe, adducted thumb? no.\n- MYH8? no.\n- FBN2? no.\n- CHST14? yes.\n- ECEL1? maybe.\nFLNB? hallux valgus? maybe, adducted thumb? no.\nThus CHST14 definitely.\n\n\"Ptosis\" is in:\n- MYH3 FSS yes\n- TPM2? DA5B maybe\n- TNNI2/TNNT3? maybe\n- ECEL1 yes\n- CHST14? maybe not\n- FLNB no\nThus ECEL1.\n\nGiven both CHST14 and ECEL1 likely in top 10. So final list with both. Good.\n\nLet's final."
+    }
+  }
+}

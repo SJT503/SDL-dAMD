@@ -1,0 +1,1975 @@
+{
+  "three_locks": {
+    "first_fig_order": [
+      [
+        "Figure 1",
+        23
+      ],
+      [
+        "Figure 2",
+        37
+      ],
+      [
+        "Figure 3",
+        44
+      ],
+      [
+        "Figure 4",
+        53
+      ],
+      [
+        "Figure 5",
+        60
+      ],
+      [
+        "Figure 6",
+        67
+      ]
+    ],
+    "placeholders": [
+      [
+        27,
+        "Figure 1"
+      ],
+      [
+        39,
+        "Figure 2"
+      ],
+      [
+        46,
+        "Figure 3"
+      ],
+      [
+        55,
+        "Figure 4"
+      ],
+      [
+        62,
+        "Figure 5"
+      ],
+      [
+        69,
+        "Figure 6"
+      ]
+    ],
+    "ph_equals_first_fig_order": true,
+    "ph_strictly_after_first_mention": {
+      "Figure 1": [
+        true,
+        23,
+        27
+      ],
+      "Figure 2": [
+        true,
+        37,
+        39
+      ],
+      "Figure 3": [
+        true,
+        44,
+        46
+      ],
+      "Figure 4": [
+        true,
+        53,
+        55
+      ],
+      "Figure 5": [
+        true,
+        60,
+        62
+      ],
+      "Figure 6": [
+        true,
+        67,
+        69
+      ]
+    },
+    "first_ext_fig": [
+      [
+        "Extended Data Figure 1",
+        81
+      ]
+    ],
+    "first_ext_tab": [
+      [
+        "Extended Data Table 1",
+        21
+      ],
+      [
+        "Extended Data Table 2",
+        34
+      ]
+    ],
+    "first_supp_note": [
+      [
+        "Supplementary Note 1",
+        32
+      ],
+      [
+        "Supplementary Note 2",
+        37
+      ],
+      [
+        "Supplementary Note 3",
+        67
+      ]
+    ],
+    "first_supp_tab": [
+      [
+        "Supplementary Table S1",
+        32
+      ],
+      [
+        "Supplementary Table S2",
+        32
+      ],
+      [
+        "Supplementary Table S3",
+        32
+      ],
+      [
+        "Supplementary Table S4",
+        32
+      ],
+      [
+        "Supplementary Table S5",
+        57
+      ],
+      [
+        "Supplementary Table S6",
+        64
+      ],
+      [
+        "Supplementary Table S7",
+        74
+      ]
+    ],
+    "legend_headers": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "ext_headers": [
+      "Extended Data Figure 1",
+      "Extended Data Table 1",
+      "Extended Data Table 2"
+    ],
+    "panel_mentions_in_text": {
+      "Figure 1": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 2": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 3": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 4": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 5": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 6": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "legend_panels": {
+      "Figure 1": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 2": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 3": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 4": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 5": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "Figure 6": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    "docx_placeholders": [
+      "[INSERT FIGURE 1 ABOUT HERE]",
+      "[INSERT FIGURE 2 ABOUT HERE]",
+      "[INSERT FIGURE 3 ABOUT HERE]",
+      "[INSERT FIGURE 4 ABOUT HERE]",
+      "[INSERT FIGURE 5 ABOUT HERE]",
+      "[INSERT FIGURE 6 ABOUT HERE]"
+    ],
+    "docx_tables": 2,
+    "docx_embedded_figures": 7,
+    "body_citation_first_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69
+    ],
+    "all_citation_first_order": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      0
+    ],
+    "all_citations_strictly_1_to_69": false
+  },
+  "references": [
+    {
+      "num": 1,
+      "raw": "Boiko DA, MacKnight R, Kline B, Gomes G. Autonomous chemical research with large language models. *Nature* 624, 570-578 (2023). DOI:10.1038/s41586-023-06792-0. PMID:38123806",
+      "first_author": "Boiko",
+      "title": "Autonomous chemical research with large language models",
+      "journal": "Nature",
+      "year": "2023",
+      "doi": "10.1038/s41586-023-06792-0",
+      "pmid": "38123806",
+      "contexts": [
+        "Autonomous scientific discovery systems powered by large language models (LLMs) have evolved from single-step reaction planners [1, 2] into multi-agent architectures that formulate mechanistic hypotheses, rank candidates through pairwise tournaments, and synthesize experimental protocols [3–5].",
+        "**(C)** Continuous DeBERTa-v3 natural language inference (NLI) contradiction tail-probability curves $P(P_{\\text{contra}} > \\tau)$ across threshold $\\tau \\in [0, 1]$ on de-aliased Tournament II `SCIENCE` judge rationales ($n = 480$ pairs), highlighting the shaded excess contradiction area between primacy-flipped pairs ($n = 240$; directional rate $25.4\\%$ vs $10.0\\%$ at $\\tau = 0.75$, $2.54\\times$, $p = 1.15 \\times 10^{-5}$; strict bidirectional $7.1\\%$ vs $2.1\\%$, $3.40\\times$, $p = 0.0142$) and content-consistent pairs ($n = 240$)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Autonomous chemical research with large language models",
+      "official_year": "2023",
+      "official_first_author": "Boiko",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-023-06792-0",
+      "abstract_snippet": "Transformer-based large language models are making significant strides in various fields, such as natural language processing1-5, biology6,7, chemistry8-10 and computer programming11,12. Here, we show the development and capabilities of Coscientist, an artificial intelligence system driven by GPT-4 that autonomously designs, plans and performs complex experiments by incorporating large language models empowered by tools such as internet and documentation search, code execution and experimental automation. Coscientist showcases its potential for accelerating research across six diverse tasks, including the successful reaction optimization of palladium-catalysed cross-couplings, while exhibiti",
+      "issues": []
+    },
+    {
+      "num": 2,
+      "raw": "M Bran A, Cox S, Schilter O, Baldassari C, White AD, Schwaller P. Augmenting large language models with chemistry tools. *Nat Mach Intell* 6, 525-535 (2024). DOI:10.1038/s42256-024-00832-8. PMID:38799228",
+      "first_author": "M",
+      "title": "Augmenting large language models with chemistry tools",
+      "journal": "Nat Mach Intell",
+      "year": "2024",
+      "doi": "10.1038/s42256-024-00832-8",
+      "pmid": "38799228",
+      "contexts": [
+        "Autonomous scientific discovery systems powered by large language models (LLMs) have evolved from single-step reaction planners [1, 2] into multi-agent architectures that formulate mechanistic hypotheses, rank candidates through pairwise tournaments, and synthesize experimental protocols [3–5]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Augmenting large language models with chemistry tools",
+      "official_year": "2024",
+      "official_first_author": "M",
+      "official_journal": "Nat Mach Intell",
+      "official_doi": "10.1038/s42256-024-00832-8",
+      "abstract_snippet": "Large language models (LLMs) have shown strong performance in tasks across domains but struggle with chemistry-related problems. These models also lack access to external knowledge sources, limiting their usefulness in scientific applications. We introduce ChemCrow, an LLM chemistry agent designed to accomplish tasks across organic synthesis, drug discovery and materials design. By integrating 18 expert-designed tools and using GPT-4 as the LLM, ChemCrow augments the LLM performance in chemistry, and new capabilities emerge. Our agent autonomously planned and executed the syntheses of an insect repellent and three organocatalysts and guided the discovery of a novel chromophore. Our evaluatio",
+      "issues": []
+    },
+    {
+      "num": 3,
+      "raw": "Ghareeb AE, Chang B, Mitchener L, Yiu A, Szostkiewicz CJ, Shved D, et al. A multi-agent system for automating scientific discovery. *Nature* (2026). DOI:10.1038/s41586-026-10652-y. PMID:42156546",
+      "first_author": "Ghareeb",
+      "title": "A multi-agent system for automating scientific discovery",
+      "journal": "Nature",
+      "year": "2026",
+      "doi": "10.1038/s41586-026-10652-y",
+      "pmid": "42156546",
+      "contexts": [
+        "Autonomous scientific discovery systems powered by large language models (LLMs) have evolved from single-step reaction planners [1, 2] into multi-agent architectures that formulate mechanistic hypotheses, rank candidates through pairwise tournaments, and synthesize experimental protocols [3–5].",
+        "Isolated wet-lab hits demonstrate the promise of this architecture [3], yet a foundational methodological question remains unresolved: before committing experimental capital, how can researchers verify whether an agentic pipeline's internal reasoning, tournament ranking, and evidentiary citations are trustworthy?",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **Robin** [3] | Multi-agent discovery & wet-lab closure (dAMD) | Generates & ranks (un-audited baseline) | No (as-emitted references) | No | Standard BTL (no $\\gamma$ intercept correction) | No | No | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "A multi-agent system for automating scientific discovery",
+      "official_year": "2026",
+      "official_first_author": "Ghareeb",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-026-10652-y",
+      "abstract_snippet": "Scientific discovery is driven by the iterative process of observation, hypothesis generation, experimentation and data analysis. Despite recent advancements in applying artificial intelligence (AI) to biology, no system has yet automated all these stages1-3. Here we introduce Robin, a multi-agent system capable of fully automating both hypothesis generation and data analysis for experimental biology. By integrating literature search agents with data analysis agents, Robin can generate hypotheses, propose experiments, interpret experimental results and generate updated hypotheses, achieving a semi-autonomous approach to scientific discovery. By applying this system, we were able to identify ",
+      "issues": []
+    },
+    {
+      "num": 4,
+      "raw": "Gottweis J, Weng WH, Daryin A, Tu T, Sirkovic P, Myaskovsky A, et al. Accelerating scientific discovery with Co-Scientist. *Nature* (2026). DOI:10.1038/s41586-026-10644-y. PMID:42156544",
+      "first_author": "Gottweis",
+      "title": "Accelerating scientific discovery with Co-Scientist",
+      "journal": "Nature",
+      "year": "2026",
+      "doi": "10.1038/s41586-026-10644-y",
+      "pmid": "42156544",
+      "contexts": [
+        "Autonomous scientific discovery systems powered by large language models (LLMs) have evolved from single-step reaction planners [1, 2] into multi-agent architectures that formulate mechanistic hypotheses, rank candidates through pairwise tournaments, and synthesize experimental protocols [3–5].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **Co-Scientist** [4] | Multi-agent hypothesis & Elo tournament | Generates & ranks (un-audited baseline) | Partial retrieval, no epistemic gate | No | Standard Elo tournament | No | No | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Accelerating scientific discovery with Co-Scientist",
+      "official_year": "2026",
+      "official_first_author": "Gottweis",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-026-10644-y",
+      "abstract_snippet": "Scientific discovery is driven by scientists generating hypotheses for complex problems that undergo rigorous experimental validation. To augment this process, we introduce Co-Scientist, a multi-agent artificial intelligence (AI) system built on Gemini for structured scientific thinking and hypothesis generation. Co-Scientist aims to help scientists discover new original knowledge. Conditioned on their research objectives and previous scientific evidence, it formulates demonstrably novel research hypotheses for experimental verification. The system's design involves agents continuously generating, critiquing and refining hypotheses accelerated by scaling test-time compute. Key contributions ",
+      "issues": []
+    },
+    {
+      "num": 5,
+      "raw": "Branda F, Ahmed MM, Ciccozzi M, Guzzi PH, Scarpa F. The next paradigm in bioinformatics: a review of multi-agent systems and foundational models for end-to-end scientific discovery. *Brief Bioinform* 27, bbag245 (2026). DOI:10.1093/bib/bbag245. PMID:42160738",
+      "first_author": "Branda",
+      "title": "The next paradigm in bioinformatics: a review of multi-agent systems and foundational models for end-to-end scientific discovery",
+      "journal": "Brief Bioinform",
+      "year": "2026",
+      "doi": "10.1093/bib/bbag245",
+      "pmid": "42160738",
+      "contexts": [
+        "Autonomous scientific discovery systems powered by large language models (LLMs) have evolved from single-step reaction planners [1, 2] into multi-agent architectures that formulate mechanistic hypotheses, rank candidates through pairwise tournaments, and synthesize experimental protocols [3–5]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "The next paradigm in bioinformatics: a review of multi-agent systems and foundational models for end-to-end scientific discovery",
+      "official_year": "2026",
+      "official_first_author": "Branda",
+      "official_journal": "Brief Bioinform",
+      "official_doi": "10.1093/bib/bbag245",
+      "abstract_snippet": "Bioinformatics is entering a new phase characterized by the integration of universal biological models and multi-agent systems to enable end-to-end scientific discoveries. This review argues that the next paradigm shift will go beyond traditional predictive models and generative artificial intelligence (AI) toward agentic AI: systems capable of planning, acting through tools, reflecting on results, and iterating until a goal is achieved. We first examine recent foundational models that produce transferable representations across omic modalities, such as scGPT, Nicheformer, and EpiAgent, and discuss their architectural choices, training regimes, and interpretability constraints. We then analy",
+      "issues": []
+    },
+    {
+      "num": 6,
+      "raw": "Hunter DR. MM algorithms for generalized Bradley-Terry models. *Ann Stat* 32, 384-406 (2004). DOI:10.1214/aos/1079120141",
+      "first_author": "Hunter",
+      "title": "MM algorithms for generalized Bradley-Terry models",
+      "journal": "Ann Stat",
+      "year": "2004",
+      "doi": "10.1214/aos/1079120141",
+      "pmid": null,
+      "contexts": [
+        "Across biomedical domains, leading discovery engines share a three-stage computational backbone: multi-bucket candidate ideation, pairwise judging aggregated via Bradley–Terry–Luce (BTL) or Elo strength estimation [6, 7], and literature-grounded protocol generation [8–10].",
+        "Candidate strengths $\\pi_i$ are estimated via Hunter's minorization-maximization (MM) algorithm for the Bradley–Terry–Luce model [6] with Jeffreys prior smoothing ($\\alpha = 0.5$ pseudo-wins and $\\alpha = 0.5$ pseudo-losses per compared pair), geometric-mean normalization ($\\prod_{i=1}^M \\pi_i = 1$), and $L_1$ convergence tolerance $10^{-9}$ (`btl.py`, verified against 16 unit tests in `tests/test_btl.py`)."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "MM algorithms for generalized Bradley-Terry models",
+      "official_year": "2004",
+      "official_first_author": "Hunter",
+      "official_journal": "The Annals of Statistics",
+      "official_doi": "10.1214/aos/1079120141",
+      "abstract_snippet": "The Bradley-Terry model for paired comparisons is a simple and much-studied means to describe the probabilities of the possible outcomes when individuals are judged against one another in pairs. Among the many studies of the model in the past 75 years, numerous authors have generalized it in several directions, sometimes providing iterative algorithms for obtaining maximum likelihood estimates for the generalizations. Building on a theory of algorithms known by the initials MM, for minorization-maximization, this paper presents a powerful technique for producing iterative maximum likelihood estimation algorithms or a wide class of generalizations of the Bradley-Terry model. While algorithms ",
+      "issues": []
+    },
+    {
+      "num": 7,
+      "raw": "Zheng L, Chiang WL, Sheng Y, Zhuang S, Wu Z, Zhuang Y, et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. In: *Advances in Neural Information Processing Systems (NeurIPS)* 36, 46595-46623 (2023). DOI:10.52202/075280-2020",
+      "first_author": "Zheng",
+      "title": "Zheng L, Chiang WL, Sheng Y, Zhuang S, Wu Z, Zhuang Y, et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. In: *Advances in Neural Information Processing Systems (NeurIPS)* 36, 46595-46623 (2023). DOI:10.52202/075280-2020",
+      "journal": "",
+      "year": "2023",
+      "doi": "10.52202/075280-2020",
+      "pmid": null,
+      "contexts": [
+        "Across biomedical domains, leading discovery engines share a three-stage computational backbone: multi-bucket candidate ideation, pairwise judging aggregated via Bradley–Terry–Luce (BTL) or Elo strength estimation [6, 7], and literature-grounded protocol generation [8–10].",
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20]."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 0.4015,
+      "official_title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+      "official_year": "2023",
+      "official_first_author": "Zheng",
+      "official_journal": "Advances in Neural Information Processing Systems 36",
+      "official_doi": "10.52202/075280-2020",
+      "abstract_snippet": "",
+      "issues": [
+        "Title similarity=0.40: MS='Zheng L, Chiang WL, Sheng Y, Zhuang S, Wu Z, Zhuang Y, et al. Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena. In: *Advances in Neural Information Processing Systems (NeurIPS)* 36, 46595-46623 (2023). DOI:10.52202/075280-2020' vs OFFICIAL='Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena'"
+      ]
+    },
+    {
+      "num": 8,
+      "raw": "He J, Lai H, Saigiridharan L, Ghiandoni GM, Jenei K, Gokalp U, et al. Democratising real-world drug discovery through agentic AI. *Drug Discov Today* 31, 104605 (2026). DOI:10.1016/j.drudis.2026.104605. PMID:41548711",
+      "first_author": "He",
+      "title": "Democratising real-world drug discovery through agentic AI",
+      "journal": "Drug Discov Today",
+      "year": "2026",
+      "doi": "10.1016/j.drudis.2026.104605",
+      "pmid": "41548711",
+      "contexts": [
+        "Across biomedical domains, leading discovery engines share a three-stage computational backbone: multi-bucket candidate ideation, pairwise judging aggregated via Bradley–Terry–Luce (BTL) or Elo strength estimation [6, 7], and literature-grounded protocol generation [8–10]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Democratising real-world drug discovery through agentic AI",
+      "official_year": "2026",
+      "official_first_author": "He",
+      "official_journal": "Drug Discov Today",
+      "official_doi": "10.1016/j.drudis.2026.104605",
+      "abstract_snippet": "Agentic systems that are based on large language models (LLMs) have emerged as promising tools in the chemistry domain over the past few years. Early examples included work on CoScientist, Chemcrow, and LLM-RDF, which showcased the potential of agentic systems to assist in chemical research, in the orchestration of cheminformatics tools, and in synthetic reaction development. Despite this, the current literature lacks examples of the real-world adoption of such systems in drug discovery. We present such an example by describing our work on an agentic system called ChatInvent, which has been integrated into the discovery pipeline at AstraZeneca to aid in molecular design and synthesis plannin",
+      "issues": []
+    },
+    {
+      "num": 9,
+      "raw": "Selinger DW, Wall TR, Stylianou E, Khalil EM, Gaetz J, Levy O. A framework for autonomous AI-driven drug discovery. Preprint at *bioRxiv* https://doi.org/10.1101/2024.12.17.629024 (2026). DOI:10.1101/2024.12.17.629024. PMID:42124607",
+      "first_author": "Selinger",
+      "title": "Selinger DW, Wall TR, Stylianou E, Khalil EM, Gaetz J, Levy O. A framework for autonomous AI-driven drug discovery. Preprint at *bioRxiv* https://doi.org/10.1101/2024.12.17.629024 (2026). DOI:10.1101/2024.12.17.629024. PMID:42124607",
+      "journal": "",
+      "year": "2026",
+      "doi": "10.1101/2024.12.17.629024",
+      "pmid": "42124607",
+      "contexts": [
+        "Across biomedical domains, leading discovery engines share a three-stage computational backbone: multi-bucket candidate ideation, pairwise judging aggregated via Bradley–Terry–Luce (BTL) or Elo strength estimation [6, 7], and literature-grounded protocol generation [8–10].",
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "| **Framework for AI Drug Discovery** (preprint) [9] | Target-discovery anti-retrieval benchmark | Target ranking only | No | Compound/target masking | No | No | No | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 0.3806,
+      "official_title": "A Framework for Autonomous AI-Driven Drug Discovery",
+      "official_year": "2026",
+      "official_first_author": "Selinger",
+      "official_journal": "bioRxiv",
+      "official_doi": "10.1101/2024.12.17.629024",
+      "abstract_snippet": "The exponential increase in biomedical data offers unprecedented opportunities for drug discovery, yet overwhelms traditional data analysis methods, limiting the pace of new drug development. Here we introduce a framework for autonomous artificial intelligence (AI)-driven drug discovery that integrates knowledge graphs with large language models (LLMs). It is capable of planning and carrying out automated drug discovery programs at a massive scale while providing details of its research strategy, progress, and all supporting data. At the heart of this framework lies the focal graph - a novel construct that harnesses centrality algorithms to distill vast, noisy datasets into concise, transpar",
+      "issues": [
+        "Title similarity=0.38: MS='Selinger DW, Wall TR, Stylianou E, Khalil EM, Gaetz J, Levy O. A framework for autonomous AI-driven drug discovery. Preprint at *bioRxiv* https://doi.org/10.1101/2024.12.17.629024 (2026). DOI:10.1101/2024.12.17.629024. PMID:42124607' vs OFFICIAL='A Framework for Autonomous AI-Driven Drug Discovery'"
+      ]
+    },
+    {
+      "num": 10,
+      "raw": "Xie Z, Luo M, Ye Z, Chen L, Zhu Z, Jiang J. Autonomous chemistry and materials innovation driven by scientific agents. *JACS Au* 6, 2659-2669 (2026). DOI:10.1021/jacsau.6c00213. PMID:42212086",
+      "first_author": "Xie",
+      "title": "Autonomous chemistry and materials innovation driven by scientific agents",
+      "journal": "JACS Au",
+      "year": "2026",
+      "doi": "10.1021/jacsau.6c00213",
+      "pmid": "42212086",
+      "contexts": [
+        "Across biomedical domains, leading discovery engines share a three-stage computational backbone: multi-bucket candidate ideation, pairwise judging aggregated via Bradley–Terry–Luce (BTL) or Elo strength estimation [6, 7], and literature-grounded protocol generation [8–10]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Autonomous Chemistry and Materials Innovation Driven by Scientific Agents",
+      "official_year": "2026",
+      "official_first_author": "Xie",
+      "official_journal": "JACS Au",
+      "official_doi": "10.1021/jacsau.6c00213",
+      "abstract_snippet": "Large language model (LLM)-based agents are reshaping how self-driving laboratories (SDLs) may support autonomous chemical and materials research. Although SDLs have enabled major advances in mechanized experimentation and closed-loop optimization, their scientific utility remains limited when tasks require literature-grounded reasoning, adaptive coordination, and interpretation beyond predefined search spaces. In this perspective, we examine how LLM-based agents may help bridge this gap by translating scientific intent into machine-executable workflows. We propose a five-module frameworkComprehension, Design, Execution, Analysis, and Optimizationto organize the capabilities required for a",
+      "issues": []
+    },
+    {
+      "num": 11,
+      "raw": "Athaluri SA, Manthena SV, Kesapragada VSRKM, Yarlagadda V, Dave T, Duddumpudi RTS. Exploring the boundaries of reality: investigating the phenomenon of artificial intelligence hallucination in scientific writing through ChatGPT references. *Cureus* 15, e37432 (2023). DOI:10.7759/cureus.37432. PMID:37182055",
+      "first_author": "Athaluri",
+      "title": "Exploring the boundaries of reality: investigating the phenomenon of artificial intelligence hallucination in scientific writing through ChatGPT references",
+      "journal": "Cureus",
+      "year": "2023",
+      "doi": "10.7759/cureus.37432",
+      "pmid": "37182055",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "Standard pipeline checks verify only whether an emitted PMID exists in NCBI Entrez [11, 14].",
+        "Rather than inventing fake numbers like earlier non-reasoning models [11–13], reasoning models dredge chronological PubMed prefixes to attach real off-topic papers (`11.9–76.2%` Trojan horse rates), mirroring clinical summarization findings where unanchored reasoning amplified hallucinations unless governed by abstention gates [28]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Exploring the Boundaries of Reality: Investigating the Phenomenon of Artificial Intelligence Hallucination in Scientific Writing Through ChatGPT References",
+      "official_year": "2023",
+      "official_first_author": "Athaluri",
+      "official_journal": "Cureus",
+      "official_doi": "10.7759/cureus.37432",
+      "abstract_snippet": "Background Chatbots are computer programs that use artificial intelligence (AI) and natural language processing (NLP) to simulate conversations with humans. One such chatbot is ChatGPT, which uses the third-generation generative pre-trained transformer (GPT-3) developed by OpenAI. ChatGPT has been praised for its ability to generate text, but concerns have been raised about its accuracy and precision in generating data, as well as legal issues related to references. This study aims to investigate the frequency of AI hallucination in research proposals entirely drafted by ChatGPT. Methodology An analytical design was employed to investigate AI hallucination by ChatGPT. A total of 178 referenc",
+      "issues": []
+    },
+    {
+      "num": 12,
+      "raw": "Bhattacharyya M, Miller VM, Bhattacharyya D, Miller LE. High rates of fabricated and inaccurate references in ChatGPT-generated medical content. *Cureus* 15, e39238 (2023). DOI:10.7759/cureus.39238. PMID:37337480",
+      "first_author": "Bhattacharyya",
+      "title": "High rates of fabricated and inaccurate references in ChatGPT-generated medical content",
+      "journal": "Cureus",
+      "year": "2023",
+      "doi": "10.7759/cureus.39238",
+      "pmid": "37337480",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "Rather than inventing fake numbers like earlier non-reasoning models [11–13], reasoning models dredge chronological PubMed prefixes to attach real off-topic papers (`11.9–76.2%` Trojan horse rates), mirroring clinical summarization findings where unanchored reasoning amplified hallucinations unless governed by abstention gates [28]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "High Rates of Fabricated and Inaccurate References in ChatGPT-Generated Medical Content",
+      "official_year": "2023",
+      "official_first_author": "Bhattacharyya",
+      "official_journal": "Cureus",
+      "official_doi": "10.7759/cureus.39238",
+      "abstract_snippet": "Background The availability of large language models such as Chat Generative Pre-trained Transformer (ChatGPT, OpenAI) has enabled individuals from diverse backgrounds to access medical information. However, concerns exist about the accuracy of ChatGPT responses and the references used to generate medical content. Methods This observational study investigated the authenticity and accuracy of references in medical articles generated by ChatGPT. ChatGPT-3.5 generated 30 short medical papers, each with at least three references, based on standardized prompts encompassing various topics and therapeutic areas. Reference authenticity and accuracy were verified by searching Medline, Google Scholar,",
+      "issues": []
+    },
+    {
+      "num": 13,
+      "raw": "Gravel J, D'Amours-Gravel M, Osmanlliu E. Learning to fake it: limited responses and fabricated references provided by ChatGPT for medical questions. *Mayo Clin Proc Digit Health* 1, 226-234 (2023). DOI:10.1016/j.mcpdig.2023.05.004. PMID:40206627",
+      "first_author": "Gravel",
+      "title": "Learning to fake it: limited responses and fabricated references provided by ChatGPT for medical questions",
+      "journal": "Mayo Clin Proc Digit Health",
+      "year": "2023",
+      "doi": "10.1016/j.mcpdig.2023.05.004",
+      "pmid": "40206627",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "Rather than inventing fake numbers like earlier non-reasoning models [11–13], reasoning models dredge chronological PubMed prefixes to attach real off-topic papers (`11.9–76.2%` Trojan horse rates), mirroring clinical summarization findings where unanchored reasoning amplified hallucinations unless governed by abstention gates [28]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Learning to Fake It: Limited Responses and Fabricated References Provided by ChatGPT for Medical Questions",
+      "official_year": "2023",
+      "official_first_author": "Gravel",
+      "official_journal": "Mayo Clin Proc Digit Health",
+      "official_doi": "10.1016/j.mcpdig.2023.05.004",
+      "abstract_snippet": "To evaluate the quality of the answers and the references provided by ChatGPT for medical questions. Three researchers asked ChatGPT 20 medical questions and prompted it to provide the corresponding references. The responses were evaluated for the quality of content by medical experts using a verbal numeric scale going from 0% to 100%. These experts were the corresponding authors of the 20 articles from where the medical questions were derived. We planned to evaluate 3 references per response for their pertinence, but this was amended on the basis of preliminary results showing that most references provided by ChatGPT were fabricated. This experimental observational study was conducted in Fe",
+      "issues": []
+    },
+    {
+      "num": 14,
+      "raw": "Mugaanyi J, Cai L, Cheng S, Lu C, Huang J. Evaluation of large language model performance and reliability for citations and references in scholarly writing: cross-disciplinary study. *J Med Internet Res* 26, e52935 (2024). DOI:10.2196/52935. PMID:38578685",
+      "first_author": "Mugaanyi",
+      "title": "Evaluation of large language model performance and reliability for citations and references in scholarly writing: cross-disciplinary study",
+      "journal": "J Med Internet Res",
+      "year": "2024",
+      "doi": "10.2196/52935",
+      "pmid": "38578685",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "Standard pipeline checks verify only whether an emitted PMID exists in NCBI Entrez [11, 14]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Evaluation of Large Language Model Performance and Reliability for Citations and References in Scholarly Writing: Cross-Disciplinary Study",
+      "official_year": "2024",
+      "official_first_author": "Mugaanyi",
+      "official_journal": "J Med Internet Res",
+      "official_doi": "10.2196/52935",
+      "abstract_snippet": "Large language models (LLMs) have gained prominence since the release of ChatGPT in late 2022. The aim of this study was to assess the accuracy of citations and references generated by ChatGPT (GPT-3.5) in two distinct academic domains: the natural sciences and humanities. Two researchers independently prompted ChatGPT to write an introduction section for a manuscript and include citations; they then evaluated the accuracy of the citations and Digital Object Identifiers (DOIs). Results were compared between the two disciplines. Ten topics were included, including 5 in the natural sciences and 5 in the humanities. A total of 102 citations were generated, with 55 in the natural sciences and 47",
+      "issues": []
+    },
+    {
+      "num": 15,
+      "raw": "van Kessel R, Anderson M, McMillan B, Matthews MR, Rust P, Pearcy P, et al. Omission and hallucination prevalence of clinical guidelines in diagnostic large language model outputs. *BMJ Health Care Inform* 33, e101959 (2026). DOI:10.1136/bmjhci-2025-101959. PMID:42031418",
+      "first_author": "van",
+      "title": "Omission and hallucination prevalence of clinical guidelines in diagnostic large language model outputs",
+      "journal": "BMJ Health Care Inform",
+      "year": "2026",
+      "doi": "10.1136/bmjhci-2025-101959",
+      "pmid": "42031418",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Omission and hallucination prevalence of clinical guidelines in diagnostic large language model outputs",
+      "official_year": "2026",
+      "official_first_author": "van",
+      "official_journal": "BMJ Health Care Inform",
+      "official_doi": "10.1136/bmjhci-2025-101959",
+      "abstract_snippet": "Meaningful assessments of how large language models (LLMs) incorporate clinical guidelines require large-scale testing over many queries. Here, we evaluate the prevalence of clinical guideline omissions and hallucinations in a large sample of diagnostic LLM outputs. We used simulated case vignettes and zero-shot prompting to generate diagnostic outputs and rationales from GPT-4.1 and DeepSeek-V3. English case vignettes were created for hypercholesterolaemia and type-2 diabetes mellitus. Each vignette contained identical medical information, while sociodemographic characteristics varied in terms of sex, ethnicity and location. We calculated the prevalence of existing and hallucinated clinical",
+      "issues": []
+    },
+    {
+      "num": 16,
+      "raw": "Liu NF, Lin K, Hewitt J, Paranjape A, Bevilacqua M, Petroni F, et al. Lost in the middle: how language models use long contexts. *Trans Assoc Comput Linguist* 12, 157-173 (2024). DOI:10.1162/tacl_a_00638",
+      "first_author": "Liu",
+      "title": "Lost in the middle: how language models use long contexts",
+      "journal": "Trans Assoc Comput Linguist",
+      "year": "2024",
+      "doi": "10.1162/tacl_a_00638",
+      "pmid": null,
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20]."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Lost in the Middle: How Language Models Use Long Contexts",
+      "official_year": "2024",
+      "official_first_author": "Liu",
+      "official_journal": "Transactions of the Association for Computational Linguistics",
+      "official_doi": "10.1162/tacl_a_00638",
+      "abstract_snippet": "Abstract \n                   While recent language models have the ability to take long contexts as input, relatively little is known about how well they use longer context. We analyze the performance of language models on two tasks that require identifying relevant information in their input contexts: multi-document question answering and key-value retrieval. We find that performance can degrade significantly when changing the position of relevant information, indicating that current language models do not robustly make use of information in long input contexts. In particular, we observe that performance is often highest when relevant information occurs at the beginning or end of the input ",
+      "issues": []
+    },
+    {
+      "num": 17,
+      "raw": "Singhal K, Azizi S, Tu T, Mahdavi SS, Wei J, Chung HW, et al. Large language models encode clinical knowledge. *Nature* 620, 172-180 (2023). DOI:10.1038/s41586-023-06291-2. PMID:37438534",
+      "first_author": "Singhal",
+      "title": "Large language models encode clinical knowledge",
+      "journal": "Nature",
+      "year": "2023",
+      "doi": "10.1038/s41586-023-06291-2",
+      "pmid": "37438534",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Large language models encode clinical knowledge",
+      "official_year": "2023",
+      "official_first_author": "Singhal",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-023-06291-2",
+      "abstract_snippet": "Large language models (LLMs) have demonstrated impressive capabilities, but the bar for clinical applications is high. Attempts to assess the clinical knowledge of models typically rely on automated evaluations based on limited benchmarks. Here, to address these limitations, we present MultiMedQA, a benchmark combining six existing medical question answering datasets spanning professional medicine, research and consumer queries and a new dataset of medical questions searched online, HealthSearchQA. We propose a human evaluation framework for model answers along multiple axes including factuality, comprehension, reasoning, possible harm and bias. In addition, we evaluate Pathways Language Mod",
+      "issues": []
+    },
+    {
+      "num": 18,
+      "raw": "Guo C, Pleiss G, Sun Y, Weinberger KQ. On calibration of modern neural networks. In: *Proceedings of the 34th International Conference on Machine Learning (ICML)*, PMLR 70, 1321-1330 (2017). arXiv:1706.04599",
+      "first_author": "Guo",
+      "title": "Guo C, Pleiss G, Sun Y, Weinberger KQ. On calibration of modern neural networks. In: *Proceedings of the 34th International Conference on Machine Learning (ICML)*, PMLR 70, 1321-1330 (2017). arXiv:1706.04599",
+      "journal": "",
+      "year": "2017",
+      "doi": null,
+      "pmid": null,
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "**Module 2 (`LORO Platt Scaling`)** [18, 66] fitted out-of-sample two-parameter logistic maps across held-in runs, cutting Parent $\\text{ECE}$ by **87.64%** ($0.2221 \\to 0.0274$ [$0.222 \\to 0.027$, $-87.8\\%$], **97.3%** calibration accuracy; Brier $0.216 \\to 0.161$) and Experiment C-v4 $\\text{ECE}$ by **89.46%** on GLM-5.3 ($0.351 \\to 0.037$) and **82.79%** on DeepSeek-V4-Pro ($0.244 \\to 0.042$; Figure 5B).",
+        "Leave-One-Run-Out (LORO) Platt scaling fitted $\\hat{p}_i = \\sigma(a_{-r} \\text{logit}(\\tilde{c}_i) + b_{-r})$ on the $11$ training runs and evaluated Expected Calibration Error ($\\text{ECE} = \\sum_{b=1}^{B} \\frac{n_b}{N} |\\bar{y}_b - \\bar{p}_b|$ across $B = 10$ equal-width bins) and Brier score ($\\frac{1}{N}\\sum_{i=1}^N (y_i - \\hat{p}_i)^2$ [18, 69]) out-of-sample on the held-out run $r$."
+      ],
+      "verification_source": "UNVERIFIED",
+      "title_similarity": 0.0,
+      "official_title": "",
+      "official_year": "",
+      "official_first_author": "",
+      "official_journal": "",
+      "official_doi": "",
+      "abstract_snippet": "",
+      "issues": [
+        "Title similarity=0.00: MS='Guo C, Pleiss G, Sun Y, Weinberger KQ. On calibration of modern neural networks. In: *Proceedings of the 34th International Conference on Machine Learning (ICML)*, PMLR 70, 1321-1330 (2017). arXiv:1706.04599' vs OFFICIAL=''"
+      ]
+    },
+    {
+      "num": 19,
+      "raw": "Yona G, Aharoni R, Geva M. Can large language models faithfully express their intrinsic uncertainty in words? In: *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 7752-7764 (2024). DOI:10.18653/v1/2024.emnlp-main.443",
+      "first_author": "Yona",
+      "title": "Yona G, Aharoni R, Geva M. Can large language models faithfully express their intrinsic uncertainty in words? In: *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 7752-7764 (2024). DOI:10.18653/v1/2024.emnlp-main.443",
+      "journal": "",
+      "year": "2024",
+      "doi": "10.18653/v1/2024.emnlp-main.443",
+      "pmid": null,
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20]."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 0.4865,
+      "official_title": "Can Large Language Models Faithfully Express Their Intrinsic Uncertainty in Words?",
+      "official_year": "2024",
+      "official_first_author": "Yona",
+      "official_journal": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+      "official_doi": "10.18653/v1/2024.emnlp-main.443",
+      "abstract_snippet": "",
+      "issues": [
+        "Title similarity=0.49: MS='Yona G, Aharoni R, Geva M. Can large language models faithfully express their intrinsic uncertainty in words? In: *Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 7752-7764 (2024). DOI:10.18653/v1/2024.emnlp-main.443' vs OFFICIAL='Can Large Language Models Faithfully Express Their Intrinsic Uncertainty in Words?'"
+      ]
+    },
+    {
+      "num": 20,
+      "raw": "Farquhar S, Kossen J, Kuhn L, Gal Y. Detecting hallucinations in large language models using semantic entropy. *Nature* 630, 625-630 (2024). DOI:10.1038/s41586-024-07421-0. PMID:38898292",
+      "first_author": "Farquhar",
+      "title": "Detecting hallucinations in large language models using semantic entropy",
+      "journal": "Nature",
+      "year": "2024",
+      "doi": "10.1038/s41586-024-07421-0",
+      "pmid": "38898292",
+      "contexts": [
+        "Separate machine learning and clinical informatics studies indicate, however, that unguarded language models remain vulnerable to reference fabrication (21–100% in medical generation [11–15]), pairwise positional bias [7, 16], pretraining memorization [9, 17], and verbalized overconfidence [18–20].",
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Just as token-level entropy conflates semantically equivalent phrasings [20] and distinct transcriptomic senescence modules (`SenMayo`, `Fridman`, `CellAge`) exhibit minimal single-gene overlap while capturing shared cellular states [50], exact HUGO Gene Nomenclature Committee (HGNC) symbol intersection mistakes co-pathway effector diversity for instability.",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **Semantic Entropy** [20] | Uncertainty-based confabulation detection | Isolated QA pairs | Internal entropy only | No | Not applicable | Entailment clustering | Uncertainty scoring | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Detecting hallucinations in large language models using semantic entropy",
+      "official_year": "2024",
+      "official_first_author": "Farquhar",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-024-07421-0",
+      "abstract_snippet": "Large language model (LLM) systems, such as ChatGPT1 or Gemini2, can show impressive reasoning and question-answering capabilities but often 'hallucinate' false outputs and unsubstantiated answers3,4. Answering unreliably or without the necessary information prevents adoption in diverse fields, with problems including fabrication of legal precedents5 or untrue facts in news articles6 and even posing a risk to human life in medical domains such as radiology7. Encouraging truthfulness through supervision or reinforcement has been only partially successful8. Researchers need a general method for detecting hallucinations in LLMs that works even with new and unseen questions to which humans might",
+      "issues": []
+    },
+    {
+      "num": 21,
+      "raw": "Li J, Cheng X, Zhao X, Nie JY, Wen JR. HaluEval: a large-scale hallucination evaluation benchmark for large language models. In: *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 6449-6464 (2023). DOI:10.18653/v1/2023.emnlp-main.397",
+      "first_author": "Li",
+      "title": "Li J, Cheng X, Zhao X, Nie JY, Wen JR. HaluEval: a large-scale hallucination evaluation benchmark for large language models. In: *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 6449-6464 (2023). DOI:10.18653/v1/2023.emnlp-main.397",
+      "journal": "",
+      "year": "2023",
+      "doi": "10.18653/v1/2023.emnlp-main.397",
+      "pmid": null,
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30]."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 0.4784,
+      "official_title": "HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models",
+      "official_year": "2023",
+      "official_first_author": "Li",
+      "official_journal": "Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing",
+      "official_doi": "10.18653/v1/2023.emnlp-main.397",
+      "abstract_snippet": "",
+      "issues": [
+        "Title similarity=0.48: MS='Li J, Cheng X, Zhao X, Nie JY, Wen JR. HaluEval: a large-scale hallucination evaluation benchmark for large language models. In: *Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)*, 6449-6464 (2023). DOI:10.18653/v1/2023.emnlp-main.397' vs OFFICIAL='HaluEval: A Large-Scale Hallucination Evaluation Benchmark for Large Language Models'"
+      ]
+    },
+    {
+      "num": 22,
+      "raw": "Muhammed D, Tuccari GG, Rabby G, Auer S, Vahdati S. SelfCheck-Eval: a multi-module framework for zero-resource hallucination detection in large language models. *Patterns* 7, 101569 (2026). DOI:10.1016/j.patter.2026.101569",
+      "first_author": "Muhammed",
+      "title": "SelfCheck-Eval: a multi-module framework for zero-resource hallucination detection in large language models",
+      "journal": "Patterns",
+      "year": "2026",
+      "doi": "10.1016/j.patter.2026.101569",
+      "pmid": null,
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **SelfCheck-Eval** [22] | Zero-resource LLM hallucination detection | Isolated statements | Internal consistency only | No | Not applicable | Multi-module self-check | No | No |"
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "SelfCheck-Eval: A multi-module framework for zero-resource hallucination detection in large language models",
+      "official_year": "2026",
+      "official_first_author": "Muhammed",
+      "official_journal": "Patterns",
+      "official_doi": "10.1016/j.patter.2026.101569",
+      "abstract_snippet": "",
+      "issues": []
+    },
+    {
+      "num": 23,
+      "raw": "Wang Z, Jin Q, Wei CH, Tian S, Lai PT, Zhu Q, et al. GeneAgent: self-verification language agent for gene-set analysis using domain databases. *Nat Methods* 22, 1677-1685 (2025). DOI:10.1038/s41592-025-02748-6. PMID:40721871",
+      "first_author": "Wang",
+      "title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
+      "journal": "Nat Methods",
+      "year": "2025",
+      "doi": "10.1038/s41592-025-02748-6",
+      "pmid": "40721871",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "| **GeneAgent** [23] | Self-verifying agent for gene-set analysis | Single-stage gene set | Domain database query | No | Not applicable | Self-verification step | No | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "GeneAgent: self-verification language agent for gene-set analysis using domain databases",
+      "official_year": "2025",
+      "official_first_author": "Wang",
+      "official_journal": "Nat Methods",
+      "official_doi": "10.1038/s41592-025-02748-6",
+      "abstract_snippet": "Gene-set analysis seeks to identify the biological mechanisms underlying groups of genes with shared functions. Large language models (LLMs) have recently shown promise in generating functional descriptions for input gene sets but may produce factually incorrect statements, commonly referred to as hallucinations in LLMs. Here we present GeneAgent, an LLM-based AI agent for gene-set analysis that reduces hallucinations by autonomously interacting with biological databases to verify its own output. Evaluation of 1,106 gene sets collected from different sources demonstrates that GeneAgent is consistently more accurate than GPT-4 by a significant margin. We further applied GeneAgent to seven nov",
+      "issues": []
+    },
+    {
+      "num": 24,
+      "raw": "Xu W, Luo G, Meng W, Zhai X, Zheng K, Wu J, et al. MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization. *Brief Bioinform* 26, bbaf140 (2025). DOI:10.1093/bib/bbaf140. PMID:40194554",
+      "first_author": "Xu",
+      "title": "MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization",
+      "journal": "Brief Bioinform",
+      "year": "2025",
+      "doi": "10.1093/bib/bbaf140",
+      "pmid": "40194554",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "MRAgent: an LLM-based automated agent for causal knowledge discovery in disease via Mendelian randomization",
+      "official_year": "2025",
+      "official_first_author": "Xu",
+      "official_journal": "Brief Bioinform",
+      "official_doi": "10.1093/bib/bbaf140",
+      "abstract_snippet": "Understanding causality in medical research is essential for developing effective interventions and diagnostic tools. Mendelian Randomization (MR) is a pivotal method for inferring causality through genetic data. However, MR analysis often requires pre-identification of exposure-outcome pairs from clinical experience or literature, which can be challenging to obtain. This poses difficulties for clinicians investigating causal factors of specific diseases. To address this, we introduce MRAgent, an innovative automated agent leveraging Large Language Models (LLMs) to enhance causal knowledge discovery in disease research. MRAgent autonomously scans scientific literature, discovers potential ex",
+      "issues": []
+    },
+    {
+      "num": 25,
+      "raw": "Liu J, Xu S, Wu Y, Zhang J. Single-cell omics arena: evaluation of large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging. *Brief Bioinform* 26, bbaf622 (2025). DOI:10.1093/bib/bbaf622. PMID:41283813",
+      "first_author": "Liu",
+      "title": "Single-cell omics arena: evaluation of large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging",
+      "journal": "Brief Bioinform",
+      "year": "2025",
+      "doi": "10.1093/bib/bbaf622",
+      "pmid": "41283813",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Single-cell omics arena: evaluation of large language models for automatic cell-type annotations on single-cell omics data via RNA-seq bridging",
+      "official_year": "2025",
+      "official_first_author": "Liu",
+      "official_journal": "Brief Bioinform",
+      "official_doi": "10.1093/bib/bbaf622",
+      "abstract_snippet": "The single-cell sequencing revolution enables simultaneous molecular profiling of various modalities across thousands of individual cells, allowing scientists to investigate the diverse functions of complex tissues. Among all the analysis steps, assigning individual cells to specific types is fundamental for understanding cellular heterogeneity. However, this process is labor-intensive and requires extensive expert knowledge. Recent advances in large language models (LLMs) have demonstrated their ability to automatically extract biological knowledge, such as marker genes, promoting efficient, and automated cell-type annotations. To evaluate the capability of modern LLMs in automating the cel",
+      "issues": []
+    },
+    {
+      "num": 26,
+      "raw": "Lones MA. Pitfalls and risks of generative AI in machine learning. *Patterns* 7, 101534 (2026). DOI:10.1016/j.patter.2026.101534",
+      "first_author": "Lones",
+      "title": "Pitfalls and risks of generative AI in machine learning",
+      "journal": "Patterns",
+      "year": "2026",
+      "doi": "10.1016/j.patter.2026.101534",
+      "pmid": null,
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27])."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Pitfalls and risks of generative AI in machine learning",
+      "official_year": "2026",
+      "official_first_author": "Lones",
+      "official_journal": "Patterns",
+      "official_doi": "10.1016/j.patter.2026.101534",
+      "abstract_snippet": "",
+      "issues": []
+    },
+    {
+      "num": 27,
+      "raw": "Dunn CW, Schultz DT, Musser JM. Designing reproducible large-language-model-assisted scientific analyses. *Patterns* 7, 101644 (2026). DOI:10.1016/j.patter.2026.101644. PMID:42746527",
+      "first_author": "Dunn",
+      "title": "Designing reproducible large-language-model-assisted scientific analyses",
+      "journal": "Patterns",
+      "year": "2026",
+      "doi": "10.1016/j.patter.2026.101644",
+      "pmid": "42746527",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **Reproducible LLM Analyses** [27] | Provenance & verification guidelines | Conceptual guidance | Recommends verification | No | Not applicable | Cross-model concordance | Recommends replicates | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Designing reproducible large-language-model-assisted scientific analyses",
+      "official_year": "2026",
+      "official_first_author": "Dunn",
+      "official_journal": "Patterns (N Y)",
+      "official_doi": "10.1016/j.patter.2026.101644",
+      "abstract_snippet": "Large language models (LLMs) increasingly write code, analyze data, and orchestrate scientific workflows. This can create reproducibility challenges because LLMs blur the boundary between how an analysis is built and what it depends on at run time. Guidelines for LLM-assisted science begin with a critical choice: whether the LLM sits on the data path of the published analysis, a live step results depend on, or off the data path, producing durable artifacts such as code. Reproducible analyses require preserving data, code, and runtime; an on-path LLM becomes part of the runtime, a dependency that may change, be deprecated, or become inaccessible. We derive six recommendations: (1) keep the LL",
+      "issues": []
+    },
+    {
+      "num": 28,
+      "raw": "Asgari E, Montaña-Brown N, Dubois M, Khalil S, Balloch J, Yeung JA, et al. A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation. *NPJ Digit Med* 8, 274 (2025). DOI:10.1038/s41746-025-01670-7. PMID:40360677",
+      "first_author": "Asgari",
+      "title": "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation",
+      "journal": "NPJ Digit Med",
+      "year": "2025",
+      "doi": "10.1038/s41746-025-01670-7",
+      "pmid": "40360677",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Rather than inventing fake numbers like earlier non-reasoning models [11–13], reasoning models dredge chronological PubMed prefixes to attach real off-topic papers (`11.9–76.2%` Trojan horse rates), mirroring clinical summarization findings where unanchored reasoning amplified hallucinations unless governed by abstention gates [28]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "A framework to assess clinical safety and hallucination rates of LLMs for medical text summarisation",
+      "official_year": "2025",
+      "official_first_author": "Asgari",
+      "official_journal": "NPJ Digit Med",
+      "official_doi": "10.1038/s41746-025-01670-7",
+      "abstract_snippet": "Integrating large language models (LLMs) into healthcare can enhance workflow efficiency and patient care by automating tasks such as summarising consultations. However, the fidelity between LLM outputs and ground truth information is vital to prevent miscommunication that could lead to compromise in patient safety. We propose a framework comprising (1) an error taxonomy for classifying LLM outputs, (2) an experimental structure for iterative comparisons in our LLM document generation pipeline, (3) a clinical safety framework to evaluate the harms of errors, and (4) a graphical user interface, CREOLA, to facilitate these processes. Our clinical error metrics were derived from 18 experimental",
+      "issues": []
+    },
+    {
+      "num": 29,
+      "raw": "Liu Q, Hu Z, Huang T, Niu Y, Zhang X, Ma S, et al. EvoMDT: a self-evolving multi-agent system for structured clinical decision-making in multi-cancer. *NPJ Digit Med* 9, 124 (2026). DOI:10.1038/s41746-025-02304-8. PMID:41501128",
+      "first_author": "Liu",
+      "title": "EvoMDT: a self-evolving multi-agent system for structured clinical decision-making in multi-cancer",
+      "journal": "NPJ Digit Med",
+      "year": "2026",
+      "doi": "10.1038/s41746-025-02304-8",
+      "pmid": "41501128",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "EvoMDT: a self-evolving multi-agent system for structured clinical decision-making in multi-cancer",
+      "official_year": "2026",
+      "official_first_author": "Liu",
+      "official_journal": "NPJ Digit Med",
+      "official_doi": "10.1038/s41746-025-02304-8",
+      "abstract_snippet": "Multidisciplinary tumor boards (MDTs) are central to cancer care but remain constrained by scarce experts and variable decision quality. EvoMDT employs a self-evolution loop that updates prompts, consensus weights, and retrieval scope based on expert feedback and outcome signals, improving robustness without sacrificing traceability. This matters clinically because MDT workloads and evidence shift over time, requiring adaptive yet auditable decision support. Agents perform domain-specific inference over lesion-level clinical data with structured knowledge retrieval; a consensus protocol resolves conflicts and generates traceable, evidence-linked recommendations. Evaluation spanned six public",
+      "issues": []
+    },
+    {
+      "num": 30,
+      "raw": "Ranković B, Griffiths RR, Schwaller P. Large language models as uncertainty-calibrated optimizers for experimental discovery. *Nat Mach Intell* 8, 1466-1477 (2026). DOI:10.1038/s42256-026-01283-z. PMID:42761044",
+      "first_author": "Ranković",
+      "title": "Large language models as uncertainty-calibrated optimizers for experimental discovery",
+      "journal": "Nat Mach Intell",
+      "year": "2026",
+      "doi": "10.1038/s42256-026-01283-z",
+      "pmid": "42761044",
+      "contexts": [
+        "Existing reliability tools examine isolated surfaces, including statement-level confabulation [20–22], single-task gene-set or causal agents [23–25], reproducibility rules separating on-the-data-path LLM calls from off-the-data-path deterministic code [26, 27], clinical summarization abstention [28], multi-agent oncology consensus [29], and Gaussian-process representation fine-tuning [30].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Large language models as uncertainty-calibrated optimizers for experimental discovery",
+      "official_year": "2026",
+      "official_first_author": "Ranković",
+      "official_journal": "Nat Mach Intell",
+      "official_doi": "10.1038/s42256-026-01283-z",
+      "abstract_snippet": "From reaction optimization to molecular design, experimental discovery poses the same expensive question: which candidate to test next under time and resource constraints. Bayesian optimization provides principled answers but depends on domain expertise that rarely transfers. Large language models (LLMs) contain rich scientific knowledge but lack the calibrated uncertainty estimates crucial for high-stakes decisions. Here we show how training language models through Bayesian objectives enables their use as reliable optimizers guided by natural language. Our approach, GOLLuM (Gaussian process Optimized LLMs), teaches LLMs from experimental outcomes under uncertainty, transforming their overco",
+      "issues": []
+    },
+    {
+      "num": 31,
+      "raw": "Wang Z, Chen Z, Yang Z, Wang X, Jin Q, Peng Y, et al. Empowering biomedical evidence exploration and synthesis with deep knowledge graph research. *Nat Mach Intell* 8, 1142-1156 (2026). DOI:10.1038/s42256-026-01266-0. PMID:42569156",
+      "first_author": "Wang",
+      "title": "Empowering biomedical evidence exploration and synthesis with deep knowledge graph research",
+      "journal": "Nat Mach Intell",
+      "year": "2026",
+      "doi": "10.1038/s42256-026-01266-0",
+      "pmid": "42569156",
+      "contexts": [
+        "Recent 2025–2026 benchmarks have further exposed unresolved evidence conflicts in knowledge-graph explorers [31], memorization leakage in molecular benchmarks [32], structured chain-of-thought anchoring [33], rhetorical rather than structural persona shifts [34], and plausible invalidity in autonomous multi-agent workflows [35].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "| **DeepEvidence** [31] | Knowledge-graph biomedical evidence exploration | Multi-agent retrieval & synthesis | Graph-bounded search, no two-tier abstention gate | No | Not applicable | Notes unresolved evidence conflict | Notes lack of calibrated confidence | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Empowering biomedical evidence exploration and synthesis with deep knowledge graph research",
+      "official_year": "2026",
+      "official_first_author": "Wang",
+      "official_journal": "Nat Mach Intell",
+      "official_doi": "10.1038/s42256-026-01266-0",
+      "abstract_snippet": "Compared with generic artificial intelligence agents, deep research agents perform longer-horizon reasoning and deeper literature exploration to investigate complex questions. Here we present DeepEvidence, a deep research agent for evidence exploration and synthesis across heterogeneous biomedical knowledge sources. DeepEvidence advances deep research through coordinated multi-agent collaboration combining breadth-first and depth-first research strategies to search, explore and aggregate evidence from multiple biomedical knowledge bases and literature. It also incrementally constructs an evidence graph of key entities and observations to support transparent tracking, attribution and validati",
+      "issues": []
+    },
+    {
+      "num": 32,
+      "raw": "Graber D, Stockinger P, Meyer F, Mishra S, Horn C, Buller R. Resolving data bias improves generalization in binding affinity prediction. *Nat Mach Intell* 7, 1713-1725 (2025). DOI:10.1038/s42256-025-01124-5. PMID:41143208",
+      "first_author": "Graber",
+      "title": "Resolving data bias improves generalization in binding affinity prediction",
+      "journal": "Nat Mach Intell",
+      "year": "2025",
+      "doi": "10.1038/s42256-025-01124-5",
+      "pmid": "41143208",
+      "contexts": [
+        "Recent 2025–2026 benchmarks have further exposed unresolved evidence conflicts in knowledge-graph explorers [31], memorization leakage in molecular benchmarks [32], structured chain-of-thought anchoring [33], rhetorical rather than structural persona shifts [34], and plausible invalidity in autonomous multi-agent workflows [35].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Resolving data bias improves generalization in binding affinity prediction",
+      "official_year": "2025",
+      "official_first_author": "Graber",
+      "official_journal": "Nat Mach Intell",
+      "official_doi": "10.1038/s42256-025-01124-5",
+      "abstract_snippet": "The field of computational drug design requires accurate scoring functions to predict binding affinities for protein-ligand interactions. However, train-test data leakage between the PDBbind database and the Comparative Assessment of Scoring Function benchmark datasets has severely inflated the performance metrics of currently available deep-learning-based binding affinity prediction models, leading to overestimation of their generalization capabilities. Here we address this issue by proposing PDBbind CleanSplit, a training dataset curated by a new structure-based filtering algorithm that eliminates train-test data leakage as well as redundancies within the training set. Retraining current t",
+      "issues": []
+    },
+    {
+      "num": 33,
+      "raw": "Kenaston MW, Ayub U, Parmar M, Kumar P, Anjum MU, Naqvi SAA, et al. Structured reasoning failures compromise LLM interpretation of clinical oncology notes. *NPJ Digit Med* 9, 802 (2026). DOI:10.1038/s41746-026-02951-5. PMID:42380231",
+      "first_author": "Kenaston",
+      "title": "Structured reasoning failures compromise LLM interpretation of clinical oncology notes",
+      "journal": "NPJ Digit Med",
+      "year": "2026",
+      "doi": "10.1038/s41746-026-02951-5",
+      "pmid": "42380231",
+      "contexts": [
+        "Recent 2025–2026 benchmarks have further exposed unresolved evidence conflicts in knowledge-graph explorers [31], memorization leakage in molecular benchmarks [32], structured chain-of-thought anchoring [33], rhetorical rather than structural persona shifts [34], and plausible invalidity in autonomous multi-agent workflows [35].",
+        "Similarly, our finding that flipped verdicts consume *more* reasoning tokens ($p = 0.0254$) with $2.5\\text{--}3.4\\times$ higher NLI self-contradiction ($p = 1.15 \\times 10^{-5}$) and higher criterion override on flagship `Grok-4.7` than `Grok-4.7-Fast` extends recent oncology observations that prompt-only mitigation cannot override chain-of-thought anchoring [33] and persona prompting alters rhetorical style rather than decision structure [34]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Structured reasoning failures compromise LLM interpretation of clinical oncology notes",
+      "official_year": "2026",
+      "official_first_author": "Kenaston",
+      "official_journal": "NPJ Digit Med",
+      "official_doi": "10.1038/s41746-026-02951-5",
+      "abstract_snippet": "Large language models (LLMs) show strong performance on clinical benchmarks, yet their reasoning reliability in real-world oncology care remains unclear. We evaluated LLM reasoning on authentic oncology notes using a novel hierarchical error taxonomy across two retrospective cohorts spanning breast, pancreatic, and prostate cancer. GPT-4 produced reasoning errors in 23.1% of note interpretations, the majority reflecting cognitive bias patterns. Errors were more frequent in recommendation tasks and were strongly associated with guideline-discordant recommendations and lower clinician-rated clinical impact scores. Confirmation bias, anchoring bias, and omission errors were most strongly linked",
+      "issues": []
+    },
+    {
+      "num": 34,
+      "raw": "Stifini D, Della Penna A, Mihaljevic AL, Bitzer M, Eickhoff C, Capobianco I. Role prompting modulates linguistic style but not clinical decision structure in GPT-5 tumour board simulation. *NPJ Digit Med* 9, 626 (2026). DOI:10.1038/s41746-026-03069-4. PMID:42595794",
+      "first_author": "Stifini",
+      "title": "Role prompting modulates linguistic style but not clinical decision structure in GPT-5 tumour board simulation",
+      "journal": "NPJ Digit Med",
+      "year": "2026",
+      "doi": "10.1038/s41746-026-03069-4",
+      "pmid": "42595794",
+      "contexts": [
+        "Recent 2025–2026 benchmarks have further exposed unresolved evidence conflicts in knowledge-graph explorers [31], memorization leakage in molecular benchmarks [32], structured chain-of-thought anchoring [33], rhetorical rather than structural persona shifts [34], and plausible invalidity in autonomous multi-agent workflows [35].",
+        "Similarly, our finding that flipped verdicts consume *more* reasoning tokens ($p = 0.0254$) with $2.5\\text{--}3.4\\times$ higher NLI self-contradiction ($p = 1.15 \\times 10^{-5}$) and higher criterion override on flagship `Grok-4.7` than `Grok-4.7-Fast` extends recent oncology observations that prompt-only mitigation cannot override chain-of-thought anchoring [33] and persona prompting alters rhetorical style rather than decision structure [34]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Role prompting modulates linguistic style but not clinical decision structure in GPT-5 tumour board simulation",
+      "official_year": "2026",
+      "official_first_author": "Stifini",
+      "official_journal": "NPJ Digit Med",
+      "official_doi": "10.1038/s41746-026-03069-4",
+      "abstract_snippet": "Multidisciplinary tumour boards (MDTs) are the standard for gastrointestinal oncological decision-making but remain resource-intensive. Whether specialty-specific role prompting induces genuinely distinct clinical reasoning in large language models (LLMs)-or merely role-appropriate language around an invariant output-has not been systematically tested. We applied five zero-shot prompting frameworks and a majority-vote ensemble to GPT-5 across 100 gastrointestinal oncology cases with MDT-validated decisions: a simulated MDT, multi-expert deliberation, three specialist personas, and a majority-vote ensemble. Concordance with MDT recommendations ranged from 78% to 87%, with no significant inter",
+      "issues": []
+    },
+    {
+      "num": 35,
+      "raw": "Zhu Y, Wang Z, Qi Y, Gu L, Sui D, Hu H, et al. HealthFlow: automating electronic health record analysis via a strategically self-evolving multi-agent framework. *NPJ Digit Med* 9, 660 (2026). DOI:10.1038/s41746-026-03097-0. PMID:42660985",
+      "first_author": "Zhu",
+      "title": "HealthFlow: automating electronic health record analysis via a strategically self-evolving multi-agent framework",
+      "journal": "NPJ Digit Med",
+      "year": "2026",
+      "doi": "10.1038/s41746-026-03097-0",
+      "pmid": "42660985",
+      "contexts": [
+        "Recent 2025–2026 benchmarks have further exposed unresolved evidence conflicts in knowledge-graph explorers [31], memorization leakage in molecular benchmarks [32], structured chain-of-thought anchoring [33], rhetorical rather than structural persona shifts [34], and plausible invalidity in autonomous multi-agent workflows [35].",
+        "Architecturally, **STAR-Audit** bridges multi-agent discovery platforms (`Robin` [3], `Co-Scientist` [4], `DeepEvidence` [31], `HealthFlow` [35], `EvoMDT` [29], and Gaussian-process-tuned `GOLLuM` [30]) with bias-deconfounded benchmarking (`CleanSplit` [32], semantic entropy [20], `SelfCheck-Eval` [22], and off-the-data-path determinism [26, 27]).",
+        "Keeping ideation and scientific judging *on the data path* while moving debiasing, NLI filtering, calibration, bibliographic verification, and trajectory recovery *off the data path* resolves multi-agent plausible invalidity [35] without weight fine-tuning, establishing a reporting standard analogous to `TRIPOD+AI` [67] prior to preclinical investment.",
+        "| **HealthFlow** [35] | Self-evolving multi-agent EHR research workflow | Autonomous code & analysis execution | Sandboxed execution, exposes plausible invalidity | No | Not applicable | Rubric evaluator only | No | No |"
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "HealthFlow: automating electronic health record analysis via a strategically self-evolving multi-agent framework",
+      "official_year": "2026",
+      "official_first_author": "Zhu",
+      "official_journal": "NPJ Digit Med",
+      "official_doi": "10.1038/s41746-026-03097-0",
+      "abstract_snippet": "Electronic health records (EHRs) are a rich source of real-world clinical data, but turning them into valid analyses remains slow, brittle, and expert-intensive. Although recent AI agents can answer medical questions and use tools, automating full EHR workflows remains difficult because small planning or execution errors can invalidate otherwise plausible analyses. Here we present HealthFlow, a multi-agent framework that converts prior EHR analyses into structured, governed experience for planning under dataset-specific and methodological constraints. We also introduce EHRFlowBench, a rigorously curated benchmark of EHR analysis tasks derived from 51,280 peer-reviewed papers. Across EHRFlowB",
+      "issues": []
+    },
+    {
+      "num": 36,
+      "raw": "Benjamini Y, Hochberg Y. Controlling the false discovery rate: a practical and powerful approach to multiple testing. *J R Stat Soc Series B Stat Methodol* 57, 289-300 (1995). DOI:10.1111/j.2517-6161.1995.tb02031.x",
+      "first_author": "Benjamini",
+      "title": "Controlling the false discovery rate: a practical and powerful approach to multiple testing",
+      "journal": "J R Stat Soc Series B Stat Methodol",
+      "year": "1995",
+      "doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "pmid": null,
+      "contexts": [
+        "To establish a generalizable methodology for trustworthy autonomous discovery, we developed **STAR-Audit** (**S**ix-dimension **T**rustworthiness **A**udit and **R**ectification) under cryptographic SHA-256 protocol locking and pre-specified Benjamini–Hochberg false discovery rate governance ($q = 0.05$) [36].",
+        "Multiplicity across the pre-specified six-member confirmatory hypothesis family was controlled via the Benjamini–Hochberg procedure at $q = 0.05$ [36]."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing",
+      "official_year": "1995",
+      "official_first_author": "Benjamini",
+      "official_journal": "Journal of the Royal Statistical Society Series B: Statistical Methodology",
+      "official_doi": "10.1111/j.2517-6161.1995.tb02031.x",
+      "abstract_snippet": "SUMMARY \n                   The common approach to the multiplicity problem calls for controlling the familywise error rate (FWER). This approach, though, has faults, and we point out a few. A different approach to problems of multiple significance testing is presented. It calls for controlling the expected proportion of falsely rejected hypotheses — the false discovery rate. This error rate is equivalent to the FWER when all hypotheses are true but is smaller otherwise. Therefore, in problems where the control of the false discovery rate rather than that of the FWER is desired, there is potential for a gain in power. A simple sequential Bonferronitype procedure is proved to control the fals",
+      "issues": []
+    },
+    {
+      "num": 37,
+      "raw": "Fritsche LG, Igl W, Bailey JN, Grassmann F, Sengupta S, Bragg-Gresham JL, et al. A large genome-wide association study of age-related macular degeneration highlights contributions of rare and common variants. *Nat Genet* 48, 134-143 (2016). DOI:10.1038/ng.3448. PMID:26691988",
+      "first_author": "Fritsche",
+      "title": "A large genome-wide association study of age-related macular degeneration highlights contributions of rare and common variants",
+      "journal": "Nat Genet",
+      "year": "2016",
+      "doi": "10.1038/ng.3448",
+      "pmid": "26691988",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In multi-axis dAMD [37, 38, 51], runs sampled distinct druggable effectors (`CFH`, `C3`, `MASP1/2`, `SERPING1`, `SULF2`) within shared complement/Bruch's membrane, inflammasome, ferroptosis, and cGAS-STING axes, lifting within-arm similarity from $J_{\\text{lead}} = 0.0926$ ($\\Delta J = +0.0556, p = 0.10$; combined two-disease $p = 0.0561, q_{\\text{BH}} = 0.0841$) to $J_{\\text{axis}} = 0.3944$ (**$4.26\\times$**; Figure 3B).",
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "A large genome-wide association study of age-related macular degeneration highlights contributions of rare and common variants",
+      "official_year": "2016",
+      "official_first_author": "Fritsche",
+      "official_journal": "Nat Genet",
+      "official_doi": "10.1038/ng.3448",
+      "abstract_snippet": "Advanced age-related macular degeneration (AMD) is the leading cause of blindness in the elderly, with limited therapeutic options. Here we report on a study of >12 million variants, including 163,714 directly genotyped, mostly rare, protein-altering variants. Analyzing 16,144 patients and 17,832 controls, we identify 52 independently associated common and rare variants (P < 5 × 10(-8)) distributed across 34 loci. Although wet and dry AMD subtypes exhibit predominantly shared genetics, we identify the first genetic association signal specific to wet AMD, near MMP9 (difference P value = 4.1 × 10(-10)). Very rare coding variants (frequency <0.1%) in CFH, CFI and TIMP3 suggest causal roles for ",
+      "issues": []
+    },
+    {
+      "num": 38,
+      "raw": "Kwon W, Freeman SA. Phagocytosis by the retinal pigment epithelium: recognition, resolution, recycling. *Front Immunol* 11, 604205 (2020). DOI:10.3389/fimmu.2020.604205. PMID:33281830",
+      "first_author": "Kwon",
+      "title": "Phagocytosis by the retinal pigment epithelium: recognition, resolution, recycling",
+      "journal": "Front Immunol",
+      "year": "2020",
+      "doi": "10.3389/fimmu.2020.604205",
+      "pmid": "33281830",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In multi-axis dAMD [37, 38, 51], runs sampled distinct druggable effectors (`CFH`, `C3`, `MASP1/2`, `SERPING1`, `SULF2`) within shared complement/Bruch's membrane, inflammasome, ferroptosis, and cGAS-STING axes, lifting within-arm similarity from $J_{\\text{lead}} = 0.0926$ ($\\Delta J = +0.0556, p = 0.10$; combined two-disease $p = 0.0561, q_{\\text{BH}} = 0.0841$) to $J_{\\text{axis}} = 0.3944$ (**$4.26\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Phagocytosis by the Retinal Pigment Epithelium: Recognition, Resolution, Recycling",
+      "official_year": "2020",
+      "official_first_author": "Kwon",
+      "official_journal": "Front Immunol",
+      "official_doi": "10.3389/fimmu.2020.604205",
+      "abstract_snippet": "Tissue-resident phagocytes are responsible for the routine binding, engulfment, and resolution of their meals. Such populations of cells express appropriate surface receptors that are tailored to recognize the phagocytic targets of their niche and initiate the actin polymerization that drives internalization. Tissue-resident phagocytes also harbor enzymes and transporters along the endocytic pathway that orchestrate the resolution of ingested macromolecules from the phagolysosome. Solutes fluxed from the endocytic pathway and into the cytosol can then be reutilized by the phagocyte or exported for their use by neighboring cells. Such a fundamental metabolic coupling between resident phagocyt",
+      "issues": []
+    },
+    {
+      "num": 39,
+      "raw": "Hamm G, Maglennon G, Williamson B, Macdonald R, Doherty A, Jones S, et al. Pharmacological inhibition of MERTK induces in vivo retinal degeneration: a multimodal imaging ocular safety assessment. *Arch Toxicol* 96, 613-624 (2022). DOI:10.1007/s00204-021-03197-8. PMID:34973110",
+      "first_author": "Hamm",
+      "title": "Pharmacological inhibition of MERTK induces in vivo retinal degeneration: a multimodal imaging ocular safety assessment",
+      "journal": "Arch Toxicol",
+      "year": "2022",
+      "doi": "10.1007/s00204-021-03197-8",
+      "pmid": "34973110",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Pharmacological inhibition of MERTK induces in vivo retinal degeneration: a multimodal imaging ocular safety assessment",
+      "official_year": "2022",
+      "official_first_author": "Hamm",
+      "official_journal": "Arch Toxicol",
+      "official_doi": "10.1007/s00204-021-03197-8",
+      "abstract_snippet": "The receptor tyrosine kinase, MERTK, plays an essential role in homeostasis of the retina via efferocytosis of shed outer nuclear segments of photoreceptors. The Royal College of Surgeons rat model of retinal degeneration has been linked to loss-of-function of MERTK, and together with the MERTK knock-out mouse, phenocopy retinitis pigmentosa in humans with MERTK mutations. Given recent efforts and interest in MERTK as a potential immuno-oncology target, development of a strategy to assess ocular safety at an early pre-clinical stage is critical. We have applied a state-of-the-art, multi-modal imaging platform to assess the in vivo effects of pharmacological inhibition of MERTK in mice. This ",
+      "issues": []
+    },
+    {
+      "num": 40,
+      "raw": "Heier JS, Lad EM, Holz FG, Rosenfeld PJ, Guymer RH, Boyer D, et al. Pegcetacoplan for the treatment of geographic atrophy secondary to age-related macular degeneration (OAKS and DERBY): two multicentre, randomised, double-masked, sham-controlled, phase 3 trials. *Lancet* 402, 1434-1448 (2023). DOI:10.1016/S0140-6736(23)01520-9. PMID:37865470",
+      "first_author": "Heier",
+      "title": "Pegcetacoplan for the treatment of geographic atrophy secondary to age-related macular degeneration (OAKS and DERBY): two multicentre, randomised, double-masked, sham-controlled, phase 3 trials",
+      "journal": "Lancet",
+      "year": "2023",
+      "doi": "10.1016/S0140-6736(23)01520-9",
+      "pmid": "37865470",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Pegcetacoplan for the treatment of geographic atrophy secondary to age-related macular degeneration (OAKS and DERBY): two multicentre, randomised, double-masked, sham-controlled, phase 3 trials",
+      "official_year": "2023",
+      "official_first_author": "Heier",
+      "official_journal": "Lancet",
+      "official_doi": "10.1016/S0140-6736(23)01520-9",
+      "abstract_snippet": "Geographic atrophy is a leading cause of progressive, irreversible vision loss. The objectives of OAKS and DERBY were to assess the efficacy and safety of pegcetacoplan compared with sham treatment in patients with geographic atrophy. OAKS and DERBY were two 24-month, multicentre, randomised, double-masked, sham-controlled, phase 3 studies, in which patients aged 60 years and older with geographic atrophy secondary to age-related macular degeneration were enrolled at 110 clinical sites and 122 clinical sites worldwide, respectively. Patients were randomly assigned (2:2:1:1) by central web-based randomisation system to intravitreal 15 mg per 0·1 mL pegcetacoplan monthly or every other month, ",
+      "issues": []
+    },
+    {
+      "num": 41,
+      "raw": "Becker S, L'Ecuyer Z, Jones BW, Zouache MA, McDonnell FS, Vinberg F. Modeling complex age-related eye disease. *Prog Retin Eye Res* 100, 101247 (2024). DOI:10.1016/j.preteyeres.2024.101247. PMID:38365085",
+      "first_author": "Becker",
+      "title": "Modeling complex age-related eye disease",
+      "journal": "Prog Retin Eye Res",
+      "year": "2024",
+      "doi": "10.1016/j.preteyeres.2024.101247",
+      "pmid": "38365085",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Modeling complex age-related eye disease",
+      "official_year": "2024",
+      "official_first_author": "Becker",
+      "official_journal": "Prog Retin Eye Res",
+      "official_doi": "10.1016/j.preteyeres.2024.101247",
+      "abstract_snippet": "Modeling complex eye diseases like age-related macular degeneration (AMD) and glaucoma poses significant challenges, since these conditions depend highly on age-related changes that occur over several decades, with many contributing factors remaining unknown. Although both diseases exhibit a relatively high heritability of >50%, a large proportion of individuals carrying AMD- or glaucoma-associated genetic risk variants will never develop these diseases. Furthermore, several environmental and lifestyle factors contribute to and modulate the pathogenesis and progression of AMD and glaucoma. Several strategies replicate the impact of genetic risk variants, pathobiological pathways and environm",
+      "issues": []
+    },
+    {
+      "num": 42,
+      "raw": "Fleckenstein M, Schmitz-Valckenberg S, Chakravarthy U. Age-related macular degeneration: a review. *JAMA* 331, 147-157 (2024). DOI:10.1001/jama.2023.26074. PMID:38193957",
+      "first_author": "Fleckenstein",
+      "title": "Age-related macular degeneration: a review",
+      "journal": "JAMA",
+      "year": "2024",
+      "doi": "10.1001/jama.2023.26074",
+      "pmid": "38193957",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Age-Related Macular Degeneration: A Review",
+      "official_year": "2024",
+      "official_first_author": "Fleckenstein",
+      "official_journal": "JAMA",
+      "official_doi": "10.1001/jama.2023.26074",
+      "abstract_snippet": "Age-related macular degeneration (AMD) affects approximately 20 million people in the US and 196 million people worldwide. AMD is a leading cause of severe vision impairment in older people and is expected to affect approximately 288 million people worldwide by 2040. Older age, genetic factors, and environmental factors, such as cigarette smoking, are associated with development of AMD. AMD occurs when extracellular deposits accumulate in the outer retina, ultimately leading to photoreceptor degeneration and loss of central vision. The late stages of AMD are characterized by outer retinal atrophy, termed geographic atrophy, or neovascularization associated with subretinal and/or intraretinal",
+      "issues": []
+    },
+    {
+      "num": 43,
+      "raw": "Jiang F, Ma J, Lei C, Zhang Y, Zhang M. Age-related macular degeneration: cellular and molecular signaling mechanisms. *Int J Mol Sci* 26, 6174 (2025). DOI:10.3390/ijms26136174. PMID:40649951",
+      "first_author": "Jiang",
+      "title": "Age-related macular degeneration: cellular and molecular signaling mechanisms",
+      "journal": "Int J Mol Sci",
+      "year": "2025",
+      "doi": "10.3390/ijms26136174",
+      "pmid": "40649951",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Age-Related Macular Degeneration: Cellular and Molecular Signaling Mechanisms",
+      "official_year": "2025",
+      "official_first_author": "Jiang",
+      "official_journal": "Int J Mol Sci",
+      "official_doi": "10.3390/ijms26136174",
+      "abstract_snippet": "Age-related macular degeneration (AMD) is a progressive retinal disorder and a leading cause of irreversible blindness among elderly individuals, impacting millions of people globally. This review synthesizes the current understanding of the cellular and molecular signaling mechanisms driving AMD, with a focus on the distinct pathophysiological features of dry and wet AMD subtypes. Key mechanisms include oxidative stress, inflammation, lipid metabolism dysregulation, and immune dysregulation, all of which converge on the retinal pigment epithelium (RPE) as a central player in disease initiation and progression. In dry AMD, oxidative damage, mitochondrial dysfunction, and lipofuscin accumulat",
+      "issues": []
+    },
+    {
+      "num": 44,
+      "raw": "Dhoot DS, Garg SJ, Brown DM, Suner IJ, Rahimy E, Boyer DS, et al. Efficacy of continuous pegcetacoplan treatment for subfoveal geographic atrophy in age-related macular degeneration: 36-month results from OAKS, DERBY, and GALE open-label extension. *Clin Ophthalmol* 20, 579237 (2026). DOI:10.2147/OPTH.S579237. PMID:42164977",
+      "first_author": "Dhoot",
+      "title": "Efficacy of continuous pegcetacoplan treatment for subfoveal geographic atrophy in age-related macular degeneration: 36-month results from OAKS, DERBY, and GALE open-label extension",
+      "journal": "Clin Ophthalmol",
+      "year": "2026",
+      "doi": "10.2147/OPTH.S579237",
+      "pmid": "42164977",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Efficacy of Continuous Pegcetacoplan Treatment for Subfoveal Geographic Atrophy in Age-Related Macular Degeneration: 36-Month Results from OAKS, DERBY, and GALE Open-Label Extension",
+      "official_year": "2026",
+      "official_first_author": "Dhoot",
+      "official_journal": "Clin Ophthalmol",
+      "official_doi": "10.2147/OPTH.S579237",
+      "abstract_snippet": "To report efficacy of intravitreal pegcetacoplan treatment over 36 months in eyes with subfoveal geographic atrophy (GA). The GALE (NCT04770545) open-label extension trial adds 12 months of results to the 24-month Phase 3 OAKS (NCT03525613) and DERBY (NCT03525600) trials, representing up to 36 months of continuous pegcetacoplan treatment. They included a heterogeneous population of eyes with subfoveal GA (63%). Pegcetacoplan-treated eyes enrolling in GALE continued at the same interval of pegcetacoplan monthly (PM) or every other month (PEOM). Patients' eyes in sham monthly or every-other-month arms crossed over to receive pegcetacoplan in GALE at the same interval (sham crossover). Conseque",
+      "issues": []
+    },
+    {
+      "num": 45,
+      "raw": "Melamed Z, Lopez-Erauskin J, Baughn MW, Zhang O, Drenner K, Sun Y, et al. Premature polyadenylation-mediated loss of stathmin-2 is a hallmark of TDP-43-dependent neurodegeneration. *Nat Neurosci* 22, 180-190 (2019). DOI:10.1038/s41593-018-0293-z. PMID:30643298",
+      "first_author": "Melamed",
+      "title": "Premature polyadenylation-mediated loss of stathmin-2 is a hallmark of TDP-43-dependent neurodegeneration",
+      "journal": "Nat Neurosci",
+      "year": "2019",
+      "doi": "10.1038/s41593-018-0293-z",
+      "pmid": "30643298",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In single-attractor ALS, 6/6 runs converged on TDP-43 cryptic splicing (`STMN2/UNC13A` [45–48], reconstructed from first principles across 7 automatic forbidden-token redrafts in blind runs), while retrieval runs selectively added trial-adjacent `IL-2/FOXP3` and `C1QA/C3` axes ($\\Delta J_{\\text{lead}} = +0.1296$, exact permutation $p = 0.10$), lifting within-arm similarity from $J_{\\text{lead}} = 0.2037$ to $J_{\\text{axis}} = 0.5722$ (**$2.81\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Premature polyadenylation-mediated loss of stathmin-2 is a hallmark of TDP-43-dependent neurodegeneration",
+      "official_year": "2019",
+      "official_first_author": "Melamed",
+      "official_journal": "Nat Neurosci",
+      "official_doi": "10.1038/s41593-018-0293-z",
+      "abstract_snippet": "Amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) are associated with loss of nuclear transactive response DNA-binding protein 43 (TDP-43). Here we identify that TDP-43 regulates expression of the neuronal growth-associated factor stathmin-2. Lowered TDP-43 levels, which reduce its binding to sites within the first intron of stathmin-2 pre-messenger RNA, uncover a cryptic polyadenylation site whose utilization produces a truncated, non-functional mRNA. Reduced stathmin-2 expression is found in neurons trans-differentiated from patient fibroblasts expressing an ALS-causing TDP-43 mutation, in motor cortex and spinal motor neurons from patients with sporadic ALS and familia",
+      "issues": []
+    },
+    {
+      "num": 46,
+      "raw": "Klim JR, Williams LA, Limone F, Guerra San Juan I, Davis-Dusenbery BN, Mordes DA, et al. ALS-implicated protein TDP-43 sustains levels of STMN2, a mediator of motor neuron growth and repair. *Nat Neurosci* 22, 167-179 (2019). DOI:10.1038/s41593-018-0300-4. PMID:30643292",
+      "first_author": "Klim",
+      "title": "ALS-implicated protein TDP-43 sustains levels of STMN2, a mediator of motor neuron growth and repair",
+      "journal": "Nat Neurosci",
+      "year": "2019",
+      "doi": "10.1038/s41593-018-0300-4",
+      "pmid": "30643292",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In single-attractor ALS, 6/6 runs converged on TDP-43 cryptic splicing (`STMN2/UNC13A` [45–48], reconstructed from first principles across 7 automatic forbidden-token redrafts in blind runs), while retrieval runs selectively added trial-adjacent `IL-2/FOXP3` and `C1QA/C3` axes ($\\Delta J_{\\text{lead}} = +0.1296$, exact permutation $p = 0.10$), lifting within-arm similarity from $J_{\\text{lead}} = 0.2037$ to $J_{\\text{axis}} = 0.5722$ (**$2.81\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "ALS-implicated protein TDP-43 sustains levels of STMN2, a mediator of motor neuron growth and repair",
+      "official_year": "2019",
+      "official_first_author": "Klim",
+      "official_journal": "Nat Neurosci",
+      "official_doi": "10.1038/s41593-018-0300-4",
+      "abstract_snippet": "The findings that amyotrophic lateral sclerosis (ALS) patients almost universally display pathological mislocalization of the RNA-binding protein TDP-43 and that mutations in its gene cause familial ALS have nominated altered RNA metabolism as a disease mechanism. However, the RNAs regulated by TDP-43 in motor neurons and their connection to neuropathy remain to be identified. Here we report transcripts whose abundances in human motor neurons are sensitive to TDP-43 depletion. Notably, expression of STMN2, which encodes a microtubule regulator, declined after TDP-43 knockdown and TDP-43 mislocalization as well as in patient-specific motor neurons and postmortem patient spinal cord. STMN2 los",
+      "issues": []
+    },
+    {
+      "num": 47,
+      "raw": "Brown AL, Wilkins OG, Keuss MJ, Kargbo-Hill SE, Zanovello M, Lee WC, et al. TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A. *Nature* 603, 131-137 (2022). DOI:10.1038/s41586-022-04436-3. PMID:35197628",
+      "first_author": "Brown",
+      "title": "TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A",
+      "journal": "Nature",
+      "year": "2022",
+      "doi": "10.1038/s41586-022-04436-3",
+      "pmid": "35197628",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In single-attractor ALS, 6/6 runs converged on TDP-43 cryptic splicing (`STMN2/UNC13A` [45–48], reconstructed from first principles across 7 automatic forbidden-token redrafts in blind runs), while retrieval runs selectively added trial-adjacent `IL-2/FOXP3` and `C1QA/C3` axes ($\\Delta J_{\\text{lead}} = +0.1296$, exact permutation $p = 0.10$), lifting within-arm similarity from $J_{\\text{lead}} = 0.2037$ to $J_{\\text{axis}} = 0.5722$ (**$2.81\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "TDP-43 loss and ALS-risk SNPs drive mis-splicing and depletion of UNC13A",
+      "official_year": "2022",
+      "official_first_author": "Brown",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-022-04436-3",
+      "abstract_snippet": "Variants of UNC13A, a critical gene for synapse function, increase the risk of amyotrophic lateral sclerosis and frontotemporal dementia1-3, two related neurodegenerative diseases defined by mislocalization of the RNA-binding protein TDP-434,5. Here we show that TDP-43 depletion induces robust inclusion of a cryptic exon in UNC13A, resulting in nonsense-mediated decay and loss of UNC13A protein. Two common intronic UNC13A polymorphisms strongly associated with amyotrophic lateral sclerosis and frontotemporal dementia risk overlap with TDP-43 binding sites. These polymorphisms potentiate cryptic exon inclusion, both in cultured cells and in brains and spinal cords from patients with these con",
+      "issues": []
+    },
+    {
+      "num": 48,
+      "raw": "Ma XR, Prudencio M, Koike Y, Vatsavayai SC, Kim G, Harbinski F, et al. TDP-43 represses cryptic exon inclusion in the FTD-ALS gene UNC13A. *Nature* 603, 124-130 (2022). DOI:10.1038/s41586-022-04424-7. PMID:35197626",
+      "first_author": "Ma",
+      "title": "TDP-43 represses cryptic exon inclusion in the FTD-ALS gene UNC13A",
+      "journal": "Nature",
+      "year": "2022",
+      "doi": "10.1038/s41586-022-04424-7",
+      "pmid": "35197626",
+      "contexts": [
+        "Block 1 executed 12 end-to-end six-stage Parent discovery runs (7,890 calls) in a $2 \\times 2 \\times 3$ factorial crossing dry age-related macular degeneration (dAMD; multi-axis complement, matrix, lipid, and retinal pigment epithelium [RPE] phagocytic pathology [37–44]) and amyotrophic lateral sclerosis (ALS; TDP-43 cryptic splicing alongside SOD1 and autophagy axes [45–48]) against strictly Blind ideation (Supplementary Note 1) versus PubMed Abstract-Injected Retrieval ($R = 3$ replicates per cell).",
+        "In single-attractor ALS, 6/6 runs converged on TDP-43 cryptic splicing (`STMN2/UNC13A` [45–48], reconstructed from first principles across 7 automatic forbidden-token redrafts in blind runs), while retrieval runs selectively added trial-adjacent `IL-2/FOXP3` and `C1QA/C3` axes ($\\Delta J_{\\text{lead}} = +0.1296$, exact permutation $p = 0.10$), lifting within-arm similarity from $J_{\\text{lead}} = 0.2037$ to $J_{\\text{axis}} = 0.5722$ (**$2.81\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "TDP-43 represses cryptic exon inclusion in the FTD-ALS gene UNC13A",
+      "official_year": "2022",
+      "official_first_author": "Ma",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-022-04424-7",
+      "abstract_snippet": "A hallmark pathological feature of the neurodegenerative diseases amyotrophic lateral sclerosis (ALS) and frontotemporal dementia (FTD) is the depletion of RNA-binding protein TDP-43 from the nucleus of neurons in the brain and spinal cord1. A major function of TDP-43 is as a repressor of cryptic exon inclusion during RNA splicing2-4. Single nucleotide polymorphisms in UNC13A are among the strongest hits associated with FTD and ALS in human genome-wide association studies5,6, but how those variants increase risk for disease is unknown. Here we show that TDP-43 represses a cryptic exon-splicing event in UNC13A. Loss of TDP-43 from the nucleus in human brain, neuronal cell lines and motor neur",
+      "issues": []
+    },
+    {
+      "num": 49,
+      "raw": "Köhler S, Gargano M, Matentzoglu N, Carmody LC, Lewis-Smith D, Vasilevsky NA, et al. The Human Phenotype Ontology in 2021. *Nucleic Acids Res* 49, D1207-D1217 (2021). DOI:10.1093/nar/gkaa1043. PMID:33264411",
+      "first_author": "Köhler",
+      "title": "The Human Phenotype Ontology in 2021",
+      "journal": "Nucleic Acids Res",
+      "year": "2021",
+      "doi": "10.1093/nar/gkaa1043",
+      "pmid": "33264411",
+      "contexts": [
+        "Block 3 (Experiment C-v4; 804 logged calls, 630 non-truncated generalized linear mixed model [GLMM] calls across GLM-5.3 and DeepSeek-V4-Pro; Supplementary Table S4) masked 120 Human Phenotype Ontology (HPO [49]) Mendelian diseases at 0%, 25%, and 50% information-content (IC) deletion under `del_topIC` versus `del_lowIC_matched` arms.",
+        "From the Human Phenotype Ontology (`hp.obo` and `phenotype.hpoa` [49]), we curated 120 Mendelian disease-gene pairs across 14 organ-system families (`expC_v4_pairs_120_f14.csv`; Supplementary Table S4)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "The Human Phenotype Ontology in 2021",
+      "official_year": "2021",
+      "official_first_author": "Köhler",
+      "official_journal": "Nucleic Acids Res",
+      "official_doi": "10.1093/nar/gkaa1043",
+      "abstract_snippet": "The Human Phenotype Ontology (HPO, https://hpo.jax.org) was launched in 2008 to provide a comprehensive logical standard to describe and computationally analyze phenotypic abnormalities found in human disease. The HPO is now a worldwide standard for phenotype exchange. The HPO has grown steadily since its inception due to considerable contributions from clinical experts and researchers from a diverse range of disciplines. Here, we present recent major extensions of the HPO for neurology, nephrology, immunology, pulmonology, newborn screening, and other areas. For example, the seizure subontology now reflects the International League Against Epilepsy (ILAE) guidelines and these enhancements h",
+      "issues": []
+    },
+    {
+      "num": 50,
+      "raw": "Saul D, Kosinsky RL, Atkinson EJ, Doolittle ML, Zhang X, LeBrasseur NK, et al. A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues. *Nat Commun* 13, 4827 (2022). DOI:10.1038/s41467-022-32552-1. PMID:35974106",
+      "first_author": "Saul",
+      "title": "A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues",
+      "journal": "Nat Commun",
+      "year": "2022",
+      "doi": "10.1038/s41467-022-32552-1",
+      "pmid": "35974106",
+      "contexts": [
+        "Just as token-level entropy conflates semantically equivalent phrasings [20] and distinct transcriptomic senescence modules (`SenMayo`, `Fridman`, `CellAge`) exhibit minimal single-gene overlap while capturing shared cellular states [50], exact HUGO Gene Nomenclature Committee (HGNC) symbol intersection mistakes co-pathway effector diversity for instability."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "A new gene set identifies senescent cells and predicts senescence-associated pathways across tissues",
+      "official_year": "2022",
+      "official_first_author": "Saul",
+      "official_journal": "Nat Commun",
+      "official_doi": "10.1038/s41467-022-32552-1",
+      "abstract_snippet": "Although cellular senescence drives multiple age-related co-morbidities through the senescence-associated secretory phenotype, in vivo senescent cell identification remains challenging. Here, we generate a gene set (SenMayo) and validate its enrichment in bone biopsies from two aged human cohorts. We further demonstrate reductions in SenMayo in bone following genetic clearance of senescent cells in mice and in adipose tissue from humans following pharmacological senescent cell clearance. We next use SenMayo to identify senescent hematopoietic or mesenchymal cells at the single cell level from human and murine bone marrow/bone scRNA-seq data. Thus, SenMayo identifies senescent cells across ti",
+      "issues": []
+    },
+    {
+      "num": 51,
+      "raw": "Kaarniranta K, Blasiak J, Liton P, Boulton M, Klionsky DJ, Sinha D. Autophagy in age-related macular degeneration. *Autophagy* 19, 388-400 (2023). DOI:10.1080/15548627.2022.2069437. PMID:35468037",
+      "first_author": "Kaarniranta",
+      "title": "Autophagy in age-related macular degeneration",
+      "journal": "Autophagy",
+      "year": "2023",
+      "doi": "10.1080/15548627.2022.2069437",
+      "pmid": "35468037",
+      "contexts": [
+        "In multi-axis dAMD [37, 38, 51], runs sampled distinct druggable effectors (`CFH`, `C3`, `MASP1/2`, `SERPING1`, `SULF2`) within shared complement/Bruch's membrane, inflammasome, ferroptosis, and cGAS-STING axes, lifting within-arm similarity from $J_{\\text{lead}} = 0.0926$ ($\\Delta J = +0.0556, p = 0.10$; combined two-disease $p = 0.0561, q_{\\text{BH}} = 0.0841$) to $J_{\\text{axis}} = 0.3944$ (**$4.26\\times$**; Figure 3B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Autophagy in age-related macular degeneration",
+      "official_year": "2023",
+      "official_first_author": "Kaarniranta",
+      "official_journal": "Autophagy",
+      "official_doi": "10.1080/15548627.2022.2069437",
+      "abstract_snippet": "Age-related macular degeneration (AMD) is the leading cause of visual impairment in the aging population with limited understanding of its pathogenesis and a lack of effective treatment. The progression of AMD is initially characterized by atrophic alterations in the retinal pigment epithelium, as well as the formation of lysosomal lipofuscin and extracellular drusen deposits. Damage caused by chronic oxidative stress, protein aggregation and inflammatory processes may lead to geographic atrophy and/or choroidal neovascularization and fibrosis. The role of macroautophagy/autophagy in AMD pathology is steadily emerging. This review describes selective and secretory autophagy and their role in",
+      "issues": []
+    },
+    {
+      "num": 52,
+      "raw": "Laurer M, van Atteveldt W, Casas A, Welbers K. Less annotating, more classifying: addressing the data scarcity issue of supervised machine learning with deep transfer learning and NLI. *Polit Anal* 32, 84-100 (2024). DOI:10.1017/pan.2023.20",
+      "first_author": "Laurer",
+      "title": "Less annotating, more classifying: addressing the data scarcity issue of supervised machine learning with deep transfer learning and NLI",
+      "journal": "Polit Anal",
+      "year": "2024",
+      "doi": "10.1017/pan.2023.20",
+      "pmid": null,
+      "contexts": [
+        "Applying a DeBERTa-v3 NLI cross-encoder [52] to 480 de-aliased `SCIENCE` judge rationale pairs (Dimension 5) revealed that primacy-flipped pairs ($n = 240$) exhibited a **2.5-fold surge in directional self-contradiction** ($P_{\\text{contra}} > 0.75$: **25.42% vs 10.00%**, Fisher's exact $p = 1.15 \\times 10^{-5}$) and a **3.4-fold surge in strict bidirectional contradiction** (**7.08% vs 2.08%**, $p = 0.0142$; Figure 4C) relative to consistent pairs, praising whichever candidate occupied Slot A via motivated chain-of-thought.",
+        "**Dimension 5 (DeBERTa-v3 Bidirectional NLI Contradiction Audit):** Using `MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli` [52], for any pair of same-entity biological claims $(s_1, s_2)$ across stages or across de-aliased forward/reverse judge rationales, we computed forward $P_{\\text{contra}}(s_1 \\Rightarrow s_2)$ and reverse $P_{\\text{contra}}(s_2 \\Rightarrow s_1)$."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 0.9817,
+      "official_title": "Less Annotating, More Classifying: Addressing the Data Scarcity Issue of Supervised Machine Learning with Deep Transfer Learning and BERT-NLI",
+      "official_year": "2024",
+      "official_first_author": "Laurer",
+      "official_journal": "Political Analysis",
+      "official_doi": "10.1017/pan.2023.20",
+      "abstract_snippet": "Abstract  Supervised machine learning is an increasingly popular tool for analyzing large political text corpora. The main disadvantage of supervised machine learning is the need for thousands of manually annotated training data points. This issue is particularly important in the social sciences where most new research questions require new training data for a new task tailored to the specific research question. This paper analyses how deep transfer learning can help address this challenge by accumulating “prior knowledge” in language models. Models like BERT can learn statistical language patterns through pre-training (“language knowledge”), and reliance on task-specific data can be reduced",
+      "issues": []
+    },
+    {
+      "num": 53,
+      "raw": "Minikel EV, Painter JL, Dong CC, Nelson MR. Refining the impact of genetic evidence on clinical success. *Nature* 629, 624-629 (2024). DOI:10.1038/s41586-024-07316-0. PMID:38632401",
+      "first_author": "Minikel",
+      "title": "Refining the impact of genetic evidence on clinical success",
+      "journal": "Nature",
+      "year": "2024",
+      "doi": "10.1038/s41586-024-07316-0",
+      "pmid": "38632401",
+      "contexts": [
+        "Anchoring rescued candidates against orthogonal human-genetic, animal-model, and clinical-trial truth [53] confirmed recovery of nine canonical pathways suppressed by Slot-B assignment (71.4–100.0% Slot-B placement; per-run exposure ledger in Methods and Supplementary Table S2)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Refining the impact of genetic evidence on clinical success",
+      "official_year": "2024",
+      "official_first_author": "Minikel",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/s41586-024-07316-0",
+      "abstract_snippet": "The cost of drug discovery and development is driven primarily by failure1, with only about 10% of clinical programmes eventually receiving approval2-4. We previously estimated that human genetic evidence doubles the success rate from clinical development to approval5. In this study we leverage the growth in genetic evidence over the past decade to better understand the characteristics that distinguish clinical success and failure. We estimate the probability of success for drug mechanisms with genetic support is 2.6 times greater than those without. This relative success varies among therapy areas and development phases, and improves with increasing confidence in the causal gene, but is lar",
+      "issues": []
+    },
+    {
+      "num": 54,
+      "raw": "D'Cruz PM, Yasumura D, Weir J, Matthes MT, Abderrahim H, LaVail MM, et al. Mutation of the receptor tyrosine kinase gene Mertk in the retinal dystrophic RCS rat. *Hum Mol Genet* 9, 645-651 (2000). DOI:10.1093/hmg/9.4.645. PMID:10699188",
+      "first_author": "D'Cruz",
+      "title": "Mutation of the receptor tyrosine kinase gene Mertk in the retinal dystrophic RCS rat",
+      "journal": "Hum Mol Genet",
+      "year": "2000",
+      "doi": "10.1093/hmg/9.4.645",
+      "pmid": "10699188",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Mutation of the receptor tyrosine kinase gene Mertk in the retinal dystrophic RCS rat",
+      "official_year": "2000",
+      "official_first_author": "D'Cruz",
+      "official_journal": "Hum Mol Genet",
+      "official_doi": "10.1093/hmg/9.4.645",
+      "abstract_snippet": "Vertebrate photoreceptor cells are the basic sensory apparatus of the retina, capable of converting the energy of absorbed photons into neuronal signals. The proximal portions of mammalian photoreceptor outer segments are synthesized daily by cell bodies, and outer segment tips are shed with a circadian rhythm, resulting in a complete turnover of outer segments about every 9 days. The shed outer segments are phagocytosed by adjacent retinal pigment epithelial (RPE) cells, and metabolites are recycled to photoreceptors. The Royal College of Surgeons (RCS) rat is a widely studied, classic model of recessively inherited retinal degeneration in which the RPE fails to phagocytose shed outer segme",
+      "issues": []
+    },
+    {
+      "num": 55,
+      "raw": "Al-Khersan H, Shah KP, Jung SC, Rodriguez A, Madduri RK, Grassi MA. A novel MERTK mutation causing retinitis pigmentosa. *Graefes Arch Clin Exp Ophthalmol* 255, 1613-1619 (2017). DOI:10.1007/s00417-017-3679-9. PMID:28462455",
+      "first_author": "Al-Khersan",
+      "title": "A novel MERTK mutation causing retinitis pigmentosa",
+      "journal": "Graefes Arch Clin Exp Ophthalmol",
+      "year": "2017",
+      "doi": "10.1007/s00417-017-3679-9",
+      "pmid": "28462455",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "A novel MERTK mutation causing retinitis pigmentosa",
+      "official_year": "2017",
+      "official_first_author": "Al-Khersan",
+      "official_journal": "Graefes Arch Clin Exp Ophthalmol",
+      "official_doi": "10.1007/s00417-017-3679-9",
+      "abstract_snippet": "Retinitis pigmentosa (RP) is a genetically heterogeneous inherited retinal dystrophy. To date, over 80 genes have been implicated in RP. However, the disease demonstrates significant locus and allelic heterogeneity not entirely captured by current testing platforms. The purpose of the present study was to characterize the underlying mutation in a patient with RP without a molecular diagnosis after initial genetic testing. Whole-exome sequencing of the affected proband was performed. Candidate gene mutations were selected based on adherence to expected genetic inheritance pattern and predicted pathogenicity. Sanger sequencing of MERTK was completed on the patient's unaffected mother, affected",
+      "issues": []
+    },
+    {
+      "num": 56,
+      "raw": "Burstyn-Cohen T, Lew ED, Traves PG, Burrola PG, Hash JC, Lemke G. Genetic dissection of TAM receptor-ligand interaction in retinal pigment epithelial cell phagocytosis. *Neuron* 76, 1123-1132 (2012). DOI:10.1016/j.neuron.2012.10.015. PMID:23259948",
+      "first_author": "Burstyn-Cohen",
+      "title": "Genetic dissection of TAM receptor-ligand interaction in retinal pigment epithelial cell phagocytosis",
+      "journal": "Neuron",
+      "year": "2012",
+      "doi": "10.1016/j.neuron.2012.10.015",
+      "pmid": "23259948",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Genetic dissection of TAM receptor-ligand interaction in retinal pigment epithelial cell phagocytosis",
+      "official_year": "2012",
+      "official_first_author": "Burstyn-Cohen",
+      "official_journal": "Neuron",
+      "official_doi": "10.1016/j.neuron.2012.10.015",
+      "abstract_snippet": "Although TAM receptor tyrosine kinases play key roles in immune regulation, cancer metastasis, and viral infection, the relative importance of the two TAM ligands-Gas6 and Protein S-has yet to be resolved in any setting in vivo. We have now performed a genetic dissection of ligand function in the retina, where the TAM receptor Mer is required for the circadian phagocytosis of photoreceptor outer segments by retinal pigment epithelial cells. This process is severely attenuated in Mer mutant mice, which leads to photoreceptor death. We find that retinal deletion of either Gas6 or Protein S alone yields retinae with a normal number of photoreceptors. However, concerted deletion of both ligands ",
+      "issues": []
+    },
+    {
+      "num": 57,
+      "raw": "Parinot C, Chatagnon J, Rieu Q, Roux S, Néel D, Hamieh F, et al. Gas6 and Protein S ligands cooperate to regulate MerTK rhythmic activity required for circadian retinal phagocytosis. *Int J Mol Sci* 25, 6630 (2024). DOI:10.3390/ijms25126630. PMID:38928335",
+      "first_author": "Parinot",
+      "title": "Gas6 and Protein S ligands cooperate to regulate MerTK rhythmic activity required for circadian retinal phagocytosis",
+      "journal": "Int J Mol Sci",
+      "year": "2024",
+      "doi": "10.3390/ijms25126630",
+      "pmid": "38928335",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Gas6 and Protein S Ligands Cooperate to Regulate MerTK Rhythmic Activity Required for Circadian Retinal Phagocytosis",
+      "official_year": "2024",
+      "official_first_author": "Parinot",
+      "official_journal": "Int J Mol Sci",
+      "official_doi": "10.3390/ijms25126630",
+      "abstract_snippet": "Among the myriad of existing tyrosine kinase receptors, the TAM family-abbreviated from Tyro3, Axl, and Mer tyrosine kinase (MerTK)-has been extensively studied with an outstanding contribution from the team of Prof. Greg Lemke. MerTK activity is implicated in a wide variety of functions involving the elimination of apoptotic cells and has recently been linked to cancers, auto-immune diseases, and atherosclerosis/stroke. In the retina, MerTK is required for the circadian phagocytosis of oxidized photoreceptor outer segments by the retinal-pigment epithelial cells, a function crucial for the long-term maintenance of vision. We previously showed that MerTK ligands carry the opposite role in vi",
+      "issues": []
+    },
+    {
+      "num": 58,
+      "raw": "Chen W, Stambolian D, Edwards AO, Branham KE, Othman M, Jakobsdottir J, et al. Genetic variants near TIMP3 and high-density lipoprotein-associated loci influence susceptibility to age-related macular degeneration. *Proc Natl Acad Sci U S A* 107, 7401-7406 (2010). DOI:10.1073/pnas.0912702107. PMID:20385819",
+      "first_author": "Chen",
+      "title": "Genetic variants near TIMP3 and high-density lipoprotein-associated loci influence susceptibility to age-related macular degeneration",
+      "journal": "Proc Natl Acad Sci U S A",
+      "year": "2010",
+      "doi": "10.1073/pnas.0912702107",
+      "pmid": "20385819",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Genetic variants near TIMP3 and high-density lipoprotein-associated loci influence susceptibility to age-related macular degeneration",
+      "official_year": "2010",
+      "official_first_author": "Chen",
+      "official_journal": "Proc Natl Acad Sci U S A",
+      "official_doi": "10.1073/pnas.0912702107",
+      "abstract_snippet": "We executed a genome-wide association scan for age-related macular degeneration (AMD) in 2,157 cases and 1,150 controls. Our results validate AMD susceptibility loci near CFH (P < 10(-75)), ARMS2 (P < 10(-59)), C2/CFB (P < 10(-20)), C3 (P < 10(-9)), and CFI (P < 10(-6)). We compared our top findings with the Tufts/Massachusetts General Hospital genome-wide association study of advanced AMD (821 cases, 1,709 controls) and genotyped 30 promising markers in additional individuals (up to 7,749 cases and 4,625 controls). With these data, we identified a susceptibility locus near TIMP3 (overall P = 1.1 x 10(-11)), a metalloproteinase involved in degradation of the extracellular matrix and previous",
+      "issues": []
+    },
+    {
+      "num": 59,
+      "raw": "Ehrenzeller C, MacLaren RE. Interactions between epidermal growth factor-containing fibulin-like extracellular matrix protein 1 and tissue inhibitor of metalloproteinases-3 and relevance to age-related macular degeneration. *Ophthalmol Sci* 6, 101287 (2026). DOI:10.1016/j.xops.2026.101287. PMID:42569289",
+      "first_author": "Ehrenzeller",
+      "title": "Interactions between epidermal growth factor-containing fibulin-like extracellular matrix protein 1 and tissue inhibitor of metalloproteinases-3 and relevance to age-related macular degeneration",
+      "journal": "Ophthalmol Sci",
+      "year": "2026",
+      "doi": "10.1016/j.xops.2026.101287",
+      "pmid": "42569289",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Interactions Between Epidermal Growth Factor-Containing Fibulin-Like Extracellular Matrix Protein 1 and Tissue Inhibitor of Metalloproteinases-3 and Relevance to Age-Related Macular Degeneration",
+      "official_year": "2026",
+      "official_first_author": "Ehrenzeller",
+      "official_journal": "Ophthalmol Sci",
+      "official_doi": "10.1016/j.xops.2026.101287",
+      "abstract_snippet": "Age-related macular degeneration (AMD) remains the leading cause of irreversible blindness in Western populations, with no approved therapies for the dry form characterized by drusen accumulation and retinal pigment epithelium atrophy. This review examines extracellular matrix alterations in Bruch's membrane by comparing healthy aging, AMD pathogenesis, and Doyne Honeycomb Retinal Dystrophy-a monogenic disorder that serves as a surrogate model for AMD due to similar phenotypic manifestations. We focus on the critical interactions between epidermal growth factor-containing fibulin-like extracellular matrix protein 1 (EFEMP1), matrix metalloproteinases (MMPs), tissue inhibitor of metalloprotei",
+      "issues": []
+    },
+    {
+      "num": 60,
+      "raw": "Kumar-Singh R. The role of complement membrane attack complex in dry and wet AMD - from hypothesis to clinical trials. *Exp Eye Res* 184, 266-277 (2019). DOI:10.1016/j.exer.2019.05.006. PMID:31082363",
+      "first_author": "Kumar-Singh",
+      "title": "The role of complement membrane attack complex in dry and wet AMD - from hypothesis to clinical trials",
+      "journal": "Exp Eye Res",
+      "year": "2019",
+      "doi": "10.1016/j.exer.2019.05.006",
+      "pmid": "31082363",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "The role of complement membrane attack complex in dry and wet AMD - From hypothesis to clinical trials",
+      "official_year": "2019",
+      "official_first_author": "Kumar-Singh",
+      "official_journal": "Exp Eye Res",
+      "official_doi": "10.1016/j.exer.2019.05.006",
+      "abstract_snippet": "Data from human dry and wet age-related macular degeneration (AMD) eyes support the hypothesis that constant 'tickover' of the alternative complement pathway results in chronic deposition of the complement membrane attack complex (MAC) on the choriocapillaris and the retinal pigment epithelium (RPE). Sub-lytic levels of MAC lead to cell signaling associated with tissue remodeling and the production of cytokines and inflammatory molecules. Lytic levels of MAC lead to cell death. CD59 is a naturally occurring inhibitor of the assembly of MAC. CD59 may thus be therapeutically efficacious against the pathophysiology of dry and wet AMD. The first gene therapy clinical trial for geographic atrophy",
+      "issues": []
+    },
+    {
+      "num": 61,
+      "raw": "Grubaugh CR, Dhingra A, Prakash B, Montenegro D, Sparrow JR, Daniele LL, et al. Microsomal triglyceride transfer protein is necessary to maintain lipid homeostasis and retinal function. *FASEB J* 38, e23522 (2024). DOI:10.1096/fj.202302491R. PMID:38445789",
+      "first_author": "Grubaugh",
+      "title": "Microsomal triglyceride transfer protein is necessary to maintain lipid homeostasis and retinal function",
+      "journal": "FASEB J",
+      "year": "2024",
+      "doi": "10.1096/fj.202302491R",
+      "pmid": "38445789",
+      "contexts": [
+        "In dAMD, `OA-BTL` rescued `GAS6/PROS1–MERTK` RPE efferocytosis (`Rank 11 -> 7` [39, 54–57]), `TIMP3/MMP2/MMP9` matrix turnover (`Rank 15 -> 8` [37, 58, 59]), `ABCA1/LIPC/CETP` cholesterol efflux (`Rank 15 -> 6` [37, 58]), `CD59` membrane-attack-complex inhibition (`Rank 11 -> 5` [40, 60]), and `MTTP/APOB100` lipoprotein drusen biogenesis (`Rank 12 -> 6` [42, 61])."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Microsomal triglyceride transfer protein is necessary to maintain lipid homeostasis and retinal function",
+      "official_year": "2024",
+      "official_first_author": "Grubaugh",
+      "official_journal": "FASEB J",
+      "official_doi": "10.1096/fj.202302491R",
+      "abstract_snippet": "Lipid processing by the retinal pigment epithelium (RPE) is necessary to maintain retinal health and function. Dysregulation of retinal lipid homeostasis due to normal aging or age-related disease triggers lipid accumulation within the RPE, on Bruch's membrane (BrM), and in the subretinal space. In its role as a hub for lipid trafficking into and out of the neural retina, the RPE packages a significant amount of lipid into lipid droplets for storage and into apolipoprotein B (APOB)-containing lipoproteins (Blps) for export. Microsomal triglyceride transfer protein (MTP), encoded by the MTTP gene, is essential for Blp assembly. Herein we test the hypothesis that MTP expression in the RPE is e",
+      "issues": []
+    },
+    {
+      "num": 62,
+      "raw": "Kaplan A, Spiller KJ, Towne C, Kanning KC, Choe GT, Geber A, et al. Neuronal matrix metalloproteinase-9 is a determinant of selective neurodegeneration. *Neuron* 81, 333-348 (2014). DOI:10.1016/j.neuron.2013.12.009. PMID:24462097",
+      "first_author": "Kaplan",
+      "title": "Neuronal matrix metalloproteinase-9 is a determinant of selective neurodegeneration",
+      "journal": "Neuron",
+      "year": "2014",
+      "doi": "10.1016/j.neuron.2013.12.009",
+      "pmid": "24462097",
+      "contexts": [
+        "In ALS, `OA-BTL` recovered `MMP9/LAMA1` denervation (`Rank 13 -> 6` [62]), `CCS/ATP7A` apo-SOD1 maturation (`Rank 15 -> 10` despite 23/23 Slot-B placement [63]), `MCT1/SLC16A1` oligodendrocyte lactate shuttle (`Rank 11 -> 7` [64]), and `C1QA/C3` complement synapse pruning (`Rank 13 -> 10` [65]; Figure 6B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Neuronal matrix metalloproteinase-9 is a determinant of selective neurodegeneration",
+      "official_year": "2014",
+      "official_first_author": "Kaplan",
+      "official_journal": "Neuron",
+      "official_doi": "10.1016/j.neuron.2013.12.009",
+      "abstract_snippet": "Selective neuronal loss is the hallmark of neurodegenerative diseases. In patients with amyotrophic lateral sclerosis (ALS), most motor neurons die but those innervating extraocular, pelvic sphincter, and slow limb muscles exhibit selective resistance. We identified 18 genes that show >10-fold differential expression between resistant and vulnerable motor neurons. One of these, matrix metalloproteinase-9 (MMP-9), is expressed only by fast motor neurons, which are selectively vulnerable. In ALS model mice expressing mutant superoxide dismutase (SOD1), reduction of MMP-9 function using gene ablation, viral gene therapy, or pharmacological inhibition significantly delayed muscle denervation. In",
+      "issues": []
+    },
+    {
+      "num": 63,
+      "raw": "Subramaniam JR, Lyons WE, Liu J, Bartnikas TB, Rothstein J, Price DL, et al. Mutant SOD1 causes motor neuron disease independent of copper chaperone-mediated copper loading. *Nat Neurosci* 5, 301-307 (2002). DOI:10.1038/nn823. PMID:11889469",
+      "first_author": "Subramaniam",
+      "title": "Mutant SOD1 causes motor neuron disease independent of copper chaperone-mediated copper loading",
+      "journal": "Nat Neurosci",
+      "year": "2002",
+      "doi": "10.1038/nn823",
+      "pmid": "11889469",
+      "contexts": [
+        "In ALS, `OA-BTL` recovered `MMP9/LAMA1` denervation (`Rank 13 -> 6` [62]), `CCS/ATP7A` apo-SOD1 maturation (`Rank 15 -> 10` despite 23/23 Slot-B placement [63]), `MCT1/SLC16A1` oligodendrocyte lactate shuttle (`Rank 11 -> 7` [64]), and `C1QA/C3` complement synapse pruning (`Rank 13 -> 10` [65]; Figure 6B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Mutant SOD1 causes motor neuron disease independent of copper chaperone-mediated copper loading",
+      "official_year": "2002",
+      "official_first_author": "Subramaniam",
+      "official_journal": "Nat Neurosci",
+      "official_doi": "10.1038/nn823",
+      "abstract_snippet": "Copper-mediated oxidative damage is proposed to play a critical role in the pathogenesis of Cu/Zn superoxide dismutase (SOD1)-linked familial amyotrophic lateral sclerosis (FALS). We tested this hypothesis by ablating the gene encoding the copper chaperone for SOD1 (CCS) in a series of FALS-linked SOD1 mutant mice. Metabolic 64Cu labeling in SOD1-mutant mice lacking the CCS showed that the incorporation of copper into mutant SOD1 was significantly diminished in the absence of CCS. Motor neurons in CCS-/- mice showed increased rate of death after facial nerve axotomy, a response documented for SOD1-/- mice. Thus, CCS is necessary for the efficient incorporation of copper into SOD1 in motor ne",
+      "issues": []
+    },
+    {
+      "num": 64,
+      "raw": "Lee Y, Morrison BM, Li Y, Lengacher S, Farah MH, Hoffman PN, et al. Oligodendroglia metabolically support axons and contribute to neurodegeneration. *Nature* 487, 443-448 (2012). DOI:10.1038/nature11314. PMID:22801498",
+      "first_author": "Lee",
+      "title": "Oligodendroglia metabolically support axons and contribute to neurodegeneration",
+      "journal": "Nature",
+      "year": "2012",
+      "doi": "10.1038/nature11314",
+      "pmid": "22801498",
+      "contexts": [
+        "In ALS, `OA-BTL` recovered `MMP9/LAMA1` denervation (`Rank 13 -> 6` [62]), `CCS/ATP7A` apo-SOD1 maturation (`Rank 15 -> 10` despite 23/23 Slot-B placement [63]), `MCT1/SLC16A1` oligodendrocyte lactate shuttle (`Rank 11 -> 7` [64]), and `C1QA/C3` complement synapse pruning (`Rank 13 -> 10` [65]; Figure 6B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Oligodendroglia metabolically support axons and contribute to neurodegeneration",
+      "official_year": "2012",
+      "official_first_author": "Lee",
+      "official_journal": "Nature",
+      "official_doi": "10.1038/nature11314",
+      "abstract_snippet": "Oligodendroglia support axon survival and function through mechanisms independent of myelination, and their dysfunction leads to axon degeneration in several diseases. The cause of this degeneration has not been determined, but lack of energy metabolites such as glucose or lactate has been proposed. Lactate is transported exclusively by monocarboxylate transporters, and changes to these transporters alter lactate production and use. Here we show that the most abundant lactate transporter in the central nervous system, monocarboxylate transporter 1 (MCT1, also known as SLC16A1), is highly enriched within oligodendroglia and that disruption of this transporter produces axon damage and neuron l",
+      "issues": []
+    },
+    {
+      "num": 65,
+      "raw": "Hong S, Beja-Glasser VF, Nfonoyim BM, Frouin A, Li S, Ramakrishnan S, et al. Complement and microglia mediate early synapse loss in Alzheimer mouse models. *Science* 352, 712-716 (2016). DOI:10.1126/science.aad8373. PMID:27033548",
+      "first_author": "Hong",
+      "title": "Complement and microglia mediate early synapse loss in Alzheimer mouse models",
+      "journal": "Science",
+      "year": "2016",
+      "doi": "10.1126/science.aad8373",
+      "pmid": "27033548",
+      "contexts": [
+        "In ALS, `OA-BTL` recovered `MMP9/LAMA1` denervation (`Rank 13 -> 6` [62]), `CCS/ATP7A` apo-SOD1 maturation (`Rank 15 -> 10` despite 23/23 Slot-B placement [63]), `MCT1/SLC16A1` oligodendrocyte lactate shuttle (`Rank 11 -> 7` [64]), and `C1QA/C3` complement synapse pruning (`Rank 13 -> 10` [65]; Figure 6B)."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "Complement and microglia mediate early synapse loss in Alzheimer mouse models",
+      "official_year": "2016",
+      "official_first_author": "Hong",
+      "official_journal": "Science",
+      "official_doi": "10.1126/science.aad8373",
+      "abstract_snippet": "Synapse loss in Alzheimer's disease (AD) correlates with cognitive decline. Involvement of microglia and complement in AD has been attributed to neuroinflammation, prominent late in disease. Here we show in mouse models that complement and microglia mediate synaptic loss early in AD. C1q, the initiating protein of the classical complement cascade, is increased and associated with synapses before overt plaque deposition. Inhibition of C1q, C3, or the microglial complement receptor CR3 reduces the number of phagocytic microglia, as well as the extent of early synapse loss. C1q is necessary for the toxic effects of soluble β-amyloid (Aβ) oligomers on synapses and hippocampal long-term potentiat",
+      "issues": []
+    },
+    {
+      "num": 66,
+      "raw": "Platt JC. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. In: *Advances in Large Margin Classifiers*, MIT Press, 61-74 (1999).",
+      "first_author": "Platt",
+      "title": "Platt JC. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. In: *Advances in Large Margin Classifiers*, MIT Press, 61-74 (1999).",
+      "journal": "",
+      "year": "1999",
+      "doi": null,
+      "pmid": null,
+      "contexts": [
+        "**Module 2 (`LORO Platt Scaling`)** [18, 66] fitted out-of-sample two-parameter logistic maps across held-in runs, cutting Parent $\\text{ECE}$ by **87.64%** ($0.2221 \\to 0.0274$ [$0.222 \\to 0.027$, $-87.8\\%$], **97.3%** calibration accuracy; Brier $0.216 \\to 0.161$) and Experiment C-v4 $\\text{ECE}$ by **89.46%** on GLM-5.3 ($0.351 \\to 0.037$) and **82.79%** on DeepSeek-V4-Pro ($0.244 \\to 0.042$; Figure 5B)."
+      ],
+      "verification_source": "UNVERIFIED",
+      "title_similarity": 0.0,
+      "official_title": "",
+      "official_year": "",
+      "official_first_author": "",
+      "official_journal": "",
+      "official_doi": "",
+      "abstract_snippet": "",
+      "issues": [
+        "Title similarity=0.00: MS='Platt JC. Probabilistic outputs for support vector machines and comparisons to regularized likelihood methods. In: *Advances in Large Margin Classifiers*, MIT Press, 61-74 (1999).' vs OFFICIAL=''"
+      ]
+    },
+    {
+      "num": 67,
+      "raw": "Collins GS, Moons KGM, Dhiman P, Riley RD, Beam AL, Van Calster B, et al. TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods. *BMJ* 385, e078378 (2024). DOI:10.1136/bmj-2023-078378. PMID:38626948",
+      "first_author": "Collins",
+      "title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+      "journal": "BMJ",
+      "year": "2024",
+      "doi": "10.1136/bmj-2023-078378",
+      "pmid": "38626948",
+      "contexts": [
+        "Keeping ideation and scientific judging *on the data path* while moving debiasing, NLI filtering, calibration, bibliographic verification, and trajectory recovery *off the data path* resolves multi-agent plausible invalidity [35] without weight fine-tuning, establishing a reporting standard analogous to `TRIPOD+AI` [67] prior to preclinical investment."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "TRIPOD+AI statement: updated guidance for reporting clinical prediction models that use regression or machine learning methods",
+      "official_year": "2024",
+      "official_first_author": "Collins",
+      "official_journal": "BMJ",
+      "official_doi": "10.1136/bmj-2023-078378",
+      "abstract_snippet": "The TRIPOD (Transparent Reporting of a multivariable prediction model for Individual Prognosis Or Diagnosis) statement was published in 2015 to provide the minimum reporting recommendations for studies developing or evaluating the performance of a prediction model. Methodological advances in the field of prediction have since included the widespread use of artificial intelligence (AI) powered by machine learning methods to develop prediction models. An update to the TRIPOD statement is thus needed. TRIPOD+AI provides harmonised guidance for reporting prediction model studies, irrespective of whether regression modelling or machine learning methods have been used. The new checklist supersedes",
+      "issues": []
+    },
+    {
+      "num": 68,
+      "raw": "Wilkinson MD, Dumontier M, Aalbersberg IJ, Appleton G, Axton M, Baak A, et al. The FAIR Guiding Principles for scientific data management and stewardship. *Sci Data* 3, 160018 (2016). DOI:10.1038/sdata.2016.18. PMID:26978244",
+      "first_author": "Wilkinson",
+      "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+      "journal": "Sci Data",
+      "year": "2016",
+      "doi": "10.1038/sdata.2016.18",
+      "pmid": "26978244",
+      "contexts": [
+        "- **Data:** The frozen protocol specification, cryptographic SHA-256 freeze manifest, disease gold-standard definitions, 120-disease HPO stimulus table, per-call JSONL telemetry logs (9,130 primary calls across 8,973 white-box CoT traces plus 2,688 cross-ecosystem Google `Gemini-4-Argon-High`/`Gemini-3.8-Flash` [1,149,908 output/reasoning tokens; 12.05M total tokens incl. cache] and xAI `Grok-4.7`/`Grok-4.7-Fast` [450,879 reasoning tokens] evaluations; 11,818 total evaluations, 37.18M reasoning/output tokens), raw model responses, PubMed verification caches (956 primary + 162 Gemini + 136 Grok distinct PMIDs), and master statistical outputs are publicly accessible on GitHub (https://github.com/SJT503/SDL-dAMD) and archived on Zenodo (DOI: 10.5281/zenodo.20574265, CC BY 4.0; held under pre-publication anti-contamination embargo during peer review to prevent LLM pretraining crawl leakage of masked HPO benchmarks, with private reviewer access provided and automatic public release upon publication) in accordance with Findable, Accessible, Interoperable, and Reusable (FAIR) principles [68]."
+      ],
+      "verification_source": "PUBMED_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "The FAIR Guiding Principles for scientific data management and stewardship",
+      "official_year": "2016",
+      "official_first_author": "Wilkinson",
+      "official_journal": "Sci Data",
+      "official_doi": "10.1038/sdata.2016.18",
+      "abstract_snippet": "There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders-representing academia, industry, funding agencies, and scholarly publishers-have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comm",
+      "issues": []
+    },
+    {
+      "num": 69,
+      "raw": "Brier GW. Verification of forecasts expressed in terms of probability. *Mon Weather Rev* 78, 1-3 (1950). DOI:10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+      "first_author": "Brier",
+      "title": "Verification of forecasts expressed in terms of probability",
+      "journal": "Mon Weather Rev",
+      "year": "1950",
+      "doi": "10.1175/1520-0493(1950)078<0001:VOFEIT>2.0.CO;2",
+      "pmid": null,
+      "contexts": [
+        "Leave-One-Run-Out (LORO) Platt scaling fitted $\\hat{p}_i = \\sigma(a_{-r} \\text{logit}(\\tilde{c}_i) + b_{-r})$ on the $11$ training runs and evaluated Expected Calibration Error ($\\text{ECE} = \\sum_{b=1}^{B} \\frac{n_b}{N} |\\bar{y}_b - \\bar{p}_b|$ across $B = 10$ equal-width bins) and Brier score ($\\frac{1}{N}\\sum_{i=1}^N (y_i - \\hat{p}_i)^2$ [18, 69]) out-of-sample on the held-out run $r$."
+      ],
+      "verification_source": "CROSSREF_VERIFIED",
+      "title_similarity": 1.0,
+      "official_title": "VERIFICATION OF FORECASTS EXPRESSED IN TERMS OF PROBABILITY",
+      "official_year": "1950",
+      "official_first_author": "BRIER",
+      "official_journal": "Monthly Weather Review",
+      "official_doi": "10.1175/1520-0493(1950)078<0001:vofeit>2.0.co;2",
+      "abstract_snippet": "",
+      "issues": []
+    }
+  ]
+}

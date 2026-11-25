@@ -1,0 +1,227 @@
+{
+  "R01": {
+    "orig_pair_id": "ALS_P16",
+    "i": 2,
+    "j": 9
+  },
+  "R02": {
+    "orig_pair_id": "ALS_P21",
+    "i": 3,
+    "j": 7
+  },
+  "R03": {
+    "orig_pair_id": "ALS_P31",
+    "i": 5,
+    "j": 6
+  },
+  "R04": {
+    "orig_pair_id": "ALS_P19",
+    "i": 3,
+    "j": 5
+  },
+  "R05": {
+    "orig_pair_id": "ALS_P40",
+    "i": 7,
+    "j": 8
+  },
+  "R06": {
+    "orig_pair_id": "ALS_P14",
+    "i": 2,
+    "j": 7
+  },
+  "R07": {
+    "orig_pair_id": "ALS_P39",
+    "i": 6,
+    "j": 10
+  },
+  "R08": {
+    "orig_pair_id": "ALS_P10",
+    "i": 2,
+    "j": 3
+  },
+  "R09": {
+    "orig_pair_id": "ALS_P24",
+    "i": 3,
+    "j": 10
+  },
+  "R10": {
+    "orig_pair_id": "ALS_P13",
+    "i": 2,
+    "j": 6
+  },
+  "R11": {
+    "orig_pair_id": "ALS_P06",
+    "i": 1,
+    "j": 7
+  },
+  "R12": {
+    "orig_pair_id": "ALS_P15",
+    "i": 2,
+    "j": 8
+  },
+  "R13": {
+    "orig_pair_id": "ALS_P22",
+    "i": 3,
+    "j": 8
+  },
+  "R14": {
+    "orig_pair_id": "ALS_P34",
+    "i": 5,
+    "j": 9
+  },
+  "R15": {
+    "orig_pair_id": "ALS_P23",
+    "i": 3,
+    "j": 9
+  },
+  "R16": {
+    "orig_pair_id": "ALS_P41",
+    "i": 7,
+    "j": 9
+  },
+  "R17": {
+    "orig_pair_id": "ALS_P38",
+    "i": 6,
+    "j": 9
+  },
+  "R18": {
+    "orig_pair_id": "ALS_P30",
+    "i": 4,
+    "j": 10
+  },
+  "R19": {
+    "orig_pair_id": "ALS_P42",
+    "i": 7,
+    "j": 10
+  },
+  "R20": {
+    "orig_pair_id": "ALS_P26",
+    "i": 4,
+    "j": 6
+  },
+  "R21": {
+    "orig_pair_id": "ALS_P32",
+    "i": 5,
+    "j": 7
+  },
+  "R22": {
+    "orig_pair_id": "ALS_P43",
+    "i": 8,
+    "j": 9
+  },
+  "R23": {
+    "orig_pair_id": "ALS_P29",
+    "i": 4,
+    "j": 9
+  },
+  "R24": {
+    "orig_pair_id": "ALS_P28",
+    "i": 4,
+    "j": 8
+  },
+  "R25": {
+    "orig_pair_id": "ALS_P35",
+    "i": 5,
+    "j": 10
+  },
+  "R26": {
+    "orig_pair_id": "ALS_P11",
+    "i": 2,
+    "j": 4
+  },
+  "R27": {
+    "orig_pair_id": "ALS_P37",
+    "i": 6,
+    "j": 8
+  },
+  "R28": {
+    "orig_pair_id": "ALS_P09",
+    "i": 1,
+    "j": 10
+  },
+  "R29": {
+    "orig_pair_id": "ALS_P27",
+    "i": 4,
+    "j": 7
+  },
+  "R30": {
+    "orig_pair_id": "ALS_P05",
+    "i": 1,
+    "j": 6
+  },
+  "R31": {
+    "orig_pair_id": "ALS_P36",
+    "i": 6,
+    "j": 7
+  },
+  "R32": {
+    "orig_pair_id": "ALS_P18",
+    "i": 3,
+    "j": 4
+  },
+  "R33": {
+    "orig_pair_id": "ALS_P17",
+    "i": 2,
+    "j": 10
+  },
+  "R34": {
+    "orig_pair_id": "ALS_P45",
+    "i": 9,
+    "j": 10
+  },
+  "R35": {
+    "orig_pair_id": "ALS_P08",
+    "i": 1,
+    "j": 9
+  },
+  "R36": {
+    "orig_pair_id": "ALS_P33",
+    "i": 5,
+    "j": 8
+  },
+  "R37": {
+    "orig_pair_id": "ALS_P12",
+    "i": 2,
+    "j": 5
+  },
+  "R38": {
+    "orig_pair_id": "ALS_P02",
+    "i": 1,
+    "j": 3
+  },
+  "R39": {
+    "orig_pair_id": "ALS_P25",
+    "i": 4,
+    "j": 5
+  },
+  "R40": {
+    "orig_pair_id": "ALS_P04",
+    "i": 1,
+    "j": 5
+  },
+  "R41": {
+    "orig_pair_id": "ALS_P07",
+    "i": 1,
+    "j": 8
+  },
+  "R42": {
+    "orig_pair_id": "ALS_P44",
+    "i": 8,
+    "j": 10
+  },
+  "R43": {
+    "orig_pair_id": "ALS_P20",
+    "i": 3,
+    "j": 6
+  },
+  "R44": {
+    "orig_pair_id": "ALS_P01",
+    "i": 1,
+    "j": 2
+  },
+  "R45": {
+    "orig_pair_id": "ALS_P03",
+    "i": 1,
+    "j": 4
+  }
+}

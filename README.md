@@ -1,124 +1,43 @@
-# SDL-dAMD
+# STAR-Audit (v2.0): Off-the-Data-Path Auditing and Zero-Call Algorithmic Rectification for Multi-Agent AI Discovery
 
-Companion code for: **A measurable trustworthiness audit for AI-driven
-scientific discovery** (Sheng et al., 2026).
+[![License: MIT](https://img.shields.io/badge/License-MIT-teal.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20574265.svg)](https://doi.org/10.5281/zenodo.20574265)
 
-This repository ships the open **credibility-audit harness** — a small,
-dependency-light tool that computes the three *measurable* trustworthiness
-metrics reported in the paper for the output of any autonomous
-scientific-discovery pipeline. It does not score "intelligence" or "novelty";
-it answers three concrete, checkable questions about a discovery run:
+Official code, frozen protocol manifests, blinded human domain-expert calibration datasets, and offline verification suite for:
 
-1. **Are the citations real and on-topic?** (hallucination rate, external PubMed round-trip)
-2. **Did the system reason, or just look up a database?** (anti-retrieval separation)
-3. **Did the LLM judge decide by content, or by where a candidate was printed?** (position-bias rate)
-
-The harness reproduces the paper's headline dAMD Run 1 position-bias figure
-exactly: **7 of 45 pairs flagged = 15.56 %** against the real tournament data.
+> **Auditing and rectifying test-time reasoning, tournament, and grounding biases in multi-agent AI discovery**  
+> Jiangtao Sheng\*, Xueer Liu, Runmin Lin, Qiaochu Sun, Xiaoxuan Chen, Kangsheng Li, and Weiqiang Chen\*  
+> *Department of Microbiology and Immunology & First Affiliated Hospital, Shantou University Medical College*
 
 ---
 
-## Repository contents
+## Quickstart (`< 0.1 s`, Zero API Keys Required)
 
-```
-SDL-dAMD/
-├── code/
-│   ├── credibility_audit.py     # the harness (stdlib-first; SciPy optional)
-│   ├── README.md                # harness documentation (the three metrics, CLI, schemas)
-│   ├── REPORTING_TEMPLATE.md    # one-page fillable audit-triple report form
-│   └── examples/                # synthetic demo inputs + expected output + NOTES
-├── test_data/                   # stable synthetic inputs for the regression suite
-├── expected_results/            # committed baseline for run_all_tests.sh
-├── run_all_tests.sh             # regression suite (synthetic + optional real-data check)
-├── requirements.txt             # Python dependencies (pip)
-├── environment.yml              # Python dependencies (conda)
-└── LICENSE                      # MIT
-```
-
-The audit harness in `code/` is the released, reproducible component. The
-Bradley–Terry–Luce / Hunter-MM ranking implementation, the figure-generation
-scripts, and the full sub-agent dispatch orchestration that produced the
-paper's results are part of the audit trail deposited at Zenodo
-(DOI [10.5281/zenodo.20574265](https://doi.org/10.5281/zenodo.20574265));
-the harness here reads that data's schema and recomputes the three audit
-metrics from it.
-
----
-
-## Quick start
-
-Python **3.8+**. The core harness needs no third-party packages; SciPy is
-optional (used only for the exact Mann–Whitney U in metric 2; a stdlib
-normal-approximation fallback is used otherwise).
+Verify all four deterministic **STAR-Audit** post-processing operators (`Module 1: Order-Adjusted BTL`, `Module 2: Selective LORO/LODO Platt Gate`, `Module 3: Epistemic Abstention + Closed-Loop Entrez Handoff`, and `Module 4: CoT-SRAD Stream Harvesting`) offline in `< 0.1 s` using only Python `>= 3.10`, `numpy`, and `scipy`:
 
 ```bash
-# optional, for exact Mann–Whitney U
-pip install -r requirements.txt    # or: conda env create -f environment.yml
-
-# run the regression suite on the bundled synthetic data
-bash run_all_tests.sh
-# expected: 3 passed, 0 failed
+python BiB_work_2026-09-02/GEN2_exec/star_audit_demo.py
 ```
 
-To run the harness directly on its synthetic demo set:
-
-```bash
-python code/credibility_audit.py \
-  --verdicts test_data/verdicts \
-  --citations test_data/test_citations.json \
-  --sdl-genes MECHA1,MECHA2,MECHA3,MECHA4,MECHA5,SHARED1 \
-  --retrieval-genes LOOKUP1,LOOKUP2,LOOKUP3,LOOKUP4,LOOKUP5,SHARED1 \
-  --ot-scores test_data/test_ot_scores.json \
-  --out report.md
-```
-
-Every metric is optional; supply whichever input group you have. Full CLI,
-input schemas, and per-metric interpretation are in
-[`code/README.md`](code/README.md).
+Expected output:
+- **`[Module 1 | OA-BTL]`**: Estimates Slot-A primacy intercept $\hat{\gamma} = +0.985$ (`OR = 2.68x`) on `ALS_retrieval_R3` (`n = 300` matches) and rescues `M29` (`CCS/ATP7A` copper axis) from `#15` into the surviving Top-10 (`#10`).
+- **`[Module 2 | Selective Calibration Gate]`**: Preserves natively well-calibrated `Gemini-4-Argon-High` (`ECE = 0.0797`, `0/20` folds triggered at $\tau_{\text{ECE}} = 0.12$) while cutting `Gemini-3.8-Flash` (`0.5423 -> 0.0749`) and `Grok-4.7-Fast` (`0.1652 -> 0.0814`).
+- **`[Module 3 | Epistemic Gate + Entrez Handoff]`**: Restores verified on-topic citation yield from `1.90%` (`Module 3a` alone) to **`100.00%`** (`420/420` slots) at **`0.00%`** ungrounded error and **`-90.41%`** median CoT tokens (`0` extra LLM calls).
+- **`[Module 4 | CoT-SRAD]`**: Non-destructive `Module 4a` on the external `3,871`-gene Mendelian HGNC vocabulary rescues **`+48` net diagnoses** (`26.35% -> 33.97%`, `0` lost hits, exact McNemar $p = 7.11 \times 10^{-15}$).
 
 ---
 
-## Reproducing the paper's dAMD Run 1 position-bias result (7 / 45)
+## Repository Structure (`BiB_work_2026-09-02/GEN2_exec/`)
 
-The real 45-pair × 6-verdict tournament data is in the Zenodo deposit, not
-shipped here. To reproduce the headline figure:
+- `star_audit_demo.py` — Self-contained `< 0.1 s` offline verification script (works both inside the repository and as a standalone single file).
+- `gen2_call.py`, `gen2_blind.py`, `gen2_pubmed.py`, `btl.py`, `gen2_canary.py` — Core deterministic execution harness, forbidden-token lexical scanner, NCBI Entrez client, Hunter-MM BTL solver, and `temperature = 0` canary monitor.
+- `run_parent.py`, `run_expB_gen2.py`, `run_expC_v4.py`, `run_grok_cross_ecosystem.py` — Multi-block evaluation runners (`11,818` live invocations, `37.18M` reasoning and output tokens).
+- `analysis/nc_upgrade_A1_A4_btl_validation.py` — Intra-bucket primacy proof (`68.21%`, $p = 1.51 \times 10^{-33}$), 400-simulation Monte Carlo identifiability & confounded-null verification, $\lambda \in [10^{-4}, 1.0]$ sweep, and Tournament II algebraic decomposition.
+- `analysis/nc_upgrade_A2_module3_handoff.py` — Closed-loop `Module 3a + 3b` deterministic NCBI Entrez Boolean handoff (`1,049` cached candidate PMIDs in `nc_upgrade_entrez_handoff_cache.json`).
+- `analysis/nc_upgrade_A3_A7_expc_calibration.py` — STROBE `804 -> 630` call accounting, HPO term-count starvation proof ($p = 4.18 \times 10^{-31}$), 5-way external `3,871`-HGNC `CoT-SRAD` ablation, and multi-cohort calibration benchmark.
+- `analysis/nc_upgrade_A5_part1_tier2_and_cot_boxes.py` & `nc_upgrade_A5_part2_nli_audit.py` — Blinded `200`-item dual-expert audits (`expert_audit_tier2_100_annotated.csv`, `expert_audit_nli_100_annotated.csv`).
+- `analysis/nc_v2_make_main_figs.py`, `nc_v2_make_supp_figs.py`, `nc_v2_export_source_data.py` — Deterministic figure and `Source_Data_NC_v2.0.xlsx` generators.
 
-1. Download `audit_data_for_zenodo.zip` from
-   [doi.org/10.5281/zenodo.20574265](https://doi.org/10.5281/zenodo.20574265).
-2. Extract the `tournament2_verdicts/` directory (270 JSON files,
-   `pair_<NN>_<a|b>_judge<R>.json`; schema documented in
-   [`code/examples/NOTES.md`](code/examples/NOTES.md)).
-3. Run:
-   ```bash
-   python code/credibility_audit.py --verdicts /path/to/tournament2_verdicts/
-   ```
-   Expected: `Pairs scored: 45`, `Flagged: 7`, `Position-bias rate = 15.56 %`,
-   flagged pairs `pair_04, pair_07, pair_12, pair_19, pair_22, pair_25, pair_38`.
+## License
 
----
-
-## Data & code availability
-
-- **Audit-trail data** (all sub-agent JSON outputs, tournament checkpoints, BTL
-  input matrices, blind-scan logs, citation pools, position-bias decision log,
-  cross-seed and cross-model replications, ALS Run 2 data): openly deposited at
-  Zenodo, [10.5281/zenodo.20574265](https://doi.org/10.5281/zenodo.20574265)
-  (CC BY 4.0).
-- **Code** (this repository): MIT-licensed. The study used only public data
-  sources (PubMed and the Open Targets Platform).
-
----
-
-## Citation
-
-If you use this harness, please cite:
-
-> Sheng J. et al. **A measurable trustworthiness audit for AI-driven
-> scientific discovery.** (2026).
-
----
-
-## Contact
-
-Jiangtao Sheng — Department of Microbiology and Immunology, Shantou University
-Medical College — jtsheng@stu.edu.cn
+Released under the **MIT License**. Telemetry archives are deposited at Zenodo (`https://doi.org/10.5281/zenodo.20574265`, CC BY 4.0).

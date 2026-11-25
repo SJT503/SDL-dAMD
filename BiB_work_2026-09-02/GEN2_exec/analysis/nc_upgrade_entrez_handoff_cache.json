@@ -1,0 +1,2842 @@
+{
+  "B01_h1": {
+    "domain_id": "B01",
+    "domain": "Asthma",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "IL-33",
+      "ST2-",
+      "IL-5",
+      "IL-13"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Asthma\"[Title/Abstract] OR \"Asthma\"[MeSH Terms]) AND (\"IL-33\"[Title/Abstract] OR \"ST2-\"[Title/Abstract] OR \"IL-5\"[Title/Abstract] OR \"IL-13\"[Title/Abstract])",
+        "total_hits": 9101,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "33711259",
+      "36078171",
+      "41145900",
+      "30995510",
+      "35640416",
+      "37377958",
+      "36463491",
+      "37506849",
+      "38959032",
+      "36799120",
+      "36481478",
+      "39855362",
+      "31408015",
+      "33872652",
+      "39134801",
+      "30972065",
+      "32586879",
+      "39147327",
+      "38525773",
+      "33555158"
+    ]
+  },
+  "B01_h2": {
+    "domain_id": "B01",
+    "domain": "Asthma",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Allergen-",
+      "IgE",
+      "LTC4"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Asthma\"[Title/Abstract] OR \"Asthma\"[MeSH Terms]) AND (\"Allergen-\"[Title/Abstract] OR \"IgE\"[Title/Abstract] OR \"LTC4\"[Title/Abstract])",
+        "total_hits": 26968,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32037107",
+      "29588070",
+      "35714626",
+      "32017211",
+      "29427981",
+      "38013158",
+      "37844847",
+      "28421512",
+      "27152601",
+      "36825741",
+      "3068126",
+      "32057505",
+      "11892078",
+      "16462678",
+      "2645352",
+      "20874654",
+      "14524285",
+      "27720016",
+      "12406663",
+      "30124489"
+    ]
+  },
+  "B01_h3": {
+    "domain_id": "B01",
+    "domain": "Asthma",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Upregulated",
+      "TGF-",
+      "SMAD3",
+      "III",
+      "SMA"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Asthma\"[Title/Abstract] OR \"Asthma\"[MeSH Terms]) AND (\"Upregulated\"[Title/Abstract] OR \"TGF-\"[Title/Abstract] OR \"SMAD3\"[Title/Abstract] OR \"III\"[Title/Abstract] OR \"SMA\"[Title/Abstract])",
+        "total_hits": 6656,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36883952",
+      "37259630",
+      "37285178",
+      "31672283",
+      "39120302",
+      "41092691",
+      "35917933",
+      "33407872",
+      "29997053",
+      "39749571",
+      "41152768",
+      "25447441",
+      "40251907",
+      "36495519",
+      "31913462",
+      "29958018",
+      "40305199",
+      "37175437",
+      "35069535",
+      "35850599"
+    ]
+  },
+  "B01_h4": {
+    "domain_id": "B01",
+    "domain": "Asthma",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Excess",
+      "IL-17A",
+      "Th17",
+      "CXCL1",
+      "CXCL8"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Asthma\"[Title/Abstract] OR \"Asthma\"[MeSH Terms]) AND (\"Excess\"[Title/Abstract] OR \"IL-17A\"[Title/Abstract] OR \"Th17\"[Title/Abstract] OR \"CXCL1\"[Title/Abstract] OR \"CXCL8\"[Title/Abstract])",
+        "total_hits": 3558,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36041950",
+      "39366998",
+      "37506849",
+      "31557502",
+      "38135684",
+      "35986608",
+      "36796087",
+      "36779703",
+      "39404231",
+      "39368092",
+      "35528611",
+      "35069535",
+      "36778209",
+      "38849380",
+      "33647226",
+      "26600259",
+      "40674143",
+      "24779686",
+      "33826878",
+      "36211425"
+    ]
+  },
+  "B01_h5": {
+    "domain_id": "B01",
+    "domain": "Asthma",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Reduced",
+      "FLG",
+      "TSLP",
+      "OX40L-",
+      "Th2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Asthma\"[Title/Abstract] OR \"Asthma\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"FLG\"[Title/Abstract] OR \"TSLP\"[Title/Abstract] OR \"OX40L-\"[Title/Abstract] OR \"Th2\"[Title/Abstract])",
+        "total_hits": 24319,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "33673725",
+      "36697211",
+      "31703832",
+      "38146651",
+      "37377958",
+      "36463491",
+      "35333296",
+      "30458183",
+      "39884759",
+      "32567399",
+      "35184265",
+      "28368013",
+      "37746733",
+      "20146705",
+      "36651067",
+      "39855362",
+      "37628907",
+      "39636450",
+      "33555158",
+      "24846652"
+    ]
+  },
+  "B02_h1": {
+    "domain_id": "B02",
+    "domain": "Osteoarthritis",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "IL-",
+      "TNF-",
+      "NF-",
+      "RELA",
+      "MMP-13"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Osteoarthritis\"[Title/Abstract] OR \"Osteoarthritis\"[MeSH Terms]) AND (\"IL-\"[Title/Abstract] OR \"TNF-\"[Title/Abstract] OR \"NF-\"[Title/Abstract] OR \"RELA\"[Title/Abstract] OR \"MMP-13\"[Title/Abstract])",
+        "total_hits": 10478,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "39505144",
+      "36721094",
+      "30340925",
+      "36537662",
+      "31037830",
+      "38913985",
+      "38879753",
+      "31772142",
+      "38308345",
+      "31415758",
+      "32866644",
+      "38673854",
+      "36584575",
+      "35235465",
+      "34515572",
+      "36793188",
+      "34158084",
+      "36178576",
+      "41276868",
+      "39447781"
+    ]
+  },
+  "B02_h2": {
+    "domain_id": "B02",
+    "domain": "Osteoarthritis",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Excess",
+      "TGF-",
+      "SMAD2",
+      "VEGF-A"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Osteoarthritis\"[Title/Abstract] OR \"Osteoarthritis\"[MeSH Terms]) AND (\"Excess\"[Title/Abstract] OR \"TGF-\"[Title/Abstract] OR \"SMAD2\"[Title/Abstract] OR \"VEGF-A\"[Title/Abstract])",
+        "total_hits": 1911,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "41418993",
+      "26904959",
+      "36032081",
+      "38978353",
+      "37880329",
+      "37727896",
+      "34606985",
+      "37074927",
+      "17391995",
+      "41376619",
+      "34742854",
+      "25689697",
+      "30624091",
+      "23685840",
+      "38885017",
+      "42128200",
+      "34014119",
+      "30727008",
+      "32409323",
+      "35003798"
+    ]
+  },
+  "B02_h3": {
+    "domain_id": "B02",
+    "domain": "Osteoarthritis",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Increased",
+      "Wnt",
+      "WNT3A",
+      "DKK1",
+      "RUNX2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Osteoarthritis\"[Title/Abstract] OR \"Osteoarthritis\"[MeSH Terms]) AND (\"Increased\"[Title/Abstract] OR \"Wnt\"[Title/Abstract] OR \"WNT3A\"[Title/Abstract] OR \"DKK1\"[Title/Abstract] OR \"RUNX2\"[Title/Abstract])",
+        "total_hits": 26107,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36737426",
+      "40205036",
+      "35291041",
+      "34894103",
+      "36843204",
+      "36175067",
+      "21788902",
+      "36851831",
+      "39448593",
+      "38974581",
+      "37117739",
+      "37683603",
+      "38440852",
+      "30624091",
+      "36389838",
+      "39248388",
+      "37294429",
+      "39344191",
+      "28752488",
+      "30826327"
+    ]
+  },
+  "B02_h4": {
+    "domain_id": "B02",
+    "domain": "Osteoarthritis",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Suppressed",
+      "AMPK",
+      "SIRT1",
+      "PGC-",
+      "ROS"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Osteoarthritis\"[Title/Abstract] OR \"Osteoarthritis\"[MeSH Terms]) AND (\"Suppressed\"[Title/Abstract] OR \"AMPK\"[Title/Abstract] OR \"SIRT1\"[Title/Abstract] OR \"PGC-\"[Title/Abstract] OR \"ROS\"[Title/Abstract])",
+        "total_hits": 3711,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "41666927",
+      "27192932",
+      "33383189",
+      "36858962",
+      "39298571",
+      "40425566",
+      "32156705",
+      "38490314",
+      "32768946",
+      "34879473",
+      "35550528",
+      "32647171",
+      "39095867",
+      "39952199",
+      "39126207",
+      "38084002",
+      "37777764",
+      "26453105",
+      "38093659",
+      "38621621"
+    ]
+  },
+  "B02_h5": {
+    "domain_id": "B02",
+    "domain": "Osteoarthritis",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "PIEZO1",
+      "NFAT1",
+      "RUNX2-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Osteoarthritis\"[Title/Abstract] OR \"Osteoarthritis\"[MeSH Terms]) AND (\"PIEZO1\"[Title/Abstract] OR \"NFAT1\"[Title/Abstract] OR \"RUNX2-\"[Title/Abstract])",
+        "total_hits": 561,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36737426",
+      "37758057",
+      "38994033",
+      "40695281",
+      "41418993",
+      "36328754",
+      "38395992",
+      "36835440",
+      "40353513",
+      "35602590",
+      "41195420",
+      "40345612",
+      "21788902",
+      "39978573",
+      "36150676",
+      "33597301",
+      "36389838",
+      "40753437",
+      "31896233",
+      "33758095"
+    ]
+  },
+  "B03_h1": {
+    "domain_id": "B03",
+    "domain": "Atrial Fibrillation",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Reduced",
+      "PITX2",
+      "KCNQ1",
+      "KCND3",
+      "IKs"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Atrial Fibrillation\"[Title/Abstract] OR \"Atrial Fibrillation\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"PITX2\"[Title/Abstract] OR \"KCNQ1\"[Title/Abstract] OR \"KCND3\"[Title/Abstract] OR \"IKs\"[Title/Abstract])",
+        "total_hits": 11845,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36537565",
+      "37440641",
+      "39146015",
+      "30061737",
+      "40645996",
+      "41062615",
+      "30727926",
+      "34185108",
+      "29101955",
+      "33516407",
+      "26783234",
+      "28217939",
+      "30259187",
+      "30926014",
+      "36260954",
+      "33920294",
+      "31299300",
+      "36514212",
+      "39152985",
+      "41097045"
+    ]
+  },
+  "B03_h2": {
+    "domain_id": "B03",
+    "domain": "Atrial Fibrillation",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "RyR2",
+      "Ser2814",
+      "afterdepolarizations",
+      "hyperactivation",
+      "phosphorylation"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Atrial Fibrillation\"[Title/Abstract] OR \"Atrial Fibrillation\"[MeSH Terms]) AND (\"RyR2\"[Title/Abstract] OR \"Ser2814\"[Title/Abstract] OR \"afterdepolarizations\"[Title/Abstract] OR \"hyperactivation\"[Title/Abstract] OR \"phosphorylation\"[Title/Abstract])",
+        "total_hits": 622,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "39580475",
+      "32555383",
+      "36584301",
+      "24763464",
+      "38889387",
+      "36178743",
+      "37491321",
+      "33399957",
+      "38726666",
+      "33053408",
+      "37759456",
+      "37109205",
+      "39595626",
+      "31091723",
+      "36445386",
+      "30729269",
+      "28369767",
+      "39012929",
+      "37354215",
+      "39374431"
+    ]
+  },
+  "B03_h3": {
+    "domain_id": "B03",
+    "domain": "Atrial Fibrillation",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Upregulation",
+      "TGF-",
+      "SMAD3",
+      "III"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Atrial Fibrillation\"[Title/Abstract] OR \"Atrial Fibrillation\"[MeSH Terms]) AND (\"Upregulation\"[Title/Abstract] OR \"TGF-\"[Title/Abstract] OR \"SMAD3\"[Title/Abstract] OR \"III\"[Title/Abstract])",
+        "total_hits": 5028,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "40873195",
+      "27886923",
+      "39796066",
+      "40569576",
+      "26596816",
+      "40626706",
+      "37491321",
+      "33969577",
+      "28271726",
+      "40768638",
+      "23811146",
+      "40380403",
+      "29439352",
+      "25074516",
+      "39298681",
+      "33191361",
+      "31902857",
+      "35775488",
+      "40739110",
+      "30878129"
+    ]
+  },
+  "B03_h4": {
+    "domain_id": "B03",
+    "domain": "Atrial Fibrillation",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Increased",
+      "NADPH",
+      "NOX2",
+      "NOX4",
+      "CaMKII"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Atrial Fibrillation\"[Title/Abstract] OR \"Atrial Fibrillation\"[MeSH Terms]) AND (\"Increased\"[Title/Abstract] OR \"NADPH\"[Title/Abstract] OR \"NOX2\"[Title/Abstract] OR \"NOX4\"[Title/Abstract] OR \"CaMKII\"[Title/Abstract])",
+        "total_hits": 26407,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "39146015",
+      "32717172",
+      "40873195",
+      "33568549",
+      "38744275",
+      "35373133",
+      "38897563",
+      "36996623",
+      "38742661",
+      "38206235",
+      "38810728",
+      "33915139",
+      "28838547",
+      "30270686",
+      "38397381",
+      "32451107",
+      "35914955",
+      "33646024",
+      "27744287",
+      "34929563"
+    ]
+  },
+  "B03_h5": {
+    "domain_id": "B03",
+    "domain": "Atrial Fibrillation",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Autonomic",
+      "GIRK4",
+      "KCNJ5"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Atrial Fibrillation\"[Title/Abstract] OR \"Atrial Fibrillation\"[MeSH Terms]) AND (\"Autonomic\"[Title/Abstract] OR \"GIRK4\"[Title/Abstract] OR \"KCNJ5\"[Title/Abstract])",
+        "total_hits": 1829,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38191102",
+      "38156451",
+      "31068060",
+      "35023459",
+      "29759718",
+      "41020496",
+      "39307416",
+      "35863817",
+      "41021733",
+      "35210072",
+      "35988908",
+      "39084721",
+      "34402936",
+      "31746943",
+      "9666045",
+      "9727674",
+      "36584301",
+      "28528288",
+      "25140017",
+      "33989382"
+    ]
+  },
+  "B04_h1": {
+    "domain_id": "B04",
+    "domain": "Psoriasis",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "IL-23",
+      "Th17",
+      "Tc17",
+      "IL-17A",
+      "IL-17F"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Psoriasis\"[Title/Abstract] OR \"Psoriasis\"[MeSH Terms]) AND (\"IL-23\"[Title/Abstract] OR \"Th17\"[Title/Abstract] OR \"Tc17\"[Title/Abstract] OR \"IL-17A\"[Title/Abstract] OR \"IL-17F\"[Title/Abstract])",
+        "total_hits": 5443,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "30909615",
+      "19380832",
+      "33886133",
+      "38796266",
+      "37308489",
+      "34460338",
+      "30127781",
+      "35670705",
+      "37600764",
+      "30109481",
+      "30615272",
+      "42644434",
+      "37271319",
+      "38301504",
+      "34884596",
+      "39978685",
+      "29508278",
+      "32070069",
+      "32686183",
+      "27246016"
+    ]
+  },
+  "B04_h2": {
+    "domain_id": "B04",
+    "domain": "Psoriasis",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "LL-37",
+      "CAMP",
+      "DNA",
+      "RNA",
+      "TLR9"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Psoriasis\"[Title/Abstract] OR \"Psoriasis\"[MeSH Terms]) AND (\"LL-37\"[Title/Abstract] OR \"CAMP\"[Title/Abstract] OR \"DNA\"[Title/Abstract] OR \"RNA\"[Title/Abstract] OR \"TLR9\"[Title/Abstract])",
+        "total_hits": 3056,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "33932468",
+      "38472183",
+      "38448036",
+      "39352743",
+      "26802234",
+      "30641038",
+      "38783164",
+      "32553276",
+      "21756147",
+      "37816883",
+      "37879125",
+      "35869084",
+      "32545946",
+      "32445097",
+      "32709423",
+      "36563946",
+      "37435993",
+      "33309739",
+      "39234815",
+      "31024570"
+    ]
+  },
+  "B04_h3": {
+    "domain_id": "B04",
+    "domain": "Psoriasis",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Keratinocyte-",
+      "IL-",
+      "IL-36R",
+      "IL-23",
+      "MYD88"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Psoriasis\"[Title/Abstract] OR \"Psoriasis\"[MeSH Terms]) AND (\"Keratinocyte-\"[Title/Abstract] OR \"IL-\"[Title/Abstract] OR \"IL-36R\"[Title/Abstract] OR \"IL-23\"[Title/Abstract] OR \"MYD88\"[Title/Abstract])",
+        "total_hits": 10787,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "37271319",
+      "38642273",
+      "19380832",
+      "33886133",
+      "33515492",
+      "38003284",
+      "38796266",
+      "27883001",
+      "38686385",
+      "34460338",
+      "38189700",
+      "30181299",
+      "28887948",
+      "36271146",
+      "30615272",
+      "38903528",
+      "34678045",
+      "34884596",
+      "38291032",
+      "39473371"
+    ]
+  },
+  "B04_h4": {
+    "domain_id": "B04",
+    "domain": "Psoriasis",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Epidermal",
+      "AHR",
+      "Th17",
+      "FICZ",
+      "IL-17-high"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Psoriasis\"[Title/Abstract] OR \"Psoriasis\"[MeSH Terms]) AND (\"Epidermal\"[Title/Abstract] OR \"AHR\"[Title/Abstract] OR \"Th17\"[Title/Abstract] OR \"FICZ\"[Title/Abstract] OR \"IL-17-high\"[Title/Abstract])",
+        "total_hits": 6783,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "19380832",
+      "40930076",
+      "28869867",
+      "28595996",
+      "40004095",
+      "35939180",
+      "32070069",
+      "36698281",
+      "24610014",
+      "33157177",
+      "31603358",
+      "33990689",
+      "38642800",
+      "32010143",
+      "30019426",
+      "38154665",
+      "39570671",
+      "34944067",
+      "35820531",
+      "34769005"
+    ]
+  },
+  "B04_h5": {
+    "domain_id": "B04",
+    "domain": "Psoriasis",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "VEGF-A",
+      "HIF-",
+      "ICAM-1",
+      "E-selectin"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Psoriasis\"[Title/Abstract] OR \"Psoriasis\"[MeSH Terms]) AND (\"VEGF-A\"[Title/Abstract] OR \"HIF-\"[Title/Abstract] OR \"ICAM-1\"[Title/Abstract] OR \"E-selectin\"[Title/Abstract])",
+        "total_hits": 419,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32371170",
+      "17053736",
+      "38839914",
+      "39454315",
+      "38350634",
+      "34878845",
+      "11890355",
+      "40250016",
+      "34288018",
+      "29997500",
+      "32585606",
+      "38418556",
+      "35851722",
+      "31357710",
+      "39007937",
+      "35296088",
+      "26551939",
+      "15037212",
+      "39013549",
+      "37608888"
+    ]
+  },
+  "B05_h1": {
+    "domain_id": "B05",
+    "domain": "Hearing Loss, Sensorineural",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Loss-of-",
+      "TMC1",
+      "Ca2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sensorineural Hearing Loss\"[Title/Abstract] OR \"Hearing Loss, Sensorineural\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"TMC1\"[Title/Abstract] OR \"Ca2\"[Title/Abstract])",
+        "total_hits": 2706,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "21606048",
+      "24345362",
+      "41515981",
+      "31117093",
+      "34523024",
+      "1636908",
+      "40049083",
+      "16156919",
+      "35062939",
+      "33605224",
+      "33229591",
+      "37598357",
+      "30450842",
+      "26387595",
+      "35816890",
+      "11112966",
+      "32901490",
+      "39970612",
+      "39684270",
+      "36574989"
+    ]
+  },
+  "B05_h2": {
+    "domain_id": "B05",
+    "domain": "Hearing Loss, Sensorineural",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Reduced",
+      "GJB2",
+      "endocochlear",
+      "gap-junction",
+      "transduction"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sensorineural Hearing Loss\"[Title/Abstract] OR \"Hearing Loss, Sensorineural\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"GJB2\"[Title/Abstract] OR \"endocochlear\"[Title/Abstract] OR \"gap-junction\"[Title/Abstract] OR \"transduction\"[Title/Abstract])",
+        "total_hits": 3507,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "31160754",
+      "37178259",
+      "35396755",
+      "39684270",
+      "32271716",
+      "36916028",
+      "31874721",
+      "41049429",
+      "40043708",
+      "28498079",
+      "19494570",
+      "35132964",
+      "37125626",
+      "40695665",
+      "27895287",
+      "37598357",
+      "35452909",
+      "38763069",
+      "29542069",
+      "26059209"
+    ]
+  },
+  "B05_h3": {
+    "domain_id": "B05",
+    "domain": "Hearing Loss, Sensorineural",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "OTOF",
+      "Ca2",
+      "synaptopathy",
+      "deficiency",
+      "glutamate"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sensorineural Hearing Loss\"[Title/Abstract] OR \"Hearing Loss, Sensorineural\"[MeSH Terms]) AND (\"OTOF\"[Title/Abstract] OR \"Ca2\"[Title/Abstract] OR \"synaptopathy\"[Title/Abstract] OR \"deficiency\"[Title/Abstract] OR \"glutamate\"[Title/Abstract])",
+        "total_hits": 1392,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "26891769",
+      "28087419",
+      "28840850",
+      "38189623",
+      "36383253",
+      "38014592",
+      "34535280",
+      "30031565",
+      "39684270",
+      "36300302",
+      "38547565",
+      "36762433",
+      "38139069",
+      "29744729",
+      "31581539",
+      "40176044",
+      "38456936",
+      "38345574",
+      "37679651",
+      "36825797"
+    ]
+  },
+  "B05_h4": {
+    "domain_id": "B05",
+    "domain": "Hearing Loss, Sensorineural",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Mitochondrial",
+      "BAX",
+      "electron-transport-chain",
+      "caspase-3-mediated",
+      "cytochrome-c"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sensorineural Hearing Loss\"[Title/Abstract] OR \"Hearing Loss, Sensorineural\"[MeSH Terms]) AND (\"Mitochondrial\"[Title/Abstract] OR \"BAX\"[Title/Abstract] OR \"electron-transport-chain\"[Title/Abstract] OR \"caspase-3-mediated\"[Title/Abstract] OR \"cytochrome-c\"[Title/Abstract])",
+        "total_hits": 1100,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "37167889",
+      "25330715",
+      "34032273",
+      "40176044",
+      "37558808",
+      "35188226",
+      "39826756",
+      "16020738",
+      "36720354",
+      "36524552",
+      "12923421",
+      "30743189",
+      "32281099",
+      "36369597",
+      "39970612",
+      "32418909",
+      "38460910",
+      "38267829",
+      "40588136",
+      "35235340"
+    ]
+  },
+  "B05_h5": {
+    "domain_id": "B05",
+    "domain": "Hearing Loss, Sensorineural",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Cochlear",
+      "NF-",
+      "IL-",
+      "TNF-",
+      "C3-mediated"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sensorineural Hearing Loss\"[Title/Abstract] OR \"Hearing Loss, Sensorineural\"[MeSH Terms]) AND (\"Cochlear\"[Title/Abstract] OR \"NF-\"[Title/Abstract] OR \"IL-\"[Title/Abstract] OR \"TNF-\"[Title/Abstract] OR \"C3-mediated\"[Title/Abstract])",
+        "total_hits": 8975,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "28087419",
+      "41515981",
+      "36114071",
+      "35625577",
+      "38218017",
+      "22196501",
+      "29555078",
+      "30937866",
+      "34774232",
+      "36912228",
+      "38647116",
+      "38147729",
+      "33752464",
+      "2735391",
+      "29768731",
+      "40276916",
+      "33502224",
+      "35959587",
+      "32980210",
+      "29798428"
+    ]
+  },
+  "B06_h1": {
+    "domain_id": "B06",
+    "domain": "Anemia, Sickle Cell",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "HBB",
+      "Glu6Val",
+      "HbS",
+      "Val6",
+      "Phe85"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"HBB\"[Title/Abstract] OR \"Glu6Val\"[Title/Abstract] OR \"HbS\"[Title/Abstract] OR \"Val6\"[Title/Abstract] OR \"Phe85\"[Title/Abstract])",
+        "total_hits": 1350,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "27637966",
+      "32189305",
+      "38049242",
+      "27820943",
+      "33461216",
+      "34079130",
+      "31199090",
+      "29159826",
+      "27736664",
+      "37336294",
+      "8890576",
+      "32142671",
+      "25707678",
+      "40022449",
+      "38360540",
+      "38461305",
+      "36043956",
+      "39205400",
+      "38674403",
+      "37988411"
+    ]
+  },
+  "B06_h2": {
+    "domain_id": "B06",
+    "domain": "Anemia, Sickle Cell",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "L-arginine",
+      "vasoconstriction",
+      "bioavailability",
+      "intravascular",
+      "hypertension"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"L-arginine\"[Title/Abstract] OR \"vasoconstriction\"[Title/Abstract] OR \"bioavailability\"[Title/Abstract] OR \"intravascular\"[Title/Abstract] OR \"hypertension\"[Title/Abstract])",
+        "total_hits": 1245,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "30332562",
+      "38049243",
+      "38049242",
+      "28248201",
+      "32231672",
+      "25203083",
+      "34180131",
+      "19112541",
+      "39526571",
+      "39582221",
+      "39738165",
+      "33517776",
+      "38806107",
+      "29754732",
+      "40693500",
+      "34043152",
+      "34224433",
+      "26758918",
+      "38722385",
+      "18470553"
+    ]
+  },
+  "B06_h3": {
+    "domain_id": "B06",
+    "domain": "Anemia, Sickle Cell",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Extracellular",
+      "TLR4",
+      "NLRP3",
+      "IL-1beta",
+      "TNF-alpha"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"Extracellular\"[Title/Abstract] OR \"TLR4\"[Title/Abstract] OR \"NLRP3\"[Title/Abstract] OR \"IL-1beta\"[Title/Abstract] OR \"TNF-alpha\"[Title/Abstract])",
+        "total_hits": 363,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32231672",
+      "20406022",
+      "26374999",
+      "36952641",
+      "33661274",
+      "9687354",
+      "36041706",
+      "35775605",
+      "37236926",
+      "35349634",
+      "30185656",
+      "35897704",
+      "39216830",
+      "34627079",
+      "31536373",
+      "28088643",
+      "40085960",
+      "29344581",
+      "29852459",
+      "39869831"
+    ]
+  },
+  "B06_h4": {
+    "domain_id": "B06",
+    "domain": "Anemia, Sickle Cell",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Hypoxia",
+      "P-selectin",
+      "E-selectin",
+      "VCAM-1",
+      "VLA-4"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"Hypoxia\"[Title/Abstract] OR \"P-selectin\"[Title/Abstract] OR \"E-selectin\"[Title/Abstract] OR \"VCAM-1\"[Title/Abstract] OR \"VLA-4\"[Title/Abstract])",
+        "total_hits": 773,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32301178",
+      "33983426",
+      "35319686",
+      "37731262",
+      "22488107",
+      "36701169",
+      "34079130",
+      "19112541",
+      "39568425",
+      "33812003",
+      "8956023",
+      "16051315",
+      "26211589",
+      "8808648",
+      "27165012",
+      "27341635",
+      "32208292",
+      "37186844",
+      "21071696",
+      "14704223"
+    ]
+  },
+  "B06_h5": {
+    "domain_id": "B06",
+    "domain": "Anemia, Sickle Cell",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Developmental",
+      "HBG1",
+      "HBG2",
+      "BCL11A",
+      "MYB"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Sickle Cell Anemia\"[Title/Abstract] OR \"Anemia, Sickle Cell\"[MeSH Terms]) AND (\"Developmental\"[Title/Abstract] OR \"HBG1\"[Title/Abstract] OR \"HBG2\"[Title/Abstract] OR \"BCL11A\"[Title/Abstract] OR \"MYB\"[Title/Abstract])",
+        "total_hits": 391,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "33283989",
+      "38661449",
+      "29641911",
+      "37646679",
+      "37851445",
+      "38728575",
+      "37400614",
+      "30911135",
+      "33283990",
+      "34292080",
+      "10872480",
+      "35667093",
+      "39794549",
+      "41161385",
+      "29159826",
+      "33735615",
+      "39237431",
+      "35121848",
+      "36847933",
+      "39026269"
+    ]
+  },
+  "B07_h1": {
+    "domain_id": "B07",
+    "domain": "Cleft Palate",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Loss-of-",
+      "IRF6",
+      "GRHL3",
+      "TP63"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cleft Palate\"[Title/Abstract] OR \"Cleft Palate\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"IRF6\"[Title/Abstract] OR \"GRHL3\"[Title/Abstract] OR \"TP63\"[Title/Abstract])",
+        "total_hits": 899,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38910391",
+      "39500877",
+      "39904689",
+      "41172132",
+      "41111330",
+      "37980600",
+      "40353495",
+      "37350193",
+      "37003352",
+      "36866619",
+      "39679673",
+      "27699475",
+      "31683705",
+      "33351070",
+      "35430447",
+      "28054174",
+      "34787023",
+      "30708991",
+      "37161310",
+      "27195674"
+    ]
+  },
+  "B07_h2": {
+    "domain_id": "B07",
+    "domain": "Cleft Palate",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Reduced",
+      "TGFB3",
+      "TGFBR2",
+      "TGFBR3",
+      "SMAD2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cleft Palate\"[Title/Abstract] OR \"Cleft Palate\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"TGFB3\"[Title/Abstract] OR \"TGFBR2\"[Title/Abstract] OR \"TGFBR3\"[Title/Abstract] OR \"SMAD2\"[Title/Abstract])",
+        "total_hits": 1420,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "37309307",
+      "39532850",
+      "35151207",
+      "37543708",
+      "21655669",
+      "27400840",
+      "40353495",
+      "35001864",
+      "30046048",
+      "28662367",
+      "37773757",
+      "39442823",
+      "36166296",
+      "35306864",
+      "30413887",
+      "36914451",
+      "11297870",
+      "10426601",
+      "38218334",
+      "34636625"
+    ]
+  },
+  "B07_h3": {
+    "domain_id": "B07",
+    "domain": "Cleft Palate",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Hypomorphic",
+      "WNT9B",
+      "LRP6"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cleft Palate\"[Title/Abstract] OR \"Cleft Palate\"[MeSH Terms]) AND (\"Hypomorphic\"[Title/Abstract] OR \"WNT9B\"[Title/Abstract] OR \"LRP6\"[Title/Abstract])",
+        "total_hits": 66,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "31943082",
+      "32390226",
+      "33110311",
+      "38227085",
+      "40794899",
+      "26661618",
+      "38406825",
+      "32457899",
+      "22228099",
+      "25257647",
+      "17035249",
+      "21982646",
+      "29475039",
+      "37366674",
+      "33851764",
+      "38511331",
+      "28338586",
+      "22461561",
+      "12514106",
+      "38905491"
+    ]
+  },
+  "B07_h4": {
+    "domain_id": "B07",
+    "domain": "Cleft Palate",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Diminished",
+      "SHH",
+      "PTCH1",
+      "GLI1",
+      "GLI2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cleft Palate\"[Title/Abstract] OR \"Cleft Palate\"[MeSH Terms]) AND (\"Diminished\"[Title/Abstract] OR \"SHH\"[Title/Abstract] OR \"PTCH1\"[Title/Abstract] OR \"GLI1\"[Title/Abstract] OR \"GLI2\"[Title/Abstract])",
+        "total_hits": 201,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38529886",
+      "35001679",
+      "35817949",
+      "38227085",
+      "32609569",
+      "39711721",
+      "35142735",
+      "38360123",
+      "32233728",
+      "37250135",
+      "29975848",
+      "30410503",
+      "27699475",
+      "34061439",
+      "28808036",
+      "36731060",
+      "30760477",
+      "27488927",
+      "27645581",
+      "32666711"
+    ]
+  },
+  "B07_h5": {
+    "domain_id": "B07",
+    "domain": "Cleft Palate",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Excess",
+      "ALDH1A2",
+      "CYP26B1-",
+      "RXR",
+      "DLX5"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cleft Palate\"[Title/Abstract] OR \"Cleft Palate\"[MeSH Terms]) AND (\"Excess\"[Title/Abstract] OR \"ALDH1A2\"[Title/Abstract] OR \"CYP26B1-\"[Title/Abstract] OR \"RXR\"[Title/Abstract] OR \"DLX5\"[Title/Abstract])",
+        "total_hits": 182,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "35269521",
+      "31655777",
+      "31340933",
+      "38373442",
+      "36521000",
+      "36166296",
+      "35716278",
+      "34291694",
+      "27645581",
+      "30246882",
+      "24406565",
+      "35300323",
+      "35226537",
+      "24169523",
+      "39360259",
+      "30878609",
+      "3652493",
+      "39843260",
+      "32574564",
+      "11359935"
+    ]
+  },
+  "B08_h1": {
+    "domain_id": "B08",
+    "domain": "Cholangiocarcinoma",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "FGFR2",
+      "FGFR2-BICC1",
+      "MAPK",
+      "ERK",
+      "PI3K"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cholangiocarcinoma\"[Title/Abstract] OR \"Cholangiocarcinoma\"[MeSH Terms]) AND (\"FGFR2\"[Title/Abstract] OR \"FGFR2-BICC1\"[Title/Abstract] OR \"MAPK\"[Title/Abstract] OR \"ERK\"[Title/Abstract] OR \"PI3K\"[Title/Abstract])",
+        "total_hits": 1043,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36697706",
+      "36652354",
+      "40180922",
+      "34971568",
+      "41997132",
+      "24140396",
+      "36535759",
+      "35716043",
+      "38424198",
+      "28844952",
+      "37188899",
+      "32203698",
+      "35851868",
+      "28667006",
+      "34279850",
+      "36441501",
+      "38714664",
+      "36535760",
+      "37056930",
+      "35584893"
+    ]
+  },
+  "B08_h2": {
+    "domain_id": "B08",
+    "domain": "Cholangiocarcinoma",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Neomorphic",
+      "IDH1",
+      "R132",
+      "D-2-",
+      "TET2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cholangiocarcinoma\"[Title/Abstract] OR \"Cholangiocarcinoma\"[MeSH Terms]) AND (\"Neomorphic\"[Title/Abstract] OR \"IDH1\"[Title/Abstract] OR \"R132\"[Title/Abstract] OR \"D-2-\"[Title/Abstract] OR \"TET2\"[Title/Abstract])",
+        "total_hits": 479,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32416072",
+      "36697706",
+      "29751883",
+      "35594992",
+      "41997132",
+      "36535759",
+      "37188899",
+      "34131315",
+      "32291392",
+      "34554208",
+      "28667006",
+      "36410274",
+      "36170665",
+      "36150578",
+      "37660335",
+      "35584893",
+      "37661782",
+      "34848557",
+      "36714945",
+      "36528236"
+    ]
+  },
+  "B08_h3": {
+    "domain_id": "B08",
+    "domain": "Cholangiocarcinoma",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "IL-6",
+      "STAT3",
+      "MCL-1",
+      "BCL-XL",
+      "DNA"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cholangiocarcinoma\"[Title/Abstract] OR \"Cholangiocarcinoma\"[MeSH Terms]) AND (\"IL-6\"[Title/Abstract] OR \"STAT3\"[Title/Abstract] OR \"MCL-1\"[Title/Abstract] OR \"BCL-XL\"[Title/Abstract] OR \"DNA\"[Title/Abstract])",
+        "total_hits": 1387,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32505533",
+      "24140396",
+      "39955217",
+      "37188899",
+      "36535759",
+      "28667006",
+      "38857989",
+      "32173382",
+      "39101773",
+      "31208696",
+      "39266051",
+      "35988690",
+      "34848557",
+      "30819129",
+      "28645654",
+      "39344395",
+      "35458213",
+      "37843855",
+      "38471085",
+      "38492185"
+    ]
+  },
+  "B08_h4": {
+    "domain_id": "B08",
+    "domain": "Cholangiocarcinoma",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Loss-of-",
+      "BAP1",
+      "H2A",
+      "BRCA1-",
+      "DNA"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cholangiocarcinoma\"[Title/Abstract] OR \"Cholangiocarcinoma\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"BAP1\"[Title/Abstract] OR \"H2A\"[Title/Abstract] OR \"BRCA1-\"[Title/Abstract] OR \"DNA\"[Title/Abstract])",
+        "total_hits": 1592,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "39955217",
+      "28667006",
+      "36535759",
+      "38471085",
+      "35584893",
+      "39266051",
+      "38946053",
+      "38924592",
+      "38857989",
+      "29848569",
+      "37843855",
+      "36528236",
+      "31208696",
+      "38428643",
+      "38050079",
+      "35458213",
+      "38705565",
+      "34848557",
+      "36462464",
+      "35563769"
+    ]
+  },
+  "B08_h5": {
+    "domain_id": "B08",
+    "domain": "Cholangiocarcinoma",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Aberrant",
+      "Notch",
+      "NOTCH1",
+      "NOTCH2",
+      "JAG1"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Cholangiocarcinoma\"[Title/Abstract] OR \"Cholangiocarcinoma\"[MeSH Terms]) AND (\"Aberrant\"[Title/Abstract] OR \"Notch\"[Title/Abstract] OR \"NOTCH1\"[Title/Abstract] OR \"NOTCH2\"[Title/Abstract] OR \"JAG1\"[Title/Abstract])",
+        "total_hits": 463,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "34605806",
+      "34014539",
+      "39101773",
+      "15703559",
+      "35523140",
+      "32173382",
+      "27038038",
+      "35340039",
+      "37512809",
+      "36858343",
+      "39186465",
+      "28645654",
+      "39092765",
+      "35489428",
+      "36923909",
+      "36257294",
+      "35008179",
+      "39369960",
+      "35217064",
+      "36113344"
+    ]
+  },
+  "B09_h1": {
+    "domain_id": "B09",
+    "domain": "Gaucher Disease",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "GBA1",
+      "NLRP3",
+      "IL-",
+      "IL-6",
+      "TNF-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Gaucher Disease\"[Title/Abstract] OR \"Gaucher Disease\"[MeSH Terms]) AND (\"GBA1\"[Title/Abstract] OR \"NLRP3\"[Title/Abstract] OR \"IL-\"[Title/Abstract] OR \"IL-6\"[Title/Abstract] OR \"TNF-\"[Title/Abstract])",
+        "total_hits": 562,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "28218669",
+      "35993545",
+      "36598340",
+      "38753766",
+      "28846219",
+      "34151863",
+      "36745788",
+      "38924406",
+      "39927608",
+      "27955980",
+      "29290548",
+      "38454456",
+      "40112481",
+      "40395517",
+      "37866711",
+      "31761523",
+      "30589955",
+      "36640928",
+      "34528667",
+      "30645117"
+    ]
+  },
+  "B09_h2": {
+    "domain_id": "B09",
+    "domain": "Gaucher Disease",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Gb1",
+      "glucosylsphingosine",
+      "glucocerebrosidase",
+      "dysregulation",
+      "neuronopathic"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Gaucher Disease\"[Title/Abstract] OR \"Gaucher Disease\"[MeSH Terms]) AND (\"Gb1\"[Title/Abstract] OR \"glucosylsphingosine\"[Title/Abstract] OR \"glucocerebrosidase\"[Title/Abstract] OR \"dysregulation\"[Title/Abstract] OR \"neuronopathic\"[Title/Abstract])",
+        "total_hits": 2307,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "35993545",
+      "36745788",
+      "40841705",
+      "36782327",
+      "31783225",
+      "40112481",
+      "33483255",
+      "38649404",
+      "35954187",
+      "36286736",
+      "39107435",
+      "38454456",
+      "29473199",
+      "32998334",
+      "35628652",
+      "38847390",
+      "35066608",
+      "38000346",
+      "39881421",
+      "36835356"
+    ]
+  },
+  "B09_h3": {
+    "domain_id": "B09",
+    "domain": "Gaucher Disease",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Misfolded",
+      "GBA1",
+      "N370S",
+      "L444P",
+      "PERK"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Gaucher Disease\"[Title/Abstract] OR \"Gaucher Disease\"[MeSH Terms]) AND (\"Misfolded\"[Title/Abstract] OR \"GBA1\"[Title/Abstract] OR \"N370S\"[Title/Abstract] OR \"L444P\"[Title/Abstract] OR \"PERK\"[Title/Abstract])",
+        "total_hits": 925,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "28218669",
+      "35993545",
+      "36598340",
+      "38924406",
+      "36745788",
+      "39927608",
+      "37866711",
+      "35322924",
+      "27955980",
+      "17996473",
+      "38454456",
+      "31761523",
+      "36640928",
+      "34528667",
+      "38610104",
+      "39107435",
+      "35628652",
+      "39358794",
+      "38847390",
+      "35066608"
+    ]
+  },
+  "B09_h4": {
+    "domain_id": "B09",
+    "domain": "Gaucher Disease",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "LC3B-II",
+      "SQSTM1",
+      "PINK1",
+      "Parkin-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Gaucher Disease\"[Title/Abstract] OR \"Gaucher Disease\"[MeSH Terms]) AND (\"LC3B-II\"[Title/Abstract] OR \"SQSTM1\"[Title/Abstract] OR \"PINK1\"[Title/Abstract] OR \"Parkin-\"[Title/Abstract])",
+        "total_hits": 18,
+        "returned": 18
+      }
+    ],
+    "candidate_pmids": [
+      "29124790",
+      "30160596",
+      "34130600",
+      "42027956",
+      "34481839",
+      "28189372",
+      "34550070",
+      "20945983",
+      "30717266",
+      "23580333",
+      "23707074",
+      "25582874",
+      "30633777",
+      "12522789",
+      "24935484",
+      "20643691",
+      "26743617",
+      "27094865"
+    ]
+  },
+  "B09_h5": {
+    "domain_id": "B09",
+    "domain": "Gaucher Disease",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Elevated",
+      "SNCA",
+      "GBA1",
+      "Parkinsonian"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Gaucher Disease\"[Title/Abstract] OR \"Gaucher Disease\"[MeSH Terms]) AND (\"Elevated\"[Title/Abstract] OR \"SNCA\"[Title/Abstract] OR \"GBA1\"[Title/Abstract] OR \"Parkinsonian\"[Title/Abstract])",
+        "total_hits": 841,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "28218669",
+      "35993545",
+      "36598340",
+      "38753766",
+      "25820783",
+      "34151863",
+      "36745788",
+      "38924406",
+      "39927608",
+      "37866711",
+      "27955980",
+      "38454456",
+      "40112481",
+      "34789027",
+      "31761523",
+      "30589955",
+      "36640928",
+      "34528667",
+      "30645117",
+      "38610104"
+    ]
+  },
+  "B10_h1": {
+    "domain_id": "B10",
+    "domain": "De Lange Syndrome",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "NIPBL",
+      "HOX",
+      "RUNX",
+      "FOX"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"De Lange Syndrome\"[Title/Abstract] OR \"De Lange Syndrome\"[MeSH Terms]) AND (\"NIPBL\"[Title/Abstract] OR \"HOX\"[Title/Abstract] OR \"RUNX\"[Title/Abstract] OR \"FOX\"[Title/Abstract])",
+        "total_hits": 297,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38884729",
+      "31516082",
+      "38735830",
+      "37377026",
+      "38279279",
+      "37062615",
+      "20301283",
+      "31704779",
+      "35476527",
+      "39682772",
+      "32800293",
+      "40186517",
+      "36913886",
+      "25209348",
+      "38725242",
+      "40969288",
+      "28422453",
+      "37958548",
+      "36041635",
+      "38507484"
+    ]
+  },
+  "B10_h2": {
+    "domain_id": "B10",
+    "domain": "De Lange Syndrome",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "HDAC8",
+      "SMC3",
+      "loss-of-function",
+      "deacetylation",
+      "craniofacial"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"De Lange Syndrome\"[Title/Abstract] OR \"De Lange Syndrome\"[MeSH Terms]) AND (\"HDAC8\"[Title/Abstract] OR \"SMC3\"[Title/Abstract] OR \"loss-of-function\"[Title/Abstract] OR \"deacetylation\"[Title/Abstract] OR \"craniofacial\"[Title/Abstract])",
+        "total_hits": 215,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38297832",
+      "39085358",
+      "31516082",
+      "38735830",
+      "34358384",
+      "37377026",
+      "20301283",
+      "37227732",
+      "27576763",
+      "31704779",
+      "37650609",
+      "35644361",
+      "40969288",
+      "40492837",
+      "25209348",
+      "38733165",
+      "26434741",
+      "38063851",
+      "28422453",
+      "34989322"
+    ]
+  },
+  "B10_h3": {
+    "domain_id": "B10",
+    "domain": "De Lange Syndrome",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Reduced",
+      "CTCF-anchored",
+      "enhancer-promoter",
+      "downregulation",
+      "bidirectional"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"De Lange Syndrome\"[Title/Abstract] OR \"De Lange Syndrome\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"CTCF-anchored\"[Title/Abstract] OR \"enhancer-promoter\"[Title/Abstract] OR \"downregulation\"[Title/Abstract] OR \"bidirectional\"[Title/Abstract])",
+        "total_hits": 56,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "34849865",
+      "39110836",
+      "41341165",
+      "36379434",
+      "40475661",
+      "26206533",
+      "40766905",
+      "25255084",
+      "24550742",
+      "28826797",
+      "37962004",
+      "26725122",
+      "18854353",
+      "24145515",
+      "41756876",
+      "35759269",
+      "34315879",
+      "36011323",
+      "33694205",
+      "22563761"
+    ]
+  },
+  "B10_h4": {
+    "domain_id": "B10",
+    "domain": "De Lange Syndrome",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "NIPBL",
+      "Mediator",
+      "RNA"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"De Lange Syndrome\"[Title/Abstract] OR \"De Lange Syndrome\"[MeSH Terms]) AND (\"NIPBL\"[Title/Abstract] OR \"Mediator\"[Title/Abstract] OR \"RNA\"[Title/Abstract])",
+        "total_hits": 312,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38884729",
+      "37062615",
+      "31516082",
+      "38735830",
+      "37377026",
+      "39085358",
+      "38279279",
+      "20301283",
+      "37034595",
+      "31704779",
+      "35842780",
+      "35476527",
+      "32800293",
+      "40186517",
+      "36041635",
+      "25209348",
+      "38725242",
+      "40969288",
+      "28422453",
+      "20675112"
+    ]
+  },
+  "B10_h5": {
+    "domain_id": "B10",
+    "domain": "De Lange Syndrome",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Missense",
+      "SMC1A",
+      "SMC3",
+      "ATPase"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"De Lange Syndrome\"[Title/Abstract] OR \"De Lange Syndrome\"[MeSH Terms]) AND (\"Missense\"[Title/Abstract] OR \"SMC1A\"[Title/Abstract] OR \"SMC3\"[Title/Abstract] OR \"ATPase\"[Title/Abstract])",
+        "total_hits": 222,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "39085358",
+      "38297832",
+      "37062615",
+      "38735830",
+      "31516082",
+      "37650609",
+      "37036413",
+      "40492837",
+      "38279279",
+      "35396801",
+      "37377026",
+      "20301283",
+      "37034595",
+      "23683030",
+      "31704779",
+      "18996922",
+      "36913886",
+      "25209348",
+      "39767862",
+      "40969288"
+    ]
+  },
+  "B11_h1": {
+    "domain_id": "B11",
+    "domain": "Diabetes Insipidus, Nephrogenic",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Loss-of-",
+      "AVPR2",
+      "Gs-mediated",
+      "PKA-dependent",
+      "AQP2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Nephrogenic Diabetes Insipidus\"[Title/Abstract] OR \"Diabetes Insipidus, Nephrogenic\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"AVPR2\"[Title/Abstract] OR \"Gs-mediated\"[Title/Abstract] OR \"PKA-dependent\"[Title/Abstract] OR \"AQP2\"[Title/Abstract])",
+        "total_hits": 550,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "26077742",
+      "32993088",
+      "29478202",
+      "33306826",
+      "38145893",
+      "32580146",
+      "34224008",
+      "38693275",
+      "34120413",
+      "37674034",
+      "27156763",
+      "18726898",
+      "34101133",
+      "9853256",
+      "25449762",
+      "40806548",
+      "11014929",
+      "28258576",
+      "41605691",
+      "40003297"
+    ]
+  },
+  "B11_h2": {
+    "domain_id": "B11",
+    "domain": "Diabetes Insipidus, Nephrogenic",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Misfolding-",
+      "AQP2",
+      "T126M",
+      "A147T"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Nephrogenic Diabetes Insipidus\"[Title/Abstract] OR \"Diabetes Insipidus, Nephrogenic\"[MeSH Terms]) AND (\"Misfolding-\"[Title/Abstract] OR \"AQP2\"[Title/Abstract] OR \"T126M\"[Title/Abstract] OR \"A147T\"[Title/Abstract])",
+        "total_hits": 380,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "26077742",
+      "32993088",
+      "29478202",
+      "33786230",
+      "32580146",
+      "34224008",
+      "34120413",
+      "37674034",
+      "27156763",
+      "28258576",
+      "42852029",
+      "37900924",
+      "30454745",
+      "20301356",
+      "36683321",
+      "31588538",
+      "34839503",
+      "26714855",
+      "33030091",
+      "32073219"
+    ]
+  },
+  "B11_h3": {
+    "domain_id": "B11",
+    "domain": "Diabetes Insipidus, Nephrogenic",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Upregulated",
+      "COX-2",
+      "PTGS2",
+      "EP3",
+      "AQP2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Nephrogenic Diabetes Insipidus\"[Title/Abstract] OR \"Diabetes Insipidus, Nephrogenic\"[MeSH Terms]) AND (\"Upregulated\"[Title/Abstract] OR \"COX-2\"[Title/Abstract] OR \"PTGS2\"[Title/Abstract] OR \"EP3\"[Title/Abstract] OR \"AQP2\"[Title/Abstract])",
+        "total_hits": 369,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "26077742",
+      "32993088",
+      "29478202",
+      "33786230",
+      "32580146",
+      "34224008",
+      "27156763",
+      "28258576",
+      "37900924",
+      "30454745",
+      "20301356",
+      "36683321",
+      "31588538",
+      "34839503",
+      "33030091",
+      "32073219",
+      "31189221",
+      "28134709",
+      "30654539",
+      "11181969"
+    ]
+  },
+  "B11_h4": {
+    "domain_id": "B11",
+    "domain": "Diabetes Insipidus, Nephrogenic",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Lithium",
+      "STAT3",
+      "AQP2",
+      "AVPR2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Nephrogenic Diabetes Insipidus\"[Title/Abstract] OR \"Diabetes Insipidus, Nephrogenic\"[MeSH Terms]) AND (\"Lithium\"[Title/Abstract] OR \"STAT3\"[Title/Abstract] OR \"AQP2\"[Title/Abstract] OR \"AVPR2\"[Title/Abstract])",
+        "total_hits": 770,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "35146976",
+      "38145893",
+      "26077742",
+      "38693275",
+      "30454745",
+      "24356291",
+      "20301356",
+      "36683321",
+      "31588538",
+      "28134709",
+      "33867673",
+      "38771519",
+      "30654539",
+      "11181969",
+      "17514192",
+      "19551652",
+      "30800291",
+      "35037871",
+      "31577731",
+      "17550212"
+    ]
+  },
+  "B11_h5": {
+    "domain_id": "B11",
+    "domain": "Diabetes Insipidus, Nephrogenic",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "Reduced",
+      "NKCC2",
+      "SLC12A1",
+      "PKA-mediated",
+      "UT-A1"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Nephrogenic Diabetes Insipidus\"[Title/Abstract] OR \"Diabetes Insipidus, Nephrogenic\"[MeSH Terms]) AND (\"Reduced\"[Title/Abstract] OR \"NKCC2\"[Title/Abstract] OR \"SLC12A1\"[Title/Abstract] OR \"PKA-mediated\"[Title/Abstract] OR \"UT-A1\"[Title/Abstract])",
+        "total_hits": 232,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38693275",
+      "26043842",
+      "40003297",
+      "33251249",
+      "19488606",
+      "21394280",
+      "21917732",
+      "26244674",
+      "31577731",
+      "34378418",
+      "39234304",
+      "36868561",
+      "24729151",
+      "28615247",
+      "30977917",
+      "27241854",
+      "25704017",
+      "25608967",
+      "27534996",
+      "19782311"
+    ]
+  },
+  "B12_h1": {
+    "domain_id": "B12",
+    "domain": "Buruli Ulcer",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Mycobacterium",
+      "SEC61A1-",
+      "TNF",
+      "IL12B",
+      "HLA-DRA"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]) AND (\"Mycobacterium\"[Title/Abstract] OR \"SEC61A1-\"[Title/Abstract] OR \"TNF\"[Title/Abstract] OR \"IL12B\"[Title/Abstract] OR \"HLA-DRA\"[Title/Abstract])",
+        "total_hits": 964,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "20676462",
+      "33220026",
+      "41413430",
+      "32100087",
+      "35962475",
+      "32702376",
+      "19362692",
+      "38916323",
+      "26332541",
+      "26286931",
+      "39879370",
+      "37368670",
+      "32133396",
+      "30497990",
+      "34808092",
+      "40023807",
+      "31333157",
+      "33580189",
+      "29237707",
+      "30239097"
+    ]
+  },
+  "B12_h2": {
+    "domain_id": "B12",
+    "domain": "Buruli Ulcer",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Mycolactone",
+      "AGTR2",
+      "SCN9A",
+      "TRPV1-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]) AND (\"Mycolactone\"[Title/Abstract] OR \"AGTR2\"[Title/Abstract] OR \"SCN9A\"[Title/Abstract] OR \"TRPV1-\"[Title/Abstract])",
+        "total_hits": 238,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "30429139",
+      "41413430",
+      "33371993",
+      "31212961",
+      "32100087",
+      "31174850",
+      "32692975",
+      "37428812",
+      "26332541",
+      "34643900",
+      "37368670",
+      "32133396",
+      "32091711",
+      "31333157",
+      "32702376",
+      "31487908",
+      "11033467",
+      "25825332",
+      "32310683",
+      "25612300"
+    ]
+  },
+  "B12_h3": {
+    "domain_id": "B12",
+    "domain": "Buruli Ulcer",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Mycolactone",
+      "III",
+      "ROS",
+      "BAX-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]) AND (\"Mycolactone\"[Title/Abstract] OR \"III\"[Title/Abstract] OR \"ROS\"[Title/Abstract] OR \"BAX-\"[Title/Abstract])",
+        "total_hits": 264,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "30429139",
+      "41413430",
+      "33371993",
+      "31212961",
+      "32100087",
+      "32702376",
+      "31174850",
+      "32692975",
+      "37428812",
+      "26332541",
+      "34643900",
+      "37368670",
+      "32133396",
+      "32091711",
+      "31333157",
+      "31487908",
+      "31425525",
+      "11033467",
+      "25825332",
+      "32310683"
+    ]
+  },
+  "B12_h4": {
+    "domain_id": "B12",
+    "domain": "Buruli Ulcer",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Mycolactone",
+      "VEGFA",
+      "KDR",
+      "CDH5",
+      "VWF"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]) AND (\"Mycolactone\"[Title/Abstract] OR \"VEGFA\"[Title/Abstract] OR \"KDR\"[Title/Abstract] OR \"CDH5\"[Title/Abstract] OR \"VWF\"[Title/Abstract])",
+        "total_hits": 238,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "30429139",
+      "41413430",
+      "33371993",
+      "32100087",
+      "31212961",
+      "32702376",
+      "31174850",
+      "32692975",
+      "26332541",
+      "34643900",
+      "37368670",
+      "32133396",
+      "32091711",
+      "31333157",
+      "29237707",
+      "38073533",
+      "31487908",
+      "11033467",
+      "25825332",
+      "32310683"
+    ]
+  },
+  "B12_h5": {
+    "domain_id": "B12",
+    "domain": "Buruli Ulcer",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "MMP9",
+      "MMP14",
+      "TIMP1",
+      "TIMP3"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]) AND (\"MMP9\"[Title/Abstract] OR \"MMP14\"[Title/Abstract] OR \"TIMP1\"[Title/Abstract] OR \"TIMP3\"[Title/Abstract])",
+        "total_hits": 0,
+        "returned": 0
+      },
+      {
+        "query": "\"Buruli Ulcer\"[Title/Abstract] OR \"Buruli Ulcer\"[MeSH Terms]",
+        "total_hits": 1363,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "20676462",
+      "33220026",
+      "41413430",
+      "32100087",
+      "35962475",
+      "32702376",
+      "19362692",
+      "26332541",
+      "26286931",
+      "39879370",
+      "30497990",
+      "34808092",
+      "40023807",
+      "31628633",
+      "29237707",
+      "21572816",
+      "38073533",
+      "38754530",
+      "30381977",
+      "25825332"
+    ]
+  },
+  "B13_h1": {
+    "domain_id": "B13",
+    "domain": "Leber Congenital Amaurosis",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Loss-of-",
+      "RPE65",
+      "RPE"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Leber Congenital Amaurosis\"[Title/Abstract] OR \"Leber Congenital Amaurosis\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"RPE65\"[Title/Abstract] OR \"RPE\"[Title/Abstract])",
+        "total_hits": 617,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "36819107",
+      "34440435",
+      "38278208",
+      "29506236",
+      "28035529",
+      "30578499",
+      "31630094",
+      "39389360",
+      "36084637",
+      "31795518",
+      "35383196",
+      "38439910",
+      "10527670",
+      "39934925",
+      "35150033",
+      "32168002",
+      "20811156",
+      "36740702",
+      "33804189",
+      "36698779"
+    ]
+  },
+  "B13_h2": {
+    "domain_id": "B13",
+    "domain": "Leber Congenital Amaurosis",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "Hypomorphic",
+      "CEP290",
+      "intraflagellar",
+      "photoreceptor",
+      "destabilize"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Leber Congenital Amaurosis\"[Title/Abstract] OR \"Leber Congenital Amaurosis\"[MeSH Terms]) AND (\"Hypomorphic\"[Title/Abstract] OR \"CEP290\"[Title/Abstract] OR \"intraflagellar\"[Title/Abstract] OR \"photoreceptor\"[Title/Abstract] OR \"destabilize\"[Title/Abstract])",
+        "total_hits": 585,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "34440435",
+      "29534263",
+      "40736828",
+      "38278208",
+      "28035529",
+      "30578499",
+      "31630094",
+      "36830640",
+      "39596324",
+      "33689657",
+      "37625575",
+      "36084637",
+      "32312421",
+      "37460155",
+      "35383196",
+      "32260251",
+      "38439910",
+      "17896309",
+      "37440025",
+      "37351895"
+    ]
+  },
+  "B13_h3": {
+    "domain_id": "B13",
+    "domain": "Leber Congenital Amaurosis",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "Loss-of-",
+      "GUCY2D",
+      "RetGC1",
+      "CNGA1",
+      "CNGB1"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Leber Congenital Amaurosis\"[Title/Abstract] OR \"Leber Congenital Amaurosis\"[MeSH Terms]) AND (\"Loss-of-\"[Title/Abstract] OR \"GUCY2D\"[Title/Abstract] OR \"RetGC1\"[Title/Abstract] OR \"CNGA1\"[Title/Abstract] OR \"CNGB1\"[Title/Abstract])",
+        "total_hits": 331,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "34440435",
+      "38278208",
+      "39244273",
+      "30578499",
+      "31630094",
+      "39596324",
+      "39389360",
+      "31795518",
+      "38439910",
+      "10527670",
+      "39934925",
+      "36698779",
+      "25545056",
+      "9734800",
+      "37625575",
+      "27183166",
+      "29721967",
+      "33670772",
+      "28089909",
+      "32000842"
+    ]
+  },
+  "B13_h4": {
+    "domain_id": "B13",
+    "domain": "Leber Congenital Amaurosis",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "AIPL1",
+      "PDE6",
+      "Ca2"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Leber Congenital Amaurosis\"[Title/Abstract] OR \"Leber Congenital Amaurosis\"[MeSH Terms]) AND (\"AIPL1\"[Title/Abstract] OR \"PDE6\"[Title/Abstract] OR \"Ca2\"[Title/Abstract])",
+        "total_hits": 145,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38278208",
+      "30578499",
+      "31630094",
+      "38439910",
+      "38203368",
+      "39009597",
+      "29721960",
+      "29721967",
+      "20012162",
+      "38569559",
+      "38841332",
+      "24426771",
+      "31884595",
+      "19941038",
+      "41010702",
+      "9702199",
+      "24981858",
+      "38662103",
+      "41465493",
+      "25596619"
+    ]
+  },
+  "B13_h5": {
+    "domain_id": "B13",
+    "domain": "Leber Congenital Amaurosis",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "CRX",
+      "OTX",
+      "PDE6"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Leber Congenital Amaurosis\"[Title/Abstract] OR \"Leber Congenital Amaurosis\"[MeSH Terms]) AND (\"CRX\"[Title/Abstract] OR \"OTX\"[Title/Abstract] OR \"PDE6\"[Title/Abstract])",
+        "total_hits": 116,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "37625575",
+      "10527670",
+      "37351895",
+      "35255174",
+      "29721967",
+      "20012162",
+      "32856788",
+      "24888636",
+      "40132901",
+      "29721960",
+      "40074530",
+      "38662103",
+      "32214115",
+      "11748842",
+      "37440026",
+      "36084639",
+      "42878232",
+      "39896422",
+      "36369640",
+      "10532715"
+    ]
+  },
+  "B14_h1": {
+    "domain_id": "B14",
+    "domain": "Pelizaeus-Merzbacher Disease",
+    "hyp_id": 1,
+    "extracted_entities": [
+      "Misfolded",
+      "PLP1",
+      "DM20",
+      "PERK",
+      "EIF2AK3"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Pelizaeus-Merzbacher Disease\"[Title/Abstract] OR \"Pelizaeus-Merzbacher Disease\"[MeSH Terms]) AND (\"Misfolded\"[Title/Abstract] OR \"PLP1\"[Title/Abstract] OR \"DM20\"[Title/Abstract] OR \"PERK\"[Title/Abstract] OR \"EIF2AK3\"[Title/Abstract])",
+        "total_hits": 276,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32809357",
+      "20301361",
+      "31760646",
+      "19330777",
+      "38219302",
+      "22422208",
+      "35748297",
+      "29478609",
+      "28286750",
+      "37637647",
+      "30637272",
+      "24103481",
+      "35885014",
+      "40500501",
+      "31585094",
+      "15627202",
+      "15712223",
+      "27057822",
+      "39280331",
+      "32800341"
+    ]
+  },
+  "B14_h2": {
+    "domain_id": "B14",
+    "domain": "Pelizaeus-Merzbacher Disease",
+    "hyp_id": 2,
+    "extracted_entities": [
+      "ER-retained",
+      "PLP1",
+      "ER-phagy",
+      "MAP1LC3B",
+      "LC3-II"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Pelizaeus-Merzbacher Disease\"[Title/Abstract] OR \"Pelizaeus-Merzbacher Disease\"[MeSH Terms]) AND (\"ER-retained\"[Title/Abstract] OR \"PLP1\"[Title/Abstract] OR \"ER-phagy\"[Title/Abstract] OR \"MAP1LC3B\"[Title/Abstract] OR \"LC3-II\"[Title/Abstract])",
+        "total_hits": 247,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32809357",
+      "20301361",
+      "31760646",
+      "38219302",
+      "22422208",
+      "35748297",
+      "29478609",
+      "37637647",
+      "30637272",
+      "28286750",
+      "35885014",
+      "24103481",
+      "40500501",
+      "31585094",
+      "15627202",
+      "15712223",
+      "27057822",
+      "32800341",
+      "37560384",
+      "36368233"
+    ]
+  },
+  "B14_h3": {
+    "domain_id": "B14",
+    "domain": "Pelizaeus-Merzbacher Disease",
+    "hyp_id": 3,
+    "extracted_entities": [
+      "PLP1",
+      "SREBP2-driven",
+      "NPC1",
+      "LAMP1-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Pelizaeus-Merzbacher Disease\"[Title/Abstract] OR \"Pelizaeus-Merzbacher Disease\"[MeSH Terms]) AND (\"PLP1\"[Title/Abstract] OR \"SREBP2-driven\"[Title/Abstract] OR \"NPC1\"[Title/Abstract] OR \"LAMP1-\"[Title/Abstract])",
+        "total_hits": 248,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32809357",
+      "20301361",
+      "31760646",
+      "38219302",
+      "22422208",
+      "35748297",
+      "29478609",
+      "37637647",
+      "30637272",
+      "24103481",
+      "35885014",
+      "28286750",
+      "40500501",
+      "15627202",
+      "32800341",
+      "15712223",
+      "27057822",
+      "37560384",
+      "36368233",
+      "25637521"
+    ]
+  },
+  "B14_h4": {
+    "domain_id": "B14",
+    "domain": "Pelizaeus-Merzbacher Disease",
+    "hyp_id": 4,
+    "extracted_entities": [
+      "Myelin",
+      "PLP1",
+      "TLR4",
+      "MYD88",
+      "NF-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Pelizaeus-Merzbacher Disease\"[Title/Abstract] OR \"Pelizaeus-Merzbacher Disease\"[MeSH Terms]) AND (\"Myelin\"[Title/Abstract] OR \"PLP1\"[Title/Abstract] OR \"TLR4\"[Title/Abstract] OR \"MYD88\"[Title/Abstract] OR \"NF-\"[Title/Abstract])",
+        "total_hits": 424,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "38390857",
+      "22411242",
+      "32809357",
+      "25192509",
+      "20301361",
+      "12230321",
+      "35953447",
+      "31760646",
+      "19330777",
+      "22422208",
+      "34523057",
+      "35748297",
+      "29478609",
+      "37637647",
+      "30637272",
+      "38219302",
+      "28286750",
+      "35885014",
+      "24103481",
+      "40500501"
+    ]
+  },
+  "B14_h5": {
+    "domain_id": "B14",
+    "domain": "Pelizaeus-Merzbacher Disease",
+    "hyp_id": 5,
+    "extracted_entities": [
+      "PLP1",
+      "SLC16A1",
+      "MCT1-mediated",
+      "ATP",
+      "MCT1-"
+    ],
+    "queries_executed": [
+      {
+        "query": "(\"Pelizaeus-Merzbacher Disease\"[Title/Abstract] OR \"Pelizaeus-Merzbacher Disease\"[MeSH Terms]) AND (\"PLP1\"[Title/Abstract] OR \"SLC16A1\"[Title/Abstract] OR \"MCT1-mediated\"[Title/Abstract] OR \"ATP\"[Title/Abstract] OR \"MCT1-\"[Title/Abstract])",
+        "total_hits": 247,
+        "returned": 20
+      }
+    ],
+    "candidate_pmids": [
+      "32809357",
+      "20301361",
+      "31760646",
+      "38219302",
+      "22422208",
+      "35748297",
+      "29478609",
+      "37637647",
+      "30637272",
+      "28286750",
+      "35885014",
+      "24103481",
+      "40500501",
+      "31585094",
+      "15627202",
+      "15712223",
+      "27057822",
+      "32800341",
+      "37560384",
+      "36368233"
+    ]
+  }
+}

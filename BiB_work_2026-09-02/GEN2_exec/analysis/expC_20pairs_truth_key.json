@@ -1,0 +1,162 @@
+{
+  "V001": {
+    "gene_symbol": "FOXRED1",
+    "aliases": [
+      "H17"
+    ]
+  },
+  "V002": {
+    "gene_symbol": "DHTKD1",
+    "aliases": [
+      "CMT2Q",
+      "DKFZP762M115",
+      "E1a",
+      "KIAA1630",
+      "MGC3090",
+      "OADC-E1",
+      "OADH-E1"
+    ]
+  },
+  "V003": {
+    "gene_symbol": "CEP57",
+    "aliases": [
+      "KIAA0092",
+      "TSP57",
+      "Translokin"
+    ]
+  },
+  "V004": {
+    "gene_symbol": "YARS2",
+    "aliases": [
+      "CGI-04",
+      "FLJ13995",
+      "mt-TyrRS"
+    ]
+  },
+  "V005": {
+    "gene_symbol": "KRT74",
+    "aliases": [
+      "K6IRS4",
+      "KRT5C",
+      "KRT6IRS4"
+    ]
+  },
+  "V006": {
+    "gene_symbol": "KIAA0586",
+    "aliases": [
+      "JBTS23",
+      "Talpid3"
+    ]
+  },
+  "V007": {
+    "gene_symbol": "EARS2",
+    "aliases": [
+      "KIAA1970",
+      "MSE1",
+      "mtGlnRS"
+    ]
+  },
+  "V008": {
+    "gene_symbol": "EIF2B3",
+    "aliases": [
+      "EIF-2B",
+      "EIF2Bgamma"
+    ]
+  },
+  "V009": {
+    "gene_symbol": "WAS",
+    "aliases": [
+      "IMD2",
+      "THC",
+      "WASP",
+      "WASPA"
+    ]
+  },
+  "V010": {
+    "gene_symbol": "ERLIN1",
+    "aliases": [
+      "C10orf69",
+      "Erlin-1",
+      "KE04",
+      "SPFH1",
+      "SPG62"
+    ]
+  },
+  "V011": {
+    "gene_symbol": "VPS33A",
+    "aliases": []
+  },
+  "V012": {
+    "gene_symbol": "SQOR",
+    "aliases": [
+      "CGI-44",
+      "SQR",
+      "SQRDL"
+    ]
+  },
+  "V013": {
+    "gene_symbol": "ERI1",
+    "aliases": [
+      "3'HEXO",
+      "THEX1"
+    ]
+  },
+  "V014": {
+    "gene_symbol": "SMARCD2",
+    "aliases": [
+      "BAF60B",
+      "CRACD2",
+      "PRO2451",
+      "Rsc6p"
+    ]
+  },
+  "V015": {
+    "gene_symbol": "AP3B2",
+    "aliases": [
+      "NAPTB"
+    ]
+  },
+  "V016": {
+    "gene_symbol": "TOGARAM1",
+    "aliases": [
+      "Crescerin-1",
+      "FAM179B",
+      "KIAA0423",
+      "crescerin"
+    ]
+  },
+  "V017": {
+    "gene_symbol": "CDC40",
+    "aliases": [
+      "EHB3",
+      "FLJ10564",
+      "PRP17",
+      "PRPF17"
+    ]
+  },
+  "V018": {
+    "gene_symbol": "KPNA3",
+    "aliases": [
+      "IPOA4",
+      "SRP1gamma",
+      "SRP4",
+      "hSRP1"
+    ]
+  },
+  "V019": {
+    "gene_symbol": "ATP5PO",
+    "aliases": [
+      "ATP5O",
+      "ATPO",
+      "OSCP"
+    ]
+  },
+  "V020": {
+    "gene_symbol": "KDSR",
+    "aliases": [
+      "DHSR",
+      "FVT1",
+      "SDR35C1"
+    ]
+  }
+}

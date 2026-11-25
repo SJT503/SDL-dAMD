@@ -1,0 +1,538 @@
+{
+  "task": "A6_Parity_Citations_and_A9_Runtime_Sensitivity",
+  "elapsed_sec": 918.91,
+  "A6_token_call_ledger": {
+    "canary": {
+      "n_calls": 40,
+      "n_ok": 40,
+      "input_tokens": 2714,
+      "output_tokens": 9880,
+      "reasoning_tokens": 9381
+    },
+    "ALL_9130": {
+      "n_calls": 9130,
+      "n_ok": 8973,
+      "input_tokens": 5735131,
+      "output_tokens": 37920089,
+      "reasoning_tokens": 35579474
+    },
+    "expB": {
+      "n_calls": 396,
+      "n_ok": 395,
+      "input_tokens": 101513,
+      "output_tokens": 2211555,
+      "reasoning_tokens": 2110563
+    },
+    "NON_CANARY_9090": {
+      "n_calls": 9090,
+      "n_ok": 0,
+      "input_tokens": 5732417,
+      "output_tokens": 37910209,
+      "reasoning_tokens": 35570093
+    },
+    "NON_CANARY_OK": {
+      "n_calls": 8933,
+      "n_ok": 0,
+      "input_tokens": 5732417,
+      "output_tokens": 37910209,
+      "reasoning_tokens": 35570093
+    },
+    "parent": {
+      "n_calls": 7890,
+      "n_ok": 7890,
+      "input_tokens": 5405100,
+      "output_tokens": 20497148,
+      "reasoning_tokens": 18286814
+    },
+    "expC": {
+      "n_calls": 804,
+      "n_ok": 648,
+      "input_tokens": 225804,
+      "output_tokens": 15201506,
+      "reasoning_tokens": 15172716
+    }
+  },
+  "A6_fig5C_t2_reconciliation": {
+    "total_scheduled_t2_calls": 3240,
+    "incomplete_singleton_pairs": 19,
+    "incomplete_singleton_calls": 38,
+    "complete_bidirectional_calls": 3202,
+    "content_consistent_calls": 1824,
+    "primacy_flipped_AA_calls": 1336,
+    "recency_flipped_BB_calls": 42,
+    "fig5c_plotted_subset_calls_consistent_plus_AA": 3160,
+    "median_rt_consistent": 2336.0,
+    "median_rt_primacy_AA": 2410.5,
+    "median_rt_all_flipped": 2433.0,
+    "mannwhitney_p_AA_vs_consistent": 0.025357420803707214,
+    "mannwhitney_p_all_flipped_vs_consistent": 0.005993038523422685
+  },
+  "A6_expB_cot_token_reconciliation": {
+    "by_arm": {
+      "as_discovered": {
+        "n": 70,
+        "median": 11798.5,
+        "iqr": [
+          8589.5,
+          15507.0
+        ],
+        "mean": 12036.53,
+        "sd": 5333.39
+      },
+      "abstain_probe": {
+        "n": 70,
+        "median": 8862.0,
+        "iqr": [
+          6334.75,
+          10772.75
+        ],
+        "mean": 8755.94,
+        "sd": 3625.36
+      },
+      "gated": {
+        "n": 70,
+        "median": 1132.0,
+        "iqr": [
+          583.0,
+          1693.25
+        ],
+        "mean": 1660.49,
+        "sd": 2273.83
+      }
+    },
+    "median_reduction_gated_vs_as_discovered_pct": -90.41,
+    "mean_reduction_gated_vs_as_discovered_pct": -86.2
+  },
+  "A6_composite_score_reconciliation": {
+    "unweighted_raw_mean": {
+      "formula": "S_raw = (Bucket3_Share_pct + T2_Consistent_pct + Verified_Grounded_Yield_pct + (100 - 100*ECE)) / 4",
+      "before_unrectified": 47.67,
+      "after_oa_btl_and_platt_only": 66.01,
+      "after_module3a_safety_score": 79.64,
+      "after_full_star_audit_closed_loop": 80.36
+    },
+    "fair_share_normalized_mean": {
+      "formula": "S_norm = (min(100, 3*Bucket3_Share_pct) + T2_Consistent_pct + Verified_Grounded_Yield_pct + (100 - 100*ECE)) / 4",
+      "components_before": [
+        40.0,
+        56.96,
+        42.62,
+        77.79
+      ],
+      "components_abstain_probe_safety": [
+        40.0,
+        56.96,
+        78.33,
+        77.79
+      ],
+      "components_oa_btl_and_platt": [
+        72.5,
+        100.0,
+        42.62,
+        97.26
+      ],
+      "components_full_star_audit": [
+        72.5,
+        100.0,
+        100.0,
+        97.26
+      ],
+      "score_before": 54.34,
+      "score_abstain_probe_safety": 63.27,
+      "score_oa_btl_and_platt": 78.09,
+      "score_full_star_audit": 92.44
+    }
+  },
+  "A6_live_pubmed_als_ccs_candidates": [
+    {
+      "pmid": "39589160",
+      "first_author": "Wang Y",
+      "title": "Copper homeostasis and neurodegenerative diseases.",
+      "journal": "Neural regeneration research",
+      "journal_iso": "Neural Regen Res",
+      "year": "2025",
+      "volume": "20",
+      "pages": "3124-3143",
+      "doi": "10.4103/NRR.NRR-D-24-00642"
+    },
+    {
+      "pmid": "33359139",
+      "first_author": "Bakkar N",
+      "title": "The M1311V variant of ATP7A is associated with impaired trafficking and copper homeostasis in models of motor neuron disease.",
+      "journal": "Neurobiology of disease",
+      "journal_iso": "Neurobiol Dis",
+      "year": "2021",
+      "volume": "149",
+      "pages": "105228",
+      "doi": "10.1016/j.nbd.2020.105228"
+    },
+    {
+      "pmid": "31164693",
+      "first_author": "Tarr IS",
+      "title": "Monozygotic twins and triplets discordant for amyotrophic lateral sclerosis display differential methylation and gene expression.",
+      "journal": "Scientific reports",
+      "journal_iso": "Sci Rep",
+      "year": "2019",
+      "volume": "9",
+      "pages": "8254",
+      "doi": "10.1038/s41598-019-44765-4"
+    },
+    {
+      "pmid": "39225106",
+      "first_author": "Białobrodzka E",
+      "title": "Amyotrophic Lateral Sclerosis and swim training affect copper metabolism in skeletal muscle in a mouse model of disease.",
+      "journal": "Muscle & nerve",
+      "journal_iso": "Muscle Nerve",
+      "year": "2024",
+      "volume": "70",
+      "pages": "1111-1118",
+      "doi": "10.1002/mus.28237"
+    },
+    {
+      "pmid": "22028385",
+      "first_author": "Rossor AM",
+      "title": "The distal hereditary motor neuropathies.",
+      "journal": "Journal of neurology, neurosurgery, and psychiatry",
+      "journal_iso": "J Neurol Neurosurg Psychiatry",
+      "year": "2012",
+      "volume": "83",
+      "pages": "6-14",
+      "doi": "10.1136/jnnp-2011-300952"
+    },
+    {
+      "pmid": "11889469",
+      "first_author": "Subramaniam JR",
+      "title": "Mutant SOD1 causes motor neuron disease independent of copper chaperone-mediated copper loading.",
+      "journal": "Nature neuroscience",
+      "journal_iso": "Nat Neurosci",
+      "year": "2002",
+      "volume": "5",
+      "pages": "301-7",
+      "doi": "10.1038/nn823"
+    },
+    {
+      "pmid": "9726962",
+      "first_author": "Casareno RL",
+      "title": "The copper chaperone CCS directly interacts with copper/zinc superoxide dismutase.",
+      "journal": "The Journal of biological chemistry",
+      "journal_iso": "J Biol Chem",
+      "year": "1998",
+      "volume": "273",
+      "pages": "23625-8",
+      "doi": "10.1074/jbc.273.37.23625"
+    },
+    {
+      "pmid": "29405028",
+      "first_author": "Campopiano R",
+      "title": "Next Generation Sequencing and ALS: known genes, different phenotyphes.",
+      "journal": "Archives italiennes de biologie",
+      "journal_iso": "Arch Ital Biol",
+      "year": "2017",
+      "volume": "155",
+      "pages": "110-117",
+      "doi": "10.12871/00039829201742"
+    }
+  ],
+  "A6_live_pubmed_als_c1q_candidates": [
+    {
+      "pmid": "39174972",
+      "first_author": "Zhou J",
+      "title": "Intranasal delivery of small extracellular vesicles reduces the progress of amyotrophic lateral sclerosis and the overactivation of complement-coagulation cascade and NF-ĸB signaling in SOD1G93A mice.",
+      "journal": "Journal of nanobiotechnology",
+      "journal_iso": "J Nanobiotechnology",
+      "year": "2024",
+      "volume": "22",
+      "pages": "503",
+      "doi": "10.1186/s12951-024-02764-2"
+    },
+    {
+      "pmid": "34963663",
+      "first_author": "Ziff OJ",
+      "title": "Meta-analysis of human and mouse ALS astrocytes reveals multi-omic signatures of inflammatory reactive states.",
+      "journal": "Genome research",
+      "journal_iso": "Genome Res",
+      "year": "2022",
+      "volume": "32",
+      "pages": "71-84",
+      "doi": "10.1101/gr.275939.121"
+    },
+    {
+      "pmid": "32719333",
+      "first_author": "Guttenplan KA",
+      "title": "Knockout of reactive astrocyte activating factors slows disease progression in an ALS mouse model.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2020",
+      "volume": "11",
+      "pages": "3753",
+      "doi": "10.1038/s41467-020-17514-9"
+    },
+    {
+      "pmid": "36309345",
+      "first_author": "Wang MJ",
+      "title": "Microglia in motor neuron disease: Signaling evidence from last 10 years.",
+      "journal": "Developmental neurobiology",
+      "journal_iso": "Dev Neurobiol",
+      "year": "2022",
+      "volume": "82",
+      "pages": "625-638",
+      "doi": "10.1002/dneu.22905"
+    },
+    {
+      "pmid": "40254405",
+      "first_author": "Shevchuk DV",
+      "title": "Molecular Biomarkers of Neurodegeneration in Amyotrophic Lateral Sclerosis.",
+      "journal": "Biochemistry. Biokhimiia",
+      "journal_iso": "Biochemistry (Mosc)",
+      "year": "2025",
+      "volume": "90",
+      "pages": "276-288",
+      "doi": "10.1134/S0006297924604039"
+    },
+    {
+      "pmid": "35224491",
+      "first_author": "Thompson AG",
+      "title": "Multicentre appraisal of amyotrophic lateral sclerosis biofluid biomarkers shows primacy of blood neurofilament light chain.",
+      "journal": "Brain communications",
+      "journal_iso": "Brain Commun",
+      "year": "2022",
+      "volume": "4",
+      "pages": "fcac029",
+      "doi": "10.1093/braincomms/fcac029"
+    },
+    {
+      "pmid": "19025120",
+      "first_author": "Woodruff TM",
+      "title": "Role of complement in motor neuron disease: animal models and therapeutic potential of complement inhibitors.",
+      "journal": "Advances in experimental medicine and biology",
+      "journal_iso": "Adv Exp Med Biol",
+      "year": "2008",
+      "volume": "632",
+      "pages": "143-58",
+      "doi": ""
+    },
+    {
+      "pmid": "24841627",
+      "first_author": "Yuki N",
+      "title": "Lower motor neuron syndrome associated with IgG anti-GM1 antibodies revisited.",
+      "journal": "Journal of neuroimmunology",
+      "journal_iso": "J Neuroimmunol",
+      "year": "2014",
+      "volume": "272",
+      "pages": "62-6",
+      "doi": "10.1016/j.jneuroim.2014.04.014"
+    }
+  ],
+  "A6_nc_agentic_ai_5_sibling_papers": {
+    "10.1038/s41467-026-77340-3": {
+      "pmid": "42773123",
+      "first_author": "Brockers VC",
+      "title": "Disentangling interaction and bias effects in opinion dynamics of large language models.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2026",
+      "volume": "17",
+      "pages": "10077",
+      "doi": "10.1038/s41467-026-77340-3"
+    },
+    "10.1038/s41467-026-71411-1": {
+      "pmid": "42045193",
+      "first_author": "Feng Y",
+      "title": "Hyper-RAG: combating LLM hallucinations using hypergraph-driven retrieval-augmented generation.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2026",
+      "volume": "17",
+      "pages": "5778",
+      "doi": "10.1038/s41467-026-71411-1"
+    },
+    "10.1038/s41467-026-73289-5": {
+      "pmid": "42236710",
+      "first_author": "Hernández-Espinosa A",
+      "title": "SuperARC: a test for artificial superintelligence based on compressed modelling, recursive prediction and problem complexity.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2026",
+      "volume": "17",
+      "pages": "4885",
+      "doi": "10.1038/s41467-026-73289-5"
+    },
+    "10.1038/s41467-025-67998-6": {
+      "pmid": "41501038",
+      "first_author": "Qiu L",
+      "title": "Bayesian teaching enables probabilistic reasoning in large language models.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2026",
+      "volume": "17",
+      "pages": "1238",
+      "doi": "10.1038/s41467-025-67998-6"
+    },
+    "10.1038/s41467-026-68672-1": {
+      "pmid": "41577703",
+      "first_author": "Liu S",
+      "title": "iDesignGPT enhances conceptual design via large language model agentic workflows.",
+      "journal": "Nature communications",
+      "journal_iso": "Nat Commun",
+      "year": "2026",
+      "volume": "17",
+      "pages": "1997",
+      "doi": "10.1038/s41467-026-68672-1"
+    }
+  },
+  "A9_module_profiling": {
+    "module1_oabtl_435pairs_ms_per_run": 34.028,
+    "module1_peak_ram_mb": 0.101,
+    "module5_deberta_nli_model_load_sec": 21.26,
+    "module5_deberta_nli_2246_bidir_pairs_sec": 874.93,
+    "module5_ms_per_bidir_pair_cpu": 389.55
+  },
+  "A9_selective_calibration_tau_ece_sweep": {
+    "0.08": {
+      "Gemini-4-Argon-High": {
+        "ece_5bin": 0.1027,
+        "triggered_folds": "14/20"
+      },
+      "Gemini-3.8-Flash": {
+        "ece_5bin": 0.0749,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-High": {
+        "ece_5bin": 0.1036,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-Fast": {
+        "ece_5bin": 0.0814,
+        "triggered_folds": "20/20"
+      }
+    },
+    "0.1": {
+      "Gemini-4-Argon-High": {
+        "ece_5bin": 0.0921,
+        "triggered_folds": "1/20"
+      },
+      "Gemini-3.8-Flash": {
+        "ece_5bin": 0.0749,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-High": {
+        "ece_5bin": 0.1036,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-Fast": {
+        "ece_5bin": 0.0814,
+        "triggered_folds": "20/20"
+      }
+    },
+    "0.12": {
+      "Gemini-4-Argon-High": {
+        "ece_5bin": 0.0797,
+        "triggered_folds": "0/20"
+      },
+      "Gemini-3.8-Flash": {
+        "ece_5bin": 0.0749,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-High": {
+        "ece_5bin": 0.1036,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-Fast": {
+        "ece_5bin": 0.0814,
+        "triggered_folds": "20/20"
+      }
+    },
+    "0.15": {
+      "Gemini-4-Argon-High": {
+        "ece_5bin": 0.0797,
+        "triggered_folds": "0/20"
+      },
+      "Gemini-3.8-Flash": {
+        "ece_5bin": 0.0749,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-High": {
+        "ece_5bin": 0.1036,
+        "triggered_folds": "20/20"
+      },
+      "Grok-4.7-Fast": {
+        "ece_5bin": 0.0814,
+        "triggered_folds": "20/20"
+      }
+    }
+  },
+  "A9_deberta_nli_tau_sweep": [
+    {
+      "tau": 0.5,
+      "cross_stage_bidir_count": 70,
+      "cross_stage_bidir_per_1k_pairs": 39.64,
+      "cross_stage_dir_count": 256,
+      "silent_top5_propagation_pct": 42.86,
+      "t2_biased_dir_contra_pct": 40.83,
+      "t2_consistent_dir_contra_pct": 15.0
+    },
+    {
+      "tau": 0.6,
+      "cross_stage_bidir_count": 64,
+      "cross_stage_bidir_per_1k_pairs": 36.24,
+      "cross_stage_dir_count": 217,
+      "silent_top5_propagation_pct": 43.75,
+      "t2_biased_dir_contra_pct": 34.17,
+      "t2_consistent_dir_contra_pct": 12.5
+    },
+    {
+      "tau": 0.7,
+      "cross_stage_bidir_count": 59,
+      "cross_stage_bidir_per_1k_pairs": 33.41,
+      "cross_stage_dir_count": 182,
+      "silent_top5_propagation_pct": 44.07,
+      "t2_biased_dir_contra_pct": 29.58,
+      "t2_consistent_dir_contra_pct": 10.83
+    },
+    {
+      "tau": 0.75,
+      "cross_stage_bidir_count": 51,
+      "cross_stage_bidir_per_1k_pairs": 28.88,
+      "cross_stage_dir_count": 167,
+      "silent_top5_propagation_pct": 43.14,
+      "t2_biased_dir_contra_pct": 25.42,
+      "t2_consistent_dir_contra_pct": 10.0
+    },
+    {
+      "tau": 0.8,
+      "cross_stage_bidir_count": 48,
+      "cross_stage_bidir_per_1k_pairs": 27.18,
+      "cross_stage_dir_count": 151,
+      "silent_top5_propagation_pct": 43.75,
+      "t2_biased_dir_contra_pct": 21.67,
+      "t2_consistent_dir_contra_pct": 9.58
+    },
+    {
+      "tau": 0.85,
+      "cross_stage_bidir_count": 43,
+      "cross_stage_bidir_per_1k_pairs": 24.35,
+      "cross_stage_dir_count": 132,
+      "silent_top5_propagation_pct": 46.51,
+      "t2_biased_dir_contra_pct": 18.75,
+      "t2_consistent_dir_contra_pct": 7.08
+    },
+    {
+      "tau": 0.9,
+      "cross_stage_bidir_count": 37,
+      "cross_stage_bidir_per_1k_pairs": 20.95,
+      "cross_stage_dir_count": 112,
+      "silent_top5_propagation_pct": 48.65,
+      "t2_biased_dir_contra_pct": 15.83,
+      "t2_consistent_dir_contra_pct": 6.67
+    },
+    {
+      "tau": 0.95,
+      "cross_stage_bidir_count": 28,
+      "cross_stage_bidir_per_1k_pairs": 15.86,
+      "cross_stage_dir_count": 91,
+      "silent_top5_propagation_pct": 46.43,
+      "t2_biased_dir_contra_pct": 10.42,
+      "t2_consistent_dir_contra_pct": 3.33
+    }
+  ]
+}

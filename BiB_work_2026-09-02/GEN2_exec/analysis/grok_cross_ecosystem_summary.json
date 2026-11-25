@@ -1,0 +1,357 @@
+{
+  "arena1_t2_grok": {
+    "dAMD_high": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 42,
+      "slot_a_win_rate_pct": 46.67,
+      "slot_a_binom_p": 0.5984117182335191,
+      "consistent_pairs": 40,
+      "consistent_rate_pct": 88.89,
+      "flipped_pairs": 5,
+      "flip_rate_pct": 11.11,
+      "flip_both_slot_a": 1,
+      "flip_both_slot_b": 4,
+      "nli_discordant_count": 9,
+      "nli_discordant_rate_pct": 10.0,
+      "mean_confidence": 73.61,
+      "naive_fwd_top3": [
+        "C02",
+        "C01",
+        "C07"
+      ],
+      "oabtl_top3": [
+        "C02",
+        "C01",
+        "C07"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.9556,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "dAMD_fast": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 46,
+      "slot_a_win_rate_pct": 51.11,
+      "slot_a_binom_p": 0.9161288770112892,
+      "consistent_pairs": 42,
+      "consistent_rate_pct": 93.33,
+      "flipped_pairs": 3,
+      "flip_rate_pct": 6.67,
+      "flip_both_slot_a": 2,
+      "flip_both_slot_b": 1,
+      "nli_discordant_count": 6,
+      "nli_discordant_rate_pct": 6.67,
+      "mean_confidence": 71.39,
+      "naive_fwd_top3": [
+        "C02",
+        "C01",
+        "C07"
+      ],
+      "oabtl_top3": [
+        "C02",
+        "C01",
+        "C07"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 1.0,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "ALS_high": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 46,
+      "slot_a_win_rate_pct": 51.11,
+      "slot_a_binom_p": 0.9161288770112892,
+      "consistent_pairs": 38,
+      "consistent_rate_pct": 84.44,
+      "flipped_pairs": 7,
+      "flip_rate_pct": 15.56,
+      "flip_both_slot_a": 4,
+      "flip_both_slot_b": 3,
+      "nli_discordant_count": 9,
+      "nli_discordant_rate_pct": 10.0,
+      "mean_confidence": 75.77,
+      "naive_fwd_top3": [
+        "C01",
+        "C07",
+        "C10"
+      ],
+      "oabtl_top3": [
+        "C01",
+        "C07",
+        "C02"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.8667,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "ALS_fast": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 42,
+      "slot_a_win_rate_pct": 46.67,
+      "slot_a_binom_p": 0.5984117182335191,
+      "consistent_pairs": 40,
+      "consistent_rate_pct": 88.89,
+      "flipped_pairs": 5,
+      "flip_rate_pct": 11.11,
+      "flip_both_slot_a": 1,
+      "flip_both_slot_b": 4,
+      "nli_discordant_count": 6,
+      "nli_discordant_rate_pct": 6.67,
+      "mean_confidence": 75.1,
+      "naive_fwd_top3": [
+        "C01",
+        "C07",
+        "C02"
+      ],
+      "oabtl_top3": [
+        "C01",
+        "C07",
+        "C02"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.9111,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "pooled_high": {
+      "n_verdicts": 180,
+      "n_pairs": 90,
+      "flipped_pairs": 12,
+      "flip_rate_pct": 13.33,
+      "slot_a_win_count": 88,
+      "slot_a_win_rate_pct": 48.89,
+      "slot_a_binom_p": 0.8231404466836135,
+      "nli_discordant_count": 18,
+      "nli_discordant_rate_pct": 10.0
+    },
+    "pooled_fast": {
+      "n_verdicts": 180,
+      "n_pairs": 90,
+      "flipped_pairs": 8,
+      "flip_rate_pct": 8.89,
+      "slot_a_win_count": 88,
+      "slot_a_win_rate_pct": 48.89,
+      "slot_a_binom_p": 0.8231404466836135,
+      "nli_discordant_count": 12,
+      "nli_discordant_rate_pct": 6.67
+    }
+  },
+  "arena2_expB_grok": {
+    "high": {
+      "as_discovered": {
+        "total_slots": 84,
+        "abstained_slots": 0,
+        "abstain_rate_pct": 0.0,
+        "emitted_slots": 84,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 25,
+        "trojan_rate_of_total_pct": 29.76,
+        "trojan_rate_of_emitted_pct": 29.76,
+        "grounded_slots": 59,
+        "grounded_rate_of_total_pct": 70.24,
+        "grounded_rate_of_emitted_pct": 70.24,
+        "total_ungrounded_slots": 25,
+        "total_ungrounded_rate_of_total_pct": 29.76
+      },
+      "abstain_probe": {
+        "total_slots": 84,
+        "abstained_slots": 84,
+        "abstain_rate_pct": 100.0,
+        "emitted_slots": 0,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 0,
+        "grounded_rate_of_total_pct": 0.0,
+        "grounded_rate_of_emitted_pct": 0.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gated": {
+        "total_slots": 84,
+        "abstained_slots": 84,
+        "abstain_rate_pct": 100.0,
+        "emitted_slots": 0,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 0,
+        "grounded_rate_of_total_pct": 0.0,
+        "grounded_rate_of_emitted_pct": 0.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gating_fisher_p": 7.2928533950005245e-09,
+      "gating_ungrounded_delta_pp": -29.76
+    },
+    "fast": {
+      "as_discovered": {
+        "total_slots": 84,
+        "abstained_slots": 0,
+        "abstain_rate_pct": 0.0,
+        "emitted_slots": 84,
+        "fabricated_slots": 1,
+        "fabricated_rate_of_total_pct": 1.19,
+        "trojan_horse_slots": 28,
+        "trojan_rate_of_total_pct": 33.33,
+        "trojan_rate_of_emitted_pct": 33.33,
+        "grounded_slots": 55,
+        "grounded_rate_of_total_pct": 65.48,
+        "grounded_rate_of_emitted_pct": 65.48,
+        "total_ungrounded_slots": 29,
+        "total_ungrounded_rate_of_total_pct": 34.52
+      },
+      "abstain_probe": {
+        "total_slots": 84,
+        "abstained_slots": 84,
+        "abstain_rate_pct": 100.0,
+        "emitted_slots": 0,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 0,
+        "grounded_rate_of_total_pct": 0.0,
+        "grounded_rate_of_emitted_pct": 0.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gated": {
+        "total_slots": 84,
+        "abstained_slots": 84,
+        "abstain_rate_pct": 100.0,
+        "emitted_slots": 0,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 0,
+        "grounded_rate_of_total_pct": 0.0,
+        "grounded_rate_of_emitted_pct": 0.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gating_fisher_p": 1.987324748522684e-10,
+      "gating_ungrounded_delta_pp": -34.52
+    }
+  },
+  "arena3_expC_grok": {
+    "high": {
+      "n_total": 60,
+      "overall_hit10_count": 19,
+      "overall_hit10_pct": 31.67,
+      "hit10_dose0_pct": 45.0,
+      "hit10_dose25_pct": 30.0,
+      "hit10_dose50_pct": 20.0,
+      "mean_confidence_pct": 54.58,
+      "overconfidence_gap_pct": 22.92,
+      "raw_ece": 0.2292,
+      "loro_platt_ece": 0.1036,
+      "ece_reduction_pct": 54.78,
+      "top_false_positive_attractors": [
+        [
+          "FBXL4",
+          10
+        ],
+        [
+          "POLG",
+          10
+        ],
+        [
+          "CEP290",
+          7
+        ],
+        [
+          "CUL7",
+          6
+        ],
+        [
+          "OBSL1",
+          6
+        ],
+        [
+          "TMEM67",
+          6
+        ],
+        [
+          "CC2D2A",
+          6
+        ],
+        [
+          "CPLANE1",
+          6
+        ]
+      ]
+    },
+    "fast": {
+      "n_total": 60,
+      "overall_hit10_count": 22,
+      "overall_hit10_pct": 36.67,
+      "hit10_dose0_pct": 40.0,
+      "hit10_dose25_pct": 35.0,
+      "hit10_dose50_pct": 35.0,
+      "mean_confidence_pct": 47.75,
+      "overconfidence_gap_pct": 11.08,
+      "raw_ece": 0.1652,
+      "loro_platt_ece": 0.0814,
+      "ece_reduction_pct": 50.72,
+      "top_false_positive_attractors": [
+        [
+          "CEP290",
+          9
+        ],
+        [
+          "ACAD9",
+          8
+        ],
+        [
+          "CPLANE1",
+          6
+        ],
+        [
+          "CC2D2A",
+          6
+        ],
+        [
+          "TMEM67",
+          6
+        ],
+        [
+          "AHI1",
+          6
+        ],
+        [
+          "TMEM216",
+          6
+        ],
+        [
+          "POLG",
+          6
+        ]
+      ]
+    }
+  },
+  "telemetry": {
+    "total_cli_calls": 50,
+    "high_reasoning_tokens_total": 271257,
+    "fast_reasoning_tokens_total": 179622,
+    "all_reasoning_tokens_total": 450879,
+    "high_total_tokens": 644071,
+    "fast_total_tokens": 541042,
+    "all_total_tokens": 1185113
+  }
+}

@@ -1,0 +1,1082 @@
+[
+  {
+    "item_id": "V001_d0",
+    "pair_id": "V001",
+    "dose_target": 0,
+    "predictions": [
+      "ACAD9",
+      "NDUFV1",
+      "NDUFS2",
+      "NDUFS1",
+      "NDUFS4",
+      "NDUFS7",
+      "NDUFS8",
+      "NDUFA10",
+      "NDUFAF5",
+      "TMEM126B"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V001_d25",
+    "pair_id": "V001",
+    "dose_target": 25,
+    "predictions": [
+      "ACAD9",
+      "NDUFV1",
+      "NDUFS2",
+      "NDUFS1",
+      "NDUFS4",
+      "NDUFS7",
+      "NDUFS8",
+      "TMEM70",
+      "SCO2",
+      "FXN"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V001_d50",
+    "pair_id": "V001",
+    "dose_target": 50,
+    "predictions": [
+      "ACAD9",
+      "NDUFV1",
+      "NDUFS1",
+      "NDUFS2",
+      "FXN",
+      "TMEM70",
+      "SCO2",
+      "COX15",
+      "TAZ",
+      "GAA"
+    ],
+    "confidence": 65
+  },
+  {
+    "item_id": "V002_d0",
+    "pair_id": "V002",
+    "dose_target": 0,
+    "predictions": [
+      "DHTKD1",
+      "SLC25A21",
+      "AASS",
+      "ALDH7A1",
+      "GCDH",
+      "D2HGDH",
+      "L2HGDH",
+      "HIBCH",
+      "ACAD8",
+      "ETFA"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V002_d25",
+    "pair_id": "V002",
+    "dose_target": 25,
+    "predictions": [
+      "DHTKD1",
+      "SLC25A21",
+      "AASS",
+      "ALDH7A1",
+      "GCDH",
+      "D2HGDH",
+      "L2HGDH",
+      "HIBCH",
+      "ACAD8",
+      "ETFA"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V002_d50",
+    "pair_id": "V002",
+    "dose_target": 50,
+    "predictions": [
+      "DHTKD1",
+      "ASPM",
+      "WDR62",
+      "MCPH1",
+      "CDK5RAP2",
+      "CASC5",
+      "CENPJ",
+      "STIL",
+      "CEP152",
+      "SLC25A21"
+    ],
+    "confidence": 40
+  },
+  {
+    "item_id": "V003_d0",
+    "pair_id": "V003",
+    "dose_target": 0,
+    "predictions": [
+      "FANCA",
+      "FANCC",
+      "PCNT",
+      "RECQL4",
+      "DDX11",
+      "ATR",
+      "BLM",
+      "UBR1",
+      "CUL7",
+      "FANCD2"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V003_d25",
+    "pair_id": "V003",
+    "dose_target": 25,
+    "predictions": [
+      "FANCA",
+      "PCNT",
+      "RECQL4",
+      "DDX11",
+      "ATR",
+      "FANCC",
+      "BLM",
+      "CUL7",
+      "RNU4ATAC",
+      "FANCD2"
+    ],
+    "confidence": 70
+  },
+  {
+    "item_id": "V003_d50",
+    "pair_id": "V003",
+    "dose_target": 50,
+    "predictions": [
+      "PCNT",
+      "FANCA",
+      "CUL7",
+      "RECQL4",
+      "ATR",
+      "DDX11",
+      "BLM",
+      "OBSL1",
+      "FANCC",
+      "RNU4ATAC"
+    ],
+    "confidence": 60
+  },
+  {
+    "item_id": "V004_d0",
+    "pair_id": "V004",
+    "dose_target": 0,
+    "predictions": [
+      "YARS2",
+      "PUS1",
+      "MTO1",
+      "SLC25A38",
+      "GLRX5",
+      "HSPA9",
+      "LARS2",
+      "TRMU",
+      "EARS2",
+      "COX10"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V004_d25",
+    "pair_id": "V004",
+    "dose_target": 25,
+    "predictions": [
+      "YARS2",
+      "PUS1",
+      "MTO1",
+      "ACAD9",
+      "TMEM70",
+      "SCO2",
+      "COX15",
+      "TAZ",
+      "FXN",
+      "BOLA3"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V004_d50",
+    "pair_id": "V004",
+    "dose_target": 50,
+    "predictions": [
+      "ACAD9",
+      "YARS2",
+      "PUS1",
+      "MTO1",
+      "TMEM70",
+      "NDUFV1",
+      "NDUFS2",
+      "NDUFS1",
+      "SCO2",
+      "TAZ"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V005_d0",
+    "pair_id": "V005",
+    "dose_target": 0,
+    "predictions": [
+      "EDAR",
+      "EDARADD",
+      "TP63",
+      "WNT10A",
+      "GJB6",
+      "DLX3",
+      "MSX1",
+      "AXIN2",
+      "EDA",
+      "CDH3"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V005_d25",
+    "pair_id": "V005",
+    "dose_target": 25,
+    "predictions": [
+      "EDAR",
+      "EDARADD",
+      "TP63",
+      "WNT10A",
+      "GJB6",
+      "DLX3",
+      "MSX1",
+      "AXIN2",
+      "EDA",
+      "CDH3"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V005_d50",
+    "pair_id": "V005",
+    "dose_target": 50,
+    "predictions": [
+      "WNT10A",
+      "EDAR",
+      "MSX1",
+      "PAX9",
+      "AXIN2",
+      "EDA",
+      "TP63",
+      "EDARADD",
+      "GJB6",
+      "KREMEN1"
+    ],
+    "confidence": 70
+  },
+  {
+    "item_id": "V006_d0",
+    "pair_id": "V006",
+    "dose_target": 0,
+    "predictions": [
+      "CPLANE1",
+      "CC2D2A",
+      "CEP290",
+      "TMEM67",
+      "AHI1",
+      "INPP5E",
+      "RPGRIP1L",
+      "KIAA0586",
+      "TMEM216",
+      "CSPP1"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V006_d25",
+    "pair_id": "V006",
+    "dose_target": 25,
+    "predictions": [
+      "CPLANE1",
+      "CC2D2A",
+      "CEP290",
+      "TMEM67",
+      "AHI1",
+      "INPP5E",
+      "RPGRIP1L",
+      "KIAA0586",
+      "CSPP1",
+      "BBS1"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V006_d50",
+    "pair_id": "V006",
+    "dose_target": 50,
+    "predictions": [
+      "CEP290",
+      "TMEM67",
+      "CPLANE1",
+      "CC2D2A",
+      "BBS1",
+      "AHI1",
+      "BBS2",
+      "BBS10",
+      "INPP5E",
+      "RPGRIP1L"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V007_d0",
+    "pair_id": "V007",
+    "dose_target": 0,
+    "predictions": [
+      "DGUOK",
+      "MPV17",
+      "POLG",
+      "BCS1L",
+      "TRMU",
+      "TWNK",
+      "RRM2B",
+      "GFM1",
+      "SUCLG1",
+      "FBXL4"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V007_d25",
+    "pair_id": "V007",
+    "dose_target": 25,
+    "predictions": [
+      "DGUOK",
+      "MPV17",
+      "POLG",
+      "BCS1L",
+      "TRMU",
+      "TWNK",
+      "FBXL4",
+      "SUCLG1",
+      "RRM2B",
+      "GFM1"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V007_d50",
+    "pair_id": "V007",
+    "dose_target": 50,
+    "predictions": [
+      "POLG",
+      "DGUOK",
+      "MPV17",
+      "BCS1L",
+      "FBXL4",
+      "NDUFV1",
+      "NDUFS1",
+      "TRMU",
+      "TWNK",
+      "SUCLG1"
+    ],
+    "confidence": 70
+  },
+  {
+    "item_id": "V008_d0",
+    "pair_id": "V008",
+    "dose_target": 0,
+    "predictions": [
+      "EIF2B5",
+      "AARS2",
+      "EIF2B2",
+      "EIF2B3",
+      "EIF2B4",
+      "EIF2B1",
+      "CLPP",
+      "LARS2",
+      "POLG",
+      "HARS2"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V008_d25",
+    "pair_id": "V008",
+    "dose_target": 25,
+    "predictions": [
+      "EIF2B5",
+      "EIF2B2",
+      "EIF2B3",
+      "AARS2",
+      "EIF2B4",
+      "EIF2B1",
+      "POLG",
+      "CYP27A1",
+      "ARSA",
+      "GALC"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V008_d50",
+    "pair_id": "V008",
+    "dose_target": 50,
+    "predictions": [
+      "EIF2B5",
+      "POLG",
+      "AARS2",
+      "CYP27A1",
+      "SPG11",
+      "SACS",
+      "SETX",
+      "FXN",
+      "EIF2B2",
+      "GALC"
+    ],
+    "confidence": 60
+  },
+  {
+    "item_id": "V009_d0",
+    "pair_id": "V009",
+    "dose_target": 0,
+    "predictions": [
+      "WAS",
+      "WIPF1",
+      "ARPC1B",
+      "BTK",
+      "FOXP3",
+      "IL2RG",
+      "CD40LG",
+      "CYBB",
+      "DOCK8",
+      "XIAP"
+    ],
+    "confidence": 99
+  },
+  {
+    "item_id": "V009_d25",
+    "pair_id": "V009",
+    "dose_target": 25,
+    "predictions": [
+      "WAS",
+      "WIPF1",
+      "ARPC1B",
+      "FOXP3",
+      "BTK",
+      "IL2RG",
+      "CD40LG",
+      "CYBB",
+      "DOCK8",
+      "XIAP"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V009_d50",
+    "pair_id": "V009",
+    "dose_target": 50,
+    "predictions": [
+      "WAS",
+      "FOXP3",
+      "BTK",
+      "IL2RG",
+      "CD40LG",
+      "CYBB",
+      "WIPF1",
+      "ARPC1B",
+      "DOCK8",
+      "XIAP"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V010_d0",
+    "pair_id": "V010",
+    "dose_target": 0,
+    "predictions": [
+      "ALS2",
+      "SPG11",
+      "SACS",
+      "ZFYVE26",
+      "SETX",
+      "CYP7B1",
+      "FA2H",
+      "KIF1A",
+      "DDHD1",
+      "B4GALNT1"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V010_d25",
+    "pair_id": "V010",
+    "dose_target": 25,
+    "predictions": [
+      "ALS2",
+      "SPG11",
+      "SACS",
+      "ZFYVE26",
+      "SETX",
+      "CYP7B1",
+      "FA2H",
+      "KIF1A",
+      "B4GALNT1",
+      "DDHD1"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V010_d50",
+    "pair_id": "V010",
+    "dose_target": 50,
+    "predictions": [
+      "SPG11",
+      "ALS2",
+      "SACS",
+      "ZFYVE26",
+      "CYP7B1",
+      "FA2H",
+      "SETX",
+      "KIF1A",
+      "B4GALNT1",
+      "SPG7"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V011_d0",
+    "pair_id": "V011",
+    "dose_target": 0,
+    "predictions": [
+      "NEU1",
+      "CTSA",
+      "GNPTAB",
+      "SLC17A5",
+      "GLB1",
+      "GUSB",
+      "IDUA",
+      "SCARB2",
+      "SMPD1",
+      "MAN2B1"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V011_d25",
+    "pair_id": "V011",
+    "dose_target": 25,
+    "predictions": [
+      "NEU1",
+      "CTSA",
+      "GNPTAB",
+      "SLC17A5",
+      "GLB1",
+      "GUSB",
+      "IDUA",
+      "SCARB2",
+      "SMPD1",
+      "GBA1"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V011_d50",
+    "pair_id": "V011",
+    "dose_target": 50,
+    "predictions": [
+      "GLB1",
+      "GBA1",
+      "NEU1",
+      "GNPTAB",
+      "CTSA",
+      "GUSB",
+      "SMPD1",
+      "IDUA",
+      "GAA",
+      "SLC17A5"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V012_d0",
+    "pair_id": "V012",
+    "dose_target": 0,
+    "predictions": [
+      "POLG",
+      "COQ8A",
+      "TK2",
+      "FBXL4",
+      "PDHB",
+      "DLAT",
+      "PDHX",
+      "DGUOK",
+      "ISCU",
+      "RRM2B"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V012_d25",
+    "pair_id": "V012",
+    "dose_target": 25,
+    "predictions": [
+      "POLG",
+      "COQ8A",
+      "TK2",
+      "FBXL4",
+      "PDHB",
+      "DLAT",
+      "ISCU",
+      "DGUOK",
+      "RRM2B",
+      "SUCLA2"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V012_d50",
+    "pair_id": "V012",
+    "dose_target": 50,
+    "predictions": [
+      "POLG",
+      "COQ8A",
+      "TK2",
+      "ISCU",
+      "FBXL4",
+      "PDHB",
+      "DLAT",
+      "RRM2B",
+      "DGUOK",
+      "SUCLA2"
+    ],
+    "confidence": 70
+  },
+  {
+    "item_id": "V013_d0",
+    "pair_id": "V013",
+    "dose_target": 0,
+    "predictions": [
+      "ROR2",
+      "TBC1D24",
+      "FIG4",
+      "PIGV",
+      "PIGO",
+      "CHSY1",
+      "SH3PXD2B",
+      "PGAP2",
+      "PGAP3",
+      "RECQL4"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V013_d25",
+    "pair_id": "V013",
+    "dose_target": 25,
+    "predictions": [
+      "ROR2",
+      "TBC1D24",
+      "FIG4",
+      "PIGV",
+      "PIGO",
+      "CHSY1",
+      "SH3PXD2B",
+      "PGAP2",
+      "PGAP3",
+      "RECQL4"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V013_d50",
+    "pair_id": "V013",
+    "dose_target": 50,
+    "predictions": [
+      "ROR2",
+      "FIG4",
+      "TBC1D24",
+      "PIGV",
+      "CHSY1",
+      "SH3PXD2B",
+      "RECQL4",
+      "PIGO",
+      "CUL7",
+      "FLNB"
+    ],
+    "confidence": 65
+  },
+  {
+    "item_id": "V014_d0",
+    "pair_id": "V014",
+    "dose_target": 0,
+    "predictions": [
+      "SMARCD2",
+      "CEBPE",
+      "ITGB2",
+      "FERMT3",
+      "SLC35C1",
+      "HAX1",
+      "G6PC3",
+      "VPS45",
+      "ELANE",
+      "CXCR4"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V014_d25",
+    "pair_id": "V014",
+    "dose_target": 25,
+    "predictions": [
+      "SMARCD2",
+      "CEBPE",
+      "HAX1",
+      "G6PC3",
+      "ITGB2",
+      "VPS45",
+      "FERMT3",
+      "ELANE",
+      "SLC35C1",
+      "JAGN1"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V014_d50",
+    "pair_id": "V014",
+    "dose_target": 50,
+    "predictions": [
+      "HAX1",
+      "G6PC3",
+      "SMARCD2",
+      "CEBPE",
+      "VPS45",
+      "ITGB2",
+      "ELANE",
+      "JAGN1",
+      "WAS",
+      "SBDS"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V015_d0",
+    "pair_id": "V015",
+    "dose_target": 0,
+    "predictions": [
+      "PPT1",
+      "TPP1",
+      "WWOX",
+      "PNKP",
+      "SZT2",
+      "TBC1D24",
+      "MFSD8",
+      "CLN3",
+      "CTSD",
+      "UBA5"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V015_d25",
+    "pair_id": "V015",
+    "dose_target": 25,
+    "predictions": [
+      "PPT1",
+      "TPP1",
+      "WWOX",
+      "PNKP",
+      "SZT2",
+      "TBC1D24",
+      "MFSD8",
+      "CLN3",
+      "CTSD",
+      "UBA5"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V015_d50",
+    "pair_id": "V015",
+    "dose_target": 50,
+    "predictions": [
+      "PPT1",
+      "TPP1",
+      "WWOX",
+      "MFSD8",
+      "CLN3",
+      "PNKP",
+      "CTSD",
+      "SZT2",
+      "TBC1D24",
+      "PLA2G6"
+    ],
+    "confidence": 70
+  },
+  {
+    "item_id": "V016_d0",
+    "pair_id": "V016",
+    "dose_target": 0,
+    "predictions": [
+      "TMEM67",
+      "CEP290",
+      "CC2D2A",
+      "CPLANE1",
+      "RPGRIP1L",
+      "AHI1",
+      "KIAA0586",
+      "INPP5E",
+      "TMEM216",
+      "CSPP1"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V016_d25",
+    "pair_id": "V016",
+    "dose_target": 25,
+    "predictions": [
+      "TMEM67",
+      "CEP290",
+      "CC2D2A",
+      "CPLANE1",
+      "RPGRIP1L",
+      "AHI1",
+      "INPP5E",
+      "KIAA0586",
+      "BBS1",
+      "BBS10"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V016_d50",
+    "pair_id": "V016",
+    "dose_target": 50,
+    "predictions": [
+      "TMEM67",
+      "BBS1",
+      "BBS10",
+      "CEP290",
+      "BBS2",
+      "CC2D2A",
+      "CPLANE1",
+      "AHI1",
+      "MKKS",
+      "ARX"
+    ],
+    "confidence": 65
+  },
+  {
+    "item_id": "V017_d0",
+    "pair_id": "V017",
+    "dose_target": 0,
+    "predictions": [
+      "CLPB",
+      "TRNT1",
+      "RNU4ATAC",
+      "EXOSC3",
+      "TSEN54",
+      "VPS45",
+      "VRK1",
+      "EXOSC8",
+      "SLC25A46",
+      "TUBA1A"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V017_d25",
+    "pair_id": "V017",
+    "dose_target": 25,
+    "predictions": [
+      "CLPB",
+      "TRNT1",
+      "RNU4ATAC",
+      "EXOSC3",
+      "TSEN54",
+      "VRK1",
+      "EXOSC8",
+      "TUBA1A",
+      "SLC25A46",
+      "VPS45"
+    ],
+    "confidence": 75
+  },
+  {
+    "item_id": "V017_d50",
+    "pair_id": "V017",
+    "dose_target": 50,
+    "predictions": [
+      "CLPB",
+      "TRNT1",
+      "RNU4ATAC",
+      "EXOSC3",
+      "TSEN54",
+      "TUBA1A",
+      "VRK1",
+      "EXOSC8",
+      "SLC25A46",
+      "POLG"
+    ],
+    "confidence": 65
+  },
+  {
+    "item_id": "V018_d0",
+    "pair_id": "V018",
+    "dose_target": 0,
+    "predictions": [
+      "KIF1A",
+      "SPAST",
+      "ATL1",
+      "REEP1",
+      "KIF5A",
+      "ITPR1",
+      "TRPV4",
+      "MFN2",
+      "SPTBN2",
+      "TUBB4A"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V018_d25",
+    "pair_id": "V018",
+    "dose_target": 25,
+    "predictions": [
+      "KIF1A",
+      "SPAST",
+      "ATL1",
+      "REEP1",
+      "KIF5A",
+      "ITPR1",
+      "MFN2",
+      "TRPV4",
+      "TUBB4A",
+      "SPTBN2"
+    ],
+    "confidence": 90
+  },
+  {
+    "item_id": "V018_d50",
+    "pair_id": "V018",
+    "dose_target": 50,
+    "predictions": [
+      "KIF1A",
+      "SPAST",
+      "ATL1",
+      "REEP1",
+      "KIF5A",
+      "ITPR1",
+      "MFN2",
+      "TUBB4A",
+      "SPTBN2",
+      "TRPV4"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V019_d0",
+    "pair_id": "V019",
+    "dose_target": 0,
+    "predictions": [
+      "SLC19A3",
+      "BRAT1",
+      "ECHS1",
+      "PDHB",
+      "ALDH7A1",
+      "PNPO",
+      "LIAS",
+      "NFU1",
+      "BOLA3",
+      "PDHA1"
+    ],
+    "confidence": 85
+  },
+  {
+    "item_id": "V019_d25",
+    "pair_id": "V019",
+    "dose_target": 25,
+    "predictions": [
+      "SLC19A3",
+      "BRAT1",
+      "ECHS1",
+      "PDHB",
+      "ALDH7A1",
+      "PNPO",
+      "LIAS",
+      "NFU1",
+      "BOLA3",
+      "PDHA1"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V019_d50",
+    "pair_id": "V019",
+    "dose_target": 50,
+    "predictions": [
+      "BRAT1",
+      "SLC19A3",
+      "ALDH7A1",
+      "PNPO",
+      "TBC1D24",
+      "ECHS1",
+      "PLPBP",
+      "WWOX",
+      "KCNQ2",
+      "SCN2A"
+    ],
+    "confidence": 65
+  },
+  {
+    "item_id": "V020_d0",
+    "pair_id": "V020",
+    "dose_target": 0,
+    "predictions": [
+      "ALOX12B",
+      "ALOXE3",
+      "TGM1",
+      "ABCA12",
+      "NIPAL4",
+      "CYP4F22",
+      "PNPLA1",
+      "CERS3",
+      "LIPN",
+      "SDR9C7"
+    ],
+    "confidence": 95
+  },
+  {
+    "item_id": "V020_d25",
+    "pair_id": "V020",
+    "dose_target": 25,
+    "predictions": [
+      "TGM1",
+      "ALOX12B",
+      "ALOXE3",
+      "ABCA12",
+      "NIPAL4",
+      "CYP4F22",
+      "PNPLA1",
+      "CERS3",
+      "SPINK5",
+      "SLC27A4"
+    ],
+    "confidence": 80
+  },
+  {
+    "item_id": "V020_d50",
+    "pair_id": "V020",
+    "dose_target": 50,
+    "predictions": [
+      "TGM1",
+      "ALOX12B",
+      "ALOXE3",
+      "ABCA12",
+      "SPINK5",
+      "NIPAL4",
+      "CYP4F22",
+      "PNPLA1",
+      "SLC27A4",
+      "CERS3"
+    ],
+    "confidence": 70
+  }
+]

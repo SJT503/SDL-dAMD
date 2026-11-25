@@ -1,0 +1,712 @@
+{
+  "arena1_t2_gemini": {
+    "dAMD_pro": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 49,
+      "slot_a_win_rate_pct": 54.44,
+      "slot_a_binom_p": 0.4607924727189733,
+      "consistent_pairs": 41,
+      "consistent_rate_pct": 91.11,
+      "flipped_pairs": 4,
+      "flip_rate_pct": 8.89,
+      "flip_both_slot_a": 4,
+      "flip_both_slot_b": 0,
+      "nli_discordant_count": 0,
+      "nli_discordant_rate_pct": 0.0,
+      "mean_confidence": 75.84,
+      "naive_fwd_top3": [
+        "C02",
+        "C01",
+        "C08"
+      ],
+      "oabtl_top3": [
+        "C02",
+        "C08",
+        "C01"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.9556,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "dAMD_flash": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 38,
+      "slot_a_win_rate_pct": 42.22,
+      "slot_a_binom_p": 0.17024239504607366,
+      "consistent_pairs": 34,
+      "consistent_rate_pct": 75.56,
+      "flipped_pairs": 11,
+      "flip_rate_pct": 24.44,
+      "flip_both_slot_a": 2,
+      "flip_both_slot_b": 9,
+      "nli_discordant_count": 0,
+      "nli_discordant_rate_pct": 0.0,
+      "mean_confidence": 82.28,
+      "naive_fwd_top3": [
+        "C01",
+        "C02",
+        "C09"
+      ],
+      "oabtl_top3": [
+        "C01",
+        "C02",
+        "C06"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.6444,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "ALS_pro": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 39,
+      "slot_a_win_rate_pct": 43.33,
+      "slot_a_binom_p": 0.24610644971627854,
+      "consistent_pairs": 39,
+      "consistent_rate_pct": 86.67,
+      "flipped_pairs": 6,
+      "flip_rate_pct": 13.33,
+      "flip_both_slot_a": 0,
+      "flip_both_slot_b": 6,
+      "nli_discordant_count": 5,
+      "nli_discordant_rate_pct": 5.56,
+      "mean_confidence": 76.13,
+      "naive_fwd_top3": [
+        "C01",
+        "C06",
+        "C07"
+      ],
+      "oabtl_top3": [
+        "C01",
+        "C06",
+        "C02"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.7778,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "ALS_flash": {
+      "n_verdicts": 90,
+      "n_pairs": 45,
+      "slot_a_win_count": 44,
+      "slot_a_win_rate_pct": 48.89,
+      "slot_a_binom_p": 0.9161288770112892,
+      "consistent_pairs": 32,
+      "consistent_rate_pct": 71.11,
+      "flipped_pairs": 13,
+      "flip_rate_pct": 28.89,
+      "flip_both_slot_a": 6,
+      "flip_both_slot_b": 7,
+      "nli_discordant_count": 3,
+      "nli_discordant_rate_pct": 3.33,
+      "mean_confidence": 76.68,
+      "naive_fwd_top3": [
+        "C01",
+        "C07",
+        "C06"
+      ],
+      "oabtl_top3": [
+        "C01",
+        "C07",
+        "C06"
+      ],
+      "top1_changed_by_oabtl": false,
+      "kendall_tau_naive_vs_oabtl": 0.7333,
+      "joint_context_flip_rate_pct": 0.0,
+      "joint_context_slot_a_pct": 50.0
+    },
+    "pooled_pro": {
+      "n_verdicts": 180,
+      "n_pairs": 90,
+      "flipped_pairs": 10,
+      "flip_rate_pct": 11.11,
+      "slot_a_win_count": 88,
+      "slot_a_win_rate_pct": 48.89,
+      "slot_a_binom_p": 0.8231404466836135,
+      "nli_discordant_count": 5,
+      "nli_discordant_rate_pct": 2.78
+    },
+    "pooled_flash": {
+      "n_verdicts": 180,
+      "n_pairs": 90,
+      "flipped_pairs": 24,
+      "flip_rate_pct": 26.67,
+      "slot_a_win_count": 82,
+      "slot_a_win_rate_pct": 45.56,
+      "slot_a_binom_p": 0.26349864484456254,
+      "nli_discordant_count": 3,
+      "nli_discordant_rate_pct": 1.67
+    }
+  },
+  "distinct_gemini_pmids_count": 162,
+  "arena2_expB_gemini": {
+    "pro": {
+      "as_discovered": {
+        "total_slots": 84,
+        "abstained_slots": 0,
+        "abstain_rate_pct": 0.0,
+        "emitted_slots": 84,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 10,
+        "trojan_rate_of_total_pct": 11.9,
+        "trojan_rate_of_emitted_pct": 11.9,
+        "grounded_slots": 74,
+        "grounded_rate_of_total_pct": 88.1,
+        "grounded_rate_of_emitted_pct": 88.1,
+        "total_ungrounded_slots": 10,
+        "total_ungrounded_rate_of_total_pct": 11.9
+      },
+      "abstain_probe": {
+        "total_slots": 84,
+        "abstained_slots": 80,
+        "abstain_rate_pct": 95.24,
+        "emitted_slots": 4,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 4,
+        "grounded_rate_of_total_pct": 4.76,
+        "grounded_rate_of_emitted_pct": 100.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gated": {
+        "total_slots": 84,
+        "abstained_slots": 84,
+        "abstain_rate_pct": 100.0,
+        "emitted_slots": 0,
+        "fabricated_slots": 0,
+        "fabricated_rate_of_total_pct": 0.0,
+        "trojan_horse_slots": 0,
+        "trojan_rate_of_total_pct": 0.0,
+        "trojan_rate_of_emitted_pct": 0.0,
+        "grounded_slots": 0,
+        "grounded_rate_of_total_pct": 0.0,
+        "grounded_rate_of_emitted_pct": 0.0,
+        "total_ungrounded_slots": 0,
+        "total_ungrounded_rate_of_total_pct": 0.0
+      },
+      "gating_fisher_p": 0.0014701318008984222,
+      "gating_ungrounded_delta_pp": -11.9
+    },
+    "flash": {
+      "as_discovered": {
+        "total_slots": 84,
+        "abstained_slots": 0,
+        "abstain_rate_pct": 0.0,
+        "emitted_slots": 84,
+        "fabricated_slots": 1,
+        "fabricated_rate_of_total_pct": 1.19,
+        "trojan_horse_slots": 64,
+        "trojan_rate_of_total_pct": 76.19,
+        "trojan_rate_of_emitted_pct": 76.19,
+        "grounded_slots": 19,
+        "grounded_rate_of_total_pct": 22.62,
+        "grounded_rate_of_emitted_pct": 22.62,
+        "total_ungrounded_slots": 65,
+        "total_ungrounded_rate_of_total_pct": 77.38
+      },
+      "abstain_probe": {
+        "total_slots": 84,
+        "abstained_slots": 39,
+        "abstain_rate_pct": 46.43,
+        "emitted_slots": 45,
+        "fabricated_slots": 1,
+        "fabricated_rate_of_total_pct": 1.19,
+        "trojan_horse_slots": 33,
+        "trojan_rate_of_total_pct": 39.29,
+        "trojan_rate_of_emitted_pct": 73.33,
+        "grounded_slots": 11,
+        "grounded_rate_of_total_pct": 13.1,
+        "grounded_rate_of_emitted_pct": 24.44,
+        "total_ungrounded_slots": 34,
+        "total_ungrounded_rate_of_total_pct": 40.48
+      },
+      "gated": {
+        "total_slots": 84,
+        "abstained_slots": 58,
+        "abstain_rate_pct": 69.05,
+        "emitted_slots": 26,
+        "fabricated_slots": 1,
+        "fabricated_rate_of_total_pct": 1.19,
+        "trojan_horse_slots": 18,
+        "trojan_rate_of_total_pct": 21.43,
+        "trojan_rate_of_emitted_pct": 69.23,
+        "grounded_slots": 7,
+        "grounded_rate_of_total_pct": 8.33,
+        "grounded_rate_of_emitted_pct": 26.92,
+        "total_ungrounded_slots": 19,
+        "total_ungrounded_rate_of_total_pct": 22.62
+      },
+      "gating_fisher_p": 1.033707342202692e-12,
+      "gating_ungrounded_delta_pp": -54.76
+    }
+  },
+  "arena3_expC_gemini": {
+    "pro": {
+      "n_total": 60,
+      "overall_hit10_count": 39,
+      "overall_hit10_pct": 65.0,
+      "hit10_dose0_pct": 65.0,
+      "hit10_dose25_pct": 70.0,
+      "hit10_dose50_pct": 60.0,
+      "mean_confidence_pct": 69.63,
+      "overconfidence_gap_pct": 4.63,
+      "raw_ece": 0.0797,
+      "loro_platt_ece": 0.1145,
+      "ece_reduction_pct": -43.68,
+      "top_false_positive_attractors": [
+        [
+          "VARS2",
+          8
+        ],
+        [
+          "AARS2",
+          6
+        ],
+        [
+          "PDE6D",
+          6
+        ],
+        [
+          "CC2D2A",
+          6
+        ],
+        [
+          "TMEM67",
+          6
+        ],
+        [
+          "CSPP1",
+          6
+        ],
+        [
+          "ARMC9",
+          6
+        ],
+        [
+          "POLG",
+          6
+        ]
+      ]
+    },
+    "flash": {
+      "n_total": 60,
+      "overall_hit10_count": 16,
+      "overall_hit10_pct": 26.67,
+      "hit10_dose0_pct": 30.0,
+      "hit10_dose25_pct": 30.0,
+      "hit10_dose50_pct": 20.0,
+      "mean_confidence_pct": 80.9,
+      "overconfidence_gap_pct": 54.23,
+      "raw_ece": 0.5423,
+      "loro_platt_ece": 0.0749,
+      "ece_reduction_pct": 86.2,
+      "top_false_positive_attractors": [
+        [
+          "POLG",
+          10
+        ],
+        [
+          "TBC1D24",
+          7
+        ],
+        [
+          "RECQL4",
+          6
+        ],
+        [
+          "CPLANE1",
+          6
+        ],
+        [
+          "CC2D2A",
+          6
+        ],
+        [
+          "CEP290",
+          6
+        ],
+        [
+          "TMEM67",
+          6
+        ],
+        [
+          "AHI1",
+          6
+        ]
+      ]
+    }
+  },
+  "telemetry": {
+    "model_mapping": {
+      "pro": "gemini-4-argon-high",
+      "flash": "gemini-3.8-flash-tiered"
+    },
+    "tiers": {
+      "pro": {
+        "exact_model_id": "gemini-4-argon-high",
+        "n_subagent_sessions": 16,
+        "total_planner_steps": 92,
+        "total_input_tokens": 2014322,
+        "total_cache_read_tokens": 3410157,
+        "total_output_tokens": 797882,
+        "total_tokens_incl_cache": 6222361,
+        "total_whitebox_thinking_chars": 793781,
+        "sessions": [
+          {
+            "task": "dAMD_blind_fwd45",
+            "conversation_id": "f29444ce-c290-447d-b700-e229fb27eca5",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 8,
+            "input_tokens": 115804,
+            "cache_read_tokens": 432044,
+            "output_tokens": 39003,
+            "thinking_chars": 37850
+          },
+          {
+            "task": "dAMD_blind_rev45",
+            "conversation_id": "32ce9daa-85e9-40ad-800d-4053c8dd1e44",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 11,
+            "input_tokens": 348538,
+            "cache_read_tokens": 439648,
+            "output_tokens": 93423,
+            "thinking_chars": 118383
+          },
+          {
+            "task": "ALS_blind_fwd45",
+            "conversation_id": "8ca12ef9-6615-49c0-9061-5253f7db4b0d",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 7,
+            "input_tokens": 128208,
+            "cache_read_tokens": 372104,
+            "output_tokens": 52132,
+            "thinking_chars": 39351
+          },
+          {
+            "task": "ALS_blind_rev45",
+            "conversation_id": "c9ec5502-ca59-4cb9-8a66-c40ef1700157",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 7,
+            "input_tokens": 158372,
+            "cache_read_tokens": 327420,
+            "output_tokens": 45443,
+            "thinking_chars": 36398
+          },
+          {
+            "task": "dAMD_joint_90",
+            "conversation_id": "fe0b7814-e91f-4b58-8f24-7bf80eba1616",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 5,
+            "input_tokens": 130764,
+            "cache_read_tokens": 269974,
+            "output_tokens": 53013,
+            "thinking_chars": 39380
+          },
+          {
+            "task": "ALS_joint_90",
+            "conversation_id": "d3a2f0e1-9cee-4b3e-b94e-e5def921ba69",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 10,
+            "input_tokens": 363570,
+            "cache_read_tokens": 424095,
+            "output_tokens": 71971,
+            "thinking_chars": 73041
+          },
+          {
+            "task": "expB_42lists",
+            "conversation_id": "1be50e71-4263-48d5-a8e9-0960ec4a9256",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 6,
+            "input_tokens": 141917,
+            "cache_read_tokens": 138917,
+            "output_tokens": 80665,
+            "thinking_chars": 74764
+          },
+          {
+            "task": "expC_V001_V003_9preds",
+            "conversation_id": "849401af-8265-496a-9712-2f9f7e77beaf",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 67032,
+            "cache_read_tokens": 115518,
+            "output_tokens": 36854,
+            "thinking_chars": 36545
+          },
+          {
+            "task": "expC_V004_V005_6preds",
+            "conversation_id": "6fbfd0d6-2c09-44b3-964b-98604c2b6249",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 61124,
+            "cache_read_tokens": 108135,
+            "output_tokens": 32370,
+            "thinking_chars": 36109
+          },
+          {
+            "task": "expC_V006_V007_6preds",
+            "conversation_id": "88c5fffc-11e5-4104-a52d-70c848c61b72",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 5,
+            "input_tokens": 77989,
+            "cache_read_tokens": 100189,
+            "output_tokens": 49739,
+            "thinking_chars": 64146
+          },
+          {
+            "task": "expC_V008_V009_6preds",
+            "conversation_id": "1a99f9fc-9b77-40e2-810e-2ac279a94382",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 49269,
+            "cache_read_tokens": 97357,
+            "output_tokens": 19521,
+            "thinking_chars": 26905
+          },
+          {
+            "task": "expC_V010_V011_6preds",
+            "conversation_id": "fa91de42-723a-47f3-9ad9-5dd0adce1640",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 62954,
+            "cache_read_tokens": 110845,
+            "output_tokens": 33358,
+            "thinking_chars": 34159
+          },
+          {
+            "task": "expC_V012_V013_6preds",
+            "conversation_id": "e49e480d-b050-4d84-99e8-30586c472dc1",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 73778,
+            "cache_read_tokens": 121573,
+            "output_tokens": 44272,
+            "thinking_chars": 36066
+          },
+          {
+            "task": "expC_V014_V016_9preds",
+            "conversation_id": "a47da052-6eef-4c6c-afa6-a9d06fb73961",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 5,
+            "input_tokens": 104938,
+            "cache_read_tokens": 129821,
+            "output_tokens": 73961,
+            "thinking_chars": 74015
+          },
+          {
+            "task": "expC_V017_V018_6preds",
+            "conversation_id": "d2c06f2c-bb2a-446e-bff8-4725da5acbe5",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 73043,
+            "cache_read_tokens": 120132,
+            "output_tokens": 44060,
+            "thinking_chars": 33530
+          },
+          {
+            "task": "expC_V019_V020_6preds",
+            "conversation_id": "a80b4cb3-ab1c-4dff-b2e6-2bdf15ef8fb2",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M417",
+              "gemini-4-argon-f",
+              "gemini-4-argon-high"
+            ],
+            "planner_steps": 4,
+            "input_tokens": 57022,
+            "cache_read_tokens": 102385,
+            "output_tokens": 28097,
+            "thinking_chars": 33139
+          }
+        ]
+      },
+      "flash": {
+        "exact_model_id": "gemini-3.8-flash-tiered",
+        "n_subagent_sessions": 8,
+        "total_planner_steps": 77,
+        "total_input_tokens": 1070402,
+        "total_cache_read_tokens": 4408314,
+        "total_output_tokens": 352026,
+        "total_tokens_incl_cache": 5830742,
+        "total_whitebox_thinking_chars": 277592,
+        "sessions": [
+          {
+            "task": "dAMD_blind_fwd45",
+            "conversation_id": "c2e7e076-02a4-4635-86ad-acc7f57b9cbf",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 8,
+            "input_tokens": 116568,
+            "cache_read_tokens": 448718,
+            "output_tokens": 36433,
+            "thinking_chars": 33299
+          },
+          {
+            "task": "dAMD_blind_rev45",
+            "conversation_id": "46050c79-5ad3-4cd9-9ec9-0165b8c278d3",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 17,
+            "input_tokens": 128956,
+            "cache_read_tokens": 1165040,
+            "output_tokens": 29710,
+            "thinking_chars": 25254
+          },
+          {
+            "task": "ALS_blind_fwd45",
+            "conversation_id": "905bdcc1-314e-4f90-a0ab-a59447be1cb7",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 9,
+            "input_tokens": 147500,
+            "cache_read_tokens": 480354,
+            "output_tokens": 25496,
+            "thinking_chars": 25975
+          },
+          {
+            "task": "ALS_blind_rev45",
+            "conversation_id": "92066184-99e4-42aa-a99d-9808bfcfafaa",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 15,
+            "input_tokens": 221173,
+            "cache_read_tokens": 942414,
+            "output_tokens": 37530,
+            "thinking_chars": 34473
+          },
+          {
+            "task": "dAMD_joint_90",
+            "conversation_id": "d18d90e1-ef06-4cca-ad29-6aac9c517321",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 7,
+            "input_tokens": 111996,
+            "cache_read_tokens": 365302,
+            "output_tokens": 37664,
+            "thinking_chars": 35094
+          },
+          {
+            "task": "ALS_joint_90",
+            "conversation_id": "e59ce49f-b306-4a25-bb0c-702b86f685dc",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 9,
+            "input_tokens": 169627,
+            "cache_read_tokens": 471068,
+            "output_tokens": 47550,
+            "thinking_chars": 33380
+          },
+          {
+            "task": "expB_42lists",
+            "conversation_id": "827e98fc-cefa-4cea-90ef-1bd83219b4fd",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 5,
+            "input_tokens": 80813,
+            "cache_read_tokens": 167616,
+            "output_tokens": 99368,
+            "thinking_chars": 54104
+          },
+          {
+            "task": "expC_60preds",
+            "conversation_id": "9adba3e4-e054-433a-8e40-b9b2e73f2e7e",
+            "verified_binary_signatures": [
+              "MODEL_PLACEHOLDER_M322",
+              "gemini-3.8-flash-tiered"
+            ],
+            "planner_steps": 7,
+            "input_tokens": 93769,
+            "cache_read_tokens": 367802,
+            "output_tokens": 38275,
+            "thinking_chars": 36013
+          }
+        ]
+      }
+    },
+    "combined_output_tokens": 1149908,
+    "combined_total_tokens_incl_cache": 12053103,
+    "combined_whitebox_thinking_chars": 1071373
+  }
+}

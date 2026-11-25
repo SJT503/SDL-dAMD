@@ -1,0 +1,194 @@
+{
+ "fit": {
+  "strengths": {
+   "M00": 362.979150955729,
+   "M01": 16.1022950292615,
+   "M02": 48.045996426352474,
+   "M03": 25.59880355372594,
+   "M04": 6.231930236676459,
+   "M05": 9.084963282282832,
+   "M06": 2.416436767201402,
+   "M07": 30.88489374727221,
+   "M08": 31.93237712584086,
+   "M09": 2.4472874542185166e-13,
+   "M10": 9.796386754974338e-14,
+   "M11": 140.2871315934277,
+   "M12": 10.895850189684674,
+   "M13": 11.995035839794792,
+   "M14": 1.1587869955786554,
+   "M15": 5.560703761693901,
+   "M16": 0.6659326722415497,
+   "M17": 1.6314960182645102,
+   "M18": 0.9356515705188242,
+   "M19": 2.8717188808292735,
+   "M20": 43.272435988114246,
+   "M21": 1.7944586297498333,
+   "M22": 0.2590842324594126,
+   "M23": 1.348934117066124,
+   "M24": 3.7062113069321465,
+   "M25": 37.28641422084665,
+   "M26": 6.413049429449461,
+   "M27": 21.839740163572365,
+   "M28": 31.86256890172191,
+   "M29": 7.45019695627286
+  },
+  "ranking": [
+   "M00",
+   "M11",
+   "M02",
+   "M20",
+   "M25",
+   "M08",
+   "M28",
+   "M07",
+   "M03",
+   "M27",
+   "M01",
+   "M13",
+   "M12",
+   "M05",
+   "M29",
+   "M26",
+   "M04",
+   "M15",
+   "M24",
+   "M19",
+   "M06",
+   "M21",
+   "M17",
+   "M23",
+   "M14",
+   "M18",
+   "M16",
+   "M22",
+   "M09",
+   "M10"
+  ],
+  "n_items": 30,
+  "converged": true,
+  "iterations": 478,
+  "loglik": -107.42896376337936
+ },
+ "ranking_detail": [
+  {
+   "key": "M00",
+   "mechanism": "Cytoplasmic mislocalization of TDP-43 (TARDBP) causes nuclear loss-of-function that permits cryptic exon insertion into STMN2 and UNC13A pre-mRNAs, depleting functional stathmin-2 and Munc13A and driving motor neuron degeneration."
+  },
+  {
+   "key": "M11",
+   "mechanism": "C9orf72-derived poly(GR)/poly(PR) dipeptides bind FG-repeat nucleoporins (NUP62) and RANGAP1, impairing KPNB1-mediated nuclear import and GLE1-dependent mRNA export, which drives TDP-43 nuclear depletion and a self-amplifying nucleocytoplasmic transport defect."
+  },
+  {
+   "key": "M02",
+   "mechanism": "The nuclear m6A reader YTHDC1 functions as an RNA-independent molecular chaperone that suppresses aggregation of ALS-linked mutant hnRNPA1, so nuclear depletion or sequestration of YTHDC1 accelerates hnRNPA1 amyloid-like assembly and motor neuron death."
+  },
+  {
+   "key": "M20",
+   "mechanism": "Mitochondrial dysfunction releases mtDNA that activates the CGAS-STING1-TBK1-IRF3 axis in microglia, inducing a neurotoxic type I interferon (IFNB1/ISG) program that STING inhibition can suppress to protect motor neurons."
+  },
+  {
+   "key": "M25",
+   "mechanism": "ALS-linked KIF5A C-terminal variants and TDP-43-dependent disruption of the Miro (RHOT1)-TRAK2 kinesin adaptor reduce anterograde mitochondrial delivery to distal axons and NMJs, causing distal axonal energy starvation."
+  },
+  {
+   "key": "M08",
+   "mechanism": "Biallelic loss of spatacsin (SPG11), the gene underlying ALS type 5, impairs autophagosome maturation and TFEB/LAMP1-dependent lysosomal trafficking, blocking aggregate and organelle turnover and accelerating proteinopathy in motor neurons."
+  },
+  {
+   "key": "M28",
+   "mechanism": "Upregulated matrix metalloproteinase-9 in fast-fatigable motor neurons and muscle degrades synaptic basal lamina components (agrin, laminin-alpha2, collagen IV) at the neuromuscular junction, accelerating NMJ disassembly and denervation."
+  },
+  {
+   "key": "M07",
+   "mechanism": "Dysfunction of SIGMAR1 and loss of the VAPB-PTPIP51 (RMDN3) ER-mitochondria tether uncouple ITPR3-mediated ER calcium release from MCU-mediated mitochondrial uptake, causing mitochondrial Ca2+ overload, mPTP-dependent death, and depressed oxidative phosphorylation."
+  },
+  {
+   "key": "M03",
+   "mechanism": "Loss of the arginine-glycine-rich RNA-binding protein ARPP21 disrupts post-transcriptional regulation and localization of its target mRNAs in motor neurons, impairing neuronal translational programs and lowering the threshold for neurodegeneration."
+  },
+  {
+   "key": "M27",
+   "mechanism": "Loss of alsin (ALS2) Rab5 GEF activity together with CHMP2B ESCRT-III dysfunction blocks RAB7A-dependent endosome-lysosome maturation and neurotrophin receptor (NTRK2/TrkB-BDNF) recycling and retrograde delivery, starving axons of trophic support."
+  },
+  {
+   "key": "M01",
+   "mechanism": "Misfolded SOD1 variants (D90A, G93A) act as seeds that template strain-specific prion-like conversion of native SOD1 into aggregation-prone conformers, and stabilizing the native SOD1 dimer with small molecules such as NABi blocks seeded aggregation and slows motor neuron loss."
+  },
+  {
+   "key": "M13",
+   "mechanism": "Astrocyte-secreted C1q and microglial C3 opsonize motor neuron synapses and neuromuscular junctions, promoting CR3 (ITGAM)-mediated microglial engulfment and premature denervation, so blockade of the C3-CR3 axis will preserve NMJ integrity."
+  },
+  {
+   "key": "M12",
+   "mechanism": "Misfolded SOD1 and phosphorylated TDP-43 aggregates activate the microglial NLRP3 inflammasome, driving caspase-1-mediated GSDMD cleavage and release of IL-1β/IL-18 that accelerate motor neuron death, so NLRP3 or GSDMD inhibition will attenuate progression."
+  },
+  {
+   "key": "M05",
+   "mechanism": "Repression of SLC7A11 (system xc-) with consequent GPX4 inactivation, combined with ACSL4-driven incorporation of polyunsaturated fatty acids into membranes and TFRC-mediated iron uptake, executes lipid-peroxidation-dependent ferroptotic motor neuron death."
+  },
+  {
+   "key": "M29",
+   "mechanism": "Defective CCS-mediated copper loading and ATP7A-dependent copper trafficking leave SOD1 in the apo, aggregation-prone state, promoting misfolding that CuATSM copper delivery or SOD1 dimer-stabilizing aggregation inhibitors can rescue."
+  },
+  {
+   "key": "M26",
+   "mechanism": "Downregulation of monocarboxylate transporter MCT1 (SLC16A1) in oligodendrocytes limits lactate export and metabolic coupling (with LDHA/PPARGC1A-dependent substrate supply) to motor axons, depriving axonal mitochondria of substrate and accelerating degeneration."
+  },
+  {
+   "key": "M04",
+   "mechanism": "Impairment of the PINK1-PRKN (PARK2)-to-OPTN/TBK1 mitophagy axis in motor neurons causes accumulation of depolarized, ROS-producing mitochondria, producing progressive bioenergetic failure consistent with organism-wide energetic collapse."
+  },
+  {
+   "key": "M15",
+   "mechanism": "Elevated CSF1 released from degenerating motor neurons and denervated muscle engages CSF1R on microglia and macrophages, driving proliferative expansion of pro-inflammatory APOE-high disease-associated microglia, so CSF1R inhibition will reduce microgliosis and slow progression."
+  },
+  {
+   "key": "M24",
+   "mechanism": "Loss of astrocytic EAAT2 (SLC1A2) glutamate transporter expression and function reduces synaptic glutamate clearance, raising extracellular glutamate and driving motor neuron excitotoxic death along the riluzole-targetable axis."
+  },
+  {
+   "key": "M19",
+   "mechanism": "Elevated circulating FGF2 signals through endothelial and pericyte FGFR1-ERK signaling at the blood-spinal cord barrier, destabilizing VE-cadherin (CDH5) and occludin (OCLN) junctions, increasing permeability and permitting peripheral immune-cell infiltration that FGF2/FGFR1 blockade can reverse."
+  },
+  {
+   "key": "M06",
+   "mechanism": "RAN-translated poly(GA) dipeptide-repeat proteins from the C9orf72 expansion directly inhibit PSMB5 proteasome catalytic activity and overwhelm aggregate-clearance capacity, producing gain-of-function proteotoxic stress that kills motor neurons."
+  },
+  {
+   "key": "M21",
+   "mechanism": "Loss of suppressive FOXP3-positive regulatory T cells (reduced IL-10/TGF-β tone) skews peripheral immunity toward Th1/Th17 effectors whose IFN-γ and IL-17A license microglial activation and CD8-positive T-cell motor neuron cytotoxicity, so low-dose IL-2 or Treg restoration will be protective."
+  },
+  {
+   "key": "M17",
+   "mechanism": "Misfolded SOD1 and TDP-43 seeds are packaged into ESCRT-dependent CD63-positive exosomes whose biogenesis requires neutral sphingomyelinase (SMPD3), enabling prion-like cell-to-cell propagation of proteinopathy along motor pathways that exosome-biogenesis or seed-uptake blockade can slow."
+  },
+  {
+   "key": "M23",
+   "mechanism": "Increased IL-6/soluble IL6R trans-signaling through IL6ST (gp130)-JAK-STAT3 in motor neurons and glia sustains a neurotoxic inflammatory state, so sgp130Fc-mediated blockade of IL-6 trans-signaling will attenuate STAT3 activation and motor neuron injury."
+  },
+  {
+   "key": "M14",
+   "mechanism": "Reduced neuronal CX3CL1 fractalkine presentation to microglial CX3CR1 (with altered ADAM10-dependent shedding) weakens the anti-inflammatory neuron-microglia checkpoint and amplifies microglial IL-1β/TNF-α output, so restoring CX3CL1-CX3CR1 signaling will protect motor neurons."
+  },
+  {
+   "key": "M18",
+   "mechanism": "HMGB1 released from necrotic motor neurons engages TLR4 and RAGE (AGER) on microglia and endothelial cells, sustaining RELA/NF-κB-driven cytokine production and secondary excitotoxic injury, so HMGB1 neutralization or TLR4 antagonism will break the inflammatory amplification loop."
+  },
+  {
+   "key": "M16",
+   "mechanism": "Injury-induced CCL2 from motor neurons and reactive astrocytes recruits circulating CCR2-positive Ly6C-high monocytes across a disrupted blood-spinal cord barrier, where they differentiate into neurotoxic macrophages, so CCR2 or CCL2 blockade will reduce infiltrate burden and motor neuron loss."
+  },
+  {
+   "key": "M22",
+   "mechanism": "NF-κB-activated reactive astrocytes secrete TNF-α that engages TNFR1 (TNFRSF1A) on motor neurons, triggering caspase-8/3-mediated apoptotic signaling that compounds glutamate excitotoxicity, so TNF-α or TNFR1 blockade will protect motor neurons."
+  },
+  {
+   "key": "M09",
+   "mechanism": "An imbalance in mitochondrial dynamics favoring DRP1 (DNM1L)-driven fission over OPA1/MFN2-mediated fusion fragments the mitochondrial network, reduces OXPHOS complex I/IV capacity, and produces organism-wide ATP bioenergetic failure."
+  },
+  {
+   "key": "M10",
+   "mechanism": "Upregulation of the lncRNA NEAT1 in motor neurons acts as a competing endogenous RNA that sponges miR-124, derepressing miR-124 targets and shifting the transcriptome toward a degenerative, non-neuronal state in ALS."
+  }
+ ]
+}
