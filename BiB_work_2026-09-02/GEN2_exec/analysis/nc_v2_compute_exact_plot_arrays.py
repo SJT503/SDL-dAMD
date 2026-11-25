@@ -150,6 +150,7 @@ def main():
 
     import re
     cot_tokens_by_call = {}
+    cot_raw_by_call = {}
     for r in canon_630:
         clog = calls_by_id.get(r["call_id"])
         rp = clog.get("raw_path") if clog else None
@@ -161,6 +162,7 @@ def main():
                 rc = msg.get("reasoning_content") or msg.get("reasoning") or ""
             except Exception:
                 rc = ""
+        cot_raw_by_call[r["call_id"]] = rc
         cot_tokens_by_call[r["call_id"]] = [m.group(1) for m in re.finditer(r"\b([A-Z][A-Z0-9]{1,9})\b", rc)] if rc else []
 
     global_pred_df = Counter()
@@ -246,9 +248,100 @@ def main():
         se_s = 100.0 * math.sqrt(p_s * (1.0 - p_s) / n_s)
         sf1c_exact[tk] = {"n": n_s, "ungrounded_pct": round(100.0 * p_s, 2), "binomial_se_pct": round(se_s, 2)}
 
+    # 5. Exact White-Box CoT First-Mention Depth ECDF (Hits n=166, Self-Pruned Misses n=55, Ceiling Ghost Misses n=76)
+    hits_depth_pct = []
+    pruned_depth_pct = []
+    ceil_ghost_depth_pct = []
+    for r in canon_630:
+        rc = cot_raw_by_call.get(r["call_id"], "")
+        if not rc:
+            continue
+        gs = {str(r["gene_symbol"]).upper()} | {str(a).upper() for a in (r.get("aliases") or []) if a}
+        first_pos = None
+        for sym in gs:
+            if not sym:
+                continue
+            m_sym = re.search(rf"\b{re.escape(sym)}\b", rc)
+            if m_sym:
+                pos = m_sym.start() / max(1, len(rc)) * 100.0
+                if first_pos is None or pos < first_pos:
+                    first_pos = pos
+        if first_pos is None:
+            continue
+        preds = list(r.get("predictions") or [])[:10]
+        if r["hit10"]:
+            hits_depth_pct.append(round(float(first_pos), 4))
+        elif len(preds) >= 10:
+            pruned_depth_pct.append(round(float(first_pos), 4))
+        else:
+            ceil_ghost_depth_pct.append(round(float(first_pos), 4))
+
+    hits_depth_pct.sort()
+    pruned_depth_pct.sort()
+    ceil_ghost_depth_pct.sort()
+    fig3d_cot_depth_ecdf = {
+        "hits_n": len(hits_depth_pct),
+        "hits_median_pct": round(float(np.median(hits_depth_pct)), 2),
+        "hits_sorted_pct": hits_depth_pct,
+        "self_pruned_n": len(pruned_depth_pct),
+        "self_pruned_median_pct": round(float(np.median(pruned_depth_pct)), 2),
+        "self_pruned_sorted_pct": pruned_depth_pct,
+        "ceiling_ghost_n": len(ceil_ghost_depth_pct),
+        "ceiling_ghost_median_pct": round(float(np.median(ceil_ghost_depth_pct)), 2),
+        "ceiling_ghost_sorted_pct": ceil_ghost_depth_pct,
+    }
+
+    # 6. Exact Pairwise Run Jaccard Dots (Fig 3B & Fig 5A) + Fig 2A Run/Domain Dots + Fig 4C Decile Attention
+    s1_p = json.load(open(os.path.join(HERE, "step1_pubmed_results.json"), encoding="utf-8"))["parent_runs_dimension1"]["by_run"]
+    s2_p = json.load(open(os.path.join(HERE, "step2_dim2_3_4_rectification_results.json"), encoding="utf-8"))["dimension_2_reasoning_vs_retrieval"]["per_run_top5_profiles"]
+    cot_dyn = json.load(open(os.path.join(HERE, "cot_trajectory_dynamics_summary.json"), encoding="utf-8"))
+
+    def jacc_sets(a, b):
+        sa, sb = set(a), set(b)
+        return round(len(sa & sb) / max(1, len(sa | sb)), 4)
+
+    fig3b_5a_pairwise = {}
+    for dis in ["dAMD", "ALS"]:
+        b_runs = [f"{dis}_blind_R{r}" for r in [1, 2, 3]]
+        r_runs = [f"{dis}_retrieval_R{r}" for r in [1, 2, 3]]
+        w_pairs = [(b_runs[0], b_runs[1]), (b_runs[0], b_runs[2]), (b_runs[1], b_runs[2]),
+                   (r_runs[0], r_runs[1]), (r_runs[0], r_runs[2]), (r_runs[1], r_runs[2])]
+        c_pairs = [(br, rr) for br in b_runs for rr in r_runs]
+        fig3b_5a_pairwise[dis] = {
+            "within_lead_genes": [jacc_sets(s2_p[u]["lead_genes"], s2_p[v]["lead_genes"]) for u, v in w_pairs],
+            "cross_lead_genes": [jacc_sets(s2_p[u]["lead_genes"], s2_p[v]["lead_genes"]) for u, v in c_pairs],
+            "within_all_genes": [jacc_sets(s2_p[u]["all_genes"], s2_p[v]["all_genes"]) for u, v in w_pairs],
+            "cross_all_genes": [jacc_sets(s2_p[u]["all_genes"], s2_p[v]["all_genes"]) for u, v in c_pairs],
+            "within_axes": [jacc_sets(s2_p[u]["axes_hit"], s2_p[v]["axes_hit"]) for u, v in w_pairs],
+            "cross_axes": [jacc_sets(s2_p[u]["axes_hit"], s2_p[v]["axes_hit"]) for u, v in c_pairs],
+        }
+
+    fig2a_dots = {
+        "parent_12_tier1_valid_pct": [round(100.0 * (1.0 - s1_p[r]["fabrication_rate_all_slots"]), 2) for r in runs_12],
+        "parent_12_tier2_verified_pct": [round(100.0 * (1.0 - s1_p[r]["ungrounded_rate_all_slots"]), 2) for r in runs_12],
+        "expb_14_tier1_valid_pct": [],
+        "expb_14_tier2_verified_pct": [],
+    }
+    for d_i in range(1, 15):
+        did = f"B{d_i:02d}"
+        sub_d = [r for r in expb_all if r["domain_id"] == did and r["arm"] == "as_discovered"]
+        fig2a_dots["expb_14_tier1_valid_pct"].append(round(100.0 * sum(1 for r in sub_d if r["resolved"]) / len(sub_d), 2))
+        fig2a_dots["expb_14_tier2_verified_pct"].append(round(100.0 * sum(1 for r in sub_d if r["resolved"] and r["on_topic"]) / len(sub_d), 2))
+
+    fig4c_cot_attention = {
+        "t1_n_traces": cot_dyn["tournament_cot_attention_profile"]["t1_n_traces"],
+        "t1_deciles_pct": [round(100.0 * x, 2) for x in cot_dyn["tournament_cot_attention_profile"]["t1_decile_slot_a_attention_share"]],
+        "t2_n_traces": cot_dyn["tournament_cot_attention_profile"]["t2_n_traces"],
+        "t2_deciles_pct": [round(100.0 * x, 2) for x in cot_dyn["tournament_cot_attention_profile"]["t2_decile_slot_a_attention_share"]],
+    }
+
     out = {
+        "fig2a_dots": fig2a_dots,
+        "fig3b_5a_pairwise": fig3b_5a_pairwise,
         "fig3c_exact": fig3c_exact,
+        "fig3d_cot_depth_ecdf": fig3d_cot_depth_ecdf,
         "fig3d_decoys": fig3d_decoys,
+        "fig4c_cot_attention": fig4c_cot_attention,
         "fig4c_exact": fig4c_exact,
         "fig5a_boot": fig5a_boot,
         "sf1c_exact": sf1c_exact,
@@ -256,10 +349,8 @@ def main():
     }
     json.dump(out, open(OUT_JSON, "w", encoding="utf-8"), indent=2)
     print("Saved exact plot arrays ->", OUT_JSON)
-    print("SF1C SEs:", sf1c_exact)
-    print("SF2B means:", {k: (v["n"], v["mean_pct"]) for k, v in sf2b_ecdf.items()})
-    print("DS Module 4a overall & del_topIC:", fig3c_exact["deepseek_module4a_overall"], fig3c_exact["deepseek_module4a_del_topIC"])
-    print("Top5 decoys:", fig3d_decoys[:5])
+    print("CoT Depth ECDF summary:", {k: v for k, v in fig3d_cot_depth_ecdf.items() if not k.endswith("_pct") or "median" in k})
+    print("Pairwise dAMD & ALS:", {d: {k: round(float(np.mean(v)), 4) for k, v in vd.items()} for d, vd in fig3b_5a_pairwise.items()})
 
 
 if __name__ == "__main__":

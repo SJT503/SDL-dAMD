@@ -15,8 +15,8 @@ gate(__file__)
 
 BASE = pathlib.Path(r"D:\Papers\Robin_Nature_2026\BiB_work_2026-09-02")
 ANAL = BASE / "GEN2_exec" / "analysis"
-FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2"
-PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.0"
+FIG_SRC = BASE / "GEN2_exec" / "figures_NC_v2_planA"
+PKG = BASE / "STAR-Audit_NCOMMS_AgenticAI_投稿包_v2.1_PlanA"
 
 REF_MS_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_manuscript.docx")
 REF_CL_DOCX = pathlib.Path(r"C:\Users\sheng\.claude\skills\manuscript-submission-docx-format\templates\reference_cover_letter.docx")
@@ -31,11 +31,14 @@ def mini_task():
     return True
 
 
-canary_gate(lambda: mini_task(), "Verify NC v2.0 MD and Source Data XLSX exist")
+canary_gate(lambda: mini_task(), "Verify NC v2.1 Plan-A MD and Source Data XLSX exist")
 
 
 def copy_pkg_asset(src: pathlib.Path, dst: pathlib.Path) -> None:
     dst.parent.mkdir(parents=True, exist_ok=True)
+    if dst.exists():
+        print(f"[skip] {dst.name} — 已存在，保留现有版本")
+        return
     shutil.copy2(src, dst)
 
 
@@ -318,7 +321,7 @@ def export_supp_tables_xlsx(si_md: pathlib.Path, out_xlsx: pathlib.Path):
 
 @retry_limit(2)
 def main():
-    # 1. Copy Main Figures 1-7 & Supplementary Figures 1-4 & Source Data / Audits / Demo
+    # 1. Copy Main Figures 1-6 & Supplementary Figures 1-4 & Source Data / Audits / Demo
     main_fig_stems = [
         "Fig1_Audit_Remediation_Architecture",
         "Fig2_Dim1_Trojan_Horse_Citations",
@@ -326,11 +329,9 @@ def main():
         "Fig4_Dim3_Dim5_Primacy_and_NLI",
         "Fig5_Dim4_Dim6_Reasoning_Paradox",
         "Fig6_Audit_Guided_Rectification_Impact",
-        "Fig7_STAR_Audit_Working_Model",
     ]
     for stem in main_fig_stems:
-        exts = [".pdf", ".png"] if stem.startswith("Fig7_") else [".pdf", ".png", ".svg"]
-        for ext in exts:
+        for ext in [".pdf", ".png", ".svg"]:
             src = FIG_SRC / f"{stem}{ext}"
             assert src.exists(), f"Missing main figure asset: {src}"
             copy_pkg_asset(src, PKG / "02_Figures_Main" / f"{stem}{ext}")
@@ -362,9 +363,9 @@ def main():
     render_md_to_docx(en_md, PKG / "01_Manuscript" / "Manuscript_NCOMMS_AgenticAI_v2.0_submission_EN.docx", REF_MS_DOCX)
     render_md_to_docx(zh_md, PKG / "01_Manuscript" / "Manuscript_NCOMMS_AgenticAI_v2.0_CN_review.docx", REF_MS_DOCX)
 
-    # Also render Merged Review Edition with Figures 1-7 embedded inline above each Figure Legend
+    # Also render Merged Review Edition with Figures 1-6 embedded inline above each Figure Legend
     merged_md_txt = en_md.read_text(encoding="utf-8")
-    for idx in range(1, 8):
+    for idx in range(1, 7):
         merged_md_txt = merged_md_txt.replace(f"**Figure {idx}.", f"[EMBED_MAIN_FIG_{idx}]\n\n**Figure {idx}.", 1)
     tmp_merged_md = ANAL / "_tmp_merged_en.md"
     tmp_merged_md.write_text(merged_md_txt, encoding="utf-8")
